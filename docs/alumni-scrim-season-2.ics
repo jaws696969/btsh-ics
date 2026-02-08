@@ -29,7 +29,7 @@ END:VTIME
  ZONE
 BEGIN:VEVENT
 UID:btsh-day-s2-102@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
  t & d
@@ -42,7 +42,7 @@ END:VEVE
  NT
 BEGIN:VEVENT
 UID:btsh-day-s2-103@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
  g lig
@@ -55,7 +55,7 @@ DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-104@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Other - EASTER
 DTSTART;VALUE=DATE:20250420
@@ -65,7 +65,7 @@ DESCRIPTION:EASTER
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-105@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - MOTHERS DAY
 DTSTART;VALUE=DATE:20250511
@@ -75,7 +75,7 @@ DESCRIPTION:MOTHERS DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-106@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - MEMORIAL DAY
 DTSTART;VALUE=DATE:20250525
@@ -85,7 +85,7 @@ DESCRIPTION:MEMORIAL DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-108@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - 4TH OF JULY
 DTSTART;VALUE=DATE:20250706
@@ -95,7 +95,7 @@ DESCRIPTION:4TH OF JULY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-109@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Other - HOCKEY BEACH
 DTSTART;VALUE=DATE:20250824
@@ -105,7 +105,7 @@ DESCRIPTION:HOCKEY BEACH
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-110@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - LABOR DAY
 DTSTART;VALUE=DATE:20250831
@@ -115,7 +115,7 @@ DESCRIPTION:LABOR DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-118@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Make-Up - Makeup
 DTSTART;VALUE=DATE:20251116
@@ -125,7 +125,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-119@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Make-Up - Makeup
 DTSTART;VALUE=DATE:20251123
@@ -135,7 +135,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-964@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Alumni Scrim vs Alumni Scrim
 DTSTART;TZID=America/New_York:20251109T14150
@@ -143,20 +143,28 @@ DTSTART;TZID=America/New_York:20251109T14150
 DTEND;TZID=America/New_York:20251109T150500
 LOCATION:Tompkins Square P
  ark (West)
-DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: 
- Tompkins Squa
- re Park (West)\nType: Playoff\n\n-------------------------
- ---------------\
- nAlumni Scrim games (before this matchup):\n    (no pri
- or games listed)\n\
- n----------------------------------------\nPrior mat
- chups: Alumni Scrim vs
-  Alumni Scrim (before this matchup):\n    (no pri
- or matchups listed)
+DESCRIPTION:----------------------------------------\nGAME INF
+ O\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSta
+ ge: Playoff\nSta
+ tus: scheduled\nStart (America/New_York): 2025-11-09 14
+ :15 EST\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registratio
+ n: https://btsh.org/at
+ tendance\n\n-------------------------------------
+ ---\nHEAD-TO-HEAD vs Alum
+ ni Scrim\n------------------------------------
+ ----\n    (no prior matchups
+  listed)\n\n-------------------------------
+ ---------\nALUMNI SCRIM GAMES-T
+ O-DATE\n--------------------------------
+ --------\nRecord to date (complete
+ d games only): 0-0\n    (no prior gam
+ es listed)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-965@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  PBR Cup vs -
 DTSTART;TZID=America/New_York:20251109T150000
@@ -164,8 +172,12 @@ DTEND;TZID=Am
  erica/New_York:20251109T155000
 LOCATION:Tompkins Square Park (West)
 DESC
- RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ RIPTION:----------------------------------------\nGAME INFO\n----------
  
- ation: Tompkins Square Park (West)
+ ------------------------------\nPlayoff / placeholder game (teams TBD).\nS
+ 
+ tatus: Scheduled\nLocation: Tompkins Square Park (West)\nCheck-in / gam
+ e r
+ egistration: https://btsh.org/attendance
 END:VEVENT
 END:VCALENDAR

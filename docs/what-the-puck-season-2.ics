@@ -29,7 +29,7 @@ END:VTIME
  ZONE
 BEGIN:VEVENT
 UID:btsh-day-s2-102@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
  t & d
@@ -42,7 +42,7 @@ END:VEVE
  NT
 BEGIN:VEVENT
 UID:btsh-day-s2-103@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
  g lig
@@ -55,7 +55,7 @@ DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-104@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Other - EASTER
 DTSTART;VALUE=DATE:20250420
@@ -65,7 +65,7 @@ DESCRIPTION:EASTER
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-105@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - MOTHERS DAY
 DTSTART;VALUE=DATE:20250511
@@ -75,7 +75,7 @@ DESCRIPTION:MOTHERS DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-106@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - MEMORIAL DAY
 DTSTART;VALUE=DATE:20250525
@@ -85,7 +85,7 @@ DESCRIPTION:MEMORIAL DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-108@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - 4TH OF JULY
 DTSTART;VALUE=DATE:20250706
@@ -95,7 +95,7 @@ DESCRIPTION:4TH OF JULY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-109@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Other - HOCKEY BEACH
 DTSTART;VALUE=DATE:20250824
@@ -105,7 +105,7 @@ DESCRIPTION:HOCKEY BEACH
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-110@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - LABOR DAY
 DTSTART;VALUE=DATE:20250831
@@ -115,7 +115,7 @@ DESCRIPTION:LABOR DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-118@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Make-Up - Makeup
 DTSTART;VALUE=DATE:20251116
@@ -125,7 +125,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-119@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Make-Up - Makeup
 DTSTART;VALUE=DATE:20251123
@@ -135,7 +135,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-815@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  [CANCELLED] What the Puck @ Denim Demons
 DTSTART;TZID=America/New_York:20
@@ -143,21 +143,29 @@ DTSTART;TZID=America/New_York:20
 DTEND;TZID=America/New_York:20250406T180100
 LOCATION:Tompk
  ins Square Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Cancelled
- \nLocation: Tompkins Squa
- re Park (West)\nType: Regular\n\n-------------
- ---------------------------\
- nDenim Demons games (before this matchup):\
- n    (no prior games listed)\n\
- n---------------------------------------
- -\nPrior matchups: What the Puck v
- s Denim Demons (before this matchup):
- \n    (no prior matchups listed)
+DESCRIPTION:--------------------------------------
+ --\nGAME INFO\n----------
+ ------------------------------\nLeague: BTSH S
+ eason 2\nStage: Regular\nSta
+ tus: cancelled\nStart (America/New_York): 2
+ 025-04-06 18:00 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game
+  registration: https://btsh.org/at
+ tendance\n\n-------------------------
+ ---------------\nHEAD-TO-HEAD vs Deni
+ m Demons\n------------------------
+ ----------------\n    (no prior matchups
+  listed)\n\n-------------------
+ ---------------------\nDENIM DEMONS GAMES-T
+ O-DATE\n--------------------
+ --------------------\nRecord to date (complete
+ d games only): 0-0\n    (
+ no prior games listed)
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-818@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Instant Karma
 DTSTART;TZID=America/New_York:20250413T153
@@ -165,22 +173,30 @@ DTSTART;TZID=America/New_York:20250413T153
 DTEND;TZID=America/New_York:20250413T153100
 LOCATION:Tompkins Square
   Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation
- : Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  What the Puc
- k 2 - 3 Instant Ka
- rma\n\n----------------------------------------\nInst
- ant Karma games (befo
- re this matchup):\n    Apr 6th vs Sky Fighters (Ca
- ncelled)\n\n------------
- ----------------------------\nPrior matchups: W
- hat the Puck vs Instant Kar
- ma (before this matchup):\n    (no prior mat
- chups listed)
-END:VEVENT
+DESCRIPTION:----------------------------------------\nGAME I
+ NFO\n----------
+ ------------------------------\nLeague: BTSH Season 2\nS
+ tage: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-04-13 
+ 15:30 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registrat
+ ion: https://btsh.org/at
+ tendance\n\nFinal: What the Puck 2-3 Instant Ka
+ rma\n\n--------------------
+ --------------------\nHEAD-TO-HEAD vs Instan
+ t Karma\n---------------------
+ -------------------\n    (no prior matchu
+ ps listed)\n\n-------------------
+ ---------------------\nINSTANT KARMA G
+ AMES-TO-DATE\n----------------------
+ ------------------\nRecord to date 
+ (completed games only): 0-0\n    Apr 6t
+ h vs Sky Fighters (Cancelled)
+E
+ ND:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-733@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Lbs
 DTSTART;TZID=America/New_York:20250427T153000
@@ -188,22 +204,29 @@ DTEND;
  TZID=America/New_York:20250427T153100
 LOCATION:Tompkins Square Park (East
  )
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins 
- Squa
- re Park (East)\nType: Regular\n\nResult:\n  Lbs 4 - 2 What the Puck
- \n\n---
- -------------------------------------\nLbs games (before this ma
- tchup):\n 
-    Apr 6th vs Vertz (Cancelled)\n    Apr 13th @ Fresh Kills (
- L 1-6)\n\n---
- -------------------------------------\nPrior matchups: Wha
- t the Puck vs Lb
- s (before this matchup):\n    (no prior matchups listed
- )
+DESCRIPTION:----------------------------------------\nGAME INFO\n------
+ ----
+ ------------------------------\nLeague: BTSH Season 2\nStage: Regul
+ ar\nSta
+ tus: completed\nStart (America/New_York): 2025-04-27 15:30 EDT\n
+ Rink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: https:
+ //btsh.org/at
+ tendance\n\nFinal: Lbs 4-2 What the Puck\n\n--------------
+ ----------------
+ ----------\nHEAD-TO-HEAD vs Lbs\n----------------------
+ ------------------\
+ n    (no prior matchups listed)\n\n-----------------
+ ----------------------
+ -\nLBS GAMES-TO-DATE\n---------------------------
+ -------------\nRecord to 
+ date (completed games only): 0-1\n    Apr 6th 
+ vs Vertz (Cancelled)\n    Ap
+ r 13th @ Fresh Kills (L 1-6)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-826@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  [CANCELLED] What the Puck vs Sky Fighters
 DTSTART;TZID=America/New_York:2
@@ -211,25 +234,31 @@ DTSTART;TZID=America/New_York:2
 DTEND;TZID=America/New_York:20250504T130100
 LOCATION:Tomp
  kins Square Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Cancelle
- d\nLocation: Tompkins Squa
- re Park (West)\nType: Regular\n\n------------
- ----------------------------\
- nSky Fighters games (before this matchup):
- \n    Apr 6th @ Instant Karma (C
- ancelled)\n    Apr 13th vs Dark Rainbow
- s (L 2-3)\n    Apr 27th @ Corlears 
- Hookers (L 1-2)\n\n-----------------
- -----------------------\nPrior matchup
- s: What the Puck vs Sky Fighters 
- (before this matchup):\n    (no prior mat
- chups listed)
-STATUS:CANCELLE
- D
+DESCRIPTION:-------------------------------------
+ ---\nGAME INFO\n----------
+ ------------------------------\nLeague: BTSH 
+ Season 2\nStage: Regular\nSta
+ tus: cancelled\nStart (America/New_York): 
+ 2025-05-04 13:00 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / gam
+ e registration: https://btsh.org/at
+ tendance\n\n------------------------
+ ----------------\nHEAD-TO-HEAD vs Sky 
+ Fighters\n-----------------------
+ -----------------\n    (no prior matchups
+  listed)\n\n------------------
+ ----------------------\nSKY FIGHTERS GAMES-T
+ O-DATE\n-------------------
+ ---------------------\nRecord to date (complete
+ d games only): 0-2\n    
+ Apr 6th @ Instant Karma (Cancelled)\n    Apr 13th 
+ vs Dark Rainbows (L 2
+ -3)\n    Apr 27th @ Corlears Hookers (L 1-2)
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-742@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Moby Dekes
 DTSTART;TZID=America/New_York:20250518T141500
@@ -237,25 +266,32 @@ DTSTART;TZID=America/New_York:20250518T141500
 DTEND;TZID=America/New_York:20250518T141600
 LOCATION:Tompkins Square Pa
  rk (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
- ompkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  What the Puck 5
-  - 4 Moby Dekes
- \n\n----------------------------------------\nMoby Dekes
-  games (before thi
- s matchup):\n    Apr 6th @ Renaissance (Cancelled)\n 
-    Apr 13th vs Riots 
- (W 3-1)\n    Apr 27th vs Mega Touch (L 2-9)\n    M
- ay 4th @ Instant Karma (
- Cancelled)\n\n---------------------------------
- -------\nPrior matchups: Wh
- at the Puck vs Moby Dekes (before this match
- up):\n    (no prior matchups l
- isted)
+DESCRIPTION:----------------------------------------\nGAME INFO
+ \n----------
+ ------------------------------\nLeague: BTSH Season 2\nStag
+ e: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-05-18 14:
+ 15 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration
+ : https://btsh.org/at
+ tendance\n\nFinal: What the Puck 5-4 Moby Dekes\n\
+ n-----------------------
+ -----------------\nHEAD-TO-HEAD vs Moby Dekes\n
+ ---------------------------
+ -------------\n    (no prior matchups listed
+ )\n\n-------------------------
+ ---------------\nMOBY DEKES GAMES-TO-DATE
+ \n-------------------------------
+ ---------\nRecord to date (completed g
+ ames only): 1-1\n    Apr 6th @ Renai
+ ssance (Cancelled)\n    Apr 13th vs
+  Riots (W 3-1)\n    Apr 27th vs Mega To
+ uch (L 2-9)\n    May 4th @ Insta
+ nt Karma (Cancelled)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-750@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Gouging Anklebiters
 DTSTART;TZID=America/New_York:202506
@@ -263,26 +299,34 @@ DTSTART;TZID=America/New_York:202506
 DTEND;TZID=America/New_York:20250601T180100
 LOCATION:Tompkins 
  Square Park (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLo
- cation: Tompkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  What t
- he Puck 2 - 10 Gouging A
- nklebiters\n\n---------------------------------
- -------\nGouging Anklebiter
- s games (before this matchup):\n    Apr 6th 
- @ Mega Touch (Cancelled)\n    
- Apr 13th vs Poutine Machine (W 4-3)\n    
- Apr 27th @ Renaissance (W 5-2)\n 
-    May 4th vs Lbs (Cancelled)\n    May
-  18th vs Fresh Kills (W 5-2)\n\n----
- -----------------------------------
- -\nPrior matchups: What the Puck vs Gou
- ging Anklebiters (before this ma
- tchup):\n    (no prior matchups listed)
+DESCRIPTION:----------------------------------------\n
+ GAME INFO\n----------
+ ------------------------------\nLeague: BTSH Seaso
+ n 2\nStage: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-
+ 06-01 18:00 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game reg
+ istration: https://btsh.org/at
+ tendance\n\nFinal: What the Puck 2-10 Gou
+ ging Anklebiters\n\n-------------
+ ---------------------------\nHEAD-TO-H
+ EAD vs Gouging Anklebiters\n--------
+ --------------------------------\n 
+    (no prior matchups listed)\n\n------
+ --------------------------------
+ --\nGOUGING ANKLEBITERS GAMES-TO-DATE\n---
+ -----------------------------
+ --------\nRecord to date (completed games onl
+ y): 3-0\n    Apr 6th @ Meg
+ a Touch (Cancelled)\n    Apr 13th vs Poutine Mac
+ hine (W 4-3)\n    Apr 2
+ 7th @ Renaissance (W 5-2)\n    May 4th vs Lbs (Canc
+ elled)\n    May 18th
+  vs Fresh Kills (W 5-2)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-843@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Fresh Kills
 DTSTART;TZID=America/New_York:20250608T15300
@@ -290,27 +334,34 @@ DTSTART;TZID=America/New_York:20250608T15300
 DTEND;TZID=America/New_York:20250608T153100
 LOCATION:Tompkins Square P
  ark (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
- Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  What the Puck 
- 0 - 10 Fresh Kil
- ls\n\n----------------------------------------\nFresh K
- ills games (before 
- this matchup):\n    Apr 6th @ Corlears Hookers (Canc
- elled)\n    Apr 13th v
- s Lbs (W 6-1)\n    Apr 27th @ Instant Karma (L 4-
- 5)\n    May 4th vs Vertz 
- (Cancelled)\n    May 18th @ Gouging Anklebiter
- s (L 2-5)\n    Jun 1st vs De
- nim Demons (L 5-6)\n\n---------------------
- -------------------\nPrior matc
- hups: What the Puck vs Fresh Kills (befo
- re this matchup):\n    (no prior m
- atchups listed)
+DESCRIPTION:----------------------------------------\nGAME INF
+ O\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSta
+ ge: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-06-08 15
+ :30 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registratio
+ n: https://btsh.org/at
+ tendance\n\nFinal: What the Puck 0-10 Fresh Kills
+ \n\n---------------------
+ -------------------\nHEAD-TO-HEAD vs Fresh Kil
+ ls\n------------------------
+ ----------------\n    (no prior matchups li
+ sted)\n\n----------------------
+ ------------------\nFRESH KILLS GAMES-TO
+ -DATE\n---------------------------
+ -------------\nRecord to date (comple
+ ted games only): 1-3\n    Apr 6th @ C
+ orlears Hookers (Cancelled)\n    A
+ pr 13th vs Lbs (W 6-1)\n    Apr 27th @ I
+ nstant Karma (L 4-5)\n    May 4
+ th vs Vertz (Cancelled)\n    May 18th @ Gou
+ ging Anklebiters (L 2-5)\n  
+   Jun 1st vs Denim Demons (L 5-6)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-905@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Denim Demons
 DTSTART;TZID=America/New_York:20250615T18000
@@ -318,28 +369,36 @@ DTSTART;TZID=America/New_York:20250615T18000
 DTEND;TZID=America/New_York:20250615T185000
 LOCATION:Tompkins Square P
  ark (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
- Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Denim Demons 5
-  - 4 What the Pu
- ck\n\n----------------------------------------\nDenim D
- emons games (before
-  this matchup):\n    Apr 6th vs What the Puck (Cance
- lled)\n    Apr 13th vs
-  Butchers (W 2-0)\n    Apr 27th @ Vertz (L 3-5)\n
-     May 4th vs Dark Rainb
- ows (Cancelled)\n    May 18th vs Riots (W 9-0)
- \n    Jun 1st @ Fresh Kills 
- (W 6-5)\n    Jun 8th @ Butchers (W 3-2)\n\n
- -------------------------------
- ---------\nPrior matchups: What the Puck
-  vs Denim Demons (before this matc
- hup):\n    Apr 6th @ Denim Demons (Ca
- ncelled)
-END:VEVENT
+DESCRIPTION:----------------------------------------\nGAME INF
+ O\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSta
+ ge: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-06-15 18
+ :00 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registratio
+ n: https://btsh.org/at
+ tendance\n\nFinal: Denim Demons 5-4 What the Puck
+ \n\n---------------------
+ -------------------\nHEAD-TO-HEAD vs Denim Dem
+ ons\n-----------------------
+ -----------------\n    Apr 6th @ Denim Demo
+ ns (Cancelled)\n\n-------------
+ ---------------------------\nDENIM DEMON
+ S GAMES-TO-DATE\n-----------------
+ -----------------------\nRecord to da
+ te (completed games only): 4-1\n    A
+ pr 6th vs What the Puck (Cancelled
+ )\n    Apr 13th vs Butchers (W 2-0)\n   
+  Apr 27th @ Vertz (L 3-5)\n    
+ May 4th vs Dark Rainbows (Cancelled)\n    M
+ ay 18th vs Riots (W 9-0)\n  
+   Jun 1st @ Fresh Kills (W 6-5)\n    Jun 8th @
+  Butchers (W 3-2)
+END:VE
+ VENT
 BEGIN:VEVENT
 UID:btsh-game-s2-846@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Dark Rainbows
 DTSTART;TZID=America/New_York:20250622T1300
@@ -347,28 +406,36 @@ DTSTART;TZID=America/New_York:20250622T1300
 DTEND;TZID=America/New_York:20250622T130100
 LOCATION:Tompkins Square 
  Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
-  Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Dark Rainbows
-  10 - 4 What the 
- Puck\n\n----------------------------------------\nDark
-  Rainbows games (bef
- ore this matchup):\n    Apr 6th @ Gremlins (Cancell
- ed)\n    Apr 13th @ Sky
-  Fighters (W 3-2)\n    Apr 27th vs Filthier (L 2
- -4)\n    May 4th @ Denim D
- emons (Cancelled)\n    May 18th @ Fuzz (L 0-6
- )\n    Jun 1st @ Vertz (L 0-7
- )\n    Jun 8th vs Sky Fighters (L 2-6)\n  
-   Jun 15th @ Gremlins (L 1-2)\n\
- n--------------------------------------
- --\nPrior matchups: What the Puck v
- s Dark Rainbows (before this matchup
- ):\n    (no prior matchups listed)
+DESCRIPTION:----------------------------------------\nGAME IN
+ FO\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSt
+ age: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-06-22 1
+ 3:00 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registrati
+ on: https://btsh.org/at
+ tendance\n\nFinal: Dark Rainbows 10-4 What the P
+ uck\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Dark R
+ ainbows\n--------------------
+ --------------------\n    (no prior matchu
+ ps listed)\n\n------------------
+ ----------------------\nDARK RAINBOWS G
+ AMES-TO-DATE\n---------------------
+ -------------------\nRecord to date 
+ (completed games only): 1-5\n    Apr 6
+ th @ Gremlins (Cancelled)\n    Ap
+ r 13th @ Sky Fighters (W 3-2)\n    Apr 27
+ th vs Filthier (L 2-4)\n    Ma
+ y 4th @ Denim Demons (Cancelled)\n    May 18
+ th @ Fuzz (L 0-6)\n    Jun 
+ 1st @ Vertz (L 0-7)\n    Jun 8th vs Sky Fighter
+ s (L 2-6)\n    Jun 15th 
+ @ Gremlins (L 1-2)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-764@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Riots
 DTSTART;TZID=America/New_York:20250629T164500
@@ -376,29 +443,36 @@ DTEN
  D;TZID=America/New_York:20250629T164600
 LOCATION:Tompkins Square Park (Ea
  st)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkin
- s Squa
- re Park (East)\nType: Regular\n\nResult:\n  Riots 2 - 5 What the 
- Puck\n\n-
- ---------------------------------------\nRiots games (before t
- his matchup)
- :\n    Apr 6th @ Butchers (Cancelled)\n    Apr 13th @ Moby 
- Dekes (L 1-3)\n
-     Apr 27th vs Cobra Kai (L 1-8)\n    May 4th vs Renais
- sance (Cancelled)\
- n    May 18th @ Denim Demons (L 0-9)\n    Jun 1st vs 
- Filthier (L 1-2)\n   
-  Jun 8th @ Moby Dekes (L 3-4)\n    Jun 15th @ Butc
- hers (L 0-4)\n    Jun 22
- nd @ Instant Karma (L 0-7)\n\n-----------------
- -----------------------\nPr
- ior matchups: What the Puck vs Riots (before
-  this matchup):\n    (no prior
-  matchups listed)
+DESCRIPTION:----------------------------------------\nGAME INFO\n----
+ ------
+ ------------------------------\nLeague: BTSH Season 2\nStage: Reg
+ ular\nSta
+ tus: completed\nStart (America/New_York): 2025-06-29 16:45 EDT
+ \nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: http
+ s://btsh.org/at
+ tendance\n\nFinal: Riots 2-5 What the Puck\n\n----------
+ ------------------
+ ------------\nHEAD-TO-HEAD vs Riots\n----------------
+ ---------------------
+ ---\n    (no prior matchups listed)\n\n-----------
+ ------------------------
+ -----\nRIOTS GAMES-TO-DATE\n-------------------
+ ---------------------\nReco
+ rd to date (completed games only): 0-7\n    
+ Apr 6th @ Butchers (Cancelled)
+ \n    Apr 13th @ Moby Dekes (L 1-3)\n    
+ Apr 27th vs Cobra Kai (L 1-8)\n  
+   May 4th vs Renaissance (Cancelled)\n
+     May 18th @ Denim Demons (L 0-9)\
+ n    Jun 1st vs Filthier (L 1-2)\n 
+    Jun 8th @ Moby Dekes (L 3-4)\n    Ju
+ n 15th @ Butchers (L 0-4)\n    J
+ un 22nd @ Instant Karma (L 0-7)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-766@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Denim Demons
 DTSTART;TZID=America/New_York:20250713T1300
@@ -406,32 +480,40 @@ DTSTART;TZID=America/New_York:20250713T1300
 DTEND;TZID=America/New_York:20250713T130100
 LOCATION:Tompkins Square 
  Park (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
-  Tompkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  What the Puck
-  2 - 6 Denim Demo
- ns\n\n----------------------------------------\nDenim 
- Demons games (before
-  this matchup):\n    Apr 6th vs What the Puck (Canc
- elled)\n    Apr 13th vs
-  Butchers (W 2-0)\n    Apr 27th @ Vertz (L 3-5)\
- n    May 4th vs Dark Rainb
- ows (Cancelled)\n    May 18th vs Riots (W 9-0
- )\n    Jun 1st @ Fresh Kills 
- (W 6-5)\n    Jun 8th @ Butchers (W 3-2)\n 
-    Jun 15th vs What the Puck (W 
- 5-4)\n    Jun 22nd vs Gremlins (W 10-0)
- \n    Jun 29th @ Sky Fighters (W 4-
- 1)\n\n------------------------------
- ----------\nPrior matchups: What the P
- uck vs Denim Demons (before this 
- matchup):\n    Apr 6th @ Denim Demons (Ca
- ncelled)\n    Jun 15th @ Denim
-  Demons (L 4-5)
+DESCRIPTION:----------------------------------------\nGAME IN
+ FO\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSt
+ age: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-07-13 1
+ 3:00 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registrati
+ on: https://btsh.org/at
+ tendance\n\nFinal: What the Puck 2-6 Denim Demon
+ s\n\n---------------------
+ -------------------\nHEAD-TO-HEAD vs Denim De
+ mons\n-----------------------
+ -----------------\n    Apr 6th @ Denim Dem
+ ons (Cancelled)\n    Jun 15th @ 
+ Denim Demons (L 4-5)\n\n---------------
+ -------------------------\nDENIM DE
+ MONS GAMES-TO-DATE\n----------------
+ ------------------------\nRecord to da
+ te (completed games only): 7-1\n 
+    Apr 6th vs What the Puck (Cancelled)\n
+     Apr 13th vs Butchers (W 2-
+ 0)\n    Apr 27th @ Vertz (L 3-5)\n    May 4t
+ h vs Dark Rainbows (Cancell
+ ed)\n    May 18th vs Riots (W 9-0)\n    Jun 1st
+  @ Fresh Kills (W 6-5)\n
+     Jun 8th @ Butchers (W 3-2)\n    Jun 15th vs Wh
+ at the Puck (W 5-4)\n
+     Jun 22nd vs Gremlins (W 10-0)\n    Jun 29th @ Sky
+  Fighters (W 4-1)
+ 
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-774@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Gremlins
 DTSTART;TZID=America/New_York:20250720T164500
@@ -439,31 +521,38 @@ DTSTART;TZID=America/New_York:20250720T164500
  DTEND;TZID=America/New_York:20250720T164600
 LOCATION:Tompkins Square Park
   (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tom
- pkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  What the Puck 3 -
-  6 Gremlins\n
- \n----------------------------------------\nGremlins games
-  (before this ma
- tchup):\n    Apr 13th vs Renaissance (L 2-5)\n    Apr 2
- 7th @ Poutine Machi
- ne (L 1-8)\n    May 4th vs Butchers (Cancelled)\n   
-  May 18th @ Sky Fighte
- rs (L 3-9)\n    Jun 1st vs Fuzz (L 1-3)\n    Jun 
- 8th @ Renaissance (L 1-10
- )\n    Jun 15th vs Dark Rainbows (W 2-1)\n    
- Jun 22nd @ Denim Demons (L 0
- -10)\n    Jun 29th vs Instant Karma (L 2-5)
- \n    Jul 13th @ Dark Rainbows 
- (L 0-4)\n\n-----------------------------
- -----------\nPrior matchups: What 
- the Puck vs Gremlins (before this mat
- chup):\n    (no prior matchups listed
- )
+DESCRIPTION:----------------------------------------\nGAME INFO\n
+ ----------
+ ------------------------------\nLeague: BTSH Season 2\nStage:
+  Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-07-20 16:45
+  EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: 
+ https://btsh.org/at
+ tendance\n\nFinal: What the Puck 3-6 Gremlins\n\n---
+ ----------------------
+ ---------------\nHEAD-TO-HEAD vs Gremlins\n------
+ -------------------------
+ ---------\n    (no prior matchups listed)\n\n-
+ ----------------------------
+ -----------\nGREMLINS GAMES-TO-DATE\n------
+ -------------------------------
+ ---\nRecord to date (completed games onl
+ y): 1-8\n    Apr 13th vs Renaissan
+ ce (L 2-5)\n    Apr 27th @ Poutine Ma
+ chine (L 1-8)\n    May 4th vs Butcher
+ s (Cancelled)\n    May 18th @ Sky 
+ Fighters (L 3-9)\n    Jun 1st vs Fuzz (L
+  1-3)\n    Jun 8th @ Renaissanc
+ e (L 1-10)\n    Jun 15th vs Dark Rainbows (
+ W 2-1)\n    Jun 22nd @ Denim
+  Demons (L 0-10)\n    Jun 29th vs Instant Karm
+ a (L 2-5)\n    Jul 13th @
+  Dark Rainbows (L 0-4)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-867@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  [CANCELLED] What the Puck @ Vertz
 DTSTART;TZID=America/New_York:20250727T
@@ -471,31 +560,38 @@ DTSTART;TZID=America/New_York:20250727T
 DTEND;TZID=America/New_York:20250727T141600
 LOCATION:Tompkins Squ
  are Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLocat
- ion: Tompkins Squa
- re Park (West)\nType: Regular\n\n--------------------
- --------------------\
- nVertz games (before this matchup):\n    May 4th @
-  Fresh Kills (Cancelled)
- \n    May 18th vs Cobra Kai (W 4-3)\n    Jun 1s
- t vs Dark Rainbows (W 7-0)\
- n    Jun 8th @ Fuzz (Cancelled)\n    Jun 15t
- h @ Lbs (W 7-3)\n    Jun 22nd 
- @ Gouging Anklebiters (W 5-4)\n    Jun 29
- th @ Corlears Hookers (W 10-4)\n 
-    Jul 13th vs Lbs (L 7-9)\n    Jul 20
- th @ Fuzz (W 6-2)\n    Jul 20th vs P
- outine Machine (W 3-2)\n\n---------
- -------------------------------\nPrior 
- matchups: What the Puck vs Vertz
-  (before this matchup):\n    (no prior mat
- chups listed)
-STATUS:CANCELL
- ED
-END:VEVENT
+DESCRIPTION:----------------------------------------\nGAM
+ E INFO\n----------
+ ------------------------------\nLeague: BTSH Season 2
+ \nStage: Regular\nSta
+ tus: cancelled\nStart (America/New_York): 2025-07-
+ 27 14:15 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game regist
+ ration: https://btsh.org/at
+ tendance\n\n--------------------------------
+ --------\nHEAD-TO-HEAD vs Vert
+ z\n--------------------------------------
+ --\n    (no prior matchups listed
+ )\n\n---------------------------------
+ -------\nVERTZ GAMES-TO-DATE\n------
+ ----------------------------------\
+ nRecord to date (completed games only):
+  9-1\n    May 4th @ Fresh Kills 
+ (Cancelled)\n    May 18th vs Cobra Kai (W 
+ 4-3)\n    Jun 1st vs Dark Rai
+ nbows (W 7-0)\n    Jun 8th @ Fuzz (Cancelled)
+ \n    Jun 15th @ Lbs (W 7-
+ 3)\n    Jun 22nd @ Gouging Anklebiters (W 5-4)\n
+     Jun 29th @ Corlears
+  Hookers (W 10-4)\n    Jul 13th vs Lbs (L 7-9)\n   
+  Jul 20th @ Fuzz (W 
+ 6-2)\n    Jul 20th vs Poutine Machine (W 3-2)
+STATUS:CANCELLED
+END:VEVEN
+ T
 BEGIN:VEVENT
 UID:btsh-game-s2-783@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Butchers
 DTSTART;TZID=America/New_York:20250803T153000
@@ -503,30 +599,38 @@ DTSTART;TZID=America/New_York:20250803T153000
  DTEND;TZID=America/New_York:20250803T153100
 LOCATION:Tompkins Square Park
   (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tom
- pkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  What the Puck 4 -
-  2 Butchers\n
- \n----------------------------------------\nButchers games
-  (before this ma
- tchup):\n    May 4th @ Gremlins (Cancelled)\n    May 18
- th @ Filthier (L 0-
- 9)\n    Jun 1st vs Corlears Hookers (L 0-10)\n    Ju
- n 8th vs Denim Demons 
- (L 2-3)\n    Jun 15th vs Riots (W 4-0)\n    Jun 2
- 2nd vs Renaissance (L 2-5
- )\n    Jun 29th vs Moby Dekes (L 2-5)\n    Jul
-  13th @ Riots (W 3-2)\n    J
- ul 20th @ Instant Karma (L 0-6)\n    Jul 27
- th vs Cobra Kai (Cancelled)\n\n
- ----------------------------------------
- \nPrior matchups: What the Puck vs
-  Butchers (before this matchup):\n   
-  (no prior matchups listed)
+DESCRIPTION:----------------------------------------\nGAME INFO\n
+ ----------
+ ------------------------------\nLeague: BTSH Season 2\nStage:
+  Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-08-03 15:30
+  EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: 
+ https://btsh.org/at
+ tendance\n\nFinal: What the Puck 4-2 Butchers\n\n---
+ ----------------------
+ ---------------\nHEAD-TO-HEAD vs Butchers\n------
+ -------------------------
+ ---------\n    (no prior matchups listed)\n\n-
+ ----------------------------
+ -----------\nBUTCHERS GAMES-TO-DATE\n------
+ -------------------------------
+ ---\nRecord to date (completed games onl
+ y): 2-8\n    May 4th @ Gremlins (C
+ ancelled)\n    May 18th @ Filthier (L
+  0-9)\n    Jun 1st vs Corlears Hooker
+ s (L 0-10)\n    Jun 8th vs Denim D
+ emons (L 2-3)\n    Jun 15th vs Riots (W 
+ 4-0)\n    Jun 22nd vs Renaissan
+ ce (L 2-5)\n    Jun 29th vs Moby Dekes (L 2
+ -5)\n    Jul 13th @ Riots (W
+  3-2)\n    Jul 20th @ Instant Karma (L 0-6)\n 
+    Jul 27th vs Cobra Kai 
+ (Cancelled)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-789@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Poutine Machine
 DTSTART;TZID=America/New_York:20250810T16
@@ -534,32 +638,38 @@ DTSTART;TZID=America/New_York:20250810T16
 DTEND;TZID=America/New_York:20250810T164600
 LOCATION:Tompkins Squar
  e Park (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocatio
- n: Tompkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Poutine Mac
- hine 9 - 0 What the
-  Puck\n\n----------------------------------------\nP
- outine Machine games (
- before this matchup):\n    Jun 8th vs Gouging Ank
- lebiters (Cancelled)\n   
-  Jun 15th @ Filthier (W 8-2)\n    Jun 22nd vs 
- Lbs (W 7-3)\n    Jun 29th vs
-  Fresh Kills (L 5-6)\n    Jul 13th vs Gougi
- ng Anklebiters (W 9-6)\n    Jul
-  13th vs Filthier (W 8-4)\n    Jul 20th 
- @ Vertz (L 2-3)\n    Jul 27th @ Da
- rk Rainbows (Cancelled)\n    Aug 3rd 
- vs Dark Rainbows (W 11-2)\n    Aug 3r
- d @ Riots (W 7-1)\n\n-------------
- ---------------------------\nPrior match
- ups: What the Puck vs Poutine M
- achine (before this matchup):\n    (no prio
- r matchups listed)
-END:VEVE
- NT
+DESCRIPTION:----------------------------------------\nGAME 
+ INFO\n----------
+ ------------------------------\nLeague: BTSH Season 2\n
+ Stage: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-08-10
+  16:45 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registra
+ tion: https://btsh.org/at
+ tendance\n\nFinal: Poutine Machine 9-0 What th
+ e Puck\n\n------------------
+ ----------------------\nHEAD-TO-HEAD vs Pou
+ tine Machine\n-----------------
+ -----------------------\n    (no prior m
+ atchups listed)\n\n---------------
+ -------------------------\nPOUTINE MA
+ CHINE GAMES-TO-DATE\n----------------
+ ------------------------\nRecord t
+ o date (completed games only): 9-3\n    
+ Jun 8th vs Gouging Anklebiters 
+ (Cancelled)\n    Jun 15th @ Filthier (W 8-2
+ )\n    Jun 22nd vs Lbs (W 7-
+ 3)\n    Jun 29th vs Fresh Kills (L 5-6)\n    J
+ ul 13th vs Gouging Ankleb
+ iters (W 9-6)\n    Jul 13th vs Filthier (W 8-4)\n
+     Jul 20th @ Vertz (
+ L 2-3)\n    Jul 27th @ Dark Rainbows (Cancelled)\n  
+   Aug 3rd vs Dark R
+ ainbows (W 11-2)\n    Aug 3rd @ Riots (W 7-1)
+END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-882@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Riots
 DTSTART;TZID=America/New_York:20250817T141500
@@ -567,30 +677,38 @@ DTE
  ND;TZID=America/New_York:20250817T141600
 LOCATION:Tompkins Square Park (W
  est)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompki
- ns Squa
- re Park (West)\nType: Regular\n\nResult:\n  What the Puck 6 - 1 
- Riots\n\n-
- ---------------------------------------\nRiots games (before 
- this matchup)
- :\n    Jun 8th @ Moby Dekes (L 3-4)\n    Jun 15th @ Butche
- rs (L 0-4)\n    
- Jun 22nd @ Instant Karma (L 0-7)\n    Jun 29th vs What 
- the Puck (L 2-5)\n 
-    Jul 13th vs Butchers (L 2-3)\n    Jul 20th vs Sky
-  Fighters (L 2-11)\n  
-   Jul 27th @ Mega Touch (Cancelled)\n    Aug 3rd 
- vs Poutine Machine (L 1-7
- )\n    Aug 10th vs Corlears Hookers (L 0-10)\n
-     Aug 17th @ Mega Touch (L
-  0-9)\n\n----------------------------------
- ------\nPrior matchups: What th
- e Puck vs Riots (before this matchup):\n
-     Jun 29th @ Riots (W 5-2)
+DESCRIPTION:----------------------------------------\nGAME INFO\n---
+ -------
+ ------------------------------\nLeague: BTSH Season 2\nStage: Re
+ gular\nSta
+ tus: completed\nStart (America/New_York): 2025-08-17 14:15 ED
+ T\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registration: htt
+ ps://btsh.org/at
+ tendance\n\nFinal: What the Puck 6-1 Riots\n\n---------
+ -------------------
+ ------------\nHEAD-TO-HEAD vs Riots\n---------------
+ ----------------------
+ ---\n    Jun 29th @ Riots (W 5-2)\n\n------------
+ -------------------------
+ ---\nRIOTS GAMES-TO-DATE\n--------------------
+ --------------------\nRecord
+  to date (completed games only): 0-13\n    
+ Jun 8th @ Moby Dekes (L 3-4)\n 
+    Jun 15th @ Butchers (L 0-4)\n    Jun 
+ 22nd @ Instant Karma (L 0-7)\n    
+ Jun 29th vs What the Puck (L 2-5)\n  
+   Jul 13th vs Butchers (L 2-3)\n    J
+ ul 20th vs Sky Fighters (L 2-11)\n
+     Jul 27th @ Mega Touch (Cancelled)\n 
+    Aug 3rd vs Poutine Machine (
+ L 1-7)\n    Aug 10th vs Corlears Hookers (L
+  0-10)\n    Aug 17th @ Mega 
+ Touch (L 0-9)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-800@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Renaissance
 DTSTART;TZID=America/New_York:20250907T180000
@@ -598,30 +716,38 @@ DTSTART;TZID=America/New_York:20250907T180000
 DTEND;TZID=America/New_York:20250907T180100
 LOCATION:Tompkins Square Pa
  rk (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
- ompkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Renaissance 9 -
-  0 What the Puc
- k\n\n----------------------------------------\nRenaissan
- ce games (before t
- his matchup):\n    Jun 8th vs Gremlins (W 10-1)\n    
- Jun 15th vs Moby Deke
- s (W 3-2)\n    Jun 22nd @ Butchers (W 5-2)\n    Ju
- n 29th vs Dark Rainbows 
- (W 7-6)\n    Jul 13th vs Mega Touch (L 2-4)\n  
-   Jul 20th vs Denim Demons 
- (L 2-6)\n    Jul 27th @ Fresh Kills (L 6-7)\
- n    Aug 3rd vs Sky Fighters (
- W 8-2)\n    Aug 10th @ Fuzz (W 8-4)\n    
- Aug 17th @ Dark Rainbows (W 10-3)
- \n\n----------------------------------
- ------\nPrior matchups: What the Puc
- k vs Renaissance (before this match
- up):\n    (no prior matchups listed)
+DESCRIPTION:----------------------------------------\nGAME INFO
+ \n----------
+ ------------------------------\nLeague: BTSH Season 2\nStag
+ e: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-09-07 18:
+ 00 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration
+ : https://btsh.org/at
+ tendance\n\nFinal: Renaissance 9-0 What the Puck\n
+ \n----------------------
+ ------------------\nHEAD-TO-HEAD vs Renaissance
+ \n-------------------------
+ ---------------\n    (no prior matchups list
+ ed)\n\n-----------------------
+ -----------------\nRENAISSANCE GAMES-TO-D
+ ATE\n----------------------------
+ ------------\nRecord to date (complete
+ d games only): 9-5\n    Jun 8th vs G
+ remlins (W 10-1)\n    Jun 15th vs M
+ oby Dekes (W 3-2)\n    Jun 22nd @ Butch
+ ers (W 5-2)\n    Jun 29th vs Dar
+ k Rainbows (W 7-6)\n    Jul 13th vs Mega T
+ ouch (L 2-4)\n    Jul 20th vs
+  Denim Demons (L 2-6)\n    Jul 27th @ Fresh K
+ ills (L 6-7)\n    Aug 3rd 
+ vs Sky Fighters (W 8-2)\n    Aug 10th @ Fuzz (W 
+ 8-4)\n    Aug 17th @ Da
+ rk Rainbows (W 10-3)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-891@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Butchers
 DTSTART;TZID=America/New_York:20250914T120000
@@ -629,30 +755,38 @@ D
  TEND;TZID=America/New_York:20250914T120100
 LOCATION:Tompkins Square Park 
  (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tomp
- kins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Butchers 5 - 3 Wha
- t the Puck\n
- \n----------------------------------------\nButchers games 
- (before this ma
- tchup):\n    Jun 22nd vs Renaissance (L 2-5)\n    Jun 29
- th vs Moby Dekes (
- L 2-5)\n    Jul 13th @ Riots (W 3-2)\n    Jul 20th @ 
- Instant Karma (L 0-6)
- \n    Jul 27th vs Cobra Kai (Cancelled)\n    Aug 3
- rd @ What the Puck (L 2-
- 4)\n    Aug 10th vs Fresh Kills (L 3-10)\n    A
- ug 17th @ Moby Dekes (Cance
- lled)\n    Sep 7th @ Sky Fighters (L 2-4)\n 
-    Sep 14th @ Moby Dekes (L 4-
- 7)\n\n-----------------------------------
- -----\nPrior matchups: What the P
- uck vs Butchers (before this matchup):
- \n    Aug 3rd vs Butchers (W 4-2)
+DESCRIPTION:----------------------------------------\nGAME INFO\n-
+ ---------
+ ------------------------------\nLeague: BTSH Season 2\nStage: 
+ Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-09-14 12:00 
+ EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registration: h
+ ttps://btsh.org/at
+ tendance\n\nFinal: Butchers 5-3 What the Puck\n\n----
+ ---------------------
+ ---------------\nHEAD-TO-HEAD vs Butchers\n-------
+ ------------------------
+ ---------\n    Aug 3rd vs Butchers (W 4-2)\n\n-
+ ---------------------------
+ ------------\nBUTCHERS GAMES-TO-DATE\n------
+ ------------------------------
+ ----\nRecord to date (completed games onl
+ y): 2-12\n    Jun 22nd vs Renaiss
+ ance (L 2-5)\n    Jun 29th vs Moby Dek
+ es (L 2-5)\n    Jul 13th @ Riots (W 
+ 3-2)\n    Jul 20th @ Instant Karma 
+ (L 0-6)\n    Jul 27th vs Cobra Kai (Can
+ celled)\n    Aug 3rd @ What the 
+ Puck (L 2-4)\n    Aug 10th vs Fresh Kills 
+ (L 3-10)\n    Aug 17th @ Moby
+  Dekes (Cancelled)\n    Sep 7th @ Sky Fighter
+ s (L 2-4)\n    Sep 14th @ 
+ Moby Dekes (L 4-7)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-897@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Moby Dekes
 DTSTART;TZID=America/New_York:20250921T131500
@@ -660,31 +794,38 @@ DTSTART;TZID=America/New_York:20250921T131500
 DTEND;TZID=America/New_York:20250921T131600
 LOCATION:Tompkins Square Par
  k (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
- mpkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Moby Dekes 4 - 8
-  What the Puck
- \n\n----------------------------------------\nMoby Dekes 
- games (before thi
- s matchup):\n    Jun 29th @ Butchers (W 5-2)\n    Jul 
- 13th @ Gouging Ankle
- biters (L 0-6)\n    Jul 20th vs Dark Rainbows (L 3-
- 7)\n    Jul 27th @ Lbs 
- (Cancelled)\n    Aug 3rd @ Denim Demons (L 1-7)\
- n    Aug 10th vs Filthier 
- (L 4-6)\n    Aug 17th vs Butchers (Cancelled)
- \n    Sep 7th @ Gremlins (L 1
- -7)\n    Sep 14th vs Butchers (W 7-4)\n   
-  Sep 14th vs Denim Demons (L 1-1
- 1)\n\n---------------------------------
- -------\nPrior matchups: What the P
- uck vs Moby Dekes (before this match
- up):\n    May 18th vs Moby Dekes (W 5-
- 4)
+DESCRIPTION:----------------------------------------\nGAME INFO\
+ n----------
+ ------------------------------\nLeague: BTSH Season 2\nStage
+ : Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-09-21 13:1
+ 5 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registration:
+  https://btsh.org/at
+ tendance\n\nFinal: Moby Dekes 4-8 What the Puck\n\n
+ -----------------------
+ -----------------\nHEAD-TO-HEAD vs Moby Dekes\n-
+ --------------------------
+ -------------\n    May 18th vs Moby Dekes (W 
+ 5-4)\n\n---------------------
+ -------------------\nMOBY DEKES GAMES-TO-D
+ ATE\n---------------------------
+ -------------\nRecord to date (complete
+ d games only): 4-11\n    Jun 29th @
+  Butchers (W 5-2)\n    Jul 13th @ Go
+ uging Anklebiters (L 0-6)\n    Jul 20t
+ h vs Dark Rainbows (L 3-7)\n    J
+ ul 27th @ Lbs (Cancelled)\n    Aug 3rd @ 
+ Denim Demons (L 1-7)\n    Aug 
+ 10th vs Filthier (L 4-6)\n    Aug 17th vs Bu
+ tchers (Cancelled)\n    Sep
+  7th @ Gremlins (L 1-7)\n    Sep 14th vs Butche
+ rs (W 7-4)\n    Sep 14th
+  vs Denim Demons (L 1-11)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-928@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Vertz
 DTSTART;TZID=America/New_York:20250928T110000
@@ -692,30 +833,38 @@ DTEN
  D;TZID=America/New_York:20250928T115000
 LOCATION:Tompkins Square Park (We
  st)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkin
- s Squa
- re Park (West)\nType: Regular\n\nResult:\n  Vertz 13 - 3 What the
-  Puck\n\n
- ----------------------------------------\nVertz games (before 
- this matchup
- ):\n    Jul 13th vs Lbs (L 7-9)\n    Jul 20th @ Fuzz (W 6-2
- )\n    Jul 20th
-  vs Poutine Machine (W 3-2)\n    Jul 27th vs What the Pu
- ck (Cancelled)\n  
-   Aug 3rd @ Mega Touch (W 7-1)\n    Aug 10th vs Greml
- ins (L 3-4)\n    Aug 
- 17th @ Sky Fighters (W 7-1)\n    Sep 7th @ Filthie
- r (W 10-1)\n    Sep 14th
-  vs Mega Touch (W 7-1)\n    Sep 21st @ Cobra Ka
- i (L 3-5)\n\n--------------
- --------------------------\nPrior matchups: 
- What the Puck vs Vertz (before
-  this matchup):\n    Jul 27th @ Vertz (Ca
- ncelled)
-END:VEVENT
+DESCRIPTION:----------------------------------------\nGAME INFO\n----
+ ------
+ ------------------------------\nLeague: BTSH Season 2\nStage: Reg
+ ular\nSta
+ tus: completed\nStart (America/New_York): 2025-09-28 11:00 EDT
+ \nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registration: http
+ s://btsh.org/at
+ tendance\n\nFinal: Vertz 13-3 What the Puck\n\n---------
+ ------------------
+ -------------\nHEAD-TO-HEAD vs Vertz\n---------------
+ ---------------------
+ ----\n    Jul 27th @ Vertz (Cancelled)\n\n--------
+ ------------------------
+ --------\nVERTZ GAMES-TO-DATE\n----------------
+ ------------------------\nR
+ ecord to date (completed games only): 13-3\n
+     Jul 13th vs Lbs (L 7-9)\n 
+    Jul 20th @ Fuzz (W 6-2)\n    Jul 20th 
+ vs Poutine Machine (W 3-2)\n    J
+ ul 27th vs What the Puck (Cancelled)\n
+     Aug 3rd @ Mega Touch (W 7-1)\n  
+   Aug 10th vs Gremlins (L 3-4)\n   
+  Aug 17th @ Sky Fighters (W 7-1)\n    S
+ ep 7th @ Filthier (W 10-1)\n    
+ Sep 14th vs Mega Touch (W 7-1)\n    Sep 21
+ st @ Cobra Kai (L 3-5)
+END:V
+ EVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-916@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Sky Fighters
 DTSTART;TZID=America/New_York:20250928T1200
@@ -723,30 +872,38 @@ DTSTART;TZID=America/New_York:20250928T1200
 DTEND;TZID=America/New_York:20250928T125000
 LOCATION:Tompkins Square 
  Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
-  Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  What the Puck
-  2 - 8 Sky Fighte
- rs\n\n----------------------------------------\nSky Fi
- ghters games (before
-  this matchup):\n    Jun 29th vs Denim Demons (L 1-
- 4)\n    Jul 13th vs Ins
- tant Karma (L 7-8)\n    Jul 20th @ Riots (W 11-2
- )\n    Jul 27th @ Filthier
-  (W 5-4)\n    Aug 3rd @ Renaissance (L 2-8)\n
-     Aug 10th vs Mega Touch (L
-  1-9)\n    Aug 17th vs Vertz (L 1-7)\n    
- Sep 7th vs Butchers (W 4-2)\n   
-  Sep 14th vs Renaissance (L 3-5)\n    S
- ep 21st @ Gremlins (L 5-6)\n\n-----
- -----------------------------------\
- nPrior matchups: What the Puck vs Sky 
- Fighters (before this matchup):\n
-     May 4th vs Sky Fighters (Cancelled)
+DESCRIPTION:----------------------------------------\nGAME IN
+ FO\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSt
+ age: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-09-28 1
+ 2:00 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registrati
+ on: https://btsh.org/at
+ tendance\n\nFinal: What the Puck 2-8 Sky Fighter
+ s\n\n---------------------
+ -------------------\nHEAD-TO-HEAD vs Sky Figh
+ ters\n-----------------------
+ -----------------\n    May 4th vs Sky Figh
+ ters (Cancelled)\n\n------------
+ ----------------------------\nSKY FIGHT
+ ERS GAMES-TO-DATE\n----------------
+ ------------------------\nRecord to 
+ date (completed games only): 8-9\n    
+ Jun 29th vs Denim Demons (L 1-4)\
+ n    Jul 13th vs Instant Karma (L 7-8)\n 
+    Jul 20th @ Riots (W 11-2)\n
+     Jul 27th @ Filthier (W 5-4)\n    Aug 3rd
+  @ Renaissance (L 2-8)\n   
+  Aug 10th vs Mega Touch (L 1-9)\n    Aug 17th v
+ s Vertz (L 1-7)\n    Sep
+  7th vs Butchers (W 4-2)\n    Sep 14th vs Renaissa
+ nce (L 3-5)\n    Sep 
+ 21st @ Gremlins (L 5-6)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-937@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  [CANCELLED] What the Puck @ Fuzz
 DTSTART;TZID=America/New_York:20251012T1
@@ -754,31 +911,39 @@ DTSTART;TZID=America/New_York:20251012T1
 DTEND;TZID=America/New_York:20251012T132000
 LOCATION:Tompkins Squa
  re Park (East)
-DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLocati
- on: Tompkins Squa
- re Park (East)\nType: Playoff\n\n---------------------
- -------------------\
- nFuzz games (before this matchup):\n    Jul 20th vs
-  Gouging Anklebiters (L
-  1-8)\n    Jul 27th vs Denim Demons (Cancelled)\
- n    Aug 3rd @ Lbs (L 2-4)
- \n    Aug 10th vs Renaissance (L 4-8)\n    Au
- g 17th vs Mega Touch (L 3-4)\
- n    Sep 7th @ Poutine Machine (L 2-5)\n  
-   Sep 14th vs Denim Demons (L 4-
- 5)\n    Sep 14th vs Lbs (L 6-11)\n    S
- ep 21st @ Filthier (L 5-6)\n    Sep
-  28th vs Corlears Hookers (L 2-3)\n\
- n-------------------------------------
- ---\nPrior matchups: What the Puc
- k vs Fuzz (before this matchup):\n    (no
-  prior matchups listed)
-STATU
- S:CANCELLED
+DESCRIPTION:----------------------------------------\nGAME
+  INFO\n----------
+ ------------------------------\nLeague: BTSH Season 2\
+ nStage: Playoff\nSta
+ tus: cancelled\nStart (America/New_York): 2025-10-1
+ 2 12:30 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registr
+ ation: https://btsh.org/at
+ tendance\n\n---------------------------------
+ -------\nHEAD-TO-HEAD vs Fuzz
+ \n----------------------------------------
+ \n    (no prior matchups listed)
+ \n\n-----------------------------------
+ -----\nFUZZ GAMES-TO-DATE\n--------
+ --------------------------------\nRe
+ cord to date (completed games only): 4
+ -14\n    Jul 20th vs Gouging Ankl
+ ebiters (L 1-8)\n    Jul 27th vs Denim De
+ mons (Cancelled)\n    Aug 3rd 
+ @ Lbs (L 2-4)\n    Aug 10th vs Renaissance (
+ L 4-8)\n    Aug 17th vs Meg
+ a Touch (L 3-4)\n    Sep 7th @ Poutine Machine 
+ (L 2-5)\n    Sep 14th vs
+  Denim Demons (L 4-5)\n    Sep 14th vs Lbs (L 6-11
+ )\n    Sep 21st @ Fil
+ thier (L 5-6)\n    Sep 28th vs Corlears Hookers (L 2-
+ 3)
+STATUS:CANCELL
+ ED
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-940@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck @ Fuzz
 DTSTART;TZID=America/New_York:20251019T123000
@@ -786,30 +951,38 @@ DTEND
  ;TZID=America/New_York:20251019T132000
 LOCATION:Tompkins Square Park (Eas
  t)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins
-  Squa
- re Park (East)\nType: Playoff\n\nResult:\n  Fuzz 6 - 0 What the Pu
- ck\n\n--
- --------------------------------------\nFuzz games (before this
-  matchup):\
- n    Jul 27th vs Denim Demons (Cancelled)\n    Aug 3rd @ Lbs
-  (L 2-4)\n    
- Aug 10th vs Renaissance (L 4-8)\n    Aug 17th vs Mega Tou
- ch (L 3-4)\n    S
- ep 7th @ Poutine Machine (L 2-5)\n    Sep 14th vs Deni
- m Demons (L 4-5)\n  
-   Sep 14th vs Lbs (L 6-11)\n    Sep 21st @ Filthier
-  (L 5-6)\n    Sep 28th 
- vs Corlears Hookers (L 2-3)\n    Oct 12th vs Wha
- t the Puck (Cancelled)\n\n
- ----------------------------------------\nPri
- or matchups: What the Puck vs
-  Fuzz (before this matchup):\n    Oct 12th
-  @ Fuzz (Cancelled)
+DESCRIPTION:----------------------------------------\nGAME INFO\n-----
+ -----
+ ------------------------------\nLeague: BTSH Season 2\nStage: Play
+ off\nSta
+ tus: completed\nStart (America/New_York): 2025-10-19 12:30 EDT\
+ nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: https
+ ://btsh.org/at
+ tendance\n\nFinal: Fuzz 6-0 What the Puck\n\n------------
+ -----------------
+ -----------\nHEAD-TO-HEAD vs Fuzz\n-------------------
+ --------------------
+ -\n    Oct 12th @ Fuzz (Cancelled)\n\n-------------
+ -----------------------
+ ----\nFUZZ GAMES-TO-DATE\n----------------------
+ ------------------\nRecord
+  to date (completed games only): 4-14\n    Ju
+ l 27th vs Denim Demons (Cance
+ lled)\n    Aug 3rd @ Lbs (L 2-4)\n    Aug 
+ 10th vs Renaissance (L 4-8)\n   
+  Aug 17th vs Mega Touch (L 3-4)\n    Se
+ p 7th @ Poutine Machine (L 2-5)\n  
+   Sep 14th vs Denim Demons (L 4-5)\n
+     Sep 14th vs Lbs (L 6-11)\n    Sep 
+ 21st @ Filthier (L 5-6)\n    Sep 
+ 28th vs Corlears Hookers (L 2-3)\n    Oct
+  12th vs What the Puck (Cancel
+ led)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-959@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  What the Puck vs Moby Dekes
 DTSTART;TZID=America/New_York:20251102T130000
@@ -817,30 +990,38 @@ DTSTART;TZID=America/New_York:20251102T130000
 DTEND;TZID=America/New_York:20251102T135000
 LOCATION:Tompkins Square Pa
  rk (East)
-DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: T
- ompkins Squa
- re Park (East)\nType: Playoff\n\n--------------------------
- --------------\
- nMoby Dekes games (before this matchup):\n    Aug 10th v
- s Filthier (L 4-6)
- \n    Aug 17th vs Butchers (Cancelled)\n    Sep 7th @
-  Gremlins (L 1-7)\n  
-   Sep 14th vs Butchers (W 7-4)\n    Sep 14th vs De
- nim Demons (L 1-11)\n   
-  Sep 21st vs What the Puck (L 4-8)\n    Sep 28t
- h @ Instant Karma (L 2-10)\
- n    Oct 5th @ Lbs (L 4-10)\n    Oct 12th @ 
- Dark Rainbows (Cancelled)\n   
-  Oct 19th @ Dark Rainbows (L 2-3)\n\n----
- ---------------------------------
- ---\nPrior matchups: What the Puck vs 
- Moby Dekes (before this matchup):\n 
-    May 18th vs Moby Dekes (W 5-4)\n
-     Sep 21st @ Moby Dekes (W 8-4)
+DESCRIPTION:----------------------------------------\nGAME INFO
+ \n----------
+ ------------------------------\nLeague: BTSH Season 2\nStag
+ e: Playoff\nSta
+ tus: scheduled\nStart (America/New_York): 2025-11-02 13:
+ 00 EST\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration
+ : https://btsh.org/at
+ tendance\n\n--------------------------------------
+ --\nHEAD-TO-HEAD vs Moby
+  Dekes\n---------------------------------------
+ -\n    May 18th vs Moby Dek
+ es (W 5-4)\n    Sep 21st @ Moby Dekes (W 8-4
+ )\n\n-------------------------
+ ---------------\nMOBY DEKES GAMES-TO-DATE
+ \n-------------------------------
+ ---------\nRecord to date (completed g
+ ames only): 4-15\n    Aug 10th vs Fi
+ lthier (L 4-6)\n    Aug 17th vs But
+ chers (Cancelled)\n    Sep 7th @ Gremli
+ ns (L 1-7)\n    Sep 14th vs Butc
+ hers (W 7-4)\n    Sep 14th vs Denim Demons
+  (L 1-11)\n    Sep 21st vs Wh
+ at the Puck (L 4-8)\n    Sep 28th @ Instant K
+ arma (L 2-10)\n    Oct 5th
+  @ Lbs (L 4-10)\n    Oct 12th @ Dark Rainbows (C
+ ancelled)\n    Oct 19th
+  @ Dark Rainbows (L 2-3)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-965@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  PBR Cup vs -
 DTSTART;TZID=America/New_York:20251109T150000
@@ -848,8 +1029,12 @@ DTEND;TZID=Am
  erica/New_York:20251109T155000
 LOCATION:Tompkins Square Park (West)
 DESC
- RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ RIPTION:----------------------------------------\nGAME INFO\n----------
  
- ation: Tompkins Square Park (West)
+ ------------------------------\nPlayoff / placeholder game (teams TBD).\nS
+ 
+ tatus: Scheduled\nLocation: Tompkins Square Park (West)\nCheck-in / gam
+ e r
+ egistration: https://btsh.org/attendance
 END:VEVENT
 END:VCALENDAR

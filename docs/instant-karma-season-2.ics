@@ -29,7 +29,7 @@ END:VTIME
  ZONE
 BEGIN:VEVENT
 UID:btsh-day-s2-102@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
  t & d
@@ -42,7 +42,7 @@ END:VEVE
  NT
 BEGIN:VEVENT
 UID:btsh-day-s2-103@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
  g lig
@@ -55,7 +55,7 @@ DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-104@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Other - EASTER
 DTSTART;VALUE=DATE:20250420
@@ -65,7 +65,7 @@ DESCRIPTION:EASTER
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-105@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - MOTHERS DAY
 DTSTART;VALUE=DATE:20250511
@@ -75,7 +75,7 @@ DESCRIPTION:MOTHERS DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-106@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - MEMORIAL DAY
 DTSTART;VALUE=DATE:20250525
@@ -85,7 +85,7 @@ DESCRIPTION:MEMORIAL DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-108@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - 4TH OF JULY
 DTSTART;VALUE=DATE:20250706
@@ -95,7 +95,7 @@ DESCRIPTION:4TH OF JULY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-109@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Other - HOCKEY BEACH
 DTSTART;VALUE=DATE:20250824
@@ -105,7 +105,7 @@ DESCRIPTION:HOCKEY BEACH
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-110@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - LABOR DAY
 DTSTART;VALUE=DATE:20250831
@@ -115,7 +115,7 @@ DESCRIPTION:LABOR DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-118@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Make-Up - Makeup
 DTSTART;VALUE=DATE:20251116
@@ -125,7 +125,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-119@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Make-Up - Makeup
 DTSTART;VALUE=DATE:20251123
@@ -135,7 +135,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-814@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  [CANCELLED] Instant Karma vs Sky Fighters
 DTSTART;TZID=America/New_York:2
@@ -143,21 +143,29 @@ DTSTART;TZID=America/New_York:2
 DTEND;TZID=America/New_York:20250406T164600
 LOCATION:Tomp
  kins Square Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Cancelle
- d\nLocation: Tompkins Squa
- re Park (West)\nType: Regular\n\n------------
- ----------------------------\
- nSky Fighters games (before this matchup):
- \n    (no prior games listed)\n\
- n--------------------------------------
- --\nPrior matchups: Instant Karma v
- s Sky Fighters (before this matchup)
- :\n    (no prior matchups listed)
+DESCRIPTION:-------------------------------------
+ ---\nGAME INFO\n----------
+ ------------------------------\nLeague: BTSH 
+ Season 2\nStage: Regular\nSta
+ tus: cancelled\nStart (America/New_York): 
+ 2025-04-06 16:45 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / gam
+ e registration: https://btsh.org/at
+ tendance\n\n------------------------
+ ----------------\nHEAD-TO-HEAD vs Sky 
+ Fighters\n-----------------------
+ -----------------\n    (no prior matchups
+  listed)\n\n------------------
+ ----------------------\nSKY FIGHTERS GAMES-T
+ O-DATE\n-------------------
+ ---------------------\nRecord to date (complete
+ d games only): 0-0\n    
+ (no prior games listed)
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-818@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma @ What the Puck
 DTSTART;TZID=America/New_York:20250413T1530
@@ -165,22 +173,30 @@ DTSTART;TZID=America/New_York:20250413T1530
 DTEND;TZID=America/New_York:20250413T153100
 LOCATION:Tompkins Square 
  Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
-  Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  What the Puck
-  2 - 3 Instant Ka
- rma\n\n----------------------------------------\nWhat 
- the Puck games (befo
- re this matchup):\n    Apr 6th @ Denim Demons (Canc
- elled)\n\n-------------
- ---------------------------\nPrior matchups: Ins
- tant Karma vs What the Puc
- k (before this matchup):\n    (no prior match
- ups listed)
-END:VEVENT
+DESCRIPTION:----------------------------------------\nGAME IN
+ FO\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSt
+ age: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-04-13 1
+ 5:30 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registrati
+ on: https://btsh.org/at
+ tendance\n\nFinal: What the Puck 2-3 Instant Kar
+ ma\n\n--------------------
+ --------------------\nHEAD-TO-HEAD vs What th
+ e Puck\n---------------------
+ -------------------\n    (no prior matchup
+ s listed)\n\n-------------------
+ ---------------------\nWHAT THE PUCK GA
+ MES-TO-DATE\n----------------------
+ ------------------\nRecord to date (
+ completed games only): 0-0\n    Apr 6t
+ h @ Denim Demons (Cancelled)
+END
+ :VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-731@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Fresh Kills
 DTSTART;TZID=America/New_York:20250427T13000
@@ -188,23 +204,30 @@ DTSTART;TZID=America/New_York:20250427T13000
 DTEND;TZID=America/New_York:20250427T130100
 LOCATION:Tompkins Square P
  ark (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
- Tompkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Instant Karma 
- 5 - 4 Fresh Kill
- s\n\n----------------------------------------\nFresh Ki
- lls games (before t
- his matchup):\n    Apr 6th @ Corlears Hookers (Cance
- lled)\n    Apr 13th vs
-  Lbs (W 6-1)\n\n---------------------------------
- -------\nPrior matchups: 
- Instant Karma vs Fresh Kills (before this matc
- hup):\n    (no prior matchup
- s listed)
+DESCRIPTION:----------------------------------------\nGAME INF
+ O\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSta
+ ge: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-04-27 13
+ :00 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registratio
+ n: https://btsh.org/at
+ tendance\n\nFinal: Instant Karma 5-4 Fresh Kills\
+ n\n----------------------
+ ------------------\nHEAD-TO-HEAD vs Fresh Kill
+ s\n-------------------------
+ ---------------\n    (no prior matchups lis
+ ted)\n\n-----------------------
+ -----------------\nFRESH KILLS GAMES-TO-
+ DATE\n----------------------------
+ ------------\nRecord to date (complet
+ ed games only): 1-0\n    Apr 6th @ Co
+ rlears Hookers (Cancelled)\n    Ap
+ r 13th vs Lbs (W 6-1)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-738@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  [CANCELLED] Instant Karma vs Moby Dekes
 DTSTART;TZID=America/New_York:202
@@ -212,23 +235,31 @@ DTSTART;TZID=America/New_York:202
 DTEND;TZID=America/New_York:20250504T153100
 LOCATION:Tompki
  ns Square Park (East)
-DESCRIPTION:League: BTSH Season\nStatus: Cancelled\
- nLocation: Tompkins Squa
- re Park (East)\nType: Regular\n\n--------------
- --------------------------\
- nMoby Dekes games (before this matchup):\n  
-   Apr 6th @ Renaissance (Cance
- lled)\n    Apr 13th vs Riots (W 3-1)\n   
-  Apr 27th vs Mega Touch (L 2-9)\n
- \n------------------------------------
- ----\nPrior matchups: Instant Karma 
- vs Moby Dekes (before this matchup)
- :\n    (no prior matchups listed)
+DESCRIPTION:---------------------------------------
+ -\nGAME INFO\n----------
+ ------------------------------\nLeague: BTSH Se
+ ason 2\nStage: Regular\nSta
+ tus: cancelled\nStart (America/New_York): 20
+ 25-05-04 15:30 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game 
+ registration: https://btsh.org/at
+ tendance\n\n--------------------------
+ --------------\nHEAD-TO-HEAD vs Moby
+  Dekes\n---------------------------
+ -------------\n    (no prior matchups l
+ isted)\n\n----------------------
+ ------------------\nMOBY DEKES GAMES-TO-DA
+ TE\n-------------------------
+ ---------------\nRecord to date (completed ga
+ mes only): 1-1\n    Apr 6t
+ h @ Renaissance (Cancelled)\n    Apr 13th vs Rio
+ ts (W 3-1)\n    Apr 27t
+ h vs Mega Touch (L 2-9)
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-745@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma @ Renaissance
 DTSTART;TZID=America/New_York:20250518T180000
@@ -236,25 +267,32 @@ DTSTART;TZID=America/New_York:20250518T180000
 DTEND;TZID=America/New_York:20250518T180100
 LOCATION:Tompkins Square Pa
  rk (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
- ompkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Renaissance 9 -
-  3 Instant Karm
- a\n\n----------------------------------------\nRenaissan
- ce games (before t
- his matchup):\n    Apr 6th vs Moby Dekes (Cancelled)\
- n    Apr 13th @ Greml
- ins (W 5-2)\n    Apr 27th vs Gouging Anklebiters (
- L 2-5)\n    May 4th @ Ri
- ots (Cancelled)\n\n----------------------------
- ------------\nPrior matchup
- s: Instant Karma vs Renaissance (before this
-  matchup):\n    (no prior matc
- hups listed)
+DESCRIPTION:----------------------------------------\nGAME INFO
+ \n----------
+ ------------------------------\nLeague: BTSH Season 2\nStag
+ e: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-05-18 18:
+ 00 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration
+ : https://btsh.org/at
+ tendance\n\nFinal: Renaissance 9-3 Instant Karma\n
+ \n----------------------
+ ------------------\nHEAD-TO-HEAD vs Renaissance
+ \n-------------------------
+ ---------------\n    (no prior matchups list
+ ed)\n\n-----------------------
+ -----------------\nRENAISSANCE GAMES-TO-D
+ ATE\n----------------------------
+ ------------\nRecord to date (complete
+ d games only): 1-1\n    Apr 6th vs M
+ oby Dekes (Cancelled)\n    Apr 13th
+  @ Gremlins (W 5-2)\n    Apr 27th vs Go
+ uging Anklebiters (L 2-5)\n    M
+ ay 4th @ Riots (Cancelled)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-747@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma @ Mega Touch
 DTSTART;TZID=America/New_York:20250601T141500
@@ -262,26 +300,34 @@ DTSTART;TZID=America/New_York:20250601T141500
 DTEND;TZID=America/New_York:20250601T141600
 LOCATION:Tompkins Square Par
  k (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
- mpkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Mega Touch 6 - 1
-  Instant Karma
- \n\n----------------------------------------\nMega Touch 
- games (before thi
- s matchup):\n    Apr 6th vs Gouging Anklebiters (Cance
- lled)\n    Apr 13th 
- vs Cobra Kai (W 5-1)\n    Apr 27th @ Moby Dekes (W 
- 9-2)\n    May 4th vs Po
- utine Machine (Cancelled)\n    May 18th @ Lbs (W
-  10-5)\n\n----------------
- ------------------------\nPrior matchups: Ins
- tant Karma vs Mega Touch (bef
- ore this matchup):\n    (no prior matchups
-  listed)
-END:VEVENT
+DESCRIPTION:----------------------------------------\nGAME INFO\
+ n----------
+ ------------------------------\nLeague: BTSH Season 2\nStage
+ : Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-06-01 14:1
+ 5 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration:
+  https://btsh.org/at
+ tendance\n\nFinal: Mega Touch 6-1 Instant Karma\n\n
+ -----------------------
+ -----------------\nHEAD-TO-HEAD vs Mega Touch\n-
+ --------------------------
+ -------------\n    (no prior matchups listed)
+ \n\n-------------------------
+ ---------------\nMEGA TOUCH GAMES-TO-DATE\
+ n-------------------------------
+ ---------\nRecord to date (completed ga
+ mes only): 3-0\n    Apr 6th vs Goug
+ ing Anklebiters (Cancelled)\n    Apr
+  13th vs Cobra Kai (W 5-1)\n    Apr 27
+ th @ Moby Dekes (W 9-2)\n    May 
+ 4th vs Poutine Machine (Cancelled)\n    M
+ ay 18th @ Lbs (W 10-5)
+END:VE
+ VENT
 BEGIN:VEVENT
 UID:btsh-game-s2-752@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma @ Lbs
 DTSTART;TZID=America/New_York:20250608T141500
@@ -289,26 +335,34 @@ DTEND;
  TZID=America/New_York:20250608T141600
 LOCATION:Tompkins Square Park (East
  )
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins 
- Squa
- re Park (East)\nType: Regular\n\nResult:\n  Lbs 5 - 4 Instant Karma
- \n\n---
- -------------------------------------\nLbs games (before this ma
- tchup):\n 
-    Apr 6th vs Vertz (Cancelled)\n    Apr 13th @ Fresh Kills (
- L 1-6)\n    A
- pr 27th vs What the Puck (W 4-2)\n    May 4th @ Gouging An
- klebiters (Cance
- lled)\n    May 18th vs Mega Touch (L 5-10)\n    Jun 1st
-  vs Sky Fighters (L
-  5-7)\n\n----------------------------------------\nP
- rior matchups: Instant
-  Karma vs Lbs (before this matchup):\n    (no pri
- or matchups listed)
+DESCRIPTION:----------------------------------------\nGAME INFO\n------
+ ----
+ ------------------------------\nLeague: BTSH Season 2\nStage: Regul
+ ar\nSta
+ tus: completed\nStart (America/New_York): 2025-06-08 14:15 EDT\n
+ Rink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: https:
+ //btsh.org/at
+ tendance\n\nFinal: Lbs 5-4 Instant Karma\n\n--------------
+ ----------------
+ ----------\nHEAD-TO-HEAD vs Lbs\n----------------------
+ ------------------\
+ n    (no prior matchups listed)\n\n-----------------
+ ----------------------
+ -\nLBS GAMES-TO-DATE\n---------------------------
+ -------------\nRecord to 
+ date (completed games only): 1-3\n    Apr 6th 
+ vs Vertz (Cancelled)\n    Ap
+ r 13th @ Fresh Kills (L 1-6)\n    Apr 27th 
+ vs What the Puck (W 4-2)\n    M
+ ay 4th @ Gouging Anklebiters (Cancelled)
+ \n    May 18th vs Mega Touch (L 5-
+ 10)\n    Jun 1st vs Sky Fighters (L 5
+ -7)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-904@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Sky Fighters
 DTSTART;TZID=America/New_York:20250615T1645
@@ -316,28 +370,36 @@ DTSTART;TZID=America/New_York:20250615T1645
 DTEND;TZID=America/New_York:20250615T173500
 LOCATION:Tompkins Square 
  Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
-  Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Instant Karma
-  4 - 5 Sky Fighte
- rs\n\n----------------------------------------\nSky Fi
- ghters games (before
-  this matchup):\n    Apr 6th @ Instant Karma (Cance
- lled)\n    Apr 13th vs 
- Dark Rainbows (L 2-3)\n    Apr 27th @ Corlears H
- ookers (L 1-2)\n    May 4t
- h @ What the Puck (Cancelled)\n    May 18th v
- s Gremlins (W 9-3)\n    Jun 1
- st @ Lbs (W 7-5)\n    Jun 8th @ Dark Rainb
- ows (W 6-2)\n\n-----------------
- -----------------------\nPrior matchups
- : Instant Karma vs Sky Fighters (be
- fore this matchup):\n    Apr 6th vs 
- Sky Fighters (Cancelled)
+DESCRIPTION:----------------------------------------\nGAME IN
+ FO\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSt
+ age: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-06-15 1
+ 6:45 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registrati
+ on: https://btsh.org/at
+ tendance\n\nFinal: Instant Karma 4-5 Sky Fighter
+ s\n\n---------------------
+ -------------------\nHEAD-TO-HEAD vs Sky Figh
+ ters\n-----------------------
+ -----------------\n    Apr 6th vs Sky Figh
+ ters (Cancelled)\n\n------------
+ ----------------------------\nSKY FIGHT
+ ERS GAMES-TO-DATE\n----------------
+ ------------------------\nRecord to 
+ date (completed games only): 3-2\n    
+ Apr 6th @ Instant Karma (Cancelle
+ d)\n    Apr 13th vs Dark Rainbows (L 2-3)
+ \n    Apr 27th @ Corlears Hook
+ ers (L 1-2)\n    May 4th @ What the Puck (Ca
+ ncelled)\n    May 18th vs G
+ remlins (W 9-3)\n    Jun 1st @ Lbs (W 7-5)\n   
+  Jun 8th @ Dark Rainbows
+  (W 6-2)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-850@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Riots
 DTSTART;TZID=America/New_York:20250622T180000
@@ -345,28 +407,36 @@ DTE
  ND;TZID=America/New_York:20250622T180100
 LOCATION:Tompkins Square Park (W
  est)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompki
- ns Squa
- re Park (West)\nType: Regular\n\nResult:\n  Instant Karma 7 - 0 
- Riots\n\n-
- ---------------------------------------\nRiots games (before 
- this matchup)
- :\n    Apr 6th @ Butchers (Cancelled)\n    Apr 13th @ Moby
-  Dekes (L 1-3)\n
-     Apr 27th vs Cobra Kai (L 1-8)\n    May 4th vs Renai
- ssance (Cancelled)\
- n    May 18th @ Denim Demons (L 0-9)\n    Jun 1st vs
-  Filthier (L 1-2)\n   
-  Jun 8th @ Moby Dekes (L 3-4)\n    Jun 15th @ But
- chers (L 0-4)\n\n--------
- --------------------------------\nPrior matchu
- ps: Instant Karma vs Riots (
- before this matchup):\n    (no prior matchu
- ps listed)
-END:VEVENT
+DESCRIPTION:----------------------------------------\nGAME INFO\n---
+ -------
+ ------------------------------\nLeague: BTSH Season 2\nStage: Re
+ gular\nSta
+ tus: completed\nStart (America/New_York): 2025-06-22 18:00 ED
+ T\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registration: htt
+ ps://btsh.org/at
+ tendance\n\nFinal: Instant Karma 7-0 Riots\n\n---------
+ -------------------
+ ------------\nHEAD-TO-HEAD vs Riots\n---------------
+ ----------------------
+ ---\n    (no prior matchups listed)\n\n----------
+ -------------------------
+ -----\nRIOTS GAMES-TO-DATE\n------------------
+ ----------------------\nReco
+ rd to date (completed games only): 0-6\n   
+  Apr 6th @ Butchers (Cancelled)
+ \n    Apr 13th @ Moby Dekes (L 1-3)\n   
+  Apr 27th vs Cobra Kai (L 1-8)\n  
+   May 4th vs Renaissance (Cancelled)\
+ n    May 18th @ Denim Demons (L 0-9)\
+ n    Jun 1st vs Filthier (L 1-2)\n
+     Jun 8th @ Moby Dekes (L 3-4)\n    Ju
+ n 15th @ Butchers (L 0-4)
+END:
+ VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-761@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma @ Gremlins
 DTSTART;TZID=America/New_York:20250629T130000
@@ -374,30 +444,37 @@ D
  TEND;TZID=America/New_York:20250629T130100
 LOCATION:Tompkins Square Park 
  (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tomp
- kins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Gremlins 2 - 5 Ins
- tant Karma\n
- \n----------------------------------------\nGremlins games 
- (before this ma
- tchup):\n    Apr 6th vs Dark Rainbows (Cancelled)\n    A
- pr 13th vs Renaiss
- ance (L 2-5)\n    Apr 27th @ Poutine Machine (L 1-8)\
- n    May 4th vs Butch
- ers (Cancelled)\n    May 18th @ Sky Fighters (L 3-
- 9)\n    Jun 1st vs Fuzz 
- (L 1-3)\n    Jun 8th @ Renaissance (L 1-10)\n  
-   Jun 15th vs Dark Rainbows
-  (W 2-1)\n    Jun 22nd @ Denim Demons (L 0-1
- 0)\n\n------------------------
- ----------------\nPrior matchups: Instant
-  Karma vs Gremlins (before this m
- atchup):\n    (no prior matchups liste
- d)
+DESCRIPTION:----------------------------------------\nGAME INFO\n-
+ ---------
+ ------------------------------\nLeague: BTSH Season 2\nStage: 
+ Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-06-29 13:00 
+ EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: h
+ ttps://btsh.org/at
+ tendance\n\nFinal: Gremlins 2-5 Instant Karma\n\n----
+ ---------------------
+ ---------------\nHEAD-TO-HEAD vs Gremlins\n-------
+ ------------------------
+ ---------\n    (no prior matchups listed)\n\n--
+ ---------------------------
+ -----------\nGREMLINS GAMES-TO-DATE\n-------
+ ------------------------------
+ ---\nRecord to date (completed games only
+ ): 1-6\n    Apr 6th vs Dark Rainb
+ ows (Cancelled)\n    Apr 13th vs Renai
+ ssance (L 2-5)\n    Apr 27th @ Pouti
+ ne Machine (L 1-8)\n    May 4th vs 
+ Butchers (Cancelled)\n    May 18th @ Sk
+ y Fighters (L 3-9)\n    Jun 1st 
+ vs Fuzz (L 1-3)\n    Jun 8th @ Renaissance
+  (L 1-10)\n    Jun 15th vs Da
+ rk Rainbows (W 2-1)\n    Jun 22nd @ Denim Dem
+ ons (L 0-10)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-860@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma @ Sky Fighters
 DTSTART;TZID=America/New_York:20250713T18000
@@ -405,32 +482,40 @@ DTSTART;TZID=America/New_York:20250713T18000
 DTEND;TZID=America/New_York:20250713T180100
 LOCATION:Tompkins Square P
  ark (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
- Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Sky Fighters 7
-  - 8 Instant Kar
- ma\n\n----------------------------------------\nSky Fig
- hters games (before
-  this matchup):\n    Apr 6th @ Instant Karma (Cancel
- led)\n    Apr 13th vs 
- Dark Rainbows (L 2-3)\n    Apr 27th @ Corlears Ho
- okers (L 1-2)\n    May 4t
- h @ What the Puck (Cancelled)\n    May 18th vs
-  Gremlins (W 9-3)\n    Jun 1
- st @ Lbs (W 7-5)\n    Jun 8th @ Dark Rainbo
- ws (W 6-2)\n    Jun 15th @ Inst
- ant Karma (W 5-4)\n    Jun 22nd vs Moby 
- Dekes (W 4-2)\n    Jun 29th vs Den
- im Demons (L 1-4)\n\n----------------
- ------------------------\nPrior match
- ups: Instant Karma vs Sky Fighters
-  (before this matchup):\n    Apr 6th vs 
- Sky Fighters (Cancelled)\n    J
- un 15th vs Sky Fighters (L 4-5)
+DESCRIPTION:----------------------------------------\nGAME INF
+ O\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSta
+ ge: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-07-13 18
+ :00 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registratio
+ n: https://btsh.org/at
+ tendance\n\nFinal: Sky Fighters 7-8 Instant Karma
+ \n\n---------------------
+ -------------------\nHEAD-TO-HEAD vs Sky Fight
+ ers\n-----------------------
+ -----------------\n    Apr 6th vs Sky Fight
+ ers (Cancelled)\n    Jun 15th v
+ s Sky Fighters (L 4-5)\n\n--------------
+ --------------------------\nSKY FI
+ GHTERS GAMES-TO-DATE\n---------------
+ -------------------------\nRecord to 
+ date (completed games only): 5-3\n
+     Apr 6th @ Instant Karma (Cancelled)\
+ n    Apr 13th vs Dark Rainbows 
+ (L 2-3)\n    Apr 27th @ Corlears Hookers (L
+  1-2)\n    May 4th @ What th
+ e Puck (Cancelled)\n    May 18th vs Gremlins (
+ W 9-3)\n    Jun 1st @ Lbs
+  (W 7-5)\n    Jun 8th @ Dark Rainbows (W 6-2)\n  
+   Jun 15th @ Instant K
+ arma (W 5-4)\n    Jun 22nd vs Moby Dekes (W 4-2)\n  
+   Jun 29th vs Denim
+  Demons (L 1-4)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-864@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Butchers
 DTSTART;TZID=America/New_York:20250720T164500
@@ -438,30 +523,38 @@ DTSTART;TZID=America/New_York:20250720T164500
  DTEND;TZID=America/New_York:20250720T164600
 LOCATION:Tompkins Square Park
   (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tom
- pkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Instant Karma 6 -
-  0 Butchers\n
- \n----------------------------------------\nButchers games
-  (before this ma
- tchup):\n    Apr 13th @ Denim Demons (L 0-2)\n    Apr 2
- 7th vs Fuzz (L 3-9)
- \n    May 4th @ Gremlins (Cancelled)\n    May 18th @
-  Filthier (L 0-9)\n   
-  Jun 1st vs Corlears Hookers (L 0-10)\n    Jun 8t
- h vs Denim Demons (L 2-3)
- \n    Jun 15th vs Riots (W 4-0)\n    Jun 22nd 
- vs Renaissance (L 2-5)\n    
- Jun 29th vs Moby Dekes (L 2-5)\n    Jul 13t
- h @ Riots (W 3-2)\n\n----------
- ------------------------------\nPrior ma
- tchups: Instant Karma vs Butchers 
- (before this matchup):\n    (no prior
-  matchups listed)
+DESCRIPTION:----------------------------------------\nGAME INFO\n
+ ----------
+ ------------------------------\nLeague: BTSH Season 2\nStage:
+  Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-07-20 16:45
+  EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registration: 
+ https://btsh.org/at
+ tendance\n\nFinal: Instant Karma 6-0 Butchers\n\n---
+ ----------------------
+ ---------------\nHEAD-TO-HEAD vs Butchers\n------
+ -------------------------
+ ---------\n    (no prior matchups listed)\n\n-
+ ----------------------------
+ -----------\nBUTCHERS GAMES-TO-DATE\n------
+ -------------------------------
+ ---\nRecord to date (completed games onl
+ y): 2-7\n    Apr 13th @ Denim Demo
+ ns (L 0-2)\n    Apr 27th vs Fuzz (L 3
+ -9)\n    May 4th @ Gremlins (Cancelle
+ d)\n    May 18th @ Filthier (L 0-9
+ )\n    Jun 1st vs Corlears Hookers (L 0-
+ 10)\n    Jun 8th vs Denim Demon
+ s (L 2-3)\n    Jun 15th vs Riots (W 4-0)\n 
+    Jun 22nd vs Renaissance (
+ L 2-5)\n    Jun 29th vs Moby Dekes (L 2-5)\n  
+   Jul 13th @ Riots (W 3-2
+ )
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-779@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  [CANCELLED] Instant Karma vs Gouging Anklebiters
 DTSTART;TZID=America/New
@@ -469,31 +562,39 @@ DTSTART;TZID=America/New
 DTEND;TZID=America/New_York:20250727T164600
 LOCATI
  ON:Tompkins Square Park (East)
-DESCRIPTION:League: BTSH Season\nStatus: C
- ancelled\nLocation: Tompkins Squa
- re Park (East)\nType: Regular\n\n-----
- -----------------------------------\
- nGouging Anklebiters games (before 
- this matchup):\n    May 18th vs Fresh K
- ills (W 5-2)\n    Jun 1st @ What
-  the Puck (W 10-2)\n    Jun 8th @ Poutine 
- Machine (Cancelled)\n    Jun 
- 15th @ Mega Touch (Cancelled)\n    Jun 22nd v
- s Vertz (L 4-5)\n    Jun 2
- 9th vs Filthier (W 9-5)\n    Jul 13th @ Poutine 
- Machine (L 6-9)\n    Ju
- l 13th vs Moby Dekes (W 6-0)\n    Jul 20th @ Mega T
- ouch (L 3-7)\n    Ju
- l 20th @ Fuzz (W 8-1)\n\n-----------------------------
- -----------\nPrio
- r matchups: Instant Karma vs Gouging Anklebiters (before 
- this matchup):
- \n    (no prior matchups listed)
+DESCRIPTION:------------------------------
+ ----------\nGAME INFO\n----------
+ ------------------------------\nLeague
+ : BTSH Season 2\nStage: Regular\nSta
+ tus: cancelled\nStart (America/New_
+ York): 2025-07-27 16:45 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-i
+ n / game registration: https://btsh.org/at
+ tendance\n\n-----------------
+ -----------------------\nHEAD-TO-HEAD vs Goug
+ ing Anklebiters\n---------
+ -------------------------------\n    (no prior m
+ atchups listed)\n\n----
+ ------------------------------------\nGOUGING ANKLE
+ BITERS GAMES-TO-DATE
+ \n----------------------------------------\nRecord to 
+ date (completed g
+ ames only): 7-3\n    May 18th vs Fresh Kills (W 5-2)\n   
+  Jun 1st @ Wha
+ t the Puck (W 10-2)\n    Jun 8th @ Poutine Machine (Cancelle
+ d)\n    Jun
+  15th @ Mega Touch (Cancelled)\n    Jun 22nd vs Vertz (L 4-5)\n
+     Jun 
+ 29th vs Filthier (W 9-5)\n    Jul 13th @ Poutine Machine (L 6-9)\n
+     J
+ ul 13th vs Moby Dekes (W 6-0)\n    Jul 20th @ Mega Touch (L 3-7)\n   
+  J
+ ul 20th @ Fuzz (W 8-1)
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-872@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma @ Dark Rainbows
 DTSTART;TZID=America/New_York:20250803T1415
@@ -501,31 +602,38 @@ DTSTART;TZID=America/New_York:20250803T1415
 DTEND;TZID=America/New_York:20250803T141600
 LOCATION:Tompkins Square 
  Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
-  Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Dark Rainbows
-  2 - 7 Instant Ka
- rma\n\n----------------------------------------\nDark 
- Rainbows games (befo
- re this matchup):\n    May 18th @ Fuzz (L 0-6)\n   
-  Jun 1st @ Vertz (L 0-7
- )\n    Jun 8th vs Sky Fighters (L 2-6)\n    Jun 
- 15th @ Gremlins (L 1-2)\n 
-    Jun 22nd vs What the Puck (W 10-4)\n    Ju
- n 29th @ Renaissance (L 6-7)\
- n    Jul 13th vs Gremlins (W 4-0)\n    Jul
-  20th @ Moby Dekes (W 7-3)\n    
- Jul 27th vs Poutine Machine (Cancelled)
- \n    Aug 3rd @ Poutine Machine (L 
- 2-11)\n\n---------------------------
- -------------\nPrior matchups: Instant
-  Karma vs Dark Rainbows (before t
- his matchup):\n    (no prior matchups lis
- ted)
+DESCRIPTION:----------------------------------------\nGAME IN
+ FO\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSt
+ age: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-08-03 1
+ 4:15 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registrati
+ on: https://btsh.org/at
+ tendance\n\nFinal: Dark Rainbows 2-7 Instant Kar
+ ma\n\n--------------------
+ --------------------\nHEAD-TO-HEAD vs Dark Ra
+ inbows\n---------------------
+ -------------------\n    (no prior matchup
+ s listed)\n\n-------------------
+ ---------------------\nDARK RAINBOWS GA
+ MES-TO-DATE\n----------------------
+ ------------------\nRecord to date (
+ completed games only): 4-7\n    May 18
+ th @ Fuzz (L 0-6)\n    Jun 1st @ 
+ Vertz (L 0-7)\n    Jun 8th vs Sky Fighter
+ s (L 2-6)\n    Jun 15th @ Grem
+ lins (L 1-2)\n    Jun 22nd vs What the Puck 
+ (W 10-4)\n    Jun 29th @ Re
+ naissance (L 6-7)\n    Jul 13th vs Gremlins (W 
+ 4-0)\n    Jul 20th @ Mob
+ y Dekes (W 7-3)\n    Jul 27th vs Poutine Machine (
+ Cancelled)\n    Aug 3
+ rd @ Poutine Machine (L 2-11)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-786@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma @ Cobra Kai
 DTSTART;TZID=America/New_York:20250810T130000
@@ -533,30 +641,38 @@ DTSTART;TZID=America/New_York:20250810T130000
  DTEND;TZID=America/New_York:20250810T130100
 LOCATION:Tompkins Square Park
   (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tom
- pkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Cobra Kai 1 - 4 I
- nstant Karma\
- n\n----------------------------------------\nCobra Kai gam
- es (before this 
- matchup):\n    May 18th @ Vertz (L 3-4)\n    Jun 1st vs
-  Renaissance (W 4-2
- )\n    Jun 8th vs Mega Touch (L 1-6)\n    Jun 15th v
- s Fuzz (W 4-1)\n    Ju
- n 22nd vs Corlears Hookers (W 5-0)\n    Jun 29th 
- vs Lbs (L 3-4)\n    Jul 1
- 3th @ Fuzz (W 5-4)\n    Jul 20th vs Fresh Kill
- s (L 2-4)\n    Jul 27th @ Bu
- tchers (Cancelled)\n    Aug 3rd @ Gremlins 
- (W 5-3)\n\n--------------------
- --------------------\nPrior matchups: In
- stant Karma vs Cobra Kai (before t
- his matchup):\n    (no prior matchups
-  listed)
-END:VEVENT
+DESCRIPTION:----------------------------------------\nGAME INFO\n
+ ----------
+ ------------------------------\nLeague: BTSH Season 2\nStage:
+  Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-08-10 13:00
+  EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: 
+ https://btsh.org/at
+ tendance\n\nFinal: Cobra Kai 1-4 Instant Karma\n\n--
+ ----------------------
+ ----------------\nHEAD-TO-HEAD vs Cobra Kai\n----
+ -------------------------
+ -----------\n    (no prior matchups listed)\n\
+ n---------------------------
+ -------------\nCOBRA KAI GAMES-TO-DATE\n---
+ -------------------------------
+ ------\nRecord to date (completed games 
+ only): 6-5\n    May 18th @ Vertz (
+ L 3-4)\n    Jun 1st vs Renaissance (W
+  4-2)\n    Jun 8th vs Mega Touch (L 1
+ -6)\n    Jun 15th vs Fuzz (W 4-1)\
+ n    Jun 22nd vs Corlears Hookers (W 5-0
+ )\n    Jun 29th vs Lbs (L 3-4)\
+ n    Jul 13th @ Fuzz (W 5-4)\n    Jul 20th 
+ vs Fresh Kills (L 2-4)\n    
+ Jul 27th @ Butchers (Cancelled)\n    Aug 3rd @
+  Gremlins (W 5-3)
+END:VE
+ VENT
 BEGIN:VEVENT
 UID:btsh-game-s2-793@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Gremlins
 DTSTART;TZID=America/New_York:20250817T153000
@@ -564,30 +680,38 @@ DTSTART;TZID=America/New_York:20250817T153000
  DTEND;TZID=America/New_York:20250817T153100
 LOCATION:Tompkins Square Park
   (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tom
- pkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Instant Karma 8 -
-  2 Gremlins\n
- \n----------------------------------------\nGremlins games
-  (before this ma
- tchup):\n    Jun 1st vs Fuzz (L 1-3)\n    Jun 8th @ Ren
- aissance (L 1-10)\n
-     Jun 15th vs Dark Rainbows (W 2-1)\n    Jun 22nd 
- @ Denim Demons (L 0-10
- )\n    Jun 29th vs Instant Karma (L 2-5)\n    Jul
-  13th @ Dark Rainbows (L 
- 0-4)\n    Jul 20th @ What the Puck (W 6-3)\n  
-   Jul 27th @ Corlears Hooker
- s (L 1-6)\n    Aug 3rd vs Cobra Kai (L 3-5)
- \n    Aug 10th @ Vertz (W 4-3)\
- n\n-------------------------------------
- ---\nPrior matchups: Instant Karma
-  vs Gremlins (before this matchup):\n
-     Jun 29th @ Gremlins (W 5-2)
+DESCRIPTION:----------------------------------------\nGAME INFO\n
+ ----------
+ ------------------------------\nLeague: BTSH Season 2\nStage:
+  Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-08-17 15:30
+  EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: 
+ https://btsh.org/at
+ tendance\n\nFinal: Instant Karma 8-2 Gremlins\n\n---
+ ----------------------
+ ---------------\nHEAD-TO-HEAD vs Gremlins\n------
+ -------------------------
+ ---------\n    Jun 29th @ Gremlins (W 5-2)\n\n
+ ----------------------------
+ ------------\nGREMLINS GAMES-TO-DATE\n-----
+ -------------------------------
+ ----\nRecord to date (completed games on
+ ly): 3-10\n    Jun 1st vs Fuzz (L 
+ 1-3)\n    Jun 8th @ Renaissance (L 1-
+ 10)\n    Jun 15th vs Dark Rainbows (W
+  2-1)\n    Jun 22nd @ Denim Demons
+  (L 0-10)\n    Jun 29th vs Instant Karma
+  (L 2-5)\n    Jul 13th @ Dark R
+ ainbows (L 0-4)\n    Jul 20th @ What the Pu
+ ck (W 6-3)\n    Jul 27th @ C
+ orlears Hookers (L 1-6)\n    Aug 3rd vs Cobra 
+ Kai (L 3-5)\n    Aug 10th
+  @ Vertz (W 4-3)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-887@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma @ Denim Demons
 DTSTART;TZID=America/New_York:20250907T14150
@@ -595,31 +719,38 @@ DTSTART;TZID=America/New_York:20250907T14150
 DTEND;TZID=America/New_York:20250907T141600
 LOCATION:Tompkins Square P
  ark (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
- Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Denim Demons 3
-  - 4 Instant Kar
- ma\n\n----------------------------------------\nDenim D
- emons games (before
-  this matchup):\n    Jun 8th @ Butchers (W 3-2)\n   
-  Jun 15th vs What the 
- Puck (W 5-4)\n    Jun 22nd vs Gremlins (W 10-0)\n
-     Jun 29th @ Sky Fighte
- rs (W 4-1)\n    Jul 13th @ What the Puck (W 6-
- 2)\n    Jul 20th @ Renaissan
- ce (W 6-2)\n    Jul 27th @ Fuzz (Cancelled)
- \n    Aug 3rd vs Moby Dekes (W 
- 7-1)\n    Aug 10th @ Gouging Anklebiters
-  (L 2-5)\n    Aug 17th vs Corlears
-  Hookers (L 2-5)\n\n-----------------
- -----------------------\nPrior matchu
- ps: Instant Karma vs Denim Demons 
- (before this matchup):\n    (no prior ma
- tchups listed)
+DESCRIPTION:----------------------------------------\nGAME INF
+ O\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSta
+ ge: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-09-07 14
+ :15 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registratio
+ n: https://btsh.org/at
+ tendance\n\nFinal: Denim Demons 3-4 Instant Karma
+ \n\n---------------------
+ -------------------\nHEAD-TO-HEAD vs Denim Dem
+ ons\n-----------------------
+ -----------------\n    (no prior matchups l
+ isted)\n\n---------------------
+ -------------------\nDENIM DEMONS GAMES-
+ TO-DATE\n-------------------------
+ ---------------\nRecord to date (comp
+ leted games only): 10-3\n    Jun 8th 
+ @ Butchers (W 3-2)\n    Jun 15th v
+ s What the Puck (W 5-4)\n    Jun 22nd vs
+  Gremlins (W 10-0)\n    Jun 29t
+ h @ Sky Fighters (W 4-1)\n    Jul 13th @ Wh
+ at the Puck (W 6-2)\n    Jul
+  20th @ Renaissance (W 6-2)\n    Jul 27th @ Fu
+ zz (Cancelled)\n    Aug 3
+ rd vs Moby Dekes (W 7-1)\n    Aug 10th @ Gouging 
+ Anklebiters (L 2-5)\n 
+    Aug 17th vs Corlears Hookers (L 2-5)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-895@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Dark Rainbows
 DTSTART;TZID=America/New_York:20250914T170
@@ -627,31 +758,38 @@ DTSTART;TZID=America/New_York:20250914T170
 DTEND;TZID=America/New_York:20250914T170100
 LOCATION:Tompkins Square
   Park (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation
- : Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Instant Karm
- a 6 - 0 Dark Rainb
- ows\n\n----------------------------------------\nDark
-  Rainbows games (befo
- re this matchup):\n    Jun 22nd vs What the Puck (
- W 10-4)\n    Jun 29th @ 
- Renaissance (L 6-7)\n    Jul 13th vs Gremlins (
- W 4-0)\n    Jul 20th @ Moby
-  Dekes (W 7-3)\n    Jul 27th vs Poutine Mach
- ine (Cancelled)\n    Aug 3rd @
-  Poutine Machine (L 2-11)\n    Aug 3rd vs
-  Instant Karma (L 2-7)\n    Aug 1
- 0th vs Lbs (L 4-9)\n    Aug 17th vs Re
- naissance (L 3-10)\n    Sep 7th @ Ri
- ots (L 1-4)\n\n--------------------
- --------------------\nPrior matchups: I
- nstant Karma vs Dark Rainbows (b
- efore this matchup):\n    Aug 3rd @ Dark R
- ainbows (W 7-2)
+DESCRIPTION:----------------------------------------\nGAME I
+ NFO\n----------
+ ------------------------------\nLeague: BTSH Season 2\nS
+ tage: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-09-14 
+ 17:00 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registrat
+ ion: https://btsh.org/at
+ tendance\n\nFinal: Instant Karma 6-0 Dark Rainb
+ ows\n\n--------------------
+ --------------------\nHEAD-TO-HEAD vs Dark R
+ ainbows\n---------------------
+ -------------------\n    Aug 3rd @ Dark R
+ ainbows (W 7-2)\n\n--------------
+ --------------------------\nDARK RAINB
+ OWS GAMES-TO-DATE\n-----------------
+ -----------------------\nRecord to 
+ date (completed games only): 4-11\n    
+ Jun 22nd vs What the Puck (W 10-
+ 4)\n    Jun 29th @ Renaissance (L 6-7)\n  
+   Jul 13th vs Gremlins (W 4-0
+ )\n    Jul 20th @ Moby Dekes (W 7-3)\n    Jul
+  27th vs Poutine Machine (
+ Cancelled)\n    Aug 3rd @ Poutine Machine (L 2-1
+ 1)\n    Aug 3rd vs Inst
+ ant Karma (L 2-7)\n    Aug 10th vs Lbs (L 4-9)\n   
+  Aug 17th vs Renaiss
+ ance (L 3-10)\n    Sep 7th @ Riots (L 1-4)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-898@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Renaissance
 DTSTART;TZID=America/New_York:20250921T14300
@@ -659,31 +797,38 @@ DTSTART;TZID=America/New_York:20250921T14300
 DTEND;TZID=America/New_York:20250921T143100
 LOCATION:Tompkins Square P
  ark (West)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
- Tompkins Squa
- re Park (West)\nType: Regular\n\nResult:\n  Instant Karma 
- 2 - 8 Renaissanc
- e\n\n----------------------------------------\nRenaissa
- nce games (before t
- his matchup):\n    Jun 22nd @ Butchers (W 5-2)\n    
- Jun 29th vs Dark Rainb
- ows (W 7-6)\n    Jul 13th vs Mega Touch (L 2-4)\n
-     Jul 20th vs Denim Dem
- ons (L 2-6)\n    Jul 27th @ Fresh Kills (L 6-7
- )\n    Aug 3rd vs Sky Fighte
- rs (W 8-2)\n    Aug 10th @ Fuzz (W 8-4)\n  
-   Aug 17th @ Dark Rainbows (W 1
- 0-3)\n    Sep 7th vs What the Puck (W 9-
- 0)\n    Sep 14th @ Sky Fighters (W
-  5-3)\n\n----------------------------
- ------------\nPrior matchups: Instant
-  Karma vs Renaissance (before this
-  matchup):\n    May 18th @ Renaissance (
- L 3-9)
+DESCRIPTION:----------------------------------------\nGAME INF
+ O\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSta
+ ge: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-09-21 14
+ :30 EDT\nRink: Tomp
+ kins Square Park (West)\nCheck-in / game registratio
+ n: https://btsh.org/at
+ tendance\n\nFinal: Instant Karma 2-8 Renaissance\
+ n\n----------------------
+ ------------------\nHEAD-TO-HEAD vs Renaissanc
+ e\n-------------------------
+ ---------------\n    May 18th @ Renaissance
+  (L 3-9)\n\n-------------------
+ ---------------------\nRENAISSANCE GAMES
+ -TO-DATE\n------------------------
+ ----------------\nRecord to date (com
+ pleted games only): 11-5\n    Jun 22n
+ d @ Butchers (W 5-2)\n    Jun 29th
+  vs Dark Rainbows (W 7-6)\n    Jul 13th 
+ vs Mega Touch (L 2-4)\n    Jul 
+ 20th vs Denim Demons (L 2-6)\n    Jul 27th 
+ @ Fresh Kills (L 6-7)\n    A
+ ug 3rd vs Sky Fighters (W 8-2)\n    Aug 10th @
+  Fuzz (W 8-4)\n    Aug 17
+ th @ Dark Rainbows (W 10-3)\n    Sep 7th vs What 
+ the Puck (W 9-0)\n    
+ Sep 14th @ Sky Fighters (W 5-3)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-921@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Moby Dekes
 DTSTART;TZID=America/New_York:20250928T143000
@@ -691,31 +836,38 @@ DTSTART;TZID=America/New_York:20250928T143000
 DTEND;TZID=America/New_York:20250928T152000
 LOCATION:Tompkins Square Pa
  rk (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
- ompkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Instant Karma 1
- 0 - 2 Moby Deke
- s\n\n----------------------------------------\nMoby Deke
- s games (before th
- is matchup):\n    Jul 13th @ Gouging Anklebiters (L 0
- -6)\n    Jul 20th vs 
- Dark Rainbows (L 3-7)\n    Jul 27th @ Lbs (Cancell
- ed)\n    Aug 3rd @ Denim
-  Demons (L 1-7)\n    Aug 10th vs Filthier (L 4-
- 6)\n    Aug 17th vs Butcher
- s (Cancelled)\n    Sep 7th @ Gremlins (L 1-7
- )\n    Sep 14th vs Butchers (W
-  7-4)\n    Sep 14th vs Denim Demons (L 1-
- 11)\n    Sep 21st vs What the Puc
- k (L 4-8)\n\n-------------------------
- ---------------\nPrior matchups: Ins
- tant Karma vs Moby Dekes (before th
- is matchup):\n    May 4th vs Moby Dekes
-  (Cancelled)
+DESCRIPTION:----------------------------------------\nGAME INFO
+ \n----------
+ ------------------------------\nLeague: BTSH Season 2\nStag
+ e: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-09-28 14:
+ 30 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration
+ : https://btsh.org/at
+ tendance\n\nFinal: Instant Karma 10-2 Moby Dekes\n
+ \n----------------------
+ ------------------\nHEAD-TO-HEAD vs Moby Dekes\
+ n--------------------------
+ --------------\n    May 4th vs Moby Dekes (C
+ ancelled)\n\n-----------------
+ -----------------------\nMOBY DEKES GAMES
+ -TO-DATE\n-----------------------
+ -----------------\nRecord to date (com
+ pleted games only): 4-12\n    Jul 13
+ th @ Gouging Anklebiters (L 0-6)\n 
+    Jul 20th vs Dark Rainbows (L 3-7)\n 
+    Jul 27th @ Lbs (Cancelled)\n 
+    Aug 3rd @ Denim Demons (L 1-7)\n    Aug
+  10th vs Filthier (L 4-6)\n  
+   Aug 17th vs Butchers (Cancelled)\n    Sep 7
+ th @ Gremlins (L 1-7)\n   
+  Sep 14th vs Butchers (W 7-4)\n    Sep 14th vs D
+ enim Demons (L 1-11)\n 
+    Sep 21st vs What the Puck (L 4-8)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-934@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Gouging Anklebiters
 DTSTART;TZID=America/New_York:202510
@@ -723,32 +875,40 @@ DTSTART;TZID=America/New_York:202510
 DTEND;TZID=America/New_York:20251005T163500
 LOCATION:Tompkins 
  Square Park (East)
-DESCRIPTION:League: BTSH Season\nStatus: Completed\nLo
- cation: Tompkins Squa
- re Park (East)\nType: Regular\n\nResult:\n  Instan
- t Karma 3 - 1 Gouging An
- klebiters\n\n----------------------------------
- ------\nGouging Anklebiters
-  games (before this matchup):\n    Jul 20th 
- @ Fuzz (W 8-1)\n    Jul 27th @
-  Instant Karma (Cancelled)\n    Aug 3rd @
-  Corlears Hookers (W 5-4)\n    Au
- g 10th vs Denim Demons (W 5-2)\n    Au
- g 17th @ Filthier (L 3-9)\n    Sep 7
- th vs Cobra Kai (Cancelled)\n    Se
- p 14th vs Corlears Hookers (W 1-0)\n   
-  Sep 21st @ Fresh Kills (L 2-6)\
- n    Sep 28th vs Lbs (W 8-4)\n    Oct 5th 
- @ Cobra Kai (L 1-2)\n\n------
- ----------------------------------\nPrior mat
- chups: Instant Karma vs Go
- uging Anklebiters (before this matchup):\n    Ju
- l 27th vs Gouging Ankle
- biters (Cancelled)
+DESCRIPTION:----------------------------------------\n
+ GAME INFO\n----------
+ ------------------------------\nLeague: BTSH Seaso
+ n 2\nStage: Regular\nSta
+ tus: completed\nStart (America/New_York): 2025-
+ 10-05 15:45 EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game reg
+ istration: https://btsh.org/at
+ tendance\n\nFinal: Instant Karma 3-1 Goug
+ ing Anklebiters\n\n--------------
+ --------------------------\nHEAD-TO-HE
+ AD vs Gouging Anklebiters\n---------
+ -------------------------------\n  
+   Jul 27th vs Gouging Anklebiters (Canc
+ elled)\n\n----------------------
+ ------------------\nGOUGING ANKLEBITERS GA
+ MES-TO-DATE\n----------------
+ ------------------------\nRecord to date (com
+ pleted games only): 11-6\n
+     Jul 20th @ Fuzz (W 8-1)\n    Jul 27th @ Inst
+ ant Karma (Cancelled)\n
+     Aug 3rd @ Corlears Hookers (W 5-4)\n    Aug 10t
+ h vs Denim Demons (W
+  5-2)\n    Aug 17th @ Filthier (L 3-9)\n    Sep 7th vs
+  Cobra Kai (Cance
+ lled)\n    Sep 14th vs Corlears Hookers (W 1-0)\n    Sep 
+ 21st @ Fresh K
+ ills (L 2-6)\n    Sep 28th vs Lbs (W 8-4)\n    Oct 5th @ Cob
+ ra Kai (L 1
+ -2)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-949@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Filthier
 DTSTART;TZID=America/New_York:20251026T143000
@@ -756,29 +916,36 @@ DTSTART;TZID=America/New_York:20251026T143000
  DTEND;TZID=America/New_York:20251026T152000
 LOCATION:Tompkins Square Park
   (East)
-DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: Tom
- pkins Squa
- re Park (East)\nType: Playoff\n\n----------------------------
- ------------\
- nFilthier games (before this matchup):\n    Aug 3rd @ Fres
- h Kills (L 3-6)\
- n    Aug 10th @ Moby Dekes (W 6-4)\n    Aug 17th vs Gou
- ging Anklebiters (W
-  9-3)\n    Sep 7th vs Vertz (L 1-10)\n    Sep 14th v
- s Fresh Kills (L 4-6)\
- n    Sep 21st vs Fuzz (W 6-5)\n    Sep 28th @ Cob
- ra Kai (L 3-8)\n    Oct 5
- th @ Corlears Hookers (L 4-8)\n    Oct 12th vs
-  Riots (Cancelled)\n    Oct 
- 19th vs Riots (W 10-2)\n\n-----------------
- -----------------------\nPrior 
- matchups: Instant Karma vs Filthier (bef
- ore this matchup):\n    (no prior 
- matchups listed)
+DESCRIPTION:----------------------------------------\nGAME INFO\n
+ ----------
+ ------------------------------\nLeague: BTSH Season 2\nStage:
+  Playoff\nSta
+ tus: scheduled\nStart (America/New_York): 2025-10-26 14:30
+  EDT\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registration: 
+ https://btsh.org/at
+ tendance\n\n----------------------------------------
+ \nHEAD-TO-HEAD vs Filt
+ hier\n----------------------------------------\n 
+    (no prior matchups lis
+ ted)\n\n--------------------------------------
+ --\nFILTHIER GAMES-TO-DATE\n
+ ----------------------------------------\nR
+ ecord to date (completed games 
+ only): 9-10\n    Aug 3rd @ Fresh Kills (
+ L 3-6)\n    Aug 10th @ Moby Dekes 
+ (W 6-4)\n    Aug 17th vs Gouging Ankl
+ ebiters (W 9-3)\n    Sep 7th vs Vertz
+  (L 1-10)\n    Sep 14th vs Fresh K
+ ills (L 4-6)\n    Sep 21st vs Fuzz (W 6-
+ 5)\n    Sep 28th @ Cobra Kai (L
+  3-8)\n    Oct 5th @ Corlears Hookers (L 4-
+ 8)\n    Oct 12th vs Riots (C
+ ancelled)\n    Oct 19th vs Riots (W 10-2)
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-958@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Instant Karma vs Fresh Kills
 DTSTART;TZID=America/New_York:20251102T15300
@@ -786,30 +953,37 @@ DTSTART;TZID=America/New_York:20251102T15300
 DTEND;TZID=America/New_York:20251102T162000
 LOCATION:Tompkins Square P
  ark (East)
-DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: 
- Tompkins Squa
- re Park (East)\nType: Playoff\n\n-------------------------
- ---------------\
- nFresh Kills games (before this matchup):\n    Jul 20th
-  @ Cobra Kai (W 4-2
- )\n    Jul 27th vs Renaissance (W 7-6)\n    Aug 3rd 
- vs Filthier (W 6-3)\n 
-    Aug 10th @ Butchers (W 10-3)\n    Aug 17th vs 
- Poutine Machine (W 6-3)\n
-     Sep 7th @ Mega Touch (W 5-3)\n    Sep 14th
-  @ Filthier (W 6-4)\n    Sep
-  21st vs Gouging Anklebiters (W 6-2)\n    S
- ep 28th vs Vertz (L 5-6)\n    O
- ct 26th vs Corlears Hookers\n\n---------
- -------------------------------\nP
- rior matchups: Instant Karma vs Fresh
-  Kills (before this matchup):\n    Ap
- r 27th vs Fresh Kills (W 5-4)
-END
- :VEVENT
+DESCRIPTION:----------------------------------------\nGAME INF
+ O\n----------
+ ------------------------------\nLeague: BTSH Season 2\nSta
+ ge: Playoff\nSta
+ tus: scheduled\nStart (America/New_York): 2025-11-02 15
+ :30 EST\nRink: Tomp
+ kins Square Park (East)\nCheck-in / game registratio
+ n: https://btsh.org/at
+ tendance\n\n-------------------------------------
+ ---\nHEAD-TO-HEAD vs Fres
+ h Kills\n-------------------------------------
+ ---\n    Apr 27th vs Fresh K
+ ills (W 5-4)\n\n---------------------------
+ -------------\nFRESH KILLS GAME
+ S-TO-DATE\n-----------------------------
+ -----------\nRecord to date (compl
+ eted games only): 13-5\n    Jul 20th 
+ @ Cobra Kai (W 4-2)\n    Jul 27th vs 
+ Renaissance (W 7-6)\n    Aug 3rd v
+ s Filthier (W 6-3)\n    Aug 10th @ Butch
+ ers (W 10-3)\n    Aug 17th vs P
+ outine Machine (W 6-3)\n    Sep 7th @ Mega 
+ Touch (W 5-3)\n    Sep 14th 
+ @ Filthier (W 6-4)\n    Sep 21st vs Gouging An
+ klebiters (W 6-2)\n    Se
+ p 28th vs Vertz (L 5-6)\n    Oct 26th vs Corlears
+  Hookers
+END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-965@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  PBR Cup vs -
 DTSTART;TZID=America/New_York:20251109T150000
@@ -817,8 +991,12 @@ DTEND;TZID=Am
  erica/New_York:20251109T155000
 LOCATION:Tompkins Square Park (West)
 DESC
- RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ RIPTION:----------------------------------------\nGAME INFO\n----------
  
- ation: Tompkins Square Park (West)
+ ------------------------------\nPlayoff / placeholder game (teams TBD).\nS
+ 
+ tatus: Scheduled\nLocation: Tompkins Square Park (West)\nCheck-in / gam
+ e r
+ egistration: https://btsh.org/attendance
 END:VEVENT
 END:VCALENDAR

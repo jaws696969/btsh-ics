@@ -29,7 +29,7 @@ END:VTIME
  ZONE
 BEGIN:VEVENT
 UID:btsh-day-s2-102@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
  t & d
@@ -42,7 +42,7 @@ END:VEVE
  NT
 BEGIN:VEVENT
 UID:btsh-day-s2-103@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
  g lig
@@ -55,7 +55,7 @@ DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-104@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Other - EASTER
 DTSTART;VALUE=DATE:20250420
@@ -65,7 +65,7 @@ DESCRIPTION:EASTER
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-105@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - MOTHERS DAY
 DTSTART;VALUE=DATE:20250511
@@ -75,7 +75,7 @@ DESCRIPTION:MOTHERS DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-106@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - MEMORIAL DAY
 DTSTART;VALUE=DATE:20250525
@@ -85,7 +85,7 @@ DESCRIPTION:MEMORIAL DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-108@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - 4TH OF JULY
 DTSTART;VALUE=DATE:20250706
@@ -95,7 +95,7 @@ DESCRIPTION:4TH OF JULY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-109@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Other - HOCKEY BEACH
 DTSTART;VALUE=DATE:20250824
@@ -105,7 +105,7 @@ DESCRIPTION:HOCKEY BEACH
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-110@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Holiday - LABOR DAY
 DTSTART;VALUE=DATE:20250831
@@ -115,7 +115,7 @@ DESCRIPTION:LABOR DAY
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-118@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Make-Up - Makeup
 DTSTART;VALUE=DATE:20251116
@@ -125,7 +125,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-day-s2-119@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:[
  PLACEHOLDER] Make-Up - Makeup
 DTSTART;VALUE=DATE:20251123
@@ -135,7 +135,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-963@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  Skyfighters / Moby Dekes vs Dark Rainbows
 DTSTART;TZID=America/New_York:2
@@ -143,30 +143,36 @@ DTSTART;TZID=America/New_York:2
 DTEND;TZID=America/New_York:20251109T150500
 LOCATION:Tomp
  kins Square Park (East)
-DESCRIPTION:League: BTSH Season\nStatus: Schedule
- d\nLocation: Tompkins Squa
- re Park (East)\nType: Playoff\n\n------------
- ----------------------------\
- nDark Rainbows games (before this matchup)
- :\n    Aug 17th vs Renaissance (
- L 3-10)\n    Sep 7th @ Riots (L 1-4)\n 
-    Sep 14th @ Instant Karma (L 0-6)
- \n    Sep 21st vs Butchers (W 4-1)\n
-     Sep 28th @ Denim Demons (L 2-3)\n 
-    Oct 12th vs Moby Dekes (Cancel
- led)\n    Oct 19th vs Moby Dekes (W 3-2)\
- n    Oct 26th @ Mega Touch\n  
-   Nov 2nd vs Butchers (Cancelled)\n    Nov 2
- nd vs Riots\n\n------------
- ----------------------------\nPrior matchups: S
- kyfighters / Moby Dekes 
- vs Dark Rainbows (before this matchup):\n    (no p
- rior matchups listed)
- 
+DESCRIPTION:-------------------------------------
+ ---\nGAME INFO\n----------
+ ------------------------------\nLeague: BTSH 
+ Season 2\nStage: Playoff\nSta
+ tus: scheduled\nStart (America/New_York): 
+ 2025-11-09 14:15 EST\nRink: Tomp
+ kins Square Park (East)\nCheck-in / gam
+ e registration: https://btsh.org/at
+ tendance\n\n------------------------
+ ----------------\nHEAD-TO-HEAD vs Dark
+  Rainbows\n----------------------
+ ------------------\n    (no prior matchup
+ s listed)\n\n-----------------
+ -----------------------\nDARK RAINBOWS GAMES
+ -TO-DATE\n-----------------
+ -----------------------\nRecord to date (comple
+ ted games only): 6-13\n 
+    Aug 17th vs Renaissance (L 3-10)\n    Sep 7th @
+  Riots (L 1-4)\n    S
+ ep 14th @ Instant Karma (L 0-6)\n    Sep 21st vs Butc
+ hers (W 4-1)\n    
+ Sep 28th @ Denim Demons (L 2-3)\n    Oct 12th vs Moby De
+ kes (Cancelled)
+ \n    Oct 19th vs Moby Dekes (W 3-2)\n    Oct 26th @ Mega T
+ ouch\n    No
+ v 2nd vs Butchers (Cancelled)\n    Nov 2nd vs Riots
 END:VEVENT
 BEGIN:VEVENT
 UID:btsh-game-s2-965@btsh
-DTSTAMP:20260208T140045Z
+DTSTAMP:20260208T191600Z
 SUMMARY:
  PBR Cup vs -
 DTSTART;TZID=America/New_York:20251109T150000
@@ -174,8 +180,12 @@ DTEND;TZID=Am
  erica/New_York:20251109T155000
 LOCATION:Tompkins Square Park (West)
 DESC
- RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ RIPTION:----------------------------------------\nGAME INFO\n----------
  
- ation: Tompkins Square Park (West)
+ ------------------------------\nPlayoff / placeholder game (teams TBD).\nS
+ 
+ tatus: Scheduled\nLocation: Tompkins Square Park (West)\nCheck-in / gam
+ e r
+ egistration: https://btsh.org/attendance
 END:VEVENT
 END:VCALENDAR
