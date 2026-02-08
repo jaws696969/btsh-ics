@@ -1,0 +1,44 @@
+name: Build BTSH ICS feeds
+
+on:
+  schedule:
+    - cron: "22 */6 * * *"   # every 6 hours at :22
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-ics
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate ICS files
+        run: |
+          python src/generate_ics.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A docs
+          git diff --cached --quiet || git commit -m "Update BTSH ICS feeds"
+          git push
