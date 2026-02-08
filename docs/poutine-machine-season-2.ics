@@ -1,0 +1,894 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BTSH ICS//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:BTSH — Poutine Machine (Season 2)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BE
+ GIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19
+ 700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:
+ STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:197011
+ 01T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIME
+ ZONE
+BEGIN:VEVENT
+UID:btsh-day-s2-102@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
+ t & d
+ ark jerseys
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCR
+ IPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
+END:VEVE
+ NT
+BEGIN:VEVENT
+UID:btsh-day-s2-103@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
+ g lig
+ ht & dark jerseys
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+ 
+DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
+ ys
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-104@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - EASTER
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE
+ :20250421
+DESCRIPTION:EASTER
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-105@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MOTHERS DAY
+DTSTART;VALUE=DATE:20250511
+DTEND;VAL
+ UE=DATE:20250512
+DESCRIPTION:MOTHERS DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-106@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MEMORIAL DAY
+DTSTART;VALUE=DATE:20250525
+DTEND;VA
+ LUE=DATE:20250526
+DESCRIPTION:MEMORIAL DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-108@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - 4TH OF JULY
+DTSTART;VALUE=DATE:20250706
+DTEND;VAL
+ UE=DATE:20250707
+DESCRIPTION:4TH OF JULY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-109@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - HOCKEY BEACH
+DTSTART;VALUE=DATE:20250824
+DTEND;VALU
+ E=DATE:20250825
+DESCRIPTION:HOCKEY BEACH
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-110@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - LABOR DAY
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE
+ =DATE:20250901
+DESCRIPTION:LABOR DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-118@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DA
+ TE:20251117
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-119@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DA
+ TE:20251124
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-812@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Poutine Machine @ Filthier
+DTSTART;TZID=America/New_York:2025
+ 0406T141500
+DTEND;TZID=America/New_York:20250406T141600
+LOCATION:Tompkin
+ s Square Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\n
+ Location: Tompkins Squa
+ re Park (West)\nType: Regular\n\n---------------
+ -------------------------\
+ nFilthier games (before this matchup):\n    (
+ no prior games listed)\n\n---
+ -------------------------------------\nPri
+ or matchups: Poutine Machine vs 
+ Filthier (before this matchup):\n    (n
+ o prior matchups listed)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-726@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Gouging Anklebiters
+DTSTART;TZID=America/New_York:20250
+ 413T130000
+DTEND;TZID=America/New_York:20250413T130100
+LOCATION:Tompkins
+  Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nL
+ ocation: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Gougi
+ ng Anklebiters 4 - 3 Pout
+ ine Machine\n\n-------------------------------
+ ---------\nGouging Anklebite
+ rs games (before this matchup):\n    Apr 6t
+ h @ Mega Touch (Cancelled)\n\n-
+ ---------------------------------------\
+ nPrior matchups: Poutine Machine v
+ s Gouging Anklebiters (before this ma
+ tchup):\n    (no prior matchups liste
+ d)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-735@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Gremlins
+DTSTART;TZID=America/New_York:20250427T180000
+ 
+DTEND;TZID=America/New_York:20250427T180100
+LOCATION:Tompkins Square Pa
+ rk (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
+ ompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Poutine Machine
+  8 - 1 Gremlins
+ \n\n----------------------------------------\nGremlins g
+ ames (before this 
+ matchup):\n    Apr 6th vs Dark Rainbows (Cancelled)\n
+     Apr 13th vs Renai
+ ssance (L 2-5)\n\n--------------------------------
+ --------\nPrior matchups
+ : Poutine Machine vs Gremlins (before this matc
+ hup):\n    (no prior matchu
+ ps listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-739@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Poutine Machine @ Mega Touch
+DTSTART;TZID=America/New_York:20
+ 250504T164500
+DTEND;TZID=America/New_York:20250504T164600
+LOCATION:Tompk
+ ins Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled
+ \nLocation: Tompkins Squa
+ re Park (East)\nType: Regular\n\n-------------
+ ---------------------------\
+ nMega Touch games (before this matchup):\n 
+    Apr 6th vs Gouging Anklebite
+ rs (Cancelled)\n    Apr 13th vs Cobra Ka
+ i (W 5-1)\n    Apr 27th @ Moby Dek
+ es (W 9-2)\n\n-----------------------
+ -----------------\nPrior matchups: Po
+ utine Machine vs Mega Touch (befor
+ e this matchup):\n    (no prior matchups
+  listed)
+STATUS:CANCELLED
+END
+ :VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-833@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Corlears Hookers
+DTSTART;TZID=America/New_York:20250518
+ T153000
+DTEND;TZID=America/New_York:20250518T153100
+LOCATION:Tompkins Sq
+ uare Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLoca
+ tion: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Corlears
+  Hookers 0 - 7 Poutine
+  Machine\n\n-------------------------------------
+ ---\nCorlears Hookers gam
+ es (before this matchup):\n    Apr 6th vs Fres
+ h Kills (Cancelled)\n    Apr
+  13th @ Filthier (L 4-5)\n    Apr 27th vs S
+ ky Fighters (W 2-1)\n    May 4t
+ h @ Fuzz (Cancelled)\n\n----------------
+ ------------------------\nPrior ma
+ tchups: Poutine Machine vs Corlears H
+ ookers (before this matchup):\n    (n
+ o prior matchups listed)
+END:VEVE
+ NT
+BEGIN:VEVENT
+UID:btsh-game-s2-840@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Moby Dekes
+DTSTART;TZID=America/New_York:20250601T18000
+ 0
+DTEND;TZID=America/New_York:20250601T180100
+LOCATION:Tompkins Square P
+ ark (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
+ Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Moby Dekes 1 -
+  10 Poutine Mach
+ ine\n\n----------------------------------------\nMoby D
+ ekes games (before 
+ this matchup):\n    Apr 6th @ Renaissance (Cancelled
+ )\n    Apr 13th vs Rio
+ ts (W 3-1)\n    Apr 27th vs Mega Touch (L 2-9)\n 
+    May 4th @ Instant Karm
+ a (Cancelled)\n    May 18th @ What the Puck (L
+  4-5)\n\n-------------------
+ ---------------------\nPrior matchups: Pout
+ ine Machine vs Moby Dekes (befo
+ re this matchup):\n    (no prior matchup
+ s listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-844@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Poutine Machine vs Gouging Anklebiters
+DTSTART;TZID=America/N
+ ew_York:20250608T164500
+DTEND;TZID=America/New_York:20250608T164600
+LOCA
+ TION:Tompkins Square Park (West)
+DESCRIPTION:League: BTSH Season\nStatus:
+  Cancelled\nLocation: Tompkins Squa
+ re Park (West)\nType: Regular\n\n---
+ -------------------------------------\
+ nGouging Anklebiters games (befor
+ e this matchup):\n    Apr 6th @ Mega Touc
+ h (Cancelled)\n    Apr 13th vs
+  Poutine Machine (W 4-3)\n    Apr 27th @ Ren
+ aissance (W 5-2)\n    May 4
+ th vs Lbs (Cancelled)\n    May 18th vs Fresh Ki
+ lls (W 5-2)\n    Jun 1st
+  @ What the Puck (W 10-2)\n\n---------------------
+ -------------------\n
+ Prior matchups: Poutine Machine vs Gouging Anklebiter
+ s (before this mat
+ chup):\n    Apr 13th @ Gouging Anklebiters (L 3-4)
+STATUS:CANCELLED
+END:
+ VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-902@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Filthier
+DTSTART;TZID=America/New_York:20250615T141500
+ 
+DTEND;TZID=America/New_York:20250615T150500
+LOCATION:Tompkins Square Par
+ k (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Filthier 2 - 8 P
+ outine Machine
+ \n\n----------------------------------------\nFilthier ga
+ mes (before this 
+ matchup):\n    Apr 6th vs Poutine Machine (Cancelled)\
+ n    Apr 13th vs Cor
+ lears Hookers (W 5-4)\n    Apr 27th @ Dark Rainbows
+  (W 4-2)\n    May 4th @
+  Cobra Kai (Cancelled)\n    May 18th vs Butchers
+  (W 9-0)\n    Jun 1st @ Ri
+ ots (W 2-1)\n    Jun 8th @ Corlears Hookers (
+ Cancelled)\n\n---------------
+ -------------------------\nPrior matchups:
+  Poutine Machine vs Filthier (be
+ fore this matchup):\n    Apr 6th @ Filt
+ hier (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-848@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Lbs
+DTSTART;TZID=America/New_York:20250622T153000
+DTE
+ ND;TZID=America/New_York:20250622T153100
+LOCATION:Tompkins Square Park (W
+ est)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompki
+ ns Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Poutine Machine 7 - 
+ 3 Lbs\n\n-
+ ---------------------------------------\nLbs games (before th
+ is matchup):\
+ n    Apr 6th vs Vertz (Cancelled)\n    Apr 13th @ Fresh Ki
+ lls (L 1-6)\n   
+  Apr 27th vs What the Puck (W 4-2)\n    May 4th @ Gougi
+ ng Anklebiters (Can
+ celled)\n    May 18th vs Mega Touch (L 5-10)\n    Ju
+ n 1st vs Sky Fighters 
+ (L 5-7)\n    Jun 8th vs Instant Karma (W 5-4)\n  
+   Jun 15th vs Vertz (L 3-
+ 7)\n\n----------------------------------------
+ \nPrior matchups: Poutine Ma
+ chine vs Lbs (before this matchup):\n    (n
+ o prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-852@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Fresh Kills
+DTSTART;TZID=America/New_York:20250629T141
+ 500
+DTEND;TZID=America/New_York:20250629T141600
+LOCATION:Tompkins Square
+  Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation
+ : Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Poutine Mach
+ ine 5 - 6 Fresh Ki
+ lls\n\n----------------------------------------\nFres
+ h Kills games (before
+  this matchup):\n    Apr 6th @ Corlears Hookers (C
+ ancelled)\n    Apr 13th 
+ vs Lbs (W 6-1)\n    Apr 27th @ Instant Karma (L
+  4-5)\n    May 4th vs Vertz
+  (Cancelled)\n    May 18th @ Gouging Anklebi
+ ters (L 2-5)\n    Jun 1st vs D
+ enim Demons (L 5-6)\n    Jun 8th @ What t
+ he Puck (W 10-0)\n    Jun 15th @ 
+ Corlears Hookers (W 3-1)\n    Jun 22nd
+  vs Fuzz (L 4-6)\n\n----------------
+ ------------------------\nPrior mat
+ chups: Poutine Machine vs Fresh Kills (
+ before this matchup):\n    (no p
+ rior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-911@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Gouging Anklebiters
+DTSTART;TZID=America/New_York:2025
+ 0713T123000
+DTEND;TZID=America/New_York:20250713T132000
+LOCATION:Tompkin
+ s Square Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\n
+ Location: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Pout
+ ine Machine 9 - 6 Gouging 
+ Anklebiters\n\n------------------------------
+ ----------\nGouging Anklebite
+ rs games (before this matchup):\n    Apr 6
+ th @ Mega Touch (Cancelled)\n   
+  Apr 13th vs Poutine Machine (W 4-3)\n 
+    Apr 27th @ Renaissance (W 5-2)\n
+     May 4th vs Lbs (Cancelled)\n    
+ May 18th vs Fresh Kills (W 5-2)\n    J
+ un 1st @ What the Puck (W 10-2)\n
+     Jun 8th @ Poutine Machine (Cancelled)
+ \n    Jun 15th @ Mega Touch (C
+ ancelled)\n    Jun 22nd vs Vertz (L 4-5)\n  
+   Jun 29th vs Filthier (W 9
+ -5)\n\n----------------------------------------
+ \nPrior matchups: Poutin
+ e Machine vs Gouging Anklebiters (before this matc
+ hup):\n    Apr 13th @
+  Gouging Anklebiters (L 3-4)\n    Jun 8th vs Gouging 
+ Anklebiters (Cance
+ lled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-767@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Filthier
+DTSTART;TZID=America/New_York:20250713T141500
+ 
+DTEND;TZID=America/New_York:20250713T141600
+LOCATION:Tompkins Square Pa
+ rk (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
+ ompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Poutine Machine
+  8 - 4 Filthier
+ \n\n----------------------------------------\nFilthier g
+ ames (before this 
+ matchup):\n    Apr 6th vs Poutine Machine (Cancelled)
+ \n    Apr 13th vs Cor
+ lears Hookers (W 5-4)\n    Apr 27th @ Dark Rainbow
+ s (W 4-2)\n    May 4th @
+  Cobra Kai (Cancelled)\n    May 18th vs Butcher
+ s (W 9-0)\n    Jun 1st @ Ri
+ ots (W 2-1)\n    Jun 8th @ Corlears Hookers 
+ (Cancelled)\n    Jun 15th vs P
+ outine Machine (L 2-8)\n    Jun 22nd vs M
+ ega Touch (L 0-2)\n    Jun 29th @
+  Gouging Anklebiters (L 5-9)\n\n------
+ ----------------------------------\n
+ Prior matchups: Poutine Machine vs 
+ Filthier (before this matchup):\n    Ap
+ r 6th @ Filthier (Cancelled)\n  
+   Jun 15th @ Filthier (W 8-2)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-863@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Vertz
+DTSTART;TZID=America/New_York:20250720T153000
+DT
+ END;TZID=America/New_York:20250720T153100
+LOCATION:Tompkins Square Park (
+ West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompk
+ ins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Vertz 3 - 2 Poutine
+  Machine\n\
+ n----------------------------------------\nVertz games (befo
+ re this matchu
+ p):\n    Apr 27th vs Denim Demons (W 5-3)\n    May 4th @ 
+ Fresh Kills (Canc
+ elled)\n    May 18th vs Cobra Kai (W 4-3)\n    Jun 1st
+  vs Dark Rainbows (W
+  7-0)\n    Jun 8th @ Fuzz (Cancelled)\n    Jun 15th
+  @ Lbs (W 7-3)\n    Jun
+  22nd @ Gouging Anklebiters (W 5-4)\n    Jun 29t
+ h @ Corlears Hookers (W 10
+ -4)\n    Jul 13th vs Lbs (L 7-9)\n    Jul 20t
+ h @ Fuzz (W 6-2)\n\n---------
+ -------------------------------\nPrior mat
+ chups: Poutine Machine vs Vertz 
+ (before this matchup):\n    (no prior m
+ atchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-780@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Poutine Machine @ Dark Rainbows
+DTSTART;TZID=America/New_York
+ :20250727T180000
+DTEND;TZID=America/New_York:20250727T180100
+LOCATION:To
+ mpkins Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Cancel
+ led\nLocation: Tompkins Squa
+ re Park (East)\nType: Regular\n\n----------
+ ------------------------------\
+ nDark Rainbows games (before this matchu
+ p):\n    Apr 27th vs Filthier (L 2
+ -4)\n    May 4th @ Denim Demons (Canc
+ elled)\n    May 18th @ Fuzz (L 0-6)\n
+     Jun 1st @ Vertz (L 0-7)\n    J
+ un 8th vs Sky Fighters (L 2-6)\n    Jun 
+ 15th @ Gremlins (L 1-2)\n    Ju
+ n 22nd vs What the Puck (W 10-4)\n    Jun 2
+ 9th @ Renaissance (L 6-7)\n 
+    Jul 13th vs Gremlins (W 4-0)\n    Jul 20th 
+ @ Moby Dekes (W 7-3)\n\n-
+ ---------------------------------------\nPrior ma
+ tchups: Poutine Machin
+ e vs Dark Rainbows (before this matchup):\n    (no p
+ rior matchups liste
+ d)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-914@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Dark Rainbows
+DTSTART;TZID=America/New_York:20250803T1
+ 20000
+DTEND;TZID=America/New_York:20250803T125000
+LOCATION:Tompkins Squa
+ re Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocati
+ on: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Poutine Ma
+ chine 11 - 2 Dark Ra
+ inbows\n\n----------------------------------------\
+ nDark Rainbows games (b
+ efore this matchup):\n    May 4th @ Denim Demons
+  (Cancelled)\n    May 18th
+  @ Fuzz (L 0-6)\n    Jun 1st @ Vertz (L 0-7)\
+ n    Jun 8th vs Sky Fighters 
+ (L 2-6)\n    Jun 15th @ Gremlins (L 1-2)\n
+     Jun 22nd vs What the Puck (W
+  10-4)\n    Jun 29th @ Renaissance (L 6
+ -7)\n    Jul 13th vs Gremlins (W 4-
+ 0)\n    Jul 20th @ Moby Dekes (W 7-3
+ )\n    Jul 27th vs Poutine Machine (Ca
+ ncelled)\n\n---------------------
+ -------------------\nPrior matchups: Pout
+ ine Machine vs Dark Rainbows (
+ before this matchup):\n    Jul 27th @ Dark R
+ ainbows (Cancelled)
+END:VE
+ VENT
+BEGIN:VEVENT
+UID:btsh-game-s2-781@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Riots
+DTSTART;TZID=America/New_York:20250803T130000
+DT
+ END;TZID=America/New_York:20250803T130100
+LOCATION:Tompkins Square Park (
+ East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompk
+ ins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Riots 1 - 7 Poutine
+  Machine\n\
+ n----------------------------------------\nRiots games (befo
+ re this matchu
+ p):\n    May 4th vs Renaissance (Cancelled)\n    May 18th
+  @ Denim Demons (
+ L 0-9)\n    Jun 1st vs Filthier (L 1-2)\n    Jun 8th @
+  Moby Dekes (L 3-4)\
+ n    Jun 15th @ Butchers (L 0-4)\n    Jun 22nd @ In
+ stant Karma (L 0-7)\n  
+   Jun 29th vs What the Puck (L 2-5)\n    Jul 13t
+ h vs Butchers (L 2-3)\n   
+  Jul 20th vs Sky Fighters (L 2-11)\n    Jul 2
+ 7th @ Mega Touch (Cancelled)\
+ n\n---------------------------------------
+ -\nPrior matchups: Poutine Machi
+ ne vs Riots (before this matchup):\n   
+  (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-789@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs What the Puck
+DTSTART;TZID=America/New_York:20250810T1
+ 64500
+DTEND;TZID=America/New_York:20250810T164600
+LOCATION:Tompkins Squa
+ re Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocati
+ on: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Poutine Ma
+ chine 9 - 0 What the
+  Puck\n\n----------------------------------------\n
+ What the Puck games (be
+ fore this matchup):\n    May 18th vs Moby Dekes 
+ (W 5-4)\n    Jun 1st vs Go
+ uging Anklebiters (L 2-10)\n    Jun 8th vs Fr
+ esh Kills (L 0-10)\n    Jun 1
+ 5th @ Denim Demons (L 4-5)\n    Jun 22nd @
+  Dark Rainbows (L 4-10)\n    Jun
+  29th @ Riots (W 5-2)\n    Jul 13th vs 
+ Denim Demons (L 2-6)\n    Jul 20th 
+ vs Gremlins (L 3-6)\n    Jul 27th @ 
+ Vertz (Cancelled)\n    Aug 3rd vs Butc
+ hers (W 4-2)\n\n-----------------
+ -----------------------\nPrior matchups: 
+ Poutine Machine vs What the Pu
+ ck (before this matchup):\n    (no prior mat
+ chups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-794@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Fresh Kills
+DTSTART;TZID=America/New_York:20250817T1645
+ 00
+DTEND;TZID=America/New_York:20250817T164600
+LOCATION:Tompkins Square 
+ Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
+  Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Fresh Kills 6
+  - 3 Poutine Mach
+ ine\n\n----------------------------------------\nFresh
+  Kills games (before
+  this matchup):\n    Jun 1st vs Denim Demons (L 5-6
+ )\n    Jun 8th @ What t
+ he Puck (W 10-0)\n    Jun 15th @ Corlears Hooker
+ s (W 3-1)\n    Jun 22nd vs
+  Fuzz (L 4-6)\n    Jun 29th @ Poutine Machine
+  (W 6-5)\n    Jul 13th vs Cor
+ lears Hookers (W 8-6)\n    Jul 20th @ Cobr
+ a Kai (W 4-2)\n    Jul 27th vs R
+ enaissance (W 7-6)\n    Aug 3rd vs Filt
+ hier (W 6-3)\n    Aug 10th @ Butche
+ rs (W 10-3)\n\n---------------------
+ -------------------\nPrior matchups: P
+ outine Machine vs Fresh Kills (be
+ fore this matchup):\n    Jun 29th vs Fres
+ h Kills (L 5-6)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-798@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Fuzz
+DTSTART;TZID=America/New_York:20250907T153000
+DT
+ END;TZID=America/New_York:20250907T153100
+LOCATION:Tompkins Square Park (
+ East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompk
+ ins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Poutine Machine 5 -
+  2 Fuzz\n\n
+ ----------------------------------------\nFuzz games (before
+  this matchup)
+ :\n    Jun 15th @ Cobra Kai (L 1-4)\n    Jun 22nd @ Fresh
+  Kills (W 6-4)\n 
+    Jun 29th @ Mega Touch (L 1-5)\n    Jul 13th vs Cobr
+ a Kai (L 4-5)\n    J
+ ul 20th vs Vertz (L 2-6)\n    Jul 20th vs Gouging A
+ nklebiters (L 1-8)\n   
+  Jul 27th vs Denim Demons (Cancelled)\n    Aug 3
+ rd @ Lbs (L 2-4)\n    Aug 
+ 10th vs Renaissance (L 4-8)\n    Aug 17th vs 
+ Mega Touch (L 3-4)\n\n-------
+ ---------------------------------\nPrior m
+ atchups: Poutine Machine vs Fuzz
+  (before this matchup):\n    (no prior 
+ matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-892@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Cobra Kai
+DTSTART;TZID=America/New_York:20250914T13150
+ 0
+DTEND;TZID=America/New_York:20250914T131600
+LOCATION:Tompkins Square P
+ ark (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
+ Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Poutine Machin
+ e 5 - 6 Cobra Ka
+ i\n\n----------------------------------------\nCobra Ka
+ i games (before thi
+ s matchup):\n    Jun 15th vs Fuzz (W 4-1)\n    Jun 2
+ 2nd vs Corlears Hooker
+ s (W 5-0)\n    Jun 29th vs Lbs (L 3-4)\n    Jul 1
+ 3th @ Fuzz (W 5-4)\n    J
+ ul 20th vs Fresh Kills (L 2-4)\n    Jul 27th @
+  Butchers (Cancelled)\n    A
+ ug 3rd @ Gremlins (W 5-3)\n    Aug 10th vs 
+ Instant Karma (L 1-4)\n    Aug 
+ 17th @ Lbs (Cancelled)\n    Sep 7th @ Go
+ uging Anklebiters (Cancelled)\n\n-
+ -------------------------------------
+ --\nPrior matchups: Poutine Machine v
+ s Cobra Kai (before this matchup):
+ \n    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-896@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Corlears Hookers
+DTSTART;TZID=America/New_York:2025092
+ 1T120000
+DTEND;TZID=America/New_York:20250921T120100
+LOCATION:Tompkins S
+ quare Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLoc
+ ation: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Poutine
+  Machine 3 - 2 Corlears
+  Hookers\n\n------------------------------------
+ ----\nCorlears Hookers gam
+ es (before this matchup):\n    Jun 22nd @ Cob
+ ra Kai (L 0-5)\n    Jun 29th 
+ vs Vertz (L 4-10)\n    Jul 13th @ Fresh Ki
+ lls (L 6-8)\n    Jul 20th vs Meg
+ a Touch (L 3-5)\n    Jul 27th vs Gremli
+ ns (W 6-1)\n    Aug 3rd vs Gouging 
+ Anklebiters (L 4-5)\n    Aug 10th @ 
+ Riots (W 10-0)\n    Aug 17th @ Denim D
+ emons (W 5-2)\n    Sep 7th vs Lbs
+  (Cancelled)\n    Sep 14th @ Gouging Ankl
+ ebiters (L 0-1)\n\n-----------
+ -----------------------------\nPrior matchup
+ s: Poutine Machine vs Corle
+ ars Hookers (before this matchup):\n    May 18t
+ h @ Corlears Hookers (W 
+ 7-0)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-923@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Mega Touch
+DTSTART;TZID=America/New_York:20250928T15450
+ 0
+DTEND;TZID=America/New_York:20250928T163500
+LOCATION:Tompkins Square P
+ ark (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
+ Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Mega Touch 4 -
+  3 Poutine Machi
+ ne\n\n----------------------------------------\nMega To
+ uch games (before t
+ his matchup):\n    Jul 20th vs Gouging Anklebiters (
+ W 7-3)\n    Jul 20th @
+  Corlears Hookers (W 5-3)\n    Jul 27th vs Riots 
+ (Cancelled)\n    Aug 3rd 
+ vs Vertz (L 1-7)\n    Aug 10th @ Sky Fighters 
+ (W 9-1)\n    Aug 17th vs Rio
+ ts (W 9-0)\n    Aug 17th @ Fuzz (W 4-3)\n  
+   Sep 7th vs Fresh Kills (L 3-5
+ )\n    Sep 14th @ Vertz (L 1-7)\n    Sep
+  21st vs Lbs (W 2-1)\n\n----------
+ ------------------------------\nPrior
+  matchups: Poutine Machine vs Mega To
+ uch (before this matchup):\n    Ma
+ y 4th @ Mega Touch (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-944@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine vs Lbs
+DTSTART;TZID=America/New_York:20251026T120000
+DTE
+ ND;TZID=America/New_York:20251026T125000
+LOCATION:Tompkins Square Park (W
+ est)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: Tompki
+ ns Squa
+ re Park (West)\nType: Playoff\n\n-------------------------------
+ ---------\
+ nLbs games (before this matchup):\n    Aug 3rd vs Fuzz (W 4-2
+ )\n    Aug 10
+ th @ Dark Rainbows (W 9-4)\n    Aug 17th vs Cobra Kai (Can
+ celled)\n    Sep
+  7th @ Corlears Hookers (Cancelled)\n    Sep 14th @ Fuz
+ z (W 11-6)\n    Sep
+  21st @ Mega Touch (L 1-2)\n    Sep 28th @ Gouging A
+ nklebiters (L 4-8)\n  
+   Oct 5th vs Corlears Hookers (W 4-1)\n    Oct 5t
+ h vs Cobra Kai (W 4-3)\n 
+    Oct 5th vs Moby Dekes (W 10-4)\n\n---------
+ ----------------------------
+ ---\nPrior matchups: Poutine Machine vs Lbs
+  (before this matchup):\n    Ju
+ n 22nd vs Lbs (W 7-3)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-956@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Mega Touch
+DTSTART;TZID=America/New_York:20251102T14150
+ 0
+DTEND;TZID=America/New_York:20251102T150500
+LOCATION:Tompkins Square P
+ ark (East)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: 
+ Tompkins Squa
+ re Park (East)\nType: Playoff\n\n-------------------------
+ ---------------\
+ nMega Touch games (before this matchup):\n    Jul 27th 
+ vs Riots (Cancelled
+ )\n    Aug 3rd vs Vertz (L 1-7)\n    Aug 10th @ Sky 
+ Fighters (W 9-1)\n    
+ Aug 17th vs Riots (W 9-0)\n    Aug 17th @ Fuzz (W
+  4-3)\n    Sep 7th vs Fre
+ sh Kills (L 3-5)\n    Sep 14th @ Vertz (L 1-7)
+ \n    Sep 21st vs Lbs (W 2-1
+ )\n    Sep 28th vs Poutine Machine (W 4-3)\
+ n    Oct 26th vs Dark Rainbows\
+ n\n-------------------------------------
+ ---\nPrior matchups: Poutine Machi
+ ne vs Mega Touch (before this matchup
+ ):\n    May 4th @ Mega Touch (Cancell
+ ed)\n    Sep 28th @ Mega Touch (L 
+ 3-4)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-962@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Poutine Machine @ Renaissance
+DTSTART;TZID=America/New_York:20251109T1310
+ 00
+DTEND;TZID=America/New_York:20251109T140000
+LOCATION:Tompkins Square 
+ Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation:
+  Tompkins Squa
+ re Park (East)\nType: Playoff\n\n------------------------
+ ----------------\
+ nRenaissance games (before this matchup):\n    Jul 27t
+ h @ Fresh Kills (L 6
+ -7)\n    Aug 3rd vs Sky Fighters (W 8-2)\n    Aug 1
+ 0th @ Fuzz (W 8-4)\n   
+  Aug 17th @ Dark Rainbows (W 10-3)\n    Sep 7th 
+ vs What the Puck (W 9-0)\n
+     Sep 14th @ Sky Fighters (W 5-3)\n    Sep 
+ 21st @ Instant Karma (W 8-2)\
+ n    Sep 28th @ Riots (W 10-0)\n    Oct 26
+ th vs Sky Fighters\n    Nov 2nd 
+ @ Denim Demons\n\n---------------------
+ -------------------\nPrior matchups
+ : Poutine Machine vs Renaissance (be
+ fore this matchup):\n    (no prior mat
+ chups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-965@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ PBR Cup vs -
+DTSTART;TZID=America/New_York:20251109T150000
+DTEND;TZID=Am
+ erica/New_York:20251109T155000
+LOCATION:Tompkins Square Park (West)
+DESC
+ RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ 
+ ation: Tompkins Square Park (West)
+END:VEVENT
+END:VCALENDAR

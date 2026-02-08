@@ -1,0 +1,825 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BTSH ICS//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:BTSH — Fresh Kills (Season 2)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BE
+ GIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19
+ 700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:
+ STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:197011
+ 01T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIME
+ ZONE
+BEGIN:VEVENT
+UID:btsh-day-s2-102@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
+ t & d
+ ark jerseys
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCR
+ IPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
+END:VEVE
+ NT
+BEGIN:VEVENT
+UID:btsh-day-s2-103@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
+ g lig
+ ht & dark jerseys
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+ 
+DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
+ ys
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-104@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - EASTER
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE
+ :20250421
+DESCRIPTION:EASTER
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-105@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MOTHERS DAY
+DTSTART;VALUE=DATE:20250511
+DTEND;VAL
+ UE=DATE:20250512
+DESCRIPTION:MOTHERS DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-106@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MEMORIAL DAY
+DTSTART;VALUE=DATE:20250525
+DTEND;VA
+ LUE=DATE:20250526
+DESCRIPTION:MEMORIAL DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-108@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - 4TH OF JULY
+DTSTART;VALUE=DATE:20250706
+DTEND;VAL
+ UE=DATE:20250707
+DESCRIPTION:4TH OF JULY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-109@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - HOCKEY BEACH
+DTSTART;VALUE=DATE:20250824
+DTEND;VALU
+ E=DATE:20250825
+DESCRIPTION:HOCKEY BEACH
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-110@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - LABOR DAY
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE
+ =DATE:20250901
+DESCRIPTION:LABOR DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-118@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DA
+ TE:20251117
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-119@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DA
+ TE:20251124
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-725@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Fresh Kills @ Corlears Hookers
+DTSTART;TZID=America/New_York:
+ 20250406T180000
+DTEND;TZID=America/New_York:20250406T180100
+LOCATION:Tom
+ pkins Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Cancell
+ ed\nLocation: Tompkins Squa
+ re Park (East)\nType: Regular\n\n-----------
+ -----------------------------\
+ nCorlears Hookers games (before this matc
+ hup):\n    (no prior games listed
+ )\n\n---------------------------------
+ -------\nPrior matchups: Fresh Kills
+  vs Corlears Hookers (before this m
+ atchup):\n    (no prior matchups listed
+ )
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-727@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Lbs
+DTSTART;TZID=America/New_York:20250413T141500
+DTEND;T
+ ZID=America/New_York:20250413T141600
+LOCATION:Tompkins Square Park (East)
+ 
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins S
+ qua
+ re Park (East)\nType: Regular\n\nResult:\n  Fresh Kills 6 - 1 Lbs\n\
+ n-----
+ -----------------------------------\nLbs games (before this match
+ up):\n   
+  Apr 6th vs Vertz (Cancelled)\n\n-----------------------------
+ -----------\
+ nPrior matchups: Fresh Kills vs Lbs (before this matchup):\
+ n    (no prior 
+ matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-731@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ Instant Karma
+DTSTART;TZID=America/New_York:20250427T130000
+ 
+DTEND;TZID=America/New_York:20250427T130100
+LOCATION:Tompkins Square Pa
+ rk (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
+ ompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Instant Karma 5
+  - 4 Fresh Kill
+ s\n\n----------------------------------------\nInstant K
+ arma games (before
+  this matchup):\n    Apr 6th vs Sky Fighters (Cancell
+ ed)\n    Apr 13th @ W
+ hat the Puck (W 3-2)\n\n--------------------------
+ --------------\nPrior ma
+ tchups: Fresh Kills vs Instant Karma (before th
+ is matchup):\n    (no prior
+  matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-827@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Fresh Kills vs Vertz
+DTSTART;TZID=America/New_York:20250504T1
+ 41500
+DTEND;TZID=America/New_York:20250504T141600
+LOCATION:Tompkins Squa
+ re Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLocati
+ on: Tompkins Squa
+ re Park (West)\nType: Regular\n\n---------------------
+ -------------------\
+ nVertz games (before this matchup):\n    Apr 6th @ 
+ Lbs (Cancelled)\n    Ap
+ r 13th vs Fuzz (W 5-4)\n    Apr 27th vs Denim De
+ mons (W 5-3)\n\n----------
+ ------------------------------\nPrior matchup
+ s: Fresh Kills vs Vertz (befo
+ re this matchup):\n    (no prior matchups 
+ listed)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-834@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ Gouging Anklebiters
+DTSTART;TZID=America/New_York:20250518T
+ 164500
+DTEND;TZID=America/New_York:20250518T164600
+LOCATION:Tompkins Squ
+ are Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocat
+ ion: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Gouging A
+ nklebiters 5 - 2 Fres
+ h Kills\n\n---------------------------------------
+ -\nGouging Anklebiters g
+ ames (before this matchup):\n    Apr 6th @ Mega
+  Touch (Cancelled)\n    Apr
+  13th vs Poutine Machine (W 4-3)\n    Apr 27
+ th @ Renaissance (W 5-2)\n    
+ May 4th vs Lbs (Cancelled)\n\n-----------
+ -----------------------------\nPr
+ ior matchups: Fresh Kills vs Gouging A
+ nklebiters (before this matchup):\n 
+    (no prior matchups listed)
+END:
+ VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-838@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Denim Demons
+DTSTART;TZID=America/New_York:20250601T153000
+ 
+DTEND;TZID=America/New_York:20250601T153100
+LOCATION:Tompkins Square Pa
+ rk (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
+ ompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Fresh Kills 5 -
+  6 Denim Demons
+ \n\n----------------------------------------\nDenim Demo
+ ns games (before t
+ his matchup):\n    Apr 6th vs What the Puck (Cancelle
+ d)\n    Apr 13th vs B
+ utchers (W 2-0)\n    Apr 27th @ Vertz (L 3-5)\n   
+  May 4th vs Dark Rainbow
+ s (Cancelled)\n    May 18th vs Riots (W 9-0)\n\
+ n--------------------------
+ --------------\nPrior matchups: Fresh Kills 
+ vs Denim Demons (before this m
+ atchup):\n    (no prior matchups listed)
+ 
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-843@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ What the Puck
+DTSTART;TZID=America/New_York:20250608T153000
+ 
+DTEND;TZID=America/New_York:20250608T153100
+LOCATION:Tompkins Square Pa
+ rk (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
+ ompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  What the Puck 0
+  - 10 Fresh Kil
+ ls\n\n----------------------------------------\nWhat the
+  Puck games (befor
+ e this matchup):\n    Apr 6th @ Denim Demons (Cancell
+ ed)\n    Apr 13th vs 
+ Instant Karma (L 2-3)\n    Apr 27th @ Lbs (L 2-4)\
+ n    May 4th vs Sky Figh
+ ters (Cancelled)\n    May 18th vs Moby Dekes (W
+  5-4)\n    Jun 1st vs Gougi
+ ng Anklebiters (L 2-10)\n\n-----------------
+ -----------------------\nPrior
+  matchups: Fresh Kills vs What the Puck (
+ before this matchup):\n    (no pr
+ ior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-910@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ Corlears Hookers
+DTSTART;TZID=America/New_York:20250615T180
+ 000
+DTEND;TZID=America/New_York:20250615T185000
+LOCATION:Tompkins Square
+  Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation
+ : Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Corlears Hoo
+ kers 1 - 3 Fresh K
+ ills\n\n----------------------------------------\nCor
+ lears Hookers games (
+ before this matchup):\n    Apr 6th vs Fresh Kills 
+ (Cancelled)\n    Apr 13t
+ h @ Filthier (L 4-5)\n    Apr 27th vs Sky Fight
+ ers (W 2-1)\n    May 4th @ 
+ Fuzz (Cancelled)\n    May 18th vs Poutine Ma
+ chine (L 0-7)\n    Jun 1st @ B
+ utchers (W 10-0)\n    Jun 8th vs Filthier
+  (Cancelled)\n\n-----------------
+ -----------------------\nPrior matchup
+ s: Fresh Kills vs Corlears Hookers (
+ before this matchup):\n    Apr 6th 
+ @ Corlears Hookers (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-847@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Fuzz
+DTSTART;TZID=America/New_York:20250622T141500
+DTEND;
+ TZID=America/New_York:20250622T141600
+LOCATION:Tompkins Square Park (West
+ )
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins 
+ Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Fresh Kills 4 - 6 Fuzz\
+ n\n----
+ ------------------------------------\nFuzz games (before this ma
+ tchup):\n 
+    Apr 6th @ Cobra Kai (Cancelled)\n    Apr 13th @ Vertz (L 4
+ -5)\n    Apr 
+ 27th @ Butchers (W 9-3)\n    May 4th vs Corlears Hookers (
+ Cancelled)\n    
+ May 18th vs Dark Rainbows (W 6-0)\n    Jun 1st @ Gremli
+ ns (W 3-1)\n    Jun
+  8th vs Vertz (Cancelled)\n    Jun 15th @ Cobra Kai 
+ (L 1-4)\n\n-----------
+ -----------------------------\nPrior matchups: Fr
+ esh Kills vs Fuzz (before
+  this matchup):\n    (no prior matchups listed
+ )
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-852@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ Poutine Machine
+DTSTART;TZID=America/New_York:20250629T1415
+ 00
+DTEND;TZID=America/New_York:20250629T141600
+LOCATION:Tompkins Square 
+ Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
+  Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Poutine Machi
+ ne 5 - 6 Fresh Ki
+ lls\n\n----------------------------------------\nPouti
+ ne Machine games (be
+ fore this matchup):\n    Apr 6th @ Filthier (Cancel
+ led)\n    Apr 13th @ Go
+ uging Anklebiters (L 3-4)\n    Apr 27th vs Greml
+ ins (W 8-1)\n    May 4th @
+  Mega Touch (Cancelled)\n    May 18th @ Corle
+ ars Hookers (W 7-0)\n    Jun 
+ 1st @ Moby Dekes (W 10-1)\n    Jun 8th vs 
+ Gouging Anklebiters (Cancelled)\
+ n    Jun 15th @ Filthier (W 8-2)\n    J
+ un 22nd vs Lbs (W 7-3)\n\n---------
+ -------------------------------\nPri
+ or matchups: Fresh Kills vs Poutine Ma
+ chine (before this matchup):\n   
+  (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-768@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Corlears Hookers
+DTSTART;TZID=America/New_York:20250713T15
+ 3000
+DTEND;TZID=America/New_York:20250713T153100
+LOCATION:Tompkins Squar
+ e Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocatio
+ n: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Fresh Kills
+  8 - 6 Corlears Hoo
+ kers\n\n----------------------------------------\nCo
+ rlears Hookers games (
+ before this matchup):\n    Apr 6th vs Fresh Kills
+  (Cancelled)\n    Apr 13t
+ h @ Filthier (L 4-5)\n    Apr 27th vs Sky Figh
+ ters (W 2-1)\n    May 4th @ 
+ Fuzz (Cancelled)\n    May 18th vs Poutine M
+ achine (L 0-7)\n    Jun 1st @ B
+ utchers (W 10-0)\n    Jun 8th vs Filthie
+ r (Cancelled)\n    Jun 15th vs Fre
+ sh Kills (L 1-3)\n    Jun 22nd @ Cobr
+ a Kai (L 0-5)\n    Jun 29th vs Vertz 
+ (L 4-10)\n\n----------------------
+ ------------------\nPrior matchups: Fres
+ h Kills vs Corlears Hookers (be
+ fore this matchup):\n    Apr 6th @ Corlears
+  Hookers (Cancelled)\n    Ju
+ n 15th @ Corlears Hookers (W 3-1)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-773@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ Cobra Kai
+DTSTART;TZID=America/New_York:20250720T153000
+DT
+ END;TZID=America/New_York:20250720T153100
+LOCATION:Tompkins Square Park (
+ East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompk
+ ins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Cobra Kai 2 - 4 Fre
+ sh Kills\n\
+ n----------------------------------------\nCobra Kai games (
+ before this ma
+ tchup):\n    Apr 13th @ Mega Touch (L 1-5)\n    Apr 27th 
+ @ Riots (W 8-1)\n
+     May 4th vs Filthier (Cancelled)\n    May 18th @ Ve
+ rtz (L 3-4)\n    Jun
+  1st vs Renaissance (W 4-2)\n    Jun 8th vs Mega To
+ uch (L 1-6)\n    Jun 15
+ th vs Fuzz (W 4-1)\n    Jun 22nd vs Corlears Hoo
+ kers (W 5-0)\n    Jun 29th
+  vs Lbs (L 3-4)\n    Jul 13th @ Fuzz (W 5-4)\
+ n\n--------------------------
+ --------------\nPrior matchups: Fresh Kill
+ s vs Cobra Kai (before this matc
+ hup):\n    (no prior matchups listed)
+
+ END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-776@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Renaissance
+DTSTART;TZID=America/New_York:20250727T130000
+ 
+DTEND;TZID=America/New_York:20250727T130100
+LOCATION:Tompkins Square Par
+ k (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Fresh Kills 7 - 
+ 6 Renaissance\
+ n\n----------------------------------------\nRenaissance 
+ games (before thi
+ s matchup):\n    Apr 27th vs Gouging Anklebiters (L 2-
+ 5)\n    May 4th @ Ri
+ ots (Cancelled)\n    May 18th vs Instant Karma (W 9
+ -3)\n    Jun 1st @ Cobr
+ a Kai (L 2-4)\n    Jun 8th vs Gremlins (W 10-1)\
+ n    Jun 15th vs Moby Deke
+ s (W 3-2)\n    Jun 22nd @ Butchers (W 5-2)\n 
+    Jun 29th vs Dark Rainbows 
+ (W 7-6)\n    Jul 13th vs Mega Touch (L 2-4
+ )\n    Jul 20th vs Denim Demons 
+ (L 2-6)\n\n----------------------------
+ ------------\nPrior matchups: Fresh
+  Kills vs Renaissance (before this m
+ atchup):\n    (no prior matchups liste
+ d)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-871@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Filthier
+DTSTART;TZID=America/New_York:20250803T130000
+DT
+ END;TZID=America/New_York:20250803T130100
+LOCATION:Tompkins Square Park (
+ West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompk
+ ins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Fresh Kills 6 - 3 F
+ ilthier\n\n
+ ----------------------------------------\nFilthier games (be
+ fore this matc
+ hup):\n    May 4th @ Cobra Kai (Cancelled)\n    May 18th 
+ vs Butchers (W 9-
+ 0)\n    Jun 1st @ Riots (W 2-1)\n    Jun 8th @ Corlear
+ s Hookers (Cancelled
+ )\n    Jun 15th vs Poutine Machine (L 2-8)\n    Jun
+  22nd vs Mega Touch (L 
+ 0-2)\n    Jun 29th @ Gouging Anklebiters (L 5-9)
+ \n    Jul 13th @ Poutine M
+ achine (L 4-8)\n    Jul 20th @ Lbs (W 8-4)\n 
+    Jul 27th vs Sky Fighters (
+ L 4-5)\n\n--------------------------------
+ --------\nPrior matchups: Fresh 
+ Kills vs Filthier (before this matchup)
+ :\n    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-790@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ Butchers
+DTSTART;TZID=America/New_York:20250810T180000
+DTE
+ ND;TZID=America/New_York:20250810T180100
+LOCATION:Tompkins Square Park (E
+ ast)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompki
+ ns Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Butchers 3 - 10 Fres
+ h Kills\n\
+ n----------------------------------------\nButchers games (be
+ fore this mat
+ chup):\n    May 18th @ Filthier (L 0-9)\n    Jun 1st vs Co
+ rlears Hookers (
+ L 0-10)\n    Jun 8th vs Denim Demons (L 2-3)\n    Jun 1
+ 5th vs Riots (W 4-0
+ )\n    Jun 22nd vs Renaissance (L 2-5)\n    Jun 29th
+  vs Moby Dekes (L 2-5)
+ \n    Jul 13th @ Riots (W 3-2)\n    Jul 20th @ In
+ stant Karma (L 0-6)\n    
+ Jul 27th vs Cobra Kai (Cancelled)\n    Aug 3rd
+  @ What the Puck (L 2-4)\n\n
+ ----------------------------------------\nP
+ rior matchups: Fresh Kills vs B
+ utchers (before this matchup):\n    (no 
+ prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-794@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Poutine Machine
+DTSTART;TZID=America/New_York:20250817T164
+ 500
+DTEND;TZID=America/New_York:20250817T164600
+LOCATION:Tompkins Square
+  Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation
+ : Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Fresh Kills 
+ 6 - 3 Poutine Mach
+ ine\n\n----------------------------------------\nPout
+ ine Machine games (be
+ fore this matchup):\n    Jun 15th @ Filthier (W 8-
+ 2)\n    Jun 22nd vs Lbs 
+ (W 7-3)\n    Jun 29th vs Fresh Kills (L 5-6)\n 
+    Jul 13th vs Gouging Ankl
+ ebiters (W 9-6)\n    Jul 13th vs Filthier (W
+  8-4)\n    Jul 20th @ Vertz (L
+  2-3)\n    Jul 27th @ Dark Rainbows (Canc
+ elled)\n    Aug 3rd vs Dark Rainb
+ ows (W 11-2)\n    Aug 3rd @ Riots (W 7
+ -1)\n    Aug 10th vs What the Puck (
+ W 9-0)\n\n-------------------------
+ ---------------\nPrior matchups: Fresh 
+ Kills vs Poutine Machine (before
+  this matchup):\n    Jun 29th @ Poutine Ma
+ chine (W 6-5)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-890@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ Mega Touch
+DTSTART;TZID=America/New_York:20250907T180000
+D
+ TEND;TZID=America/New_York:20250907T180100
+LOCATION:Tompkins Square Park 
+ (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tomp
+ kins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Mega Touch 3 - 5 F
+ resh Kills\n
+ \n----------------------------------------\nMega Touch game
+ s (before this 
+ matchup):\n    Jun 22nd @ Filthier (W 2-0)\n    Jun 29th
+  vs Fuzz (W 5-1)\n
+     Jul 13th @ Renaissance (W 4-2)\n    Jul 20th vs G
+ ouging Anklebiters (W
+  7-3)\n    Jul 20th @ Corlears Hookers (W 5-3)\n  
+   Jul 27th vs Riots (Can
+ celled)\n    Aug 3rd vs Vertz (L 1-7)\n    Aug 
+ 10th @ Sky Fighters (W 9-1)
+ \n    Aug 17th vs Riots (W 9-0)\n    Aug 17t
+ h @ Fuzz (W 4-3)\n\n----------
+ ------------------------------\nPrior mat
+ chups: Fresh Kills vs Mega Touch 
+ (before this matchup):\n    (no prior 
+ matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-894@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ Filthier
+DTSTART;TZID=America/New_York:20250914T154500
+DTE
+ ND;TZID=America/New_York:20250914T154600
+LOCATION:Tompkins Square Park (W
+ est)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompki
+ ns Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Filthier 4 - 6 Fresh
+  Kills\n\n
+ ----------------------------------------\nFilthier games (bef
+ ore this matc
+ hup):\n    Jun 15th vs Poutine Machine (L 2-8)\n    Jun 22
+ nd vs Mega Touch
+  (L 0-2)\n    Jun 29th @ Gouging Anklebiters (L 5-9)\n 
+    Jul 13th @ Pouti
+ ne Machine (L 4-8)\n    Jul 20th @ Lbs (W 8-4)\n    
+ Jul 27th vs Sky Fighte
+ rs (L 4-5)\n    Aug 3rd @ Fresh Kills (L 3-6)\n  
+   Aug 10th @ Moby Dekes (
+ W 6-4)\n    Aug 17th vs Gouging Anklebiters (W
+  9-3)\n    Sep 7th vs Vertz 
+ (L 1-10)\n\n-------------------------------
+ ---------\nPrior matchups: Fres
+ h Kills vs Filthier (before this matchup
+ ):\n    Aug 3rd vs Filthier (W 6-3
+ )
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-810@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Gouging Anklebiters
+DTSTART;TZID=America/New_York:20250921
+ T170000
+DTEND;TZID=America/New_York:20250921T170100
+LOCATION:Tompkins Sq
+ uare Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLoca
+ tion: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Fresh Ki
+ lls 6 - 2 Gouging Ankl
+ ebiters\n\n--------------------------------------
+ --\nGouging Anklebiters g
+ ames (before this matchup):\n    Jul 13th @ Po
+ utine Machine (L 6-9)\n    J
+ ul 13th vs Moby Dekes (W 6-0)\n    Jul 20th
+  @ Mega Touch (L 3-7)\n    Jul 
+ 20th @ Fuzz (W 8-1)\n    Jul 27th @ Inst
+ ant Karma (Cancelled)\n    Aug 3rd
+  @ Corlears Hookers (W 5-4)\n    Aug 
+ 10th vs Denim Demons (W 5-2)\n    Aug
+  17th @ Filthier (L 3-9)\n    Sep 
+ 7th vs Cobra Kai (Cancelled)\n    Sep 14
+ th vs Corlears Hookers (W 1-0)\
+ n\n----------------------------------------
+ \nPrior matchups: Fresh Kill
+ s vs Gouging Anklebiters (before this matchup)
+ :\n    May 18th @ Gouging
+  Anklebiters (L 2-5)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-918@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Vertz
+DTSTART;TZID=America/New_York:20250928T131500
+DTEND
+ ;TZID=America/New_York:20250928T140500
+LOCATION:Tompkins Square Park (Wes
+ t)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins
+  Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Fresh Kills 5 - 6 Vert
+ z\n\n---
+ -------------------------------------\nVertz games (before this
+  matchup):\
+ n    Jul 20th @ Fuzz (W 6-2)\n    Jul 20th vs Poutine Machin
+ e (W 3-2)\n   
+  Jul 27th vs What the Puck (Cancelled)\n    Aug 3rd @ Meg
+ a Touch (W 7-1)\n
+     Aug 10th vs Gremlins (L 3-4)\n    Aug 17th @ Sky F
+ ighters (W 7-1)\n   
+  Sep 7th @ Filthier (W 10-1)\n    Sep 14th vs Mega 
+ Touch (W 7-1)\n    Sep 
+ 21st @ Cobra Kai (L 3-5)\n    Sep 28th vs What t
+ he Puck (W 13-3)\n\n------
+ ----------------------------------\nPrior mat
+ chups: Fresh Kills vs Vertz (
+ before this matchup):\n    May 4th vs Vert
+ z (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-946@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Corlears Hookers
+DTSTART;TZID=America/New_York:20251026T13
+ 1500
+DTEND;TZID=America/New_York:20251026T140500
+LOCATION:Tompkins Squar
+ e Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocatio
+ n: Tompkins Squa
+ re Park (West)\nType: Playoff\n\n----------------------
+ ------------------\
+ nCorlears Hookers games (before this matchup):\n    
+ Jul 27th vs Gremlins (
+ W 6-1)\n    Aug 3rd vs Gouging Anklebiters (L 4-5
+ )\n    Aug 10th @ Riots (
+ W 10-0)\n    Aug 17th @ Denim Demons (W 5-2)\n
+     Sep 7th vs Lbs (Cancelle
+ d)\n    Sep 14th @ Gouging Anklebiters (L 0
+ -1)\n    Sep 21st @ Poutine Mac
+ hine (L 2-3)\n    Sep 28th @ Fuzz (W 3-2
+ )\n    Oct 5th vs Filthier (W 8-4)
+ \n    Oct 5th @ Lbs (L 1-4)\n\n------
+ ----------------------------------\nP
+ rior matchups: Fresh Kills vs Corl
+ ears Hookers (before this matchup):\n   
+  Apr 6th @ Corlears Hookers (Ca
+ ncelled)\n    Jun 15th @ Corlears Hookers (
+ W 3-1)\n    Jul 13th vs Corl
+ ears Hookers (W 8-6)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-958@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills @ Instant Karma
+DTSTART;TZID=America/New_York:20251102T153000
+ 
+DTEND;TZID=America/New_York:20251102T162000
+LOCATION:Tompkins Square Pa
+ rk (East)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: T
+ ompkins Squa
+ re Park (East)\nType: Playoff\n\n--------------------------
+ --------------\
+ nInstant Karma games (before this matchup):\n    Jul 27t
+ h vs Gouging Ankle
+ biters (Cancelled)\n    Aug 3rd @ Dark Rainbows (W 7-
+ 2)\n    Aug 10th @ Co
+ bra Kai (W 4-1)\n    Aug 17th vs Gremlins (W 8-2)\
+ n    Sep 7th @ Denim Dem
+ ons (W 4-3)\n    Sep 14th vs Dark Rainbows (W 6
+ -0)\n    Sep 21st vs Renais
+ sance (L 2-8)\n    Sep 28th vs Moby Dekes (W
+  10-2)\n    Oct 5th vs Gouging
+  Anklebiters (W 3-1)\n    Oct 26th vs Fil
+ thier\n\n------------------------
+ ----------------\nPrior matchups: Fres
+ h Kills vs Instant Karma (before thi
+ s matchup):\n    Apr 27th @ Instant
+  Karma (L 4-5)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-961@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Fresh Kills vs Cobra Kai
+DTSTART;TZID=America/New_York:20251109T131000
+D
+ TEND;TZID=America/New_York:20251109T140000
+LOCATION:Tompkins Square Park 
+ (West)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: Tomp
+ kins Squa
+ re Park (West)\nType: Playoff\n\n-----------------------------
+ -----------\
+ nCobra Kai games (before this matchup):\n    Aug 17th @ Lbs
+  (Cancelled)\n 
+    Sep 7th @ Gouging Anklebiters (Cancelled)\n    Sep 14
+ th @ Poutine Machi
+ ne (W 6-5)\n    Sep 21st @ Butchers (W 11-1)\n    Sep
+  21st vs Vertz (W 5-3
+ )\n    Sep 28th vs Filthier (W 8-3)\n    Oct 5th v
+ s Gouging Anklebiters (W
+  2-1)\n    Oct 5th @ Lbs (L 3-4)\n    Oct 26th 
+ @ Gouging Anklebiters\n    
+ Nov 2nd @ Vertz\n\n-------------------------
+ ---------------\nPrior matchup
+ s: Fresh Kills vs Cobra Kai (before this 
+ matchup):\n    Jul 20th @ Cobra K
+ ai (W 4-2)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-965@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ PBR Cup vs -
+DTSTART;TZID=America/New_York:20251109T150000
+DTEND;TZID=Am
+ erica/New_York:20251109T155000
+LOCATION:Tompkins Square Park (West)
+DESC
+ RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ 
+ ation: Tompkins Square Park (West)
+END:VEVENT
+END:VCALENDAR

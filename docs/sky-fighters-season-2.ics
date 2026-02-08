@@ -1,0 +1,789 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BTSH ICS//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:BTSH — Sky Fighters (Season 2)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BE
+ GIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19
+ 700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:
+ STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:197011
+ 01T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIME
+ ZONE
+BEGIN:VEVENT
+UID:btsh-day-s2-102@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
+ t & d
+ ark jerseys
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCR
+ IPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
+END:VEVE
+ NT
+BEGIN:VEVENT
+UID:btsh-day-s2-103@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
+ g lig
+ ht & dark jerseys
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+ 
+DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
+ ys
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-104@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - EASTER
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE
+ :20250421
+DESCRIPTION:EASTER
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-105@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MOTHERS DAY
+DTSTART;VALUE=DATE:20250511
+DTEND;VAL
+ UE=DATE:20250512
+DESCRIPTION:MOTHERS DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-106@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MEMORIAL DAY
+DTSTART;VALUE=DATE:20250525
+DTEND;VA
+ LUE=DATE:20250526
+DESCRIPTION:MEMORIAL DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-108@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - 4TH OF JULY
+DTSTART;VALUE=DATE:20250706
+DTEND;VAL
+ UE=DATE:20250707
+DESCRIPTION:4TH OF JULY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-109@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - HOCKEY BEACH
+DTSTART;VALUE=DATE:20250824
+DTEND;VALU
+ E=DATE:20250825
+DESCRIPTION:HOCKEY BEACH
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-110@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - LABOR DAY
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE
+ =DATE:20250901
+DESCRIPTION:LABOR DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-118@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DA
+ TE:20251117
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-119@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DA
+ TE:20251124
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-814@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Sky Fighters @ Instant Karma
+DTSTART;TZID=America/New_York:20
+ 250406T164500
+DTEND;TZID=America/New_York:20250406T164600
+LOCATION:Tompk
+ ins Square Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled
+ \nLocation: Tompkins Squa
+ re Park (West)\nType: Regular\n\n-------------
+ ---------------------------\
+ nInstant Karma games (before this matchup):
+ \n    (no prior games listed)\n
+ \n--------------------------------------
+ --\nPrior matchups: Sky Fighters v
+ s Instant Karma (before this matchup)
+ :\n    (no prior matchups listed)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-819@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Dark Rainbows
+DTSTART;TZID=America/New_York:20250413T1645
+ 00
+DTEND;TZID=America/New_York:20250413T164600
+LOCATION:Tompkins Square 
+ Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
+  Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Sky Fighters 
+ 2 - 3 Dark Rainbo
+ ws\n\n----------------------------------------\nDark R
+ ainbows games (befor
+ e this matchup):\n    Apr 6th @ Gremlins (Cancelled
+ )\n\n------------------
+ ----------------------\nPrior matchups: Sky Figh
+ ters vs Dark Rainbows (bef
+ ore this matchup):\n    (no prior matchups li
+ sted)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-734@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ Corlears Hookers
+DTSTART;TZID=America/New_York:20250427T16
+ 4500
+DTEND;TZID=America/New_York:20250427T164600
+LOCATION:Tompkins Squar
+ e Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocatio
+ n: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Corlears Ho
+ okers 2 - 1 Sky Fig
+ hters\n\n----------------------------------------\nC
+ orlears Hookers games 
+ (before this matchup):\n    Apr 6th vs Fresh Kill
+ s (Cancelled)\n    Apr 13
+ th @ Filthier (L 4-5)\n\n---------------------
+ -------------------\nPrior m
+ atchups: Sky Fighters vs Corlears Hookers (
+ before this matchup):\n    (no 
+ prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-826@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Sky Fighters @ What the Puck
+DTSTART;TZID=America/New_York:20
+ 250504T130000
+DTEND;TZID=America/New_York:20250504T130100
+LOCATION:Tompk
+ ins Square Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled
+ \nLocation: Tompkins Squa
+ re Park (West)\nType: Regular\n\n-------------
+ ---------------------------\
+ nWhat the Puck games (before this matchup):
+ \n    Apr 6th @ Denim Demons (C
+ ancelled)\n    Apr 13th vs Instant Karma
+  (L 2-3)\n    Apr 27th @ Lbs (L 2-
+ 4)\n\n-------------------------------
+ ---------\nPrior matchups: Sky Fighte
+ rs vs What the Puck (before this m
+ atchup):\n    (no prior matchups listed)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-832@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Gremlins
+DTSTART;TZID=America/New_York:20250518T141500
+D
+ TEND;TZID=America/New_York:20250518T141600
+LOCATION:Tompkins Square Park 
+ (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tomp
+ kins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Sky Fighters 9 - 3
+  Gremlins\n\
+ n----------------------------------------\nGremlins games (
+ before this mat
+ chup):\n    Apr 6th vs Dark Rainbows (Cancelled)\n    Ap
+ r 13th vs Renaissa
+ nce (L 2-5)\n    Apr 27th @ Poutine Machine (L 1-8)\n
+     May 4th vs Butche
+ rs (Cancelled)\n\n--------------------------------
+ --------\nPrior matchups
+ : Sky Fighters vs Gremlins (before this matchup
+ ):\n    (no prior matchups 
+ listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-746@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ Lbs
+DTSTART;TZID=America/New_York:20250601T130000
+DTEND;T
+ ZID=America/New_York:20250601T130100
+LOCATION:Tompkins Square Park (East)
+ 
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins S
+ qua
+ re Park (East)\nType: Regular\n\nResult:\n  Lbs 5 - 7 Sky Fighters\n
+ \n----
+ ------------------------------------\nLbs games (before this matc
+ hup):\n  
+   Apr 6th vs Vertz (Cancelled)\n    Apr 13th @ Fresh Kills (L 
+ 1-6)\n    Ap
+ r 27th vs What the Puck (W 4-2)\n    May 4th @ Gouging Ankl
+ ebiters (Cancel
+ led)\n    May 18th vs Mega Touch (L 5-10)\n\n-----------
+ ------------------
+ -----------\nPrior matchups: Sky Fighters vs Lbs (bef
+ ore this matchup):\n 
+    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-753@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ Dark Rainbows
+DTSTART;TZID=America/New_York:20250608T15300
+ 0
+DTEND;TZID=America/New_York:20250608T153100
+LOCATION:Tompkins Square P
+ ark (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
+ Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Dark Rainbows 
+ 2 - 6 Sky Fighte
+ rs\n\n----------------------------------------\nDark Ra
+ inbows games (befor
+ e this matchup):\n    Apr 6th @ Gremlins (Cancelled)
+ \n    Apr 13th @ Sky F
+ ighters (W 3-2)\n    Apr 27th vs Filthier (L 2-4)
+ \n    May 4th @ Denim Dem
+ ons (Cancelled)\n    May 18th @ Fuzz (L 0-6)\n
+     Jun 1st @ Vertz (L 0-7)\
+ n\n----------------------------------------
+ \nPrior matchups: Sky Fighters 
+ vs Dark Rainbows (before this matchup):\
+ n    Apr 13th vs Dark Rainbows (L 
+ 2-3)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-904@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ Instant Karma
+DTSTART;TZID=America/New_York:20250615T16450
+ 0
+DTEND;TZID=America/New_York:20250615T173500
+LOCATION:Tompkins Square P
+ ark (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
+ Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Instant Karma 
+ 4 - 5 Sky Fighte
+ rs\n\n----------------------------------------\nInstant
+  Karma games (befor
+ e this matchup):\n    Apr 6th vs Sky Fighters (Cance
+ lled)\n    Apr 13th @ 
+ What the Puck (W 3-2)\n    Apr 27th vs Fresh Kill
+ s (W 5-4)\n    May 4th vs
+  Moby Dekes (Cancelled)\n    May 18th @ Renais
+ sance (L 3-9)\n    Jun 1st @
+  Mega Touch (L 1-6)\n    Jun 8th @ Lbs (L 4
+ -5)\n\n------------------------
+ ----------------\nPrior matchups: Sky Fi
+ ghters vs Instant Karma (before th
+ is matchup):\n    Apr 6th @ Instant K
+ arma (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-757@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Moby Dekes
+DTSTART;TZID=America/New_York:20250622T141500
+ 
+DTEND;TZID=America/New_York:20250622T141600
+LOCATION:Tompkins Square Par
+ k (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Sky Fighters 4 -
+  2 Moby Dekes\
+ n\n----------------------------------------\nMoby Dekes g
+ ames (before this
+  matchup):\n    Apr 6th @ Renaissance (Cancelled)\n   
+  Apr 13th vs Riots (
+ W 3-1)\n    Apr 27th vs Mega Touch (L 2-9)\n    May
+  4th @ Instant Karma (C
+ ancelled)\n    May 18th @ What the Puck (L 4-5)\
+ n    Jun 1st vs Poutine Ma
+ chine (L 1-10)\n    Jun 8th vs Riots (W 4-3)\
+ n    Jun 15th @ Renaissance (
+ L 2-3)\n\n--------------------------------
+ --------\nPrior matchups: Sky Fi
+ ghters vs Moby Dekes (before this match
+ up):\n    (no prior matchups listed
+ )
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-763@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Denim Demons
+DTSTART;TZID=America/New_York:20250629T15300
+ 0
+DTEND;TZID=America/New_York:20250629T153100
+LOCATION:Tompkins Square P
+ ark (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
+ Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Sky Fighters 1
+  - 4 Denim Demon
+ s\n\n----------------------------------------\nDenim De
+ mons games (before 
+ this matchup):\n    Apr 6th vs What the Puck (Cancel
+ led)\n    Apr 13th vs 
+ Butchers (W 2-0)\n    Apr 27th @ Vertz (L 3-5)\n 
+    May 4th vs Dark Rainbo
+ ws (Cancelled)\n    May 18th vs Riots (W 9-0)\
+ n    Jun 1st @ Fresh Kills (
+ W 6-5)\n    Jun 8th @ Butchers (W 3-2)\n   
+  Jun 15th vs What the Puck (W 5
+ -4)\n    Jun 22nd vs Gremlins (W 10-0)\n
+ \n--------------------------------
+ --------\nPrior matchups: Sky Fighter
+ s vs Denim Demons (before this matchu
+ p):\n    (no prior matchups listed
+ )
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-860@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Instant Karma
+DTSTART;TZID=America/New_York:20250713T1800
+ 00
+DTEND;TZID=America/New_York:20250713T180100
+LOCATION:Tompkins Square 
+ Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
+  Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Sky Fighters 
+ 7 - 8 Instant Kar
+ ma\n\n----------------------------------------\nInstan
+ t Karma games (befor
+ e this matchup):\n    Apr 6th vs Sky Fighters (Canc
+ elled)\n    Apr 13th @ 
+ What the Puck (W 3-2)\n    Apr 27th vs Fresh Kil
+ ls (W 5-4)\n    May 4th vs
+  Moby Dekes (Cancelled)\n    May 18th @ Renai
+ ssance (L 3-9)\n    Jun 1st @
+  Mega Touch (L 1-6)\n    Jun 8th @ Lbs (L 
+ 4-5)\n    Jun 15th vs Sky Fighte
+ rs (L 4-5)\n    Jun 22nd vs Riots (W 7-
+ 0)\n    Jun 29th @ Gremlins (W 5-2)
+ \n\n--------------------------------
+ --------\nPrior matchups: Sky Fighters
+  vs Instant Karma (before this ma
+ tchup):\n    Apr 6th @ Instant Karma (Can
+ celled)\n    Jun 15th @ Instan
+ t Karma (W 5-4)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-865@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ Riots
+DTSTART;TZID=America/New_York:20250720T180000
+DTEND
+ ;TZID=America/New_York:20250720T180100
+LOCATION:Tompkins Square Park (Wes
+ t)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins
+  Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Riots 2 - 11 Sky Fight
+ ers\n\n-
+ ---------------------------------------\nRiots games (before th
+ is matchup)
+ :\n    Apr 13th @ Moby Dekes (L 1-3)\n    Apr 27th vs Cobra 
+ Kai (L 1-8)\n 
+    May 4th vs Renaissance (Cancelled)\n    May 18th @ Den
+ im Demons (L 0-9)
+ \n    Jun 1st vs Filthier (L 1-2)\n    Jun 8th @ Moby 
+ Dekes (L 3-4)\n    J
+ un 15th @ Butchers (L 0-4)\n    Jun 22nd @ Instant 
+ Karma (L 0-7)\n    Jun 
+ 29th vs What the Puck (L 2-5)\n    Jul 13th vs B
+ utchers (L 2-3)\n\n-------
+ ---------------------------------\nPrior matc
+ hups: Sky Fighters vs Riots (
+ before this matchup):\n    (no prior match
+ ups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-866@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ Filthier
+DTSTART;TZID=America/New_York:20250727T130000
+DT
+ END;TZID=America/New_York:20250727T130100
+LOCATION:Tompkins Square Park (
+ West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompk
+ ins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Filthier 4 - 5 Sky 
+ Fighters\n\
+ n----------------------------------------\nFilthier games (b
+ efore this mat
+ chup):\n    Apr 27th @ Dark Rainbows (W 4-2)\n    May 4th
+  @ Cobra Kai (Can
+ celled)\n    May 18th vs Butchers (W 9-0)\n    Jun 1st
+  @ Riots (W 2-1)\n  
+   Jun 8th @ Corlears Hookers (Cancelled)\n    Jun 1
+ 5th vs Poutine Machine 
+ (L 2-8)\n    Jun 22nd vs Mega Touch (L 0-2)\n   
+  Jun 29th @ Gouging Ankleb
+ iters (L 5-9)\n    Jul 13th @ Poutine Machine
+  (L 4-8)\n    Jul 20th @ Lbs 
+ (W 8-4)\n\n-------------------------------
+ ---------\nPrior matchups: Sky F
+ ighters vs Filthier (before this matchu
+ p):\n    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-785@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ Renaissance
+DTSTART;TZID=America/New_York:20250803T180000
+ 
+DTEND;TZID=America/New_York:20250803T180100
+LOCATION:Tompkins Square Par
+ k (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Renaissance 8 - 
+ 2 Sky Fighters
+ \n\n----------------------------------------\nRenaissance
+  games (before th
+ is matchup):\n    May 4th @ Riots (Cancelled)\n    May
+  18th vs Instant Kar
+ ma (W 9-3)\n    Jun 1st @ Cobra Kai (L 2-4)\n    Ju
+ n 8th vs Gremlins (W 10
+ -1)\n    Jun 15th vs Moby Dekes (W 3-2)\n    Jun
+  22nd @ Butchers (W 5-2)\n
+     Jun 29th vs Dark Rainbows (W 7-6)\n    Ju
+ l 13th vs Mega Touch (L 2-4)\
+ n    Jul 20th vs Denim Demons (L 2-6)\n   
+  Jul 27th @ Fresh Kills (L 6-7)\
+ n\n------------------------------------
+ ----\nPrior matchups: Sky Fighters 
+ vs Renaissance (before this matchup)
+ :\n    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-788@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Mega Touch
+DTSTART;TZID=America/New_York:20250810T153000
+ 
+DTEND;TZID=America/New_York:20250810T153100
+LOCATION:Tompkins Square Par
+ k (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Sky Fighters 1 -
+  9 Mega Touch\
+ n\n----------------------------------------\nMega Touch g
+ ames (before this
+  matchup):\n    Jun 1st vs Instant Karma (W 6-1)\n    
+ Jun 8th @ Cobra Kai 
+ (W 6-1)\n    Jun 15th vs Gouging Anklebiters (Cance
+ lled)\n    Jun 22nd @ F
+ ilthier (W 2-0)\n    Jun 29th vs Fuzz (W 5-1)\n 
+    Jul 13th @ Renaissance 
+ (W 4-2)\n    Jul 20th vs Gouging Anklebiters 
+ (W 7-3)\n    Jul 20th @ Corle
+ ars Hookers (W 5-3)\n    Jul 27th vs Riots
+  (Cancelled)\n    Aug 3rd vs Ver
+ tz (L 1-7)\n\n-------------------------
+ ---------------\nPrior matchups: Sk
+ y Fighters vs Mega Touch (before thi
+ s matchup):\n    (no prior matchups li
+ sted)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-881@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Vertz
+DTSTART;TZID=America/New_York:20250817T130000
+DTEN
+ D;TZID=America/New_York:20250817T130100
+LOCATION:Tompkins Square Park (We
+ st)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkin
+ s Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Sky Fighters 1 - 7 Ve
+ rtz\n\n--
+ --------------------------------------\nVertz games (before th
+ is matchup):
+ \n    Jun 8th @ Fuzz (Cancelled)\n    Jun 15th @ Lbs (W 7-3
+ )\n    Jun 22nd
+  @ Gouging Anklebiters (W 5-4)\n    Jun 29th @ Corlears 
+ Hookers (W 10-4)\n
+     Jul 13th vs Lbs (L 7-9)\n    Jul 20th @ Fuzz (W 6
+ -2)\n    Jul 20th vs 
+ Poutine Machine (W 3-2)\n    Jul 27th vs What the 
+ Puck (Cancelled)\n    Au
+ g 3rd @ Mega Touch (W 7-1)\n    Aug 10th vs Gre
+ mlins (L 3-4)\n\n----------
+ ------------------------------\nPrior matchu
+ ps: Sky Fighters vs Vertz (bef
+ ore this matchup):\n    (no prior matchup
+ s listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-799@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Butchers
+DTSTART;TZID=America/New_York:20250907T164500
+D
+ TEND;TZID=America/New_York:20250907T164600
+LOCATION:Tompkins Square Park 
+ (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tomp
+ kins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Sky Fighters 4 - 2
+  Butchers\n\
+ n----------------------------------------\nButchers games (
+ before this mat
+ chup):\n    Jun 8th vs Denim Demons (L 2-3)\n    Jun 15t
+ h vs Riots (W 4-0)
+ \n    Jun 22nd vs Renaissance (L 2-5)\n    Jun 29th v
+ s Moby Dekes (L 2-5)\
+ n    Jul 13th @ Riots (W 3-2)\n    Jul 20th @ Inst
+ ant Karma (L 0-6)\n    J
+ ul 27th vs Cobra Kai (Cancelled)\n    Aug 3rd @
+  What the Puck (L 2-4)\n   
+  Aug 10th vs Fresh Kills (L 3-10)\n    Aug 1
+ 7th @ Moby Dekes (Cancelled)\n
+ \n---------------------------------------
+ -\nPrior matchups: Sky Fighters v
+ s Butchers (before this matchup):\n   
+  (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-802@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Renaissance
+DTSTART;TZID=America/New_York:20250914T131500
+ 
+DTEND;TZID=America/New_York:20250914T131600
+LOCATION:Tompkins Square Pa
+ rk (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
+ ompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Sky Fighters 3 
+ - 5 Renaissance
+ \n\n----------------------------------------\nRenaissanc
+ e games (before th
+ is matchup):\n    Jun 15th vs Moby Dekes (W 3-2)\n   
+  Jun 22nd @ Butchers 
+ (W 5-2)\n    Jun 29th vs Dark Rainbows (W 7-6)\n  
+   Jul 13th vs Mega Touch
+  (L 2-4)\n    Jul 20th vs Denim Demons (L 2-6)\
+ n    Jul 27th @ Fresh Kills
+  (L 6-7)\n    Aug 3rd vs Sky Fighters (W 8-2
+ )\n    Aug 10th @ Fuzz (W 8-4)
+ \n    Aug 17th @ Dark Rainbows (W 10-3)\n
+     Sep 7th vs What the Puck (W 9
+ -0)\n\n-------------------------------
+ ---------\nPrior matchups: Sky Fight
+ ers vs Renaissance (before this mat
+ chup):\n    Aug 3rd @ Renaissance (L 2-
+ 8)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-900@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ Gremlins
+DTSTART;TZID=America/New_York:20250921T170000
+DT
+ END;TZID=America/New_York:20250921T170100
+LOCATION:Tompkins Square Park (
+ West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompk
+ ins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Gremlins 6 - 5 Sky 
+ Fighters\n\
+ n----------------------------------------\nGremlins games (b
+ efore this mat
+ chup):\n    Jun 22nd @ Denim Demons (L 0-10)\n    Jun 29t
+ h vs Instant Karm
+ a (L 2-5)\n    Jul 13th @ Dark Rainbows (L 0-4)\n    J
+ ul 20th @ What the P
+ uck (W 6-3)\n    Jul 27th @ Corlears Hookers (L 1-6
+ )\n    Aug 3rd vs Cobra
+  Kai (L 3-5)\n    Aug 10th @ Vertz (W 4-3)\n    
+ Aug 17th @ Instant Karma (
+ L 2-8)\n    Sep 7th vs Moby Dekes (W 7-1)\n  
+   Sep 14th vs Riots (W 5-1)\n
+ \n----------------------------------------
+ \nPrior matchups: Sky Fighters v
+ s Gremlins (before this matchup):\n    
+ May 18th vs Gremlins (W 9-3)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-916@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ What the Puck
+DTSTART;TZID=America/New_York:20250928T12000
+ 0
+DTEND;TZID=America/New_York:20250928T125000
+LOCATION:Tompkins Square P
+ ark (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
+ Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  What the Puck 
+ 2 - 8 Sky Fighte
+ rs\n\n----------------------------------------\nWhat th
+ e Puck games (befor
+ e this matchup):\n    Jul 13th vs Denim Demons (L 2-
+ 6)\n    Jul 20th vs Gr
+ emlins (L 3-6)\n    Jul 27th @ Vertz (Cancelled)\
+ n    Aug 3rd vs Butchers 
+ (W 4-2)\n    Aug 10th @ Poutine Machine (L 0-9
+ )\n    Aug 17th vs Riots (W 
+ 6-1)\n    Sep 7th @ Renaissance (L 0-9)\n  
+   Sep 14th @ Butchers (L 3-5)\n
+     Sep 21st @ Moby Dekes (W 8-4)\n    S
+ ep 28th @ Vertz (L 3-13)\n\n------
+ ----------------------------------\nP
+ rior matchups: Sky Fighters vs What t
+ he Puck (before this matchup):\n  
+   May 4th @ What the Puck (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-947@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters @ Renaissance
+DTSTART;TZID=America/New_York:20251026T131500
+ 
+DTEND;TZID=America/New_York:20251026T140500
+LOCATION:Tompkins Square Par
+ k (East)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: To
+ mpkins Squa
+ re Park (East)\nType: Playoff\n\n---------------------------
+ -------------\
+ nRenaissance games (before this matchup):\n    Jul 13th v
+ s Mega Touch (L 2
+ -4)\n    Jul 20th vs Denim Demons (L 2-6)\n    Jul 27t
+ h @ Fresh Kills (L 6
+ -7)\n    Aug 3rd vs Sky Fighters (W 8-2)\n    Aug 1
+ 0th @ Fuzz (W 8-4)\n   
+  Aug 17th @ Dark Rainbows (W 10-3)\n    Sep 7th 
+ vs What the Puck (W 9-0)\n
+     Sep 14th @ Sky Fighters (W 5-3)\n    Sep 
+ 21st @ Instant Karma (W 8-2)\
+ n    Sep 28th @ Riots (W 10-0)\n\n--------
+ --------------------------------
+ \nPrior matchups: Sky Fighters vs Renai
+ ssance (before this matchup):\n    
+ Aug 3rd @ Renaissance (L 2-8)\n    S
+ ep 14th vs Renaissance (L 3-5)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-960@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Sky Fighters vs Moby Dekes
+DTSTART;TZID=America/New_York:20251109T120000
+ 
+DTEND;TZID=America/New_York:20251109T125000
+LOCATION:Tompkins Square Par
+ k (West)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: To
+ mpkins Squa
+ re Park (West)\nType: Playoff\n\n---------------------------
+ -------------\
+ nMoby Dekes games (before this matchup):\n    Aug 17th vs
+  Butchers (Cancel
+ led)\n    Sep 7th @ Gremlins (L 1-7)\n    Sep 14th vs 
+ Butchers (W 7-4)\n  
+   Sep 14th vs Denim Demons (L 1-11)\n    Sep 21st v
+ s What the Puck (L 4-8)
+ \n    Sep 28th @ Instant Karma (L 2-10)\n    Oct
+  5th @ Lbs (L 4-10)\n    O
+ ct 12th @ Dark Rainbows (Cancelled)\n    Oct 
+ 19th @ Dark Rainbows (L 2-3)\
+ n    Nov 2nd @ What the Puck\n\n----------
+ ------------------------------\n
+ Prior matchups: Sky Fighters vs Moby De
+ kes (before this matchup):\n    Jun
+  22nd vs Moby Dekes (W 4-2)
+END:VEV
+ ENT
+BEGIN:VEVENT
+UID:btsh-game-s2-965@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ PBR Cup vs -
+DTSTART;TZID=America/New_York:20251109T150000
+DTEND;TZID=Am
+ erica/New_York:20251109T155000
+LOCATION:Tompkins Square Park (West)
+DESC
+ RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ 
+ ation: Tompkins Square Park (West)
+END:VEVENT
+END:VCALENDAR

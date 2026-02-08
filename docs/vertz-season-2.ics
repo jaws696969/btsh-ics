@@ -1,0 +1,847 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BTSH ICS//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:BTSH — Vertz (Season 2)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BE
+ GIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19
+ 700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:
+ STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:197011
+ 01T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIME
+ ZONE
+BEGIN:VEVENT
+UID:btsh-day-s2-102@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
+ t & d
+ ark jerseys
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCR
+ IPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
+END:VEVE
+ NT
+BEGIN:VEVENT
+UID:btsh-day-s2-103@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
+ g lig
+ ht & dark jerseys
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+ 
+DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
+ ys
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-104@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - EASTER
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE
+ :20250421
+DESCRIPTION:EASTER
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-105@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MOTHERS DAY
+DTSTART;VALUE=DATE:20250511
+DTEND;VAL
+ UE=DATE:20250512
+DESCRIPTION:MOTHERS DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-106@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MEMORIAL DAY
+DTSTART;VALUE=DATE:20250525
+DTEND;VA
+ LUE=DATE:20250526
+DESCRIPTION:MEMORIAL DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-108@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - 4TH OF JULY
+DTSTART;VALUE=DATE:20250706
+DTEND;VAL
+ UE=DATE:20250707
+DESCRIPTION:4TH OF JULY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-109@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - HOCKEY BEACH
+DTSTART;VALUE=DATE:20250824
+DTEND;VALU
+ E=DATE:20250825
+DESCRIPTION:HOCKEY BEACH
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-110@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - LABOR DAY
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE
+ =DATE:20250901
+DESCRIPTION:LABOR DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-118@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DA
+ TE:20251117
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-119@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DA
+ TE:20251124
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-811@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Vertz @ Lbs
+DTSTART;TZID=America/New_York:20250406T130000
+DT
+ END;TZID=America/New_York:20250406T130100
+LOCATION:Tompkins Square Park (
+ West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLocation: Tompk
+ ins Squa
+ re Park (West)\nType: Regular\n\n------------------------------
+ ----------\
+ nLbs games (before this matchup):\n    (no prior games liste
+ d)\n\n--------
+ --------------------------------\nPrior matchups: Vertz v
+ s Lbs (before thi
+ s matchup):\n    (no prior matchups listed)
+STATUS:CA
+ NCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-730@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Fuzz
+DTSTART;TZID=America/New_York:20250413T180000
+DTEND;TZID=A
+ merica/New_York:20250413T180100
+LOCATION:Tompkins Square Park (East)
+DES
+ CRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins Squa
+
+  re Park (East)\nType: Regular\n\nResult:\n  Vertz 5 - 4 Fuzz\n\n---------
+ -
+ ------------------------------\nFuzz games (before this matchup):\n   
+  Apr
+  6th @ Cobra Kai (Cancelled)\n\n-----------------------------------
+ -----\n
+ Prior matchups: Vertz vs Fuzz (before this matchup):\n    (no pr
+ ior matchu
+ ps listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-821@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Denim Demons
+DTSTART;TZID=America/New_York:20250427T130000
+DTEN
+ D;TZID=America/New_York:20250427T130100
+LOCATION:Tompkins Square Park (We
+ st)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkin
+ s Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Vertz 5 - 3 Denim Dem
+ ons\n\n--
+ --------------------------------------\nDenim Demons games (be
+ fore this ma
+ tchup):\n    Apr 6th vs What the Puck (Cancelled)\n    Apr 
+ 13th vs Butcher
+ s (W 2-0)\n\n----------------------------------------\nP
+ rior matchups: Ver
+ tz vs Denim Demons (before this matchup):\n    (no pr
+ ior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-827@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Vertz @ Fresh Kills
+DTSTART;TZID=America/New_York:20250504T14
+ 1500
+DTEND;TZID=America/New_York:20250504T141600
+LOCATION:Tompkins Squar
+ e Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLocatio
+ n: Tompkins Squa
+ re Park (West)\nType: Regular\n\n----------------------
+ ------------------\
+ nFresh Kills games (before this matchup):\n    Apr 6
+ th @ Corlears Hookers 
+ (Cancelled)\n    Apr 13th vs Lbs (W 6-1)\n    Apr
+  27th @ Instant Karma (L 
+ 4-5)\n\n--------------------------------------
+ --\nPrior matchups: Vertz vs
+  Fresh Kills (before this matchup):\n    (n
+ o prior matchups listed)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-743@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Cobra Kai
+DTSTART;TZID=America/New_York:20250518T153000
+DTEND;T
+ ZID=America/New_York:20250518T153100
+LOCATION:Tompkins Square Park (East)
+ 
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins S
+ qua
+ re Park (East)\nType: Regular\n\nResult:\n  Vertz 4 - 3 Cobra Kai\n\
+ n-----
+ -----------------------------------\nCobra Kai games (before this
+  matchup)
+ :\n    Apr 6th vs Fuzz (Cancelled)\n    Apr 13th @ Mega Touch 
+ (L 1-5)\n   
+  Apr 27th @ Riots (W 8-1)\n    May 4th vs Filthier (Cancell
+ ed)\n\n--------
+ --------------------------------\nPrior matchups: Vertz 
+ vs Cobra Kai (befo
+ re this matchup):\n    (no prior matchups listed)
+EN
+ D:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-749@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Dark Rainbows
+DTSTART;TZID=America/New_York:20250601T164500
+DTE
+ ND;TZID=America/New_York:20250601T164600
+LOCATION:Tompkins Square Park (E
+ ast)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompki
+ ns Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Vertz 7 - 0 Dark Rai
+ nbows\n\n-
+ ---------------------------------------\nDark Rainbows games 
+ (before this 
+ matchup):\n    Apr 6th @ Gremlins (Cancelled)\n    Apr 13t
+ h @ Sky Fighters
+  (W 3-2)\n    Apr 27th vs Filthier (L 2-4)\n    May 4th
+  @ Denim Demons (Ca
+ ncelled)\n    May 18th @ Fuzz (L 0-6)\n\n-----------
+ ----------------------
+ -------\nPrior matchups: Vertz vs Dark Rainbows (
+ before this matchup):\n  
+   (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-755@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Vertz @ Fuzz
+DTSTART;TZID=America/New_York:20250608T180000
+D
+ TEND;TZID=America/New_York:20250608T180100
+LOCATION:Tompkins Square Park 
+ (East)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLocation: Tomp
+ kins Squa
+ re Park (East)\nType: Regular\n\n-----------------------------
+ -----------\
+ nFuzz games (before this matchup):\n    Apr 6th @ Cobra Kai
+  (Cancelled)\n 
+    Apr 13th @ Vertz (L 4-5)\n    Apr 27th @ Butchers (W 
+ 9-3)\n    May 4th 
+ vs Corlears Hookers (Cancelled)\n    May 18th vs Dark
+  Rainbows (W 6-0)\n  
+   Jun 1st @ Gremlins (W 3-1)\n\n------------------
+ ----------------------\n
+ Prior matchups: Vertz vs Fuzz (before this matc
+ hup):\n    Apr 13th vs Fuzz
+  (W 5-4)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-901@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz @ Lbs
+DTSTART;TZID=America/New_York:20250615T130000
+DTEND;TZID=Ame
+ rica/New_York:20250615T135000
+LOCATION:Tompkins Square Park (West)
+DESCR
+ IPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins Squa
+ r
+ e Park (West)\nType: Regular\n\nResult:\n  Lbs 3 - 7 Vertz\n\n-----------
+ 
+ -----------------------------\nLbs games (before this matchup):\n    Apr
+  6
+ th vs Vertz (Cancelled)\n    Apr 13th @ Fresh Kills (L 1-6)\n    Apr 
+ 27th 
+ vs What the Puck (W 4-2)\n    May 4th @ Gouging Anklebiters (Cance
+ lled)\n 
+    May 18th vs Mega Touch (L 5-10)\n    Jun 1st vs Sky Fighters
+  (L 5-7)\n 
+    Jun 8th vs Instant Karma (W 5-4)\n\n---------------------
+ --------------
+ -----\nPrior matchups: Vertz vs Lbs (before this matchup)
+ :\n    Apr 6th @ 
+ Lbs (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-756@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz @ Gouging Anklebiters
+DTSTART;TZID=America/New_York:20250622T130000
+ 
+DTEND;TZID=America/New_York:20250622T130100
+LOCATION:Tompkins Square Pa
+ rk (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
+ ompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Gouging Anklebi
+ ters 4 - 5 Vert
+ z\n\n----------------------------------------\nGouging A
+ nklebiters games (
+ before this matchup):\n    Apr 6th @ Mega Touch (Canc
+ elled)\n    Apr 13th 
+ vs Poutine Machine (W 4-3)\n    Apr 27th @ Renaiss
+ ance (W 5-2)\n    May 4t
+ h vs Lbs (Cancelled)\n    May 18th vs Fresh Kil
+ ls (W 5-2)\n    Jun 1st @ W
+ hat the Puck (W 10-2)\n    Jun 8th @ Poutine
+  Machine (Cancelled)\n    Jun 
+ 15th @ Mega Touch (Cancelled)\n\n--------
+ --------------------------------\
+ nPrior matchups: Vertz vs Gouging Ankl
+ ebiters (before this matchup):\n    
+ (no prior matchups listed)
+END:VEV
+ ENT
+BEGIN:VEVENT
+UID:btsh-game-s2-762@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz @ Corlears Hookers
+DTSTART;TZID=America/New_York:20250629T141500
+D
+ TEND;TZID=America/New_York:20250629T141600
+LOCATION:Tompkins Square Park 
+ (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tomp
+ kins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Corlears Hookers 4
+  - 10 Vertz\
+ n\n----------------------------------------\nCorlears Hooke
+ rs games (befor
+ e this matchup):\n    Apr 6th vs Fresh Kills (Cancelled)
+ \n    Apr 13th @ F
+ ilthier (L 4-5)\n    Apr 27th vs Sky Fighters (W 2-1)
+ \n    May 4th @ Fuzz 
+ (Cancelled)\n    May 18th vs Poutine Machine (L 0-
+ 7)\n    Jun 1st @ Butche
+ rs (W 10-0)\n    Jun 8th vs Filthier (Cancelled
+ )\n    Jun 15th vs Fresh Ki
+ lls (L 1-3)\n    Jun 22nd @ Cobra Kai (L 0-5
+ )\n\n-------------------------
+ ---------------\nPrior matchups: Vertz vs
+  Corlears Hookers (before this ma
+ tchup):\n    (no prior matchups listed
+ )
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-770@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Lbs
+DTSTART;TZID=America/New_York:20250713T180000
+DTEND;TZID=Am
+ erica/New_York:20250713T180100
+LOCATION:Tompkins Square Park (East)
+DESC
+ RIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins Squa
+ 
+ re Park (East)\nType: Regular\n\nResult:\n  Vertz 7 - 9 Lbs\n\n-----------
+ 
+ -----------------------------\nLbs games (before this matchup):\n    Ap
+ r 6
+ th vs Vertz (Cancelled)\n    Apr 13th @ Fresh Kills (L 1-6)\n    Apr
+  27th 
+ vs What the Puck (W 4-2)\n    May 4th @ Gouging Anklebiters (Canc
+ elled)\n 
+    May 18th vs Mega Touch (L 5-10)\n    Jun 1st vs Sky Fighter
+ s (L 5-7)\n 
+    Jun 8th vs Instant Karma (W 5-4)\n    Jun 15th vs Vertz 
+ (L 3-7)\n    Ju
+ n 22nd @ Poutine Machine (L 3-7)\n    Jun 29th @ Cobra K
+ ai (W 4-3)\n\n----
+ ------------------------------------\nPrior matchups:
+  Vertz vs Lbs (before
+  this matchup):\n    Apr 6th @ Lbs (Cancelled)\n  
+   Jun 15th @ Lbs (W 7-3)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-912@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz @ Fuzz
+DTSTART;TZID=America/New_York:20250720T120000
+DTEND;TZID=Am
+ erica/New_York:20250720T125000
+LOCATION:Tompkins Square Park (East)
+DESC
+ RIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins Squa
+ 
+ re Park (East)\nType: Regular\n\nResult:\n  Fuzz 2 - 6 Vertz\n\n----------
+ 
+ ------------------------------\nFuzz games (before this matchup):\n    
+ Apr
+  13th @ Vertz (L 4-5)\n    Apr 27th @ Butchers (W 9-3)\n    May 4th 
+ vs Cor
+ lears Hookers (Cancelled)\n    May 18th vs Dark Rainbows (W 6-0)\
+ n    Jun 
+ 1st @ Gremlins (W 3-1)\n    Jun 8th vs Vertz (Cancelled)\n    
+ Jun 15th @ C
+ obra Kai (L 1-4)\n    Jun 22nd @ Fresh Kills (W 6-4)\n    J
+ un 29th @ Mega 
+ Touch (L 1-5)\n    Jul 13th vs Cobra Kai (L 4-5)\n\n----
+ ------------------
+ ------------------\nPrior matchups: Vertz vs Fuzz (be
+ fore this matchup):\n
+     Apr 13th vs Fuzz (W 5-4)\n    Jun 8th @ Fuzz (
+ Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-863@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Poutine Machine
+DTSTART;TZID=America/New_York:20250720T153000
+D
+ TEND;TZID=America/New_York:20250720T153100
+LOCATION:Tompkins Square Park 
+ (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tomp
+ kins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Vertz 3 - 2 Poutin
+ e Machine\n\
+ n----------------------------------------\nPoutine Machine 
+ games (before t
+ his matchup):\n    Apr 27th vs Gremlins (W 8-1)\n    May
+  4th @ Mega Touch 
+ (Cancelled)\n    May 18th @ Corlears Hookers (W 7-0)\
+ n    Jun 1st @ Moby D
+ ekes (W 10-1)\n    Jun 8th vs Gouging Anklebiters 
+ (Cancelled)\n    Jun 15t
+ h @ Filthier (W 8-2)\n    Jun 22nd vs Lbs (W 7-
+ 3)\n    Jun 29th vs Fresh K
+ ills (L 5-6)\n    Jul 13th vs Gouging Ankleb
+ iters (W 9-6)\n    Jul 13th vs
+  Filthier (W 8-4)\n\n--------------------
+ --------------------\nPrior match
+ ups: Vertz vs Poutine Machine (before 
+ this matchup):\n    (no prior matchu
+ ps listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-867@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Vertz vs What the Puck
+DTSTART;TZID=America/New_York:20250727
+ T141500
+DTEND;TZID=America/New_York:20250727T141600
+LOCATION:Tompkins Sq
+ uare Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLoca
+ tion: Tompkins Squa
+ re Park (West)\nType: Regular\n\n-------------------
+ ---------------------\
+ nWhat the Puck games (before this matchup):\n    
+ Apr 27th @ Lbs (L 2-4)\n 
+    May 4th vs Sky Fighters (Cancelled)\n    Ma
+ y 18th vs Moby Dekes (W 5-4)
+ \n    Jun 1st vs Gouging Anklebiters (L 2-1
+ 0)\n    Jun 8th vs Fresh Kills 
+ (L 0-10)\n    Jun 15th @ Denim Demons (L
+  4-5)\n    Jun 22nd @ Dark Rainbow
+ s (L 4-10)\n    Jun 29th @ Riots (W 5
+ -2)\n    Jul 13th vs Denim Demons (L 
+ 2-6)\n    Jul 20th vs Gremlins (L 
+ 3-6)\n\n--------------------------------
+ --------\nPrior matchups: Vertz
+  vs What the Puck (before this matchup):\n 
+    (no prior matchups listed
+ )
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-784@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz @ Mega Touch
+DTSTART;TZID=America/New_York:20250803T164500
+DTEND;T
+ ZID=America/New_York:20250803T164600
+LOCATION:Tompkins Square Park (East)
+ 
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins S
+ qua
+ re Park (East)\nType: Regular\n\nResult:\n  Mega Touch 1 - 7 Vertz\n
+ \n----
+ ------------------------------------\nMega Touch games (before th
+ is matchu
+ p):\n    May 18th @ Lbs (W 10-5)\n    Jun 1st vs Instant Karma
+  (W 6-1)\n  
+   Jun 8th @ Cobra Kai (W 6-1)\n    Jun 15th vs Gouging Ankl
+ ebiters (Cancel
+ led)\n    Jun 22nd @ Filthier (W 2-0)\n    Jun 29th vs F
+ uzz (W 5-1)\n    J
+ ul 13th @ Renaissance (W 4-2)\n    Jul 20th vs Gougin
+ g Anklebiters (W 7-3)
+ \n    Jul 20th @ Corlears Hookers (W 5-3)\n    Jul
+  27th vs Riots (Cancelle
+ d)\n\n----------------------------------------\
+ nPrior matchups: Vertz vs M
+ ega Touch (before this matchup):\n    (no pr
+ ior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-877@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Gremlins
+DTSTART;TZID=America/New_York:20250810T141500
+DTEND;TZ
+ ID=America/New_York:20250810T141600
+LOCATION:Tompkins Square Park (West)
+ 
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins Sq
+ ua
+ re Park (West)\nType: Regular\n\nResult:\n  Vertz 3 - 4 Gremlins\n\n-
+ -----
+ ----------------------------------\nGremlins games (before this ma
+ tchup):\
+ n    May 18th @ Sky Fighters (L 3-9)\n    Jun 1st vs Fuzz (L 1-
+ 3)\n    Jun
+  8th @ Renaissance (L 1-10)\n    Jun 15th vs Dark Rainbows (
+ W 2-1)\n    Ju
+ n 22nd @ Denim Demons (L 0-10)\n    Jun 29th vs Instant K
+ arma (L 2-5)\n   
+  Jul 13th @ Dark Rainbows (L 0-4)\n    Jul 20th @ What
+  the Puck (W 6-3)\n 
+    Jul 27th @ Corlears Hookers (L 1-6)\n    Aug 3rd
+  vs Cobra Kai (L 3-5)\n
+ \n----------------------------------------\nPrio
+ r matchups: Vertz vs Greml
+ ins (before this matchup):\n    (no prior mat
+ chups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-881@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz @ Sky Fighters
+DTSTART;TZID=America/New_York:20250817T130000
+DTEND
+ ;TZID=America/New_York:20250817T130100
+LOCATION:Tompkins Square Park (Wes
+ t)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins
+  Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Sky Fighters 1 - 7 Ver
+ tz\n\n--
+ --------------------------------------\nSky Fighters games (bef
+ ore this ma
+ tchup):\n    Jun 1st @ Lbs (W 7-5)\n    Jun 8th @ Dark Rainb
+ ows (W 6-2)\n 
+    Jun 15th @ Instant Karma (W 5-4)\n    Jun 22nd vs Moby
+  Dekes (W 4-2)\n 
+    Jun 29th vs Denim Demons (L 1-4)\n    Jul 13th vs I
+ nstant Karma (L 7-8)
+ \n    Jul 20th @ Riots (W 11-2)\n    Jul 27th @ Fil
+ thier (W 5-4)\n    Aug 
+ 3rd @ Renaissance (L 2-8)\n    Aug 10th vs Mega 
+ Touch (L 1-9)\n\n---------
+ -------------------------------\nPrior matchu
+ ps: Vertz vs Sky Fighters (be
+ fore this matchup):\n    (no prior matchup
+ s listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-889@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz @ Filthier
+DTSTART;TZID=America/New_York:20250907T164500
+DTEND;TZI
+ D=America/New_York:20250907T164600
+LOCATION:Tompkins Square Park (West)
+
+ DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins Squ
+ a
+ re Park (West)\nType: Regular\n\nResult:\n  Filthier 1 - 10 Vertz\n\n-
+ ----
+ -----------------------------------\nFilthier games (before this ma
+ tchup):
+ \n    Jun 8th @ Corlears Hookers (Cancelled)\n    Jun 15th vs Po
+ utine Mach
+ ine (L 2-8)\n    Jun 22nd vs Mega Touch (L 0-2)\n    Jun 29th
+  @ Gouging An
+ klebiters (L 5-9)\n    Jul 13th @ Poutine Machine (L 4-8)\
+ n    Jul 20th @ 
+ Lbs (W 8-4)\n    Jul 27th vs Sky Fighters (L 4-5)\n    
+ Aug 3rd @ Fresh Kil
+ ls (L 3-6)\n    Aug 10th @ Moby Dekes (W 6-4)\n    A
+ ug 17th vs Gouging Ank
+ lebiters (W 9-3)\n\n-----------------------------
+ -----------\nPrior matchu
+ ps: Vertz vs Filthier (before this matchup):\n
+     (no prior matchups liste
+ d)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-893@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Mega Touch
+DTSTART;TZID=America/New_York:20250914T143000
+DTEND;
+ TZID=America/New_York:20250914T143100
+LOCATION:Tompkins Square Park (West
+ )
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins 
+ Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Vertz 7 - 1 Mega Touch\
+ n\n----
+ ------------------------------------\nMega Touch games (before t
+ his matchu
+ p):\n    Jun 29th vs Fuzz (W 5-1)\n    Jul 13th @ Renaissance
+  (W 4-2)\n   
+  Jul 20th vs Gouging Anklebiters (W 7-3)\n    Jul 20th @ C
+ orlears Hookers 
+ (W 5-3)\n    Jul 27th vs Riots (Cancelled)\n    Aug 3rd
+  vs Vertz (L 1-7)\n
+     Aug 10th @ Sky Fighters (W 9-1)\n    Aug 17th vs
+  Riots (W 9-0)\n    Au
+ g 17th @ Fuzz (W 4-3)\n    Sep 7th vs Fresh Kills
+  (L 3-5)\n\n-------------
+ ---------------------------\nPrior matchups: V
+ ertz vs Mega Touch (before t
+ his matchup):\n    Aug 3rd @ Mega Touch (W 
+ 7-1)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-808@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz @ Cobra Kai
+DTSTART;TZID=America/New_York:20250921T143000
+DTEND;TZ
+ ID=America/New_York:20250921T143100
+LOCATION:Tompkins Square Park (East)
+ 
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins Sq
+ ua
+ re Park (East)\nType: Regular\n\nResult:\n  Cobra Kai 5 - 3 Vertz\n\n
+ -----
+ -----------------------------------\nCobra Kai games (before this 
+ matchup)
+ :\n    Jun 29th vs Lbs (L 3-4)\n    Jul 13th @ Fuzz (W 5-4)\n  
+   Jul 20th 
+ vs Fresh Kills (L 2-4)\n    Jul 27th @ Butchers (Cancelled)\
+ n    Aug 3rd @
+  Gremlins (W 5-3)\n    Aug 10th vs Instant Karma (L 1-4)\
+ n    Aug 17th @ L
+ bs (Cancelled)\n    Sep 7th @ Gouging Anklebiters (Can
+ celled)\n    Sep 14t
+ h @ Poutine Machine (W 6-5)\n    Sep 21st @ Butcher
+ s (W 11-1)\n\n---------
+ -------------------------------\nPrior matchups:
+  Vertz vs Cobra Kai (befor
+ e this matchup):\n    May 18th vs Cobra Kai (
+ W 4-3)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-928@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs What the Puck
+DTSTART;TZID=America/New_York:20250928T110000
+DTE
+ ND;TZID=America/New_York:20250928T115000
+LOCATION:Tompkins Square Park (W
+ est)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompki
+ ns Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Vertz 13 - 3 What th
+ e Puck\n\n
+ ----------------------------------------\nWhat the Puck games
+  (before this
+  matchup):\n    Jun 29th @ Riots (W 5-2)\n    Jul 13th vs 
+ Denim Demons (L 
+ 2-6)\n    Jul 20th vs Gremlins (L 3-6)\n    Jul 27th @ 
+ Vertz (Cancelled)\n
+     Aug 3rd vs Butchers (W 4-2)\n    Aug 10th @ Pout
+ ine Machine (L 0-9)\n 
+    Aug 17th vs Riots (W 6-1)\n    Sep 7th @ Renai
+ ssance (L 0-9)\n    Sep 1
+ 4th @ Butchers (L 3-5)\n    Sep 21st @ Moby De
+ kes (W 8-4)\n\n-------------
+ ---------------------------\nPrior matchups
+ : Vertz vs What the Puck (befor
+ e this matchup):\n    Jul 27th vs What t
+ he Puck (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-918@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz @ Fresh Kills
+DTSTART;TZID=America/New_York:20250928T131500
+DTEND;
+ TZID=America/New_York:20250928T140500
+LOCATION:Tompkins Square Park (West
+ )
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins 
+ Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Fresh Kills 5 - 6 Vertz
+ \n\n---
+ -------------------------------------\nFresh Kills games (before
+  this matc
+ hup):\n    Jun 29th @ Poutine Machine (W 6-5)\n    Jul 13th v
+ s Corlears Ho
+ okers (W 8-6)\n    Jul 20th @ Cobra Kai (W 4-2)\n    Jul 2
+ 7th vs Renaissan
+ ce (W 7-6)\n    Aug 3rd vs Filthier (W 6-3)\n    Aug 10
+ th @ Butchers (W 10
+ -3)\n    Aug 17th vs Poutine Machine (W 6-3)\n    Se
+ p 7th @ Mega Touch (W 
+ 5-3)\n    Sep 14th @ Filthier (W 6-4)\n    Sep 21
+ st vs Gouging Anklebiters
+  (W 6-2)\n\n----------------------------------
+ ------\nPrior matchups: Vert
+ z vs Fresh Kills (before this matchup):\n  
+   May 4th @ Fresh Kills (Cancel
+ led)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-950@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Fuzz
+DTSTART;TZID=America/New_York:20251026T154500
+DTEND;TZID=A
+ merica/New_York:20251026T163500
+LOCATION:Tompkins Square Park (West)
+DES
+ CRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: Tompkins Squa
+
+  re Park (West)\nType: Playoff\n\n----------------------------------------
+ \
+ nFuzz games (before this matchup):\n    Aug 3rd @ Lbs (L 2-4)\n    Aug
+  10t
+ h vs Renaissance (L 4-8)\n    Aug 17th vs Mega Touch (L 3-4)\n    S
+ ep 7th 
+ @ Poutine Machine (L 2-5)\n    Sep 14th vs Denim Demons (L 4-5)\
+ n    Sep 1
+ 4th vs Lbs (L 6-11)\n    Sep 21st @ Filthier (L 5-6)\n    Sep
+  28th vs Corl
+ ears Hookers (L 2-3)\n    Oct 12th vs What the Puck (Cance
+ lled)\n    Oct 1
+ 9th vs What the Puck (W 6-0)\n\n-----------------------
+ -----------------\n
+ Prior matchups: Vertz vs Fuzz (before this matchup):
+ \n    Apr 13th vs Fuzz
+  (W 5-4)\n    Jun 8th @ Fuzz (Cancelled)\n    Jul
+  20th @ Fuzz (W 6-2)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-955@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Vertz vs Cobra Kai
+DTSTART;TZID=America/New_York:20251102T141500
+DTEND;T
+ ZID=America/New_York:20251102T150500
+LOCATION:Tompkins Square Park (West)
+ 
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: Tompkins S
+ qua
+ re Park (West)\nType: Playoff\n\n-----------------------------------
+ -----\
+ nCobra Kai games (before this matchup):\n    Aug 10th vs Instant 
+ Karma (L 
+ 1-4)\n    Aug 17th @ Lbs (Cancelled)\n    Sep 7th @ Gouging An
+ klebiters (C
+ ancelled)\n    Sep 14th @ Poutine Machine (W 6-5)\n    Sep 
+ 21st @ Butchers
+  (W 11-1)\n    Sep 21st vs Vertz (W 5-3)\n    Sep 28th v
+ s Filthier (W 8-3)
+ \n    Oct 5th vs Gouging Anklebiters (W 2-1)\n    Oct
+  5th @ Lbs (L 3-4)\n 
+    Oct 26th @ Gouging Anklebiters\n\n-------------
+ ------------------------
+ ---\nPrior matchups: Vertz vs Cobra Kai (before
+  this matchup):\n    May 18
+ th vs Cobra Kai (W 4-3)\n    Sep 21st @ Cobr
+ a Kai (L 3-5)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-965@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ PBR Cup vs -
+DTSTART;TZID=America/New_York:20251109T150000
+DTEND;TZID=Am
+ erica/New_York:20251109T155000
+LOCATION:Tompkins Square Park (West)
+DESC
+ RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ 
+ ation: Tompkins Square Park (West)
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,900 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BTSH ICS//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:BTSH — Gouging Anklebiters (Season 2)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BE
+ GIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19
+ 700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:
+ STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:197011
+ 01T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIME
+ ZONE
+BEGIN:VEVENT
+UID:btsh-day-s2-102@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
+ t & d
+ ark jerseys
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCR
+ IPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
+END:VEVE
+ NT
+BEGIN:VEVENT
+UID:btsh-day-s2-103@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
+ g lig
+ ht & dark jerseys
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+ 
+DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
+ ys
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-104@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - EASTER
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE
+ :20250421
+DESCRIPTION:EASTER
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-105@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MOTHERS DAY
+DTSTART;VALUE=DATE:20250511
+DTEND;VAL
+ UE=DATE:20250512
+DESCRIPTION:MOTHERS DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-106@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MEMORIAL DAY
+DTSTART;VALUE=DATE:20250525
+DTEND;VA
+ LUE=DATE:20250526
+DESCRIPTION:MEMORIAL DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-108@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - 4TH OF JULY
+DTSTART;VALUE=DATE:20250706
+DTEND;VAL
+ UE=DATE:20250707
+DESCRIPTION:4TH OF JULY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-109@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - HOCKEY BEACH
+DTSTART;VALUE=DATE:20250824
+DTEND;VALU
+ E=DATE:20250825
+DESCRIPTION:HOCKEY BEACH
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-110@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - LABOR DAY
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE
+ =DATE:20250901
+DESCRIPTION:LABOR DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-118@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DA
+ TE:20251117
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-119@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DA
+ TE:20251124
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-722@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Gouging Anklebiters @ Mega Touch
+DTSTART;TZID=America/New_Yor
+ k:20250406T141500
+DTEND;TZID=America/New_York:20250406T141600
+LOCATION:T
+ ompkins Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Cance
+ lled\nLocation: Tompkins Squa
+ re Park (East)\nType: Regular\n\n---------
+ -------------------------------\
+ nMega Touch games (before this matchup)
+ :\n    (no prior games listed)\n\n-
+ ------------------------------------
+ ---\nPrior matchups: Gouging Anklebite
+ rs vs Mega Touch (before this mat
+ chup):\n    (no prior matchups listed)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-726@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters vs Poutine Machine
+DTSTART;TZID=America/New_York:2025
+ 0413T130000
+DTEND;TZID=America/New_York:20250413T130100
+LOCATION:Tompkin
+ s Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\n
+ Location: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Goug
+ ing Anklebiters 4 - 3 Pout
+ ine Machine\n\n------------------------------
+ ----------\nPoutine Machine g
+ ames (before this matchup):\n    Apr 6th @
+  Filthier (Cancelled)\n\n-------
+ ---------------------------------\nPrio
+ r matchups: Gouging Anklebiters vs 
+ Poutine Machine (before this matchup
+ ):\n    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-823@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ Renaissance
+DTSTART;TZID=America/New_York:20250427T
+ 153000
+DTEND;TZID=America/New_York:20250427T153100
+LOCATION:Tompkins Squ
+ are Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocat
+ ion: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Renaissan
+ ce 2 - 5 Gouging Ankl
+ ebiters\n\n---------------------------------------
+ -\nRenaissance games (be
+ fore this matchup):\n    Apr 6th vs Moby Dekes 
+ (Cancelled)\n    Apr 13th @
+  Gremlins (W 5-2)\n\n-----------------------
+ -----------------\nPrior match
+ ups: Gouging Anklebiters vs Renaissance (
+ before this matchup):\n    (no pr
+ ior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-829@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Gouging Anklebiters vs Lbs
+DTSTART;TZID=America/New_York:2025
+ 0504T164500
+DTEND;TZID=America/New_York:20250504T164600
+LOCATION:Tompkin
+ s Square Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\n
+ Location: Tompkins Squa
+ re Park (West)\nType: Regular\n\n---------------
+ -------------------------\
+ nLbs games (before this matchup):\n    Apr 6t
+ h vs Vertz (Cancelled)\n    A
+ pr 13th @ Fresh Kills (L 1-6)\n    Apr 27t
+ h vs What the Puck (W 4-2)\n\n--
+ --------------------------------------\
+ nPrior matchups: Gouging Anklebiter
+ s vs Lbs (before this matchup):\n   
+  (no prior matchups listed)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-834@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters vs Fresh Kills
+DTSTART;TZID=America/New_York:20250518
+ T164500
+DTEND;TZID=America/New_York:20250518T164600
+LOCATION:Tompkins Sq
+ uare Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLoca
+ tion: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Gouging 
+ Anklebiters 5 - 2 Fres
+ h Kills\n\n--------------------------------------
+ --\nFresh Kills games (be
+ fore this matchup):\n    Apr 6th @ Corlears Ho
+ okers (Cancelled)\n    Apr 1
+ 3th vs Lbs (W 6-1)\n    Apr 27th @ Instant 
+ Karma (L 4-5)\n    May 4th vs V
+ ertz (Cancelled)\n\n--------------------
+ --------------------\nPrior matchu
+ ps: Gouging Anklebiters vs Fresh Kill
+ s (before this matchup):\n    (no pri
+ or matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-750@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ What the Puck
+DTSTART;TZID=America/New_York:2025060
+ 1T180000
+DTEND;TZID=America/New_York:20250601T180100
+LOCATION:Tompkins S
+ quare Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLoc
+ ation: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  What th
+ e Puck 2 - 10 Gouging A
+ nklebiters\n\n----------------------------------
+ ------\nWhat the Puck game
+ s (before this matchup):\n    Apr 6th @ Denim
+  Demons (Cancelled)\n    Apr 
+ 13th vs Instant Karma (L 2-3)\n    Apr 27t
+ h @ Lbs (L 2-4)\n    May 4th vs 
+ Sky Fighters (Cancelled)\n    May 18th 
+ vs Moby Dekes (W 5-4)\n\n----------
+ ------------------------------\nPrio
+ r matchups: Gouging Anklebiters vs Wha
+ t the Puck (before this matchup):
+ \n    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-844@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Gouging Anklebiters @ Poutine Machine
+DTSTART;TZID=America/Ne
+ w_York:20250608T164500
+DTEND;TZID=America/New_York:20250608T164600
+LOCAT
+ ION:Tompkins Square Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: 
+ Cancelled\nLocation: Tompkins Squa
+ re Park (West)\nType: Regular\n\n----
+ ------------------------------------\
+ nPoutine Machine games (before thi
+ s matchup):\n    Apr 6th @ Filthier (Can
+ celled)\n    Apr 13th @ Gouging
+  Anklebiters (L 3-4)\n    Apr 27th vs Greml
+ ins (W 8-1)\n    May 4th @ M
+ ega Touch (Cancelled)\n    May 18th @ Corlears
+  Hookers (W 7-0)\n    Jun
+  1st @ Moby Dekes (W 10-1)\n\n-------------------
+ ---------------------\
+ nPrior matchups: Gouging Anklebiters vs Poutine Mach
+ ine (before this ma
+ tchup):\n    Apr 13th vs Poutine Machine (W 4-3)
+STATUS:CANCELLED
+END:VE
+ VENT
+BEGIN:VEVENT
+UID:btsh-game-s2-907@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Gouging Anklebiters @ Mega Touch
+DTSTART;TZID=America/New_Yor
+ k:20250615T141500
+DTEND;TZID=America/New_York:20250615T150500
+LOCATION:T
+ ompkins Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Cance
+ lled\nLocation: Tompkins Squa
+ re Park (East)\nType: Regular\n\n---------
+ -------------------------------\
+ nMega Touch games (before this matchup)
+ :\n    Apr 6th vs Gouging Anklebite
+ rs (Cancelled)\n    Apr 13th vs Cobr
+ a Kai (W 5-1)\n    Apr 27th @ Moby Dek
+ es (W 9-2)\n    May 4th vs Poutin
+ e Machine (Cancelled)\n    May 18th @ Lbs
+  (W 10-5)\n    Jun 1st vs Inst
+ ant Karma (W 6-1)\n    Jun 8th @ Cobra Kai (
+ W 6-1)\n\n-----------------
+ -----------------------\nPrior matchups: Gougin
+ g Anklebiters vs Mega To
+ uch (before this matchup):\n    Apr 6th @ Mega Tou
+ ch (Cancelled)
+STATU
+ S:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-756@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters vs Vertz
+DTSTART;TZID=America/New_York:20250622T13000
+ 0
+DTEND;TZID=America/New_York:20250622T130100
+LOCATION:Tompkins Square P
+ ark (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: 
+ Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Gouging Ankleb
+ iters 4 - 5 Vert
+ z\n\n----------------------------------------\nVertz ga
+ mes (before this ma
+ tchup):\n    Apr 6th @ Lbs (Cancelled)\n    Apr 13th
+  vs Fuzz (W 5-4)\n    
+ Apr 27th vs Denim Demons (W 5-3)\n    May 4th @ F
+ resh Kills (Cancelled)\n 
+    May 18th vs Cobra Kai (W 4-3)\n    Jun 1st 
+ vs Dark Rainbows (W 7-0)\n  
+   Jun 8th @ Fuzz (Cancelled)\n    Jun 15th 
+ @ Lbs (W 7-3)\n\n--------------
+ --------------------------\nPrior matchu
+ ps: Gouging Anklebiters vs Vertz (
+ before this matchup):\n    (no prior 
+ matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-853@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters vs Filthier
+DTSTART;TZID=America/New_York:20250629T15
+ 3000
+DTEND;TZID=America/New_York:20250629T153100
+LOCATION:Tompkins Squar
+ e Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocatio
+ n: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Gouging Ank
+ lebiters 9 - 5 Filt
+ hier\n\n----------------------------------------\nFi
+ lthier games (before t
+ his matchup):\n    Apr 6th vs Poutine Machine (Ca
+ ncelled)\n    Apr 13th vs
+  Corlears Hookers (W 5-4)\n    Apr 27th @ Dark
+  Rainbows (W 4-2)\n    May 4
+ th @ Cobra Kai (Cancelled)\n    May 18th vs
+  Butchers (W 9-0)\n    Jun 1st 
+ @ Riots (W 2-1)\n    Jun 8th @ Corlears 
+ Hookers (Cancelled)\n    Jun 15th 
+ vs Poutine Machine (L 2-8)\n    Jun 2
+ 2nd vs Mega Touch (L 0-2)\n\n--------
+ --------------------------------\n
+ Prior matchups: Gouging Anklebiters vs F
+ ilthier (before this matchup):\
+ n    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-911@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ Poutine Machine
+DTSTART;TZID=America/New_York:20250
+ 713T123000
+DTEND;TZID=America/New_York:20250713T132000
+LOCATION:Tompkins
+  Square Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nL
+ ocation: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Pouti
+ ne Machine 9 - 6 Gouging 
+ Anklebiters\n\n-------------------------------
+ ---------\nPoutine Machine g
+ ames (before this matchup):\n    Apr 6th @ 
+ Filthier (Cancelled)\n    Apr 1
+ 3th @ Gouging Anklebiters (L 3-4)\n    A
+ pr 27th vs Gremlins (W 8-1)\n    M
+ ay 4th @ Mega Touch (Cancelled)\n    
+ May 18th @ Corlears Hookers (W 7-0)\n
+     Jun 1st @ Moby Dekes (W 10-1)\
+ n    Jun 8th vs Gouging Anklebiters (Can
+ celled)\n    Jun 15th @ Filthie
+ r (W 8-2)\n    Jun 22nd vs Lbs (W 7-3)\n   
+  Jun 29th vs Fresh Kills (L 
+ 5-6)\n\n--------------------------------------
+ --\nPrior matchups: Gougi
+ ng Anklebiters vs Poutine Machine (before this ma
+ tchup):\n    Apr 13th 
+ vs Poutine Machine (W 4-3)\n    Jun 8th @ Poutine Ma
+ chine (Cancelled)
+
+ END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-856@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters vs Moby Dekes
+DTSTART;TZID=America/New_York:20250713T
+ 130000
+DTEND;TZID=America/New_York:20250713T130100
+LOCATION:Tompkins Squ
+ are Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocat
+ ion: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Gouging A
+ nklebiters 6 - 0 Moby
+  Dekes\n\n----------------------------------------
+ \nMoby Dekes games (befo
+ re this matchup):\n    Apr 6th @ Renaissance (C
+ ancelled)\n    Apr 13th vs 
+ Riots (W 3-1)\n    Apr 27th vs Mega Touch (L
+  2-9)\n    May 4th @ Instant K
+ arma (Cancelled)\n    May 18th @ What the
+  Puck (L 4-5)\n    Jun 1st vs Pou
+ tine Machine (L 1-10)\n    Jun 8th vs 
+ Riots (W 4-3)\n    Jun 15th @ Renais
+ sance (L 2-3)\n    Jun 22nd @ Sky F
+ ighters (L 2-4)\n    Jun 29th @ Butcher
+ s (W 5-2)\n\n-------------------
+ ---------------------\nPrior matchups: Gou
+ ging Anklebiters vs Moby Deke
+ s (before this matchup):\n    (no prior match
+ ups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-913@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ Mega Touch
+DTSTART;TZID=America/New_York:20250720T1
+ 20000
+DTEND;TZID=America/New_York:20250720T125000
+LOCATION:Tompkins Squa
+ re Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocati
+ on: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Mega Touch
+  7 - 3 Gouging Ankle
+ biters\n\n----------------------------------------\
+ nMega Touch games (befo
+ re this matchup):\n    Apr 13th vs Cobra Kai (W 
+ 5-1)\n    Apr 27th @ Moby 
+ Dekes (W 9-2)\n    May 4th vs Poutine Machine
+  (Cancelled)\n    May 18th @ 
+ Lbs (W 10-5)\n    Jun 1st vs Instant Karma
+  (W 6-1)\n    Jun 8th @ Cobra Ka
+ i (W 6-1)\n    Jun 15th vs Gouging Ankl
+ ebiters (Cancelled)\n    Jun 22nd @
+  Filthier (W 2-0)\n    Jun 29th vs F
+ uzz (W 5-1)\n    Jul 13th @ Renaissanc
+ e (W 4-2)\n\n--------------------
+ --------------------\nPrior matchups: Gou
+ ging Anklebiters vs Mega Touch
+  (before this matchup):\n    Apr 6th @ Mega 
+ Touch (Cancelled)\n    Jun 
+ 15th @ Mega Touch (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-862@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ Fuzz
+DTSTART;TZID=America/New_York:20250720T141500
+ 
+DTEND;TZID=America/New_York:20250720T141600
+LOCATION:Tompkins Square Par
+ k (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Fuzz 1 - 8 Gougi
+ ng Anklebiters
+ \n\n----------------------------------------\nFuzz games 
+ (before this matc
+ hup):\n    Apr 27th @ Butchers (W 9-3)\n    May 4th vs
+  Corlears Hookers (C
+ ancelled)\n    May 18th vs Dark Rainbows (W 6-0)\n 
+    Jun 1st @ Gremlins (
+ W 3-1)\n    Jun 8th vs Vertz (Cancelled)\n    Ju
+ n 15th @ Cobra Kai (L 1-4)
+ \n    Jun 22nd @ Fresh Kills (W 6-4)\n    Jun
+  29th @ Mega Touch (L 1-5)\n 
+    Jul 13th vs Cobra Kai (L 4-5)\n    Jul 
+ 20th vs Vertz (L 2-6)\n\n-------
+ ---------------------------------\nPrio
+ r matchups: Gouging Anklebiters vs 
+ Fuzz (before this matchup):\n    (no
+  prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-779@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Gouging Anklebiters @ Instant Karma
+DTSTART;TZID=America/New_
+ York:20250727T164500
+DTEND;TZID=America/New_York:20250727T164600
+LOCATIO
+ N:Tompkins Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Ca
+ ncelled\nLocation: Tompkins Squa
+ re Park (East)\nType: Regular\n\n------
+ ----------------------------------\
+ nInstant Karma games (before this ma
+ tchup):\n    Apr 27th vs Fresh Kills (
+ W 5-4)\n    May 4th vs Moby Dekes
+  (Cancelled)\n    May 18th @ Renaissance 
+ (L 3-9)\n    Jun 1st @ Mega To
+ uch (L 1-6)\n    Jun 8th @ Lbs (L 4-5)\n    
+ Jun 15th vs Sky Fighters (L
+  4-5)\n    Jun 22nd vs Riots (W 7-0)\n    Jun 2
+ 9th @ Gremlins (W 5-2)\n
+     Jul 13th @ Sky Fighters (W 8-7)\n    Jul 20th 
+ vs Butchers (W 6-0)\n
+ \n----------------------------------------\nPrior mat
+ chups: Gouging Ank
+ lebiters vs Instant Karma (before this matchup):\n    (n
+ o prior matchup
+ s listed)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-782@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ Corlears Hookers
+DTSTART;TZID=America/New_York:2025
+ 0803T141500
+DTEND;TZID=America/New_York:20250803T141600
+LOCATION:Tompkin
+ s Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\n
+ Location: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Corl
+ ears Hookers 4 - 5 Gouging
+  Anklebiters\n\n-----------------------------
+ -----------\nCorlears Hookers
+  games (before this matchup):\n    May 4th
+  @ Fuzz (Cancelled)\n    May 18t
+ h vs Poutine Machine (L 0-7)\n    Jun 1
+ st @ Butchers (W 10-0)\n    Jun 8th
+  vs Filthier (Cancelled)\n    Jun 15
+ th vs Fresh Kills (L 1-3)\n    Jun 22n
+ d @ Cobra Kai (L 0-5)\n    Jun 29
+ th vs Vertz (L 4-10)\n    Jul 13th @ Fres
+ h Kills (L 6-8)\n    Jul 20th 
+ vs Mega Touch (L 3-5)\n    Jul 27th vs Greml
+ ins (W 6-1)\n\n------------
+ ----------------------------\nPrior matchups: G
+ ouging Anklebiters vs Co
+ rlears Hookers (before this matchup):\n    (no pri
+ or matchups listed)
+
+ END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-880@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters vs Denim Demons
+DTSTART;TZID=America/New_York:2025081
+ 0T180000
+DTEND;TZID=America/New_York:20250810T180100
+LOCATION:Tompkins S
+ quare Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLoc
+ ation: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Gouging
+  Anklebiters 5 - 2 Deni
+ m Demons\n\n------------------------------------
+ ----\nDenim Demons games (
+ before this matchup):\n    May 18th vs Riots 
+ (W 9-0)\n    Jun 1st @ Fresh 
+ Kills (W 6-5)\n    Jun 8th @ Butchers (W 3
+ -2)\n    Jun 15th vs What the Pu
+ ck (W 5-4)\n    Jun 22nd vs Gremlins (W
+  10-0)\n    Jun 29th @ Sky Fighters
+  (W 4-1)\n    Jul 13th @ What the Pu
+ ck (W 6-2)\n    Jul 20th @ Renaissance
+  (W 6-2)\n    Jul 27th @ Fuzz (Ca
+ ncelled)\n    Aug 3rd vs Moby Dekes (W 7-
+ 1)\n\n------------------------
+ ----------------\nPrior matchups: Gouging An
+ klebiters vs Denim Demons (
+ before this matchup):\n    (no prior matchups l
+ isted)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-883@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ Filthier
+DTSTART;TZID=America/New_York:20250817T153
+ 000
+DTEND;TZID=America/New_York:20250817T153100
+LOCATION:Tompkins Square
+  Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation
+ : Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Filthier 9 -
+  3 Gouging Anklebi
+ ters\n\n----------------------------------------\nFil
+ thier games (before t
+ his matchup):\n    Jun 1st @ Riots (W 2-1)\n    Ju
+ n 8th @ Corlears Hookers
+  (Cancelled)\n    Jun 15th vs Poutine Machine (
+ L 2-8)\n    Jun 22nd vs Meg
+ a Touch (L 0-2)\n    Jun 29th @ Gouging Ankl
+ ebiters (L 5-9)\n    Jul 13th 
+ @ Poutine Machine (L 4-8)\n    Jul 20th @
+  Lbs (W 8-4)\n    Jul 27th vs Sky
+  Fighters (L 4-5)\n    Aug 3rd @ Fresh
+  Kills (L 3-6)\n    Aug 10th @ Moby 
+ Dekes (W 6-4)\n\n------------------
+ ----------------------\nPrior matchups:
+  Gouging Anklebiters vs Filthier
+  (before this matchup):\n    Jun 29th vs F
+ ilthier (W 9-5)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-797@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Gouging Anklebiters vs Cobra Kai
+DTSTART;TZID=America/New_Yor
+ k:20250907T141500
+DTEND;TZID=America/New_York:20250907T141600
+LOCATION:T
+ ompkins Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Cance
+ lled\nLocation: Tompkins Squa
+ re Park (East)\nType: Regular\n\n---------
+ -------------------------------\
+ nCobra Kai games (before this matchup):
+ \n    Jun 8th vs Mega Touch (L 1-6)
+ \n    Jun 15th vs Fuzz (W 4-1)\n    
+ Jun 22nd vs Corlears Hookers (W 5-0)\n
+     Jun 29th vs Lbs (L 3-4)\n    
+ Jul 13th @ Fuzz (W 5-4)\n    Jul 20th vs 
+ Fresh Kills (L 2-4)\n    Jul 2
+ 7th @ Butchers (Cancelled)\n    Aug 3rd @ Gr
+ emlins (W 5-3)\n    Aug 10t
+ h vs Instant Karma (L 1-4)\n    Aug 17th @ Lbs 
+ (Cancelled)\n\n---------
+ -------------------------------\nPrior matchups: G
+ ouging Anklebiters vs
+  Cobra Kai (before this matchup):\n    (no prior matc
+ hups listed)
+STAT
+ US:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-805@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters vs Corlears Hookers
+DTSTART;TZID=America/New_York:202
+ 50914T170000
+DTEND;TZID=America/New_York:20250914T170100
+LOCATION:Tompki
+ ns Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\
+ nLocation: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Gou
+ ging Anklebiters 1 - 0 Corl
+ ears Hookers\n\n----------------------------
+ ------------\nCorlears Hookers
+  games (before this matchup):\n    Jun 15
+ th vs Fresh Kills (L 1-3)\n    Ju
+ n 22nd @ Cobra Kai (L 0-5)\n    Jun 29
+ th vs Vertz (L 4-10)\n    Jul 13th @
+  Fresh Kills (L 6-8)\n    Jul 20th 
+ vs Mega Touch (L 3-5)\n    Jul 27th vs 
+ Gremlins (W 6-1)\n    Aug 3rd vs
+  Gouging Anklebiters (L 4-5)\n    Aug 10th
+  @ Riots (W 10-0)\n    Aug 17
+ th @ Denim Demons (W 5-2)\n    Sep 7th vs Lbs
+  (Cancelled)\n\n----------
+ ------------------------------\nPrior matchups: 
+ Gouging Anklebiters vs 
+ Corlears Hookers (before this matchup):\n    Aug 3r
+ d @ Corlears Hookers
+  (W 5-4)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-810@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ Fresh Kills
+DTSTART;TZID=America/New_York:20250921T
+ 170000
+DTEND;TZID=America/New_York:20250921T170100
+LOCATION:Tompkins Squ
+ are Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocat
+ ion: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Fresh Kil
+ ls 6 - 2 Gouging Ankl
+ ebiters\n\n---------------------------------------
+ -\nFresh Kills games (be
+ fore this matchup):\n    Jun 22nd vs Fuzz (L 4-
+ 6)\n    Jun 29th @ Poutine 
+ Machine (W 6-5)\n    Jul 13th vs Corlears Ho
+ okers (W 8-6)\n    Jul 20th @ 
+ Cobra Kai (W 4-2)\n    Jul 27th vs Renais
+ sance (W 7-6)\n    Aug 3rd vs Fil
+ thier (W 6-3)\n    Aug 10th @ Butchers
+  (W 10-3)\n    Aug 17th vs Poutine M
+ achine (W 6-3)\n    Sep 7th @ Mega 
+ Touch (W 5-3)\n    Sep 14th @ Filthier 
+ (W 6-4)\n\n---------------------
+ -------------------\nPrior matchups: Gougi
+ ng Anklebiters vs Fresh Kills
+  (before this matchup):\n    May 18th vs Fres
+ h Kills (W 5-2)
+END:VEVEN
+ T
+BEGIN:VEVENT
+UID:btsh-game-s2-922@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters vs Lbs
+DTSTART;TZID=America/New_York:20250928T154500
+ 
+DTEND;TZID=America/New_York:20250928T163500
+LOCATION:Tompkins Square Par
+ k (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Gouging Anklebit
+ ers 8 - 4 Lbs\
+ n\n----------------------------------------\nLbs games (b
+ efore this matchu
+ p):\n    Jun 29th @ Cobra Kai (W 4-3)\n    Jul 13th @ 
+ Vertz (W 9-7)\n    J
+ ul 20th vs Filthier (L 4-8)\n    Jul 27th vs Moby D
+ ekes (Cancelled)\n    A
+ ug 3rd vs Fuzz (W 4-2)\n    Aug 10th @ Dark Rain
+ bows (W 9-4)\n    Aug 17th
+  vs Cobra Kai (Cancelled)\n    Sep 7th @ Corl
+ ears Hookers (Cancelled)\n   
+  Sep 14th @ Fuzz (W 11-6)\n    Sep 21st @ 
+ Mega Touch (L 1-2)\n\n----------
+ ------------------------------\nPrior m
+ atchups: Gouging Anklebiters vs Lbs
+  (before this matchup):\n    May 4th
+  vs Lbs (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-935@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ Cobra Kai
+DTSTART;TZID=America/New_York:20251005T13
+ 1500
+DTEND;TZID=America/New_York:20251005T140500
+LOCATION:Tompkins Squar
+ e Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocatio
+ n: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Cobra Kai 2
+  - 1 Gouging Ankleb
+ iters\n\n----------------------------------------\nC
+ obra Kai games (before
+  this matchup):\n    Jul 20th vs Fresh Kills (L 2
+ -4)\n    Jul 27th @ Butch
+ ers (Cancelled)\n    Aug 3rd @ Gremlins (W 5-3
+ )\n    Aug 10th vs Instant K
+ arma (L 1-4)\n    Aug 17th @ Lbs (Cancelled
+ )\n    Sep 7th @ Gouging Ankleb
+ iters (Cancelled)\n    Sep 14th @ Poutin
+ e Machine (W 6-5)\n    Sep 21st @ 
+ Butchers (W 11-1)\n    Sep 21st vs Ve
+ rtz (W 5-3)\n    Sep 28th vs Filthier
+  (W 8-3)\n\n----------------------
+ ------------------\nPrior matchups: Goug
+ ing Anklebiters vs Cobra Kai (b
+ efore this matchup):\n    Sep 7th vs Cobra 
+ Kai (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-934@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters @ Instant Karma
+DTSTART;TZID=America/New_York:2025100
+ 5T154500
+DTEND;TZID=America/New_York:20251005T163500
+LOCATION:Tompkins S
+ quare Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLoc
+ ation: Tompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Instant
+  Karma 3 - 1 Gouging An
+ klebiters\n\n-----------------------------------
+ -----\nInstant Karma games
+  (before this matchup):\n    Jul 13th @ Sky F
+ ighters (W 8-7)\n    Jul 20th
+  vs Butchers (W 6-0)\n    Jul 27th vs Goug
+ ing Anklebiters (Cancelled)\n   
+  Aug 3rd @ Dark Rainbows (W 7-2)\n    A
+ ug 10th @ Cobra Kai (W 4-1)\n    Au
+ g 17th vs Gremlins (W 8-2)\n    Sep 
+ 7th @ Denim Demons (W 4-3)\n    Sep 14
+ th vs Dark Rainbows (W 6-0)\n    
+ Sep 21st vs Renaissance (L 2-8)\n    Sep 
+ 28th vs Moby Dekes (W 10-2)\n\
+ n----------------------------------------\nP
+ rior matchups: Gouging Ankl
+ ebiters vs Instant Karma (before this matchup):
+ \n    Jul 27th @ Instant
+  Karma (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-945@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Gouging Anklebiters vs Cobra Kai
+DTSTART;TZID=America/New_York:20251026T1
+ 20000
+DTEND;TZID=America/New_York:20251026T125000
+LOCATION:Tompkins Squa
+ re Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocati
+ on: Tompkins Squa
+ re Park (East)\nType: Playoff\n\n---------------------
+ -------------------\
+ nCobra Kai games (before this matchup):\n    Aug 3r
+ d @ Gremlins (W 5-3)\n 
+    Aug 10th vs Instant Karma (L 1-4)\n    Aug 17
+ th @ Lbs (Cancelled)\n    
+ Sep 7th @ Gouging Anklebiters (Cancelled)\n  
+   Sep 14th @ Poutine Machine 
+ (W 6-5)\n    Sep 21st @ Butchers (W 11-1)\
+ n    Sep 21st vs Vertz (W 5-3)\n
+     Sep 28th vs Filthier (W 8-3)\n    O
+ ct 5th vs Gouging Anklebiters (W 2-
+ 1)\n    Oct 5th @ Lbs (L 3-4)\n\n---
+ -------------------------------------\
+ nPrior matchups: Gouging Anklebit
+ ers vs Cobra Kai (before this matchup):\n
+     Sep 7th vs Cobra Kai (Canc
+ elled)\n    Oct 5th @ Cobra Kai (L 1-2)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-965@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ PBR Cup vs -
+DTSTART;TZID=America/New_York:20251109T150000
+DTEND;TZID=Am
+ erica/New_York:20251109T155000
+LOCATION:Tompkins Square Park (West)
+DESC
+ RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ 
+ ation: Tompkins Square Park (West)
+END:VEVENT
+END:VCALENDAR

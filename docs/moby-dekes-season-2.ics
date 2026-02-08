@@ -1,0 +1,918 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BTSH ICS//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:BTSH — Moby Dekes (Season 2)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BE
+ GIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19
+ 700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:
+ STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:197011
+ 01T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIME
+ ZONE
+BEGIN:VEVENT
+UID:btsh-day-s2-102@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1pm-3pm\nbring ligh
+ t & d
+ ark jerseys
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCR
+ IPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
+END:VEVE
+ NT
+BEGIN:VEVENT
+UID:btsh-day-s2-103@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Scrimmage - Free Agent Scrimmage\n1:30pm-3:30pm\nbrin
+ g lig
+ ht & dark jerseys
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+ 
+DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerse
+ ys
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-104@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - EASTER
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE
+ :20250421
+DESCRIPTION:EASTER
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-105@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MOTHERS DAY
+DTSTART;VALUE=DATE:20250511
+DTEND;VAL
+ UE=DATE:20250512
+DESCRIPTION:MOTHERS DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-106@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - MEMORIAL DAY
+DTSTART;VALUE=DATE:20250525
+DTEND;VA
+ LUE=DATE:20250526
+DESCRIPTION:MEMORIAL DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-108@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - 4TH OF JULY
+DTSTART;VALUE=DATE:20250706
+DTEND;VAL
+ UE=DATE:20250707
+DESCRIPTION:4TH OF JULY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-109@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Other - HOCKEY BEACH
+DTSTART;VALUE=DATE:20250824
+DTEND;VALU
+ E=DATE:20250825
+DESCRIPTION:HOCKEY BEACH
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-110@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Holiday - LABOR DAY
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE
+ =DATE:20250901
+DESCRIPTION:LABOR DAY
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-118@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DA
+ TE:20251117
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-s2-119@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:[
+ PLACEHOLDER] Make-Up - Makeup
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DA
+ TE:20251124
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-724@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Moby Dekes @ Renaissance
+DTSTART;TZID=America/New_York:202504
+ 06T164500
+DTEND;TZID=America/New_York:20250406T164600
+LOCATION:Tompkins 
+ Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLo
+ cation: Tompkins Squa
+ re Park (East)\nType: Regular\n\n-----------------
+ -----------------------\
+ nRenaissance games (before this matchup):\n    
+ (no prior games listed)\n\n
+ ----------------------------------------\nPr
+ ior matchups: Moby Dekes vs Re
+ naissance (before this matchup):\n    (no
+  prior matchups listed)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-728@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes vs Riots
+DTSTART;TZID=America/New_York:20250413T153000
+DTEND;
+ TZID=America/New_York:20250413T153100
+LOCATION:Tompkins Square Park (East
+ )
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins 
+ Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Moby Dekes 3 - 1 Riots\
+ n\n----
+ ------------------------------------\nRiots games (before this m
+ atchup):\n
+     Apr 6th @ Butchers (Cancelled)\n\n-----------------------
+ -------------
+ ----\nPrior matchups: Moby Dekes vs Riots (before this mat
+ chup):\n    (no 
+ prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-824@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes vs Mega Touch
+DTSTART;TZID=America/New_York:20250427T164500
+D
+ TEND;TZID=America/New_York:20250427T164600
+LOCATION:Tompkins Square Park 
+ (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tomp
+ kins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Moby Dekes 2 - 9 M
+ ega Touch\n\
+ n----------------------------------------\nMega Touch games
+  (before this m
+ atchup):\n    Apr 6th vs Gouging Anklebiters (Cancelled)
+ \n    Apr 13th vs 
+ Cobra Kai (W 5-1)\n\n--------------------------------
+ --------\nPrior match
+ ups: Moby Dekes vs Mega Touch (before this matchup
+ ):\n    (no prior matchu
+ ps listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-738@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Moby Dekes @ Instant Karma
+DTSTART;TZID=America/New_York:2025
+ 0504T153000
+DTEND;TZID=America/New_York:20250504T153100
+LOCATION:Tompkin
+ s Square Park (East)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\n
+ Location: Tompkins Squa
+ re Park (East)\nType: Regular\n\n---------------
+ -------------------------\
+ nInstant Karma games (before this matchup):\n
+     Apr 6th vs Sky Fighters (
+ Cancelled)\n    Apr 13th @ What the Puck (
+ W 3-2)\n    Apr 27th vs Fresh Ki
+ lls (W 5-4)\n\n------------------------
+ ----------------\nPrior matchups: M
+ oby Dekes vs Instant Karma (before t
+ his matchup):\n    (no prior matchups 
+ listed)
+STATUS:CANCELLED
+END:VE
+ VENT
+BEGIN:VEVENT
+UID:btsh-game-s2-742@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ What the Puck
+DTSTART;TZID=America/New_York:20250518T141500
+ 
+DTEND;TZID=America/New_York:20250518T141600
+LOCATION:Tompkins Square Par
+ k (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  What the Puck 5 
+ - 4 Moby Dekes
+ \n\n----------------------------------------\nWhat the Pu
+ ck games (before 
+ this matchup):\n    Apr 6th @ Denim Demons (Cancelled)
+ \n    Apr 13th vs In
+ stant Karma (L 2-3)\n    Apr 27th @ Lbs (L 2-4)\n  
+   May 4th vs Sky Fighte
+ rs (Cancelled)\n\n------------------------------
+ ----------\nPrior matchups
+ : Moby Dekes vs What the Puck (before this ma
+ tchup):\n    (no prior matchu
+ ps listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-840@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes vs Poutine Machine
+DTSTART;TZID=America/New_York:20250601T1800
+ 00
+DTEND;TZID=America/New_York:20250601T180100
+LOCATION:Tompkins Square 
+ Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation:
+  Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Moby Dekes 1 
+ - 10 Poutine Mach
+ ine\n\n----------------------------------------\nPouti
+ ne Machine games (be
+ fore this matchup):\n    Apr 6th @ Filthier (Cancel
+ led)\n    Apr 13th @ Go
+ uging Anklebiters (L 3-4)\n    Apr 27th vs Greml
+ ins (W 8-1)\n    May 4th @
+  Mega Touch (Cancelled)\n    May 18th @ Corle
+ ars Hookers (W 7-0)\n\n------
+ ----------------------------------\nPrior 
+ matchups: Moby Dekes vs Poutine 
+ Machine (before this matchup):\n    (no
+  prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-751@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes vs Riots
+DTSTART;TZID=America/New_York:20250608T130000
+DTEND;
+ TZID=America/New_York:20250608T130100
+LOCATION:Tompkins Square Park (East
+ )
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins 
+ Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Moby Dekes 4 - 3 Riots\
+ n\n----
+ ------------------------------------\nRiots games (before this m
+ atchup):\n
+     Apr 6th @ Butchers (Cancelled)\n    Apr 13th @ Moby Dekes
+  (L 1-3)\n   
+  Apr 27th vs Cobra Kai (L 1-8)\n    May 4th vs Renaissance
+  (Cancelled)\n  
+   May 18th @ Denim Demons (L 0-9)\n    Jun 1st vs Filth
+ ier (L 1-2)\n\n----
+ ------------------------------------\nPrior matchups
+ : Moby Dekes vs Riots 
+ (before this matchup):\n    Apr 13th vs Riots (W 
+ 3-1)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-909@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Renaissance
+DTSTART;TZID=America/New_York:20250615T164500
+D
+ TEND;TZID=America/New_York:20250615T173500
+LOCATION:Tompkins Square Park 
+ (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tomp
+ kins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Renaissance 3 - 2 
+ Moby Dekes\n
+ \n----------------------------------------\nRenaissance gam
+ es (before this
+  matchup):\n    Apr 6th vs Moby Dekes (Cancelled)\n    A
+ pr 13th @ Gremlins
+  (W 5-2)\n    Apr 27th vs Gouging Anklebiters (L 2-5)
+ \n    May 4th @ Riots
+  (Cancelled)\n    May 18th vs Instant Karma (W 9-3
+ )\n    Jun 1st @ Cobra K
+ ai (L 2-4)\n    Jun 8th vs Gremlins (W 10-1)\n\
+ n--------------------------
+ --------------\nPrior matchups: Moby Dekes v
+ s Renaissance (before this mat
+ chup):\n    Apr 6th @ Renaissance (Cancel
+ led)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-757@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Sky Fighters
+DTSTART;TZID=America/New_York:20250622T141500
+
+ DTEND;TZID=America/New_York:20250622T141600
+LOCATION:Tompkins Square Park
+  (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tom
+ pkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Sky Fighters 4 - 
+ 2 Moby Dekes\
+ n\n----------------------------------------\nSky Fighters 
+ games (before th
+ is matchup):\n    Apr 6th @ Instant Karma (Cancelled)\n
+     Apr 13th vs Dar
+ k Rainbows (L 2-3)\n    Apr 27th @ Corlears Hookers 
+ (L 1-2)\n    May 4th @
+  What the Puck (Cancelled)\n    May 18th vs Greml
+ ins (W 9-3)\n    Jun 1st 
+ @ Lbs (W 7-5)\n    Jun 8th @ Dark Rainbows (W 
+ 6-2)\n    Jun 15th @ Instant
+  Karma (W 5-4)\n\n-------------------------
+ ---------------\nPrior matchups
+ : Moby Dekes vs Sky Fighters (before thi
+ s matchup):\n    (no prior matchup
+ s listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-855@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Butchers
+DTSTART;TZID=America/New_York:20250629T180000
+DTEN
+ D;TZID=America/New_York:20250629T180100
+LOCATION:Tompkins Square Park (We
+ st)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkin
+ s Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Butchers 2 - 5 Moby D
+ ekes\n\n-
+ ---------------------------------------\nButchers games (befor
+ e this match
+ up):\n    Apr 6th vs Riots (Cancelled)\n    Apr 13th @ Deni
+ m Demons (L 0-2
+ )\n    Apr 27th vs Fuzz (L 3-9)\n    May 4th @ Gremlins 
+ (Cancelled)\n    M
+ ay 18th @ Filthier (L 0-9)\n    Jun 1st vs Corlears H
+ ookers (L 0-10)\n    
+ Jun 8th vs Denim Demons (L 2-3)\n    Jun 15th vs R
+ iots (W 4-0)\n    Jun 22
+ nd vs Renaissance (L 2-5)\n\n------------------
+ ----------------------\nPri
+ or matchups: Moby Dekes vs Butchers (before 
+ this matchup):\n    (no prior 
+ matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-856@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Gouging Anklebiters
+DTSTART;TZID=America/New_York:20250713T1
+ 30000
+DTEND;TZID=America/New_York:20250713T130100
+LOCATION:Tompkins Squa
+ re Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocati
+ on: Tompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Gouging An
+ klebiters 6 - 0 Moby
+  Dekes\n\n----------------------------------------\
+ nGouging Anklebiters ga
+ mes (before this matchup):\n    Apr 13th vs Pout
+ ine Machine (W 4-3)\n    A
+ pr 27th @ Renaissance (W 5-2)\n    May 4th vs
+  Lbs (Cancelled)\n    May 18t
+ h vs Fresh Kills (W 5-2)\n    Jun 1st @ Wh
+ at the Puck (W 10-2)\n    Jun 8t
+ h @ Poutine Machine (Cancelled)\n    Ju
+ n 15th @ Mega Touch (Cancelled)\n  
+   Jun 22nd vs Vertz (L 4-5)\n    Jun
+  29th vs Filthier (W 9-5)\n    Jul 13t
+ h @ Poutine Machine (L 6-9)\n\n--
+ --------------------------------------\nP
+ rior matchups: Moby Dekes vs G
+ ouging Anklebiters (before this matchup):\n 
+    (no prior matchups liste
+ d)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-775@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes vs Dark Rainbows
+DTSTART;TZID=America/New_York:20250720T180000
+ 
+DTEND;TZID=America/New_York:20250720T180100
+LOCATION:Tompkins Square Pa
+ rk (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
+ ompkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Moby Dekes 3 - 
+ 7 Dark Rainbows
+ \n\n----------------------------------------\nDark Rainb
+ ows games (before 
+ this matchup):\n    Apr 13th @ Sky Fighters (W 3-2)\n
+     Apr 27th vs Filth
+ ier (L 2-4)\n    May 4th @ Denim Demons (Cancelled
+ )\n    May 18th @ Fuzz (
+ L 0-6)\n    Jun 1st @ Vertz (L 0-7)\n    Jun 8t
+ h vs Sky Fighters (L 2-6)\n
+     Jun 15th @ Gremlins (L 1-2)\n    Jun 22n
+ d vs What the Puck (W 10-4)\n 
+    Jun 29th @ Renaissance (L 6-7)\n    Ju
+ l 13th vs Gremlins (W 4-0)\n\n---
+ -------------------------------------\
+ nPrior matchups: Moby Dekes vs Dark 
+ Rainbows (before this matchup):\n  
+   (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-869@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Moby Dekes @ Lbs
+DTSTART;TZID=America/New_York:20250727T16450
+ 0
+DTEND;TZID=America/New_York:20250727T164600
+LOCATION:Tompkins Square P
+ ark (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLocation: 
+ Tompkins Squa
+ re Park (West)\nType: Regular\n\n-------------------------
+ ---------------\
+ nLbs games (before this matchup):\n    Apr 27th vs What
+  the Puck (W 4-2)\n
+     May 4th @ Gouging Anklebiters (Cancelled)\n    M
+ ay 18th vs Mega Touch 
+ (L 5-10)\n    Jun 1st vs Sky Fighters (L 5-7)\n  
+   Jun 8th vs Instant Karm
+ a (W 5-4)\n    Jun 15th vs Vertz (L 3-7)\n    
+ Jun 22nd @ Poutine Machine (
+ L 3-7)\n    Jun 29th @ Cobra Kai (W 4-3)\n 
+    Jul 13th @ Vertz (W 9-7)\n  
+   Jul 20th vs Filthier (L 4-8)\n\n------
+ ----------------------------------
+ \nPrior matchups: Moby Dekes vs Lbs (
+ before this matchup):\n    (no prior 
+ matchups listed)
+STATUS:CANCELLED
+ 
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-874@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Denim Demons
+DTSTART;TZID=America/New_York:20250803T164500
+
+ DTEND;TZID=America/New_York:20250803T164600
+LOCATION:Tompkins Square Park
+  (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tom
+ pkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Denim Demons 7 - 
+ 1 Moby Dekes\
+ n\n----------------------------------------\nDenim Demons 
+ games (before th
+ is matchup):\n    May 4th vs Dark Rainbows (Cancelled)\
+ n    May 18th vs Ri
+ ots (W 9-0)\n    Jun 1st @ Fresh Kills (W 6-5)\n    
+ Jun 8th @ Butchers (W 
+ 3-2)\n    Jun 15th vs What the Puck (W 5-4)\n    
+ Jun 22nd vs Gremlins (W 1
+ 0-0)\n    Jun 29th @ Sky Fighters (W 4-1)\n   
+  Jul 13th @ What the Puck (W
+  6-2)\n    Jul 20th @ Renaissance (W 6-2)\n
+     Jul 27th @ Fuzz (Cancelled)
+ \n\n------------------------------------
+ ----\nPrior matchups: Moby Dekes v
+ s Denim Demons (before this matchup):
+ \n    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-878@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes vs Filthier
+DTSTART;TZID=America/New_York:20250810T153000
+DTE
+ ND;TZID=America/New_York:20250810T153100
+LOCATION:Tompkins Square Park (W
+ est)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompki
+ ns Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Moby Dekes 4 - 6 Fil
+ thier\n\n-
+ ---------------------------------------\nFilthier games (befo
+ re this match
+ up):\n    May 18th vs Butchers (W 9-0)\n    Jun 1st @ Riot
+ s (W 2-1)\n    J
+ un 8th @ Corlears Hookers (Cancelled)\n    Jun 15th vs 
+ Poutine Machine (L 
+ 2-8)\n    Jun 22nd vs Mega Touch (L 0-2)\n    Jun 29
+ th @ Gouging Anklebite
+ rs (L 5-9)\n    Jul 13th @ Poutine Machine (L 4-8
+ )\n    Jul 20th @ Lbs (W 
+ 8-4)\n    Jul 27th vs Sky Fighters (L 4-5)\n  
+   Aug 3rd @ Fresh Kills (L 3
+ -6)\n\n------------------------------------
+ ----\nPrior matchups: Moby Deke
+ s vs Filthier (before this matchup):\n  
+   (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-885@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Moby Dekes vs Butchers
+DTSTART;TZID=America/New_York:20250817
+ T180000
+DTEND;TZID=America/New_York:20250817T180100
+LOCATION:Tompkins Sq
+ uare Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\nLoca
+ tion: Tompkins Squa
+ re Park (West)\nType: Regular\n\n-------------------
+ ---------------------\
+ nButchers games (before this matchup):\n    Jun 1
+ st vs Corlears Hookers (L
+  0-10)\n    Jun 8th vs Denim Demons (L 2-3)\n 
+    Jun 15th vs Riots (W 4-0)
+ \n    Jun 22nd vs Renaissance (L 2-5)\n    
+ Jun 29th vs Moby Dekes (L 2-5)\
+ n    Jul 13th @ Riots (W 3-2)\n    Jul 2
+ 0th @ Instant Karma (L 0-6)\n    J
+ ul 27th vs Cobra Kai (Cancelled)\n   
+  Aug 3rd @ What the Puck (L 2-4)\n   
+  Aug 10th vs Fresh Kills (L 3-10)\
+ n\n-------------------------------------
+ ---\nPrior matchups: Moby Dekes
+  vs Butchers (before this matchup):\n    Ju
+ n 29th @ Butchers (W 5-2)
+S
+ TATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-796@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Gremlins
+DTSTART;TZID=America/New_York:20250907T130000
+DTEN
+ D;TZID=America/New_York:20250907T130100
+LOCATION:Tompkins Square Park (Ea
+ st)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkin
+ s Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Gremlins 7 - 1 Moby D
+ ekes\n\n-
+ ---------------------------------------\nGremlins games (befor
+ e this match
+ up):\n    Jun 8th @ Renaissance (L 1-10)\n    Jun 15th vs D
+ ark Rainbows (W
+  2-1)\n    Jun 22nd @ Denim Demons (L 0-10)\n    Jun 29t
+ h vs Instant Karma
+  (L 2-5)\n    Jul 13th @ Dark Rainbows (L 0-4)\n    J
+ ul 20th @ What the Pu
+ ck (W 6-3)\n    Jul 27th @ Corlears Hookers (L 1-6
+ )\n    Aug 3rd vs Cobra 
+ Kai (L 3-5)\n    Aug 10th @ Vertz (W 4-3)\n    
+ Aug 17th @ Instant Karma (L
+  2-8)\n\n-----------------------------------
+ -----\nPrior matchups: Moby De
+ kes vs Gremlins (before this matchup):\n 
+    (no prior matchups listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-927@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes vs Butchers
+DTSTART;TZID=America/New_York:20250914T110000
+DTE
+ ND;TZID=America/New_York:20250914T115000
+LOCATION:Tompkins Square Park (W
+ est)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompki
+ ns Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Moby Dekes 7 - 4 But
+ chers\n\n-
+ ---------------------------------------\nButchers games (befo
+ re this match
+ up):\n    Jun 15th vs Riots (W 4-0)\n    Jun 22nd vs Renai
+ ssance (L 2-5)\n
+     Jun 29th vs Moby Dekes (L 2-5)\n    Jul 13th @ Riot
+ s (W 3-2)\n    Jul 
+ 20th @ Instant Karma (L 0-6)\n    Jul 27th vs Cobra 
+ Kai (Cancelled)\n    A
+ ug 3rd @ What the Puck (L 2-4)\n    Aug 10th vs F
+ resh Kills (L 3-10)\n    
+ Aug 17th @ Moby Dekes (Cancelled)\n    Sep 7th
+  @ Sky Fighters (L 2-4)\n\n-
+ ---------------------------------------\nPr
+ ior matchups: Moby Dekes vs But
+ chers (before this matchup):\n    Jun 29
+ th @ Butchers (W 5-2)\n    Aug 17t
+ h vs Butchers (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-801@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes vs Denim Demons
+DTSTART;TZID=America/New_York:20250914T120000
+ 
+DTEND;TZID=America/New_York:20250914T120100
+LOCATION:Tompkins Square Par
+ k (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Moby Dekes 1 - 1
+ 1 Denim Demons
+ \n\n----------------------------------------\nDenim Demon
+ s games (before t
+ his matchup):\n    Jun 22nd vs Gremlins (W 10-0)\n    
+ Jun 29th @ Sky Fight
+ ers (W 4-1)\n    Jul 13th @ What the Puck (W 6-2)\n
+     Jul 20th @ Renaissa
+ nce (W 6-2)\n    Jul 27th @ Fuzz (Cancelled)\n  
+   Aug 3rd vs Moby Dekes (W
+  7-1)\n    Aug 10th @ Gouging Anklebiters (L 
+ 2-5)\n    Aug 17th vs Corlear
+ s Hookers (L 2-5)\n    Sep 7th vs Instant 
+ Karma (L 3-4)\n    Sep 14th @ Fu
+ zz (W 5-4)\n\n-------------------------
+ ---------------\nPrior matchups: Mo
+ by Dekes vs Denim Demons (before thi
+ s matchup):\n    Aug 3rd @ Denim Demon
+ s (L 1-7)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-897@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes vs What the Puck
+DTSTART;TZID=America/New_York:20250921T131500
+ 
+DTEND;TZID=America/New_York:20250921T131600
+LOCATION:Tompkins Square Pa
+ rk (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: T
+ ompkins Squa
+ re Park (West)\nType: Regular\n\nResult:\n  Moby Dekes 4 - 
+ 8 What the Puck
+ \n\n----------------------------------------\nWhat the P
+ uck games (before 
+ this matchup):\n    Jun 22nd @ Dark Rainbows (L 4-10)
+ \n    Jun 29th @ Riot
+ s (W 5-2)\n    Jul 13th vs Denim Demons (L 2-6)\n 
+    Jul 20th vs Gremlins 
+ (L 3-6)\n    Jul 27th @ Vertz (Cancelled)\n    
+ Aug 3rd vs Butchers (W 4-2)
+ \n    Aug 10th @ Poutine Machine (L 0-9)\n  
+   Aug 17th vs Riots (W 6-1)\n 
+    Sep 7th @ Renaissance (L 0-9)\n    Sep
+  14th @ Butchers (L 3-5)\n\n-----
+ -----------------------------------\nP
+ rior matchups: Moby Dekes vs What th
+ e Puck (before this matchup):\n    
+ May 18th @ What the Puck (L 4-5)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-921@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Instant Karma
+DTSTART;TZID=America/New_York:20250928T143000
+ 
+DTEND;TZID=America/New_York:20250928T152000
+LOCATION:Tompkins Square Par
+ k (East)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (East)\nType: Regular\n\nResult:\n  Instant Karma 10
+  - 2 Moby Deke
+ s\n\n----------------------------------------\nInstant Ka
+ rma games (before
+  this matchup):\n    Jun 29th @ Gremlins (W 5-2)\n    
+ Jul 13th @ Sky Fight
+ ers (W 8-7)\n    Jul 20th vs Butchers (W 6-0)\n    
+ Jul 27th vs Gouging Ank
+ lebiters (Cancelled)\n    Aug 3rd @ Dark Rainbow
+ s (W 7-2)\n    Aug 10th @ 
+ Cobra Kai (W 4-1)\n    Aug 17th vs Gremlins (
+ W 8-2)\n    Sep 7th @ Denim D
+ emons (W 4-3)\n    Sep 14th vs Dark Rainbo
+ ws (W 6-0)\n    Sep 21st vs Rena
+ issance (L 2-8)\n\n--------------------
+ --------------------\nPrior matchup
+ s: Moby Dekes vs Instant Karma (befo
+ re this matchup):\n    May 4th @ Insta
+ nt Karma (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-933@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Lbs
+DTSTART;TZID=America/New_York:20251005T170000
+DTEND;TZI
+ D=America/New_York:20251005T175000
+LOCATION:Tompkins Square Park (West)
+
+ DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: Tompkins Squ
+ a
+ re Park (West)\nType: Regular\n\nResult:\n  Lbs 10 - 4 Moby Dekes\n\n-
+ ----
+ -----------------------------------\nLbs games (before this matchup
+ ):\n   
+  Jul 27th vs Moby Dekes (Cancelled)\n    Aug 3rd vs Fuzz (W 4-2)
+ \n    Aug 
+ 10th @ Dark Rainbows (W 9-4)\n    Aug 17th vs Cobra Kai (Canc
+ elled)\n    S
+ ep 7th @ Corlears Hookers (Cancelled)\n    Sep 14th @ Fuzz
+  (W 11-6)\n    S
+ ep 21st @ Mega Touch (L 1-2)\n    Sep 28th @ Gouging An
+ klebiters (L 4-8)\n
+     Oct 5th vs Corlears Hookers (W 4-1)\n    Oct 5th
+  vs Cobra Kai (W 4-3)\
+ n\n----------------------------------------\nPrio
+ r matchups: Moby Dekes vs
+  Lbs (before this matchup):\n    Jul 27th @ Lb
+ s (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-936@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ [CANCELLED] Moby Dekes @ Dark Rainbows
+DTSTART;TZID=America/New_York:2025
+ 1012T123000
+DTEND;TZID=America/New_York:20251012T132000
+LOCATION:Tompkin
+ s Square Park (West)
+DESCRIPTION:League: BTSH Season\nStatus: Cancelled\n
+ Location: Tompkins Squa
+ re Park (West)\nType: Playoff\n\n---------------
+ -------------------------\
+ nDark Rainbows games (before this matchup):\n
+     Jul 20th @ Moby Dekes (W 
+ 7-3)\n    Jul 27th vs Poutine Machine (Can
+ celled)\n    Aug 3rd @ Poutine M
+ achine (L 2-11)\n    Aug 3rd vs Instant
+  Karma (L 2-7)\n    Aug 10th vs Lbs
+  (L 4-9)\n    Aug 17th vs Renaissanc
+ e (L 3-10)\n    Sep 7th @ Riots (L 1-4
+ )\n    Sep 14th @ Instant Karma (
+ L 0-6)\n    Sep 21st vs Butchers (W 4-1)\
+ n    Sep 28th @ Denim Demons (
+ L 2-3)\n\n----------------------------------
+ ------\nPrior matchups: Mob
+ y Dekes vs Dark Rainbows (before this matchup):
+ \n    Jul 20th vs Dark R
+ ainbows (L 3-7)
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-941@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Dark Rainbows
+DTSTART;TZID=America/New_York:20251019T123000
+ 
+DTEND;TZID=America/New_York:20251019T132000
+LOCATION:Tompkins Square Par
+ k (West)
+DESCRIPTION:League: BTSH Season\nStatus: Completed\nLocation: To
+ mpkins Squa
+ re Park (West)\nType: Playoff\n\nResult:\n  Dark Rainbows 3 
+ - 2 Moby Dekes
+ \n\n----------------------------------------\nDark Rainbo
+ ws games (before 
+ this matchup):\n    Jul 27th vs Poutine Machine (Cance
+ lled)\n    Aug 3rd @
+  Poutine Machine (L 2-11)\n    Aug 3rd vs Instant K
+ arma (L 2-7)\n    Aug 1
+ 0th vs Lbs (L 4-9)\n    Aug 17th vs Renaissance 
+ (L 3-10)\n    Sep 7th @ Ri
+ ots (L 1-4)\n    Sep 14th @ Instant Karma (L 
+ 0-6)\n    Sep 21st vs Butcher
+ s (W 4-1)\n    Sep 28th @ Denim Demons (L 
+ 2-3)\n    Oct 12th vs Moby Dekes
+  (Cancelled)\n\n-----------------------
+ -----------------\nPrior matchups: 
+ Moby Dekes vs Dark Rainbows (before 
+ this matchup):\n    Jul 20th vs Dark R
+ ainbows (L 3-7)\n    Oct 12th @ D
+ ark Rainbows (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-959@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ What the Puck
+DTSTART;TZID=America/New_York:20251102T130000
+ 
+DTEND;TZID=America/New_York:20251102T135000
+LOCATION:Tompkins Square Par
+ k (East)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: To
+ mpkins Squa
+ re Park (East)\nType: Playoff\n\n---------------------------
+ -------------\
+ nWhat the Puck games (before this matchup):\n    Aug 3rd 
+ vs Butchers (W 4-
+ 2)\n    Aug 10th @ Poutine Machine (L 0-9)\n    Aug 17
+ th vs Riots (W 6-1)\
+ n    Sep 7th @ Renaissance (L 0-9)\n    Sep 14th @ 
+ Butchers (L 3-5)\n    S
+ ep 21st @ Moby Dekes (W 8-4)\n    Sep 28th @ Ver
+ tz (L 3-13)\n    Sep 28th 
+ vs Sky Fighters (L 2-8)\n    Oct 12th @ Fuzz 
+ (Cancelled)\n    Oct 19th @ F
+ uzz (L 0-6)\n\n---------------------------
+ -------------\nPrior matchups: M
+ oby Dekes vs What the Puck (before this
+  matchup):\n    May 18th @ What the
+  Puck (L 4-5)\n    Sep 21st vs What 
+ the Puck (L 4-8)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-960@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ Moby Dekes @ Sky Fighters
+DTSTART;TZID=America/New_York:20251109T120000
+
+ DTEND;TZID=America/New_York:20251109T125000
+LOCATION:Tompkins Square Park
+  (West)
+DESCRIPTION:League: BTSH Season\nStatus: Scheduled\nLocation: Tom
+ pkins Squa
+ re Park (West)\nType: Playoff\n\n----------------------------
+ ------------\
+ nSky Fighters games (before this matchup):\n    Jul 20th @
+  Riots (W 11-2)\
+ n    Jul 27th @ Filthier (W 5-4)\n    Aug 3rd @ Renaiss
+ ance (L 2-8)\n    A
+ ug 10th vs Mega Touch (L 1-9)\n    Aug 17th vs Vertz
+  (L 1-7)\n    Sep 7th 
+ vs Butchers (W 4-2)\n    Sep 14th vs Renaissance 
+ (L 3-5)\n    Sep 21st @ G
+ remlins (L 5-6)\n    Sep 28th @ What the Puck 
+ (W 8-2)\n    Oct 26th @ Rena
+ issance\n\n--------------------------------
+ --------\nPrior matchups: Moby 
+ Dekes vs Sky Fighters (before this match
+ up):\n    Jun 22nd @ Sky Fighters 
+ (L 2-4)
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-game-s2-965@btsh
+DTSTAMP:20260208T001942Z
+SUMMARY:
+ PBR Cup vs -
+DTSTART;TZID=America/New_York:20251109T150000
+DTEND;TZID=Am
+ erica/New_York:20251109T155000
+LOCATION:Tompkins Square Park (West)
+DESC
+ RIPTION:Playoff / placeholder game (teams TBD).\nStatus: Scheduled\nLoc
+ 
+ ation: Tompkins Square Park (West)
+END:VEVENT
+END:VCALENDAR
