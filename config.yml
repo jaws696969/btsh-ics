@@ -1,7 +1,7 @@
 output_dir: "docs"
 default_timezone: "America/New_York"
 
-season_year: 2026
+season_year: 2025
 
 include_division_in_summary: true
 checkin_url: "https://btsh.org"
