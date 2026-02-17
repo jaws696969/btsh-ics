@@ -2,6 +2,8 @@ output_dir: "docs"
 default_timezone: "America/New_York"
 
 season_year: 2025
+api_url: "https://api.btsh.org/api/game_days/?season={season_id}"
 
-include_division_in_summary: true
-checkin_url: "https://btsh.org"
+opponent_recent_limit: 10
+include_league_wide_days: true
+include_tbd_games_on_all_calendars: true
