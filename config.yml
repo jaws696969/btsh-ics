@@ -1,12 +1,10 @@
 output_dir: "docs"
 default_timezone: "America/New_York"
 
-season_year: 2025
+year: 2025
+# season: 2   # optional: remove/comment out when using year
 
-# endpoints
-seasons_api_url: "https://api.btsh.org/api/seasons/"
-registrations_api_url: "https://api.btsh.org/api/team-season-registrations/?season={season_id}"
-game_days_api_url: "https://api.btsh.org/api/game_days/?season={season_id}"
+api_url: "https://api.btsh.org/api/game_days/?season={season}"
 
 # How many opponent games to show in the event description
 opponent_recent_limit: 10
@@ -17,5 +15,4 @@ include_league_wide_days: true
 # If a playoff/placeholder game has '-' / TBD teams, also include it on every team calendar
 include_tbd_games_on_all_calendars: true
 
-# Link for game-day check-in / registration
-checkin_url: "https://btsh.org"
+registration_url: "https://btsh.org"
