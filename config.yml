@@ -1,18 +1,39 @@
 output_dir: "docs"
 default_timezone: "America/New_York"
 
-year: 2025
-# season: 2   # optional: remove/comment out when using year
+# Season selection (YOU set this)
+season_year: 2025
 
-api_url: "https://api.btsh.org/api/game_days/?season={season}"
+# API endpoints
+seasons_api_url: "https://api.btsh.org/api/seasons/"
+team_registrations_api_url: "https://api.btsh.org/api/team-season-registrations/?season={season_id}"
+game_days_api_url: "https://api.btsh.org/api/game_days/?season={season_id}"
 
-# How many opponent games to show in the event description
-opponent_recent_limit: 10
+# What to include
+include_placeholders: true   # games with '-' / TBD teams
+include_cancelled_games: true
 
-# Include league-wide non-game days (make_up/holiday/other) on every team calendar
-include_league_wide_days: true
+# Day types to include (separately configurable)
+team_calendar_day_types: ["game", "make_up", "scrimmage"]     # exclude holiday/other by default
+master_calendar_day_types: ["game", "make_up", "scrimmage"]   # set differently if you want
 
-# If a playoff/placeholder game has '-' / TBD teams, also include it on every team calendar
-include_tbd_games_on_all_calendars: true
+# Include non-game “days” (holiday/other/etc.) as all-day events.
+# Only included if their day.type is in the calendar's day_types list above.
+include_non_game_days_as_all_day_events: true
 
-registration_url: "https://btsh.org"
+# Opponent sections
+# If null/omitted => include ALL prior games to the event date.
+opponent_games_limit: null
+
+# Event summary formatting options
+include_division_in_summary: true
+division_format: "short" # "short" -> Division short_name, "name" -> Division name
+cancelled_prefix: "CANCELLED:"
+
+# Links / constants
+checkin_url: "https://btsh.org"
+checkin_label: "Check-in / Standings"
+
+# File naming
+team_file_prefix: "btsh"
+master_file_name_template: "btsh-all-games-season-{year}.ics"
