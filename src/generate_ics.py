@@ -438,6 +438,9 @@ def ics_allday_event(uid: str, summary: str, day_local: datetime, description_li
     # DTEND;VALUE=DATE:YYYYMMDD (next day)
     start_date = day_local.strftime("%Y%m%d")
     end_date = (day_local + timedelta(days=1)).strftime("%Y%m%d")
+
+    desc = "\n".join(description_lines).strip()
+
     lines = [
         "BEGIN:VEVENT",
         f"UID:{uid}",
@@ -445,9 +448,10 @@ def ics_allday_event(uid: str, summary: str, day_local: datetime, description_li
         f"SUMMARY:{ics_escape(summary)}",
         f"DTSTART;VALUE=DATE:{start_date}",
         f"DTEND;VALUE=DATE:{end_date}",
-        f"DESCRIPTION:{ics_escape('\\n'.join(description_lines).strip())}",
+        f"DESCRIPTION:{ics_escape(desc)}",
         "END:VEVENT",
     ]
+
     folded: List[str] = []
     for ln in lines:
         folded.extend(fold_ics_line(ln))
