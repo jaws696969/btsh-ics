@@ -1,39 +1,31 @@
 output_dir: "docs"
 default_timezone: "America/New_York"
 
-# Season selection (YOU set this)
+# Use year, NOT season id
 season_year: 2025
 
-# API endpoints
-seasons_api_url: "https://api.btsh.org/api/seasons/"
-team_registrations_api_url: "https://api.btsh.org/api/team-season-registrations/?season={season_id}"
-game_days_api_url: "https://api.btsh.org/api/game_days/?season={season_id}"
+# How many opponent games to show in the event description (most recent up to event date)
+opponent_recent_limit: 10
 
-# What to include
-include_placeholders: true   # games with '-' / TBD teams
-include_cancelled_games: true
+# Placeholder games (TBD / '-') included by default, but can be turned off
+include_placeholder_games: true
 
-# Day types to include (separately configurable)
-team_calendar_day_types: ["game", "make_up", "scrimmage"]     # exclude holiday/other by default
-master_calendar_day_types: ["game", "make_up", "scrimmage"]   # set differently if you want
+# Add [D1] etc into event name for team calendars
+include_division_in_event_name: true
 
-# Include non-game “days” (holiday/other/etc.) as all-day events.
-# Only included if their day.type is in the calendar's day_types list above.
-include_non_game_days_as_all_day_events: true
+# Day-types to include (team calendars)
+include_day_types_team:
+  - game
+  - make_up
+  - scrimmage
+  # - playoff   # keep included by default if you want (add/remove freely)
 
-# Opponent sections
-# If null/omitted => include ALL prior games to the event date.
-opponent_games_limit: null
+# Day-types to include (master calendar)
+include_day_types_master:
+  - game
+  - make_up
+  - scrimmage
+  # - playoff
 
-# Event summary formatting options
-include_division_in_summary: true
-division_format: "short" # "short" -> Division short_name, "name" -> Division name
-cancelled_prefix: "CANCELLED:"
-
-# Links / constants
-checkin_url: "https://btsh.org"
-checkin_label: "Check-in / Standings"
-
-# File naming
-team_file_prefix: "btsh"
-master_file_name_template: "btsh-all-games-season-{year}.ics"
+# Default event length if API doesn't provide one
+default_game_duration_min: 60
