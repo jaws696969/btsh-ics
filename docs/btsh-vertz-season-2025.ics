@@ -4,210 +4,581 @@ PRODID:-//btsh-ics//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:BTSH Vertz (2025)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-UID:btsh-league-day-vertz-20250323
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] scrimmage
-DTSTART;VALUE=DATE:20250323
-DTEND;VALUE=DATE:20250324
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: scrimmage
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-league-day-vertz-20250330
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] scrimmage
-DTSTART;VALUE=DATE:20250330
-DTEND;VALUE=DATE:20250331
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: scrimmage
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-league-day-vertz-20250420
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] other
-DTSTART;VALUE=DATE:20250420
-DTEND;VALUE=DATE:20250421
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: other
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-league-day-vertz-20250511
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250511
-DTEND;VALUE=DATE:20250512
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: holiday
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-league-day-vertz-20250525
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250525
-DTEND;VALUE=DATE:20250526
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: holiday
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-league-day-vertz-20250706
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250706
-DTEND;VALUE=DATE:20250707
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: holiday
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-league-day-vertz-20250824
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] other
-DTSTART;VALUE=DATE:20250824
-DTEND;VALUE=DATE:20250825
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: other
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-league-day-vertz-20250831
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250831
-DTEND;VALUE=DATE:20250901
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: holiday
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-league-day-vertz-20251116
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251116
-DTEND;VALUE=DATE:20251117
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: make_up
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-league-day-vertz-20251123
-DTSTAMP:20260228T190805Z
-SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251123
-DTEND;VALUE=DATE:20251124
-DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
- -------------------------------\nType: make_up
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-team-vertz-game-811
-DTSTAMP:20260228T190805Z
-SUMMARY:[CANCELLED] [Division 1] Vertz @ Lbs
+UID:2219ea44aa4c48935ec4aba03e4533f775b55664@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:CANCELLED: Vertz (1) @ Lbs (1)
 DTSTART;TZID=America/New_York:20250406T130000
 DTEND;TZID=America/New_York:20250406T130100
-LOCATION:Tompkins Square Park
+LOCATION:Tompkins Square Park (west)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nStatus: cancelled\nStart (America/New_York
- ): 2025-04-06 13:00 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
- \nCheck-in / registration: https://btsh.org\n\n---------------------------
- -------------\nHEAD-TO-HEAD vs Lbs\n--------------------------------------
- --\n    (no prior matchups)\n\n----------------------------------------\nL
- BS GAMES-TO-DATE\n----------------------------------------\n    (none)
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: cancell
+ ed\nStart (America/New_York): 2025-04-06 13:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
+ ----------\n    (no prior matchups listed)\n\n----------------------------
+ ------------\nLBS GAMES-TO-DATE\n----------------------------------------\
+ nRecord to date (completed games only): 0-0\n    (no prior games listed)
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-team-vertz-game-827
-DTSTAMP:20260228T190805Z
-SUMMARY:[CANCELLED] [Division 1] Vertz @ Fresh Kills
+UID:f858303b4b26c1657d12674c198b19c5fed994fe@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs Fuzz (1)
+DTSTART;TZID=America/New_York:20250413T180000
+DTEND;TZID=America/New_York:20250413T180100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-04-13 18:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fuzz\n-----------------------------
+ -----------\n    (no prior matchups listed)\n\n---------------------------
+ -------------\nFUZZ GAMES-TO-DATE\n---------------------------------------
+ -\nRecord to date (completed games only): 0-0\n    Apr 6th @ Cobra Kai (Ca
+ ncelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:07b6a9c33613951973f73e03ffae809e50fd2e5d@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:[Opening] Vertz (1) vs Denim Demons (4)
+DTSTART;TZID=America/New_York:20250427T130000
+DTEND;TZID=America/New_York:20250427T130100
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-04-27 13:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Denim Demons\n---------------------
+ -------------------\n    (no prior matchups listed)\n\n-------------------
+ ---------------------\nDENIM DEMONS GAMES-TO-DATE\n-----------------------
+ -----------------\nRecord to date (completed games only): 0-0\n    Apr 6th
+  vs What the Puck (Cancelled)\n    Apr 13th vs Butchers
+END:VEVENT
+BEGIN:VEVENT
+UID:ca2f227498ef3dfc2f5b7f8ec74136cf5cac6a78@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:CANCELLED: Vertz (1) @ Fresh Kills (2)
 DTSTART;TZID=America/New_York:20250504T141500
 DTEND;TZID=America/New_York:20250504T141600
-LOCATION:Tompkins Square Park
+LOCATION:Tompkins Square Park (west)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nStatus: cancelled\nStart (America/New_York
- ): 2025-05-04 14:15 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
- \nCheck-in / registration: https://btsh.org\n\n---------------------------
- -------------\nHEAD-TO-HEAD vs Fresh Kills\n------------------------------
- ----------\n    (no prior matchups)\n\n-----------------------------------
- -----\nFRESH KILLS GAMES-TO-DATE\n----------------------------------------
- \n    Apr 6th @ Corlears Hookers
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: cancell
+ ed\nStart (America/New_York): 2025-05-04 14:15 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fresh Kills\n----------------------
+ ------------------\n    (no prior matchups listed)\n\n--------------------
+ --------------------\nFRESH KILLS GAMES-TO-DATE\n-------------------------
+ ---------------\nRecord to date (completed games only): 0-0\n    Apr 6th @
+  Corlears Hookers (Cancelled)\n    Apr 13th vs Lbs\n    Apr 27th @ Instant
+  Karma
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-team-vertz-game-755
-DTSTAMP:20260228T190805Z
-SUMMARY:[CANCELLED] [Division 1] Vertz @ Fuzz
+UID:1b2bf501819b98494d8e96cc559493daccac573b@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs Cobra Kai (1)
+DTSTART;TZID=America/New_York:20250518T153000
+DTEND;TZID=America/New_York:20250518T153100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-05-18 15:30 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
+ ----------------\n    (no prior matchups listed)\n\n----------------------
+ ------------------\nCOBRA KAI GAMES-TO-DATE\n-----------------------------
+ -----------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Fu
+ zz (Cancelled)\n    Apr 13th @ Mega Touch\n    Apr 27th @ Riots\n    May 4
+ th vs Filthier (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:0ec6e5f0571a6e9d75d1217e0faaccdcf3935db7@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs Dark Rainbows (3)
+DTSTART;TZID=America/New_York:20250601T164500
+DTEND;TZID=America/New_York:20250601T164600
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-06-01 16:45 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Dark Rainbows\n--------------------
+ --------------------\n    (no prior matchups listed)\n\n------------------
+ ----------------------\nDARK RAINBOWS GAMES-TO-DATE\n---------------------
+ -------------------\nRecord to date (completed games only): 0-0\n    Apr 6
+ th @ Gremlins (Cancelled)\n    Apr 13th @ Sky Fighters\n    Apr 27th vs Fi
+ lthier\n    May 4th @ Denim Demons (Cancelled)\n    May 18th @ Fuzz
+END:VEVENT
+BEGIN:VEVENT
+UID:9a6bc25a19adebf023c55da7b595be4131c55154@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:CANCELLED: [Closing] Vertz (1) @ Fuzz (1)
 DTSTART;TZID=America/New_York:20250608T180000
 DTEND;TZID=America/New_York:20250608T180100
-LOCATION:Tompkins Square Park
+LOCATION:Tompkins Square Park (east)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nStatus: cancelled\nStart (America/New_York
- ): 2025-06-08 18:00 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
- \nCheck-in / registration: https://btsh.org\n\n---------------------------
- -------------\nHEAD-TO-HEAD vs Fuzz\n-------------------------------------
- ---\n    (no prior matchups)\n\n----------------------------------------\n
- FUZZ GAMES-TO-DATE\n----------------------------------------\n    Apr 6th 
- @ Cobra Kai\n    May 4th vs Corlears Hookers
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: cancell
+ ed\nStart (America/New_York): 2025-06-08 18:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fuzz\n-----------------------------
+ -----------\n    Apr 13th vs Fuzz\n\n-------------------------------------
+ ---\nFUZZ GAMES-TO-DATE\n----------------------------------------\nRecord 
+ to date (completed games only): 0-0\n    Apr 6th @ Cobra Kai (Cancelled)\n
+     Apr 13th @ Vertz\n    Apr 27th @ Butchers\n    May 4th vs Corlears Hoo
+ kers (Cancelled)\n    May 18th vs Dark Rainbows\n    Jun 1st @ Gremlins
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-team-vertz-game-867
-DTSTAMP:20260228T190805Z
-SUMMARY:[CANCELLED] [Division 1] Vertz vs What the Puck
+UID:cfab8644f3038ebf8cba4e93f4d1e6030e4c0aa7@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) @ Lbs (1)
+DTSTART;TZID=America/New_York:20250615T130000
+DTEND;TZID=America/New_York:20250615T135000
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-06-15 13:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
+ ----------\n    Apr 6th @ Lbs (Cancelled)\n\n-----------------------------
+ -----------\nLBS GAMES-TO-DATE\n----------------------------------------\n
+ Record to date (completed games only): 0-0\n    Apr 6th vs Vertz (Cancelle
+ d)\n    Apr 13th @ Fresh Kills\n    Apr 27th vs What the Puck\n    May 4th
+  @ Gouging Anklebiters (Cancelled)\n    May 18th vs Mega Touch\n    Jun 1s
+ t vs Sky Fighters\n    Jun 8th vs Instant Karma
+END:VEVENT
+BEGIN:VEVENT
+UID:c3d956f5a5b8b663550b64cbe0ac0660d9c770e7@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) @ Gouging Anklebiters (2)
+DTSTART;TZID=America/New_York:20250622T130000
+DTEND;TZID=America/New_York:20250622T130100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-06-22 13:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Gouging Anklebiters\n--------------
+ --------------------------\n    (no prior matchups listed)\n\n------------
+ ----------------------------\nGOUGING ANKLEBITERS GAMES-TO-DATE\n---------
+ -------------------------------\nRecord to date (completed games only): 0-
+ 0\n    Apr 6th @ Mega Touch (Cancelled)\n    Apr 13th vs Poutine Machine\n
+     Apr 27th @ Renaissance\n    May 4th vs Lbs (Cancelled)\n    May 18th v
+ s Fresh Kills\n    Jun 1st @ What the Puck\n    Jun 8th @ Poutine Machine 
+ (Cancelled)\n    Jun 15th @ Mega Touch (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:d9231fe71ec9ecbccd8f34156192ac375ef746d1@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) @ Corlears Hookers (2)
+DTSTART;TZID=America/New_York:20250629T141500
+DTEND;TZID=America/New_York:20250629T141600
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-06-29 14:15 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Corlears Hookers\n-----------------
+ -----------------------\n    (no prior matchups listed)\n\n---------------
+ -------------------------\nCORLEARS HOOKERS GAMES-TO-DATE\n---------------
+ -------------------------\nRecord to date (completed games only): 0-0\n   
+  Apr 6th vs Fresh Kills (Cancelled)\n    Apr 13th @ Filthier\n    Apr 27th
+  vs Sky Fighters\n    May 4th @ Fuzz (Cancelled)\n    May 18th vs Poutine 
+ Machine\n    Jun 1st @ Butchers\n    Jun 8th vs Filthier (Cancelled)\n    
+ Jun 15th vs Fresh Kills\n    Jun 22nd @ Cobra Kai
+END:VEVENT
+BEGIN:VEVENT
+UID:1024c53c62c8db2e909393082125caca796c554d@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs Lbs (1)
+DTSTART;TZID=America/New_York:20250713T180000
+DTEND;TZID=America/New_York:20250713T180100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-07-13 18:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
+ ----------\n    Apr 6th @ Lbs (Cancelled)\n    Jun 15th @ Lbs\n\n---------
+ -------------------------------\nLBS GAMES-TO-DATE\n----------------------
+ ------------------\nRecord to date (completed games only): 0-0\n    Apr 6t
+ h vs Vertz (Cancelled)\n    Apr 13th @ Fresh Kills\n    Apr 27th vs What t
+ he Puck\n    May 4th @ Gouging Anklebiters (Cancelled)\n    May 18th vs Me
+ ga Touch\n    Jun 1st vs Sky Fighters\n    Jun 8th vs Instant Karma\n    J
+ un 15th vs Vertz\n    Jun 22nd @ Poutine Machine\n    Jun 29th @ Cobra Kai
+END:VEVENT
+BEGIN:VEVENT
+UID:3c979c30f0ca4a62db3ab837adf145a65709f1e3@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) @ Fuzz (1)
+DTSTART;TZID=America/New_York:20250720T120000
+DTEND;TZID=America/New_York:20250720T125000
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-07-20 12:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fuzz\n-----------------------------
+ -----------\n    Apr 13th vs Fuzz\n    Jun 8th @ Fuzz (Cancelled)\n\n-----
+ -----------------------------------\nFUZZ GAMES-TO-DATE\n-----------------
+ -----------------------\nRecord to date (completed games only): 0-0\n    A
+ pr 6th @ Cobra Kai (Cancelled)\n    Apr 13th @ Vertz\n    Apr 27th @ Butch
+ ers\n    May 4th vs Corlears Hookers (Cancelled)\n    May 18th vs Dark Rai
+ nbows\n    Jun 1st @ Gremlins\n    Jun 8th vs Vertz (Cancelled)\n    Jun 1
+ 5th @ Cobra Kai\n    Jun 22nd @ Fresh Kills\n    Jun 29th @ Mega Touch\n  
+   Jul 13th vs Cobra Kai
+END:VEVENT
+BEGIN:VEVENT
+UID:d05358d61d739c633175bc0d115d14cd3dc97923@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs Poutine Machine (2)
+DTSTART;TZID=America/New_York:20250720T153000
+DTEND;TZID=America/New_York:20250720T153100
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-07-20 15:30 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Poutine Machine\n------------------
+ ----------------------\n    (no prior matchups listed)\n\n----------------
+ ------------------------\nPOUTINE MACHINE GAMES-TO-DATE\n-----------------
+ -----------------------\nRecord to date (completed games only): 0-0\n    A
+ pr 6th @ Filthier (Cancelled)\n    Apr 13th @ Gouging Anklebiters\n    Apr
+  27th vs Gremlins\n    May 4th @ Mega Touch (Cancelled)\n    May 18th @ Co
+ rlears Hookers\n    Jun 1st @ Moby Dekes\n    Jun 8th vs Gouging Anklebite
+ rs (Cancelled)\n    Jun 15th @ Filthier\n    Jun 22nd vs Lbs\n    Jun 29th
+  vs Fresh Kills\n    Jul 13th vs Gouging Anklebiters\n    Jul 13th vs Filt
+ hier
+END:VEVENT
+BEGIN:VEVENT
+UID:da81f6b1d4f5f059cb57506aa237fb6270bc5b39@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:CANCELLED: Vertz (1) vs What the Puck (4)
 DTSTART;TZID=America/New_York:20250727T141500
 DTEND;TZID=America/New_York:20250727T141600
-LOCATION:Tompkins Square Park
+LOCATION:Tompkins Square Park (west)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nStatus: cancelled\nStart (America/New_York
- ): 2025-07-27 14:15 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
- \nCheck-in / registration: https://btsh.org\n\n---------------------------
- -------------\nHEAD-TO-HEAD vs What the Puck\n----------------------------
- ------------\n    (no prior matchups)\n\n---------------------------------
- -------\nWHAT THE PUCK GAMES-TO-DATE\n------------------------------------
- ----\n    Apr 6th @ Denim Demons\n    May 4th vs Sky Fighters
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: cancell
+ ed\nStart (America/New_York): 2025-07-27 14:15 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs What the Puck\n--------------------
+ --------------------\n    (no prior matchups listed)\n\n------------------
+ ----------------------\nWHAT THE PUCK GAMES-TO-DATE\n---------------------
+ -------------------\nRecord to date (completed games only): 0-0\n    Apr 6
+ th @ Denim Demons (Cancelled)\n    Apr 13th vs Instant Karma\n    Apr 27th
+  @ Lbs\n    May 4th vs Sky Fighters (Cancelled)\n    May 18th vs Moby Deke
+ s\n    Jun 1st vs Gouging Anklebiters\n    Jun 8th vs Fresh Kills\n    Jun
+  15th @ Denim Demons\n    Jun 22nd @ Dark Rainbows\n    Jun 29th @ Riots\n
+     Jul 13th vs Denim Demons\n    Jul 20th vs Gremlins
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-team-vertz-game-950
-DTSTAMP:20260228T190805Z
-SUMMARY:[Division 1] Vertz vs Fuzz
+UID:c4120be543c67cb5dc4b6c569158b9c9d5ee0dd0@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) @ Mega Touch (1)
+DTSTART;TZID=America/New_York:20250803T164500
+DTEND;TZID=America/New_York:20250803T164600
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-08-03 16:45 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Mega Touch\n-----------------------
+ -----------------\n    (no prior matchups listed)\n\n---------------------
+ -------------------\nMEGA TOUCH GAMES-TO-DATE\n---------------------------
+ -------------\nRecord to date (completed games only): 0-0\n    Apr 6th vs 
+ Gouging Anklebiters (Cancelled)\n    Apr 13th vs Cobra Kai\n    Apr 27th @
+  Moby Dekes\n    May 4th vs Poutine Machine (Cancelled)\n    May 18th @ Lb
+ s\n    Jun 1st vs Instant Karma\n    Jun 8th @ Cobra Kai\n    Jun 15th vs 
+ Gouging Anklebiters (Cancelled)\n    Jun 22nd @ Filthier\n    Jun 29th vs 
+ Fuzz\n    Jul 13th @ Renaissance\n    Jul 20th vs Gouging Anklebiters\n   
+  Jul 20th @ Corlears Hookers\n    Jul 27th vs Riots (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:a2932b238d230b265e0f17c168aec95ab6bd7da9@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs Gremlins (3)
+DTSTART;TZID=America/New_York:20250810T141500
+DTEND;TZID=America/New_York:20250810T141600
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-08-10 14:15 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Gremlins\n-------------------------
+ ---------------\n    (no prior matchups listed)\n\n-----------------------
+ -----------------\nGREMLINS GAMES-TO-DATE\n-------------------------------
+ ---------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Dark
+  Rainbows (Cancelled)\n    Apr 13th vs Renaissance\n    Apr 27th @ Poutine
+  Machine\n    May 4th vs Butchers (Cancelled)\n    May 18th @ Sky Fighters
+ \n    Jun 1st vs Fuzz\n    Jun 8th @ Renaissance\n    Jun 15th vs Dark Rai
+ nbows\n    Jun 22nd @ Denim Demons\n    Jun 29th vs Instant Karma\n    Jul
+  13th @ Dark Rainbows\n    Jul 20th @ What the Puck\n    Jul 27th @ Corlea
+ rs Hookers\n    Aug 3rd vs Cobra Kai
+END:VEVENT
+BEGIN:VEVENT
+UID:e28c06ce75a594f27ef179203c376b0b440fde3e@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) @ Sky Fighters (3)
+DTSTART;TZID=America/New_York:20250817T130000
+DTEND;TZID=America/New_York:20250817T130100
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-08-17 13:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Sky Fighters\n---------------------
+ -------------------\n    (no prior matchups listed)\n\n-------------------
+ ---------------------\nSKY FIGHTERS GAMES-TO-DATE\n-----------------------
+ -----------------\nRecord to date (completed games only): 0-0\n    Apr 6th
+  @ Instant Karma (Cancelled)\n    Apr 13th vs Dark Rainbows\n    Apr 27th 
+ @ Corlears Hookers\n    May 4th @ What the Puck (Cancelled)\n    May 18th 
+ vs Gremlins\n    Jun 1st @ Lbs\n    Jun 8th @ Dark Rainbows\n    Jun 15th 
+ @ Instant Karma\n    Jun 22nd vs Moby Dekes\n    Jun 29th vs Denim Demons\
+ n    Jul 13th vs Instant Karma\n    Jul 20th @ Riots\n    Jul 27th @ Filth
+ ier\n    Aug 3rd @ Renaissance\n    Aug 10th vs Mega Touch
+END:VEVENT
+BEGIN:VEVENT
+UID:a11f734c53994f7f66b4303f8ad9fe91f8580fda@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) @ Filthier (2)
+DTSTART;TZID=America/New_York:20250907T164500
+DTEND;TZID=America/New_York:20250907T164600
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-09-07 16:45 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Filthier\n-------------------------
+ ---------------\n    (no prior matchups listed)\n\n-----------------------
+ -----------------\nFILTHIER GAMES-TO-DATE\n-------------------------------
+ ---------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Pout
+ ine Machine (Cancelled)\n    Apr 13th vs Corlears Hookers\n    Apr 27th @ 
+ Dark Rainbows\n    May 4th @ Cobra Kai (Cancelled)\n    May 18th vs Butche
+ rs\n    Jun 1st @ Riots\n    Jun 8th @ Corlears Hookers (Cancelled)\n    J
+ un 15th vs Poutine Machine\n    Jun 22nd vs Mega Touch\n    Jun 29th @ Gou
+ ging Anklebiters\n    Jul 13th @ Poutine Machine\n    Jul 20th @ Lbs\n    
+ Jul 27th vs Sky Fighters\n    Aug 3rd @ Fresh Kills\n    Aug 10th @ Moby D
+ ekes\n    Aug 17th vs Gouging Anklebiters
+END:VEVENT
+BEGIN:VEVENT
+UID:897409b3b2f34c653302ecdc36a17201c6370e10@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs Mega Touch (1)
+DTSTART;TZID=America/New_York:20250914T143000
+DTEND;TZID=America/New_York:20250914T143100
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-09-14 14:30 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Mega Touch\n-----------------------
+ -----------------\n    Aug 3rd @ Mega Touch\n\n---------------------------
+ -------------\nMEGA TOUCH GAMES-TO-DATE\n---------------------------------
+ -------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Gougin
+ g Anklebiters (Cancelled)\n    Apr 13th vs Cobra Kai\n    Apr 27th @ Moby 
+ Dekes\n    May 4th vs Poutine Machine (Cancelled)\n    May 18th @ Lbs\n   
+  Jun 1st vs Instant Karma\n    Jun 8th @ Cobra Kai\n    Jun 15th vs Gougin
+ g Anklebiters (Cancelled)\n    Jun 22nd @ Filthier\n    Jun 29th vs Fuzz\n
+     Jul 13th @ Renaissance\n    Jul 20th vs Gouging Anklebiters\n    Jul 2
+ 0th @ Corlears Hookers\n    Jul 27th vs Riots (Cancelled)\n    Aug 3rd vs 
+ Vertz\n    Aug 10th @ Sky Fighters\n    Aug 17th vs Riots\n    Aug 17th @ 
+ Fuzz\n    Sep 7th vs Fresh Kills
+END:VEVENT
+BEGIN:VEVENT
+UID:4e6a30bb3a8e692ef9917e835d9fc54864275ec7@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) @ Cobra Kai (1)
+DTSTART;TZID=America/New_York:20250921T143000
+DTEND;TZID=America/New_York:20250921T143100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-09-21 14:30 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
+ ----------------\n    May 18th vs Cobra Kai\n\n---------------------------
+ -------------\nCOBRA KAI GAMES-TO-DATE\n----------------------------------
+ ------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Fuzz (C
+ ancelled)\n    Apr 13th @ Mega Touch\n    Apr 27th @ Riots\n    May 4th vs
+  Filthier (Cancelled)\n    May 18th @ Vertz\n    Jun 1st vs Renaissance\n 
+    Jun 8th vs Mega Touch\n    Jun 15th vs Fuzz\n    Jun 22nd vs Corlears H
+ ookers\n    Jun 29th vs Lbs\n    Jul 13th @ Fuzz\n    Jul 20th vs Fresh Ki
+ lls\n    Jul 27th @ Butchers (Cancelled)\n    Aug 3rd @ Gremlins\n    Aug 
+ 10th vs Instant Karma\n    Aug 17th @ Lbs (Cancelled)\n    Sep 7th @ Gougi
+ ng Anklebiters (Cancelled)\n    Sep 14th @ Poutine Machine\n    Sep 21st @
+  Butchers
+END:VEVENT
+BEGIN:VEVENT
+UID:a2fc113924feba89e4dd388ab951ef7e878017b1@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs What the Puck (4)
+DTSTART;TZID=America/New_York:20250928T110000
+DTEND;TZID=America/New_York:20250928T115000
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Make-Up\nStatus: comp
+ leted\nStart (America/New_York): 2025-09-28 11:00 EDT\nRink: Tompkins Squa
+ re Park (west)\nCheck-in / Standings: https://btsh.org\n\n----------------
+ ------------------------\nHEAD-TO-HEAD vs What the Puck\n-----------------
+ -----------------------\n    Jul 27th vs What the Puck (Cancelled)\n\n----
+ ------------------------------------\nWHAT THE PUCK GAMES-TO-DATE\n-------
+ ---------------------------------\nRecord to date (completed games only): 
+ 0-0\n    Apr 6th @ Denim Demons (Cancelled)\n    Apr 13th vs Instant Karma
+ \n    Apr 27th @ Lbs\n    May 4th vs Sky Fighters (Cancelled)\n    May 18t
+ h vs Moby Dekes\n    Jun 1st vs Gouging Anklebiters\n    Jun 8th vs Fresh 
+ Kills\n    Jun 15th @ Denim Demons\n    Jun 22nd @ Dark Rainbows\n    Jun 
+ 29th @ Riots\n    Jul 13th vs Denim Demons\n    Jul 20th vs Gremlins\n    
+ Jul 27th @ Vertz (Cancelled)\n    Aug 3rd vs Butchers\n    Aug 10th @ Pout
+ ine Machine\n    Aug 17th vs Riots\n    Sep 7th @ Renaissance\n    Sep 14t
+ h @ Butchers\n    Sep 21st @ Moby Dekes
+END:VEVENT
+BEGIN:VEVENT
+UID:1a8c257a84db7ca17b9a803e0450ab021e91c4c8@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) @ Fresh Kills (2)
+DTSTART;TZID=America/New_York:20250928T131500
+DTEND;TZID=America/New_York:20250928T140500
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Make-Up\nStatus: comp
+ leted\nStart (America/New_York): 2025-09-28 13:15 EDT\nRink: Tompkins Squa
+ re Park (west)\nCheck-in / Standings: https://btsh.org\n\n----------------
+ ------------------------\nHEAD-TO-HEAD vs Fresh Kills\n-------------------
+ ---------------------\n    May 4th @ Fresh Kills (Cancelled)\n\n----------
+ ------------------------------\nFRESH KILLS GAMES-TO-DATE\n---------------
+ -------------------------\nRecord to date (completed games only): 0-0\n   
+  Apr 6th @ Corlears Hookers (Cancelled)\n    Apr 13th vs Lbs\n    Apr 27th
+  @ Instant Karma\n    May 4th vs Vertz (Cancelled)\n    May 18th @ Gouging
+  Anklebiters\n    Jun 1st vs Denim Demons\n    Jun 8th @ What the Puck\n  
+   Jun 15th @ Corlears Hookers\n    Jun 22nd vs Fuzz\n    Jun 29th @ Poutin
+ e Machine\n    Jul 13th vs Corlears Hookers\n    Jul 20th @ Cobra Kai\n   
+  Jul 27th vs Renaissance\n    Aug 3rd vs Filthier\n    Aug 10th @ Butchers
+ \n    Aug 17th vs Poutine Machine\n    Sep 7th @ Mega Touch\n    Sep 14th 
+ @ Filthier\n    Sep 21st vs Gouging Anklebiters
+END:VEVENT
+BEGIN:VEVENT
+UID:261ae3ed886d529032ba519419b2da516f965e59@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs Fuzz (1)
 DTSTART;TZID=America/New_York:20251026T154500
 DTEND;TZID=America/New_York:20251026T163500
-LOCATION:Tompkins Square Park
+LOCATION:Tompkins Square Park (west)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nStatus: scheduled\nStart (America/New_York
- ): 2025-10-26 15:45 EDT\nLocation: Tompkins Square Park\n\nCheck-in / regi
- stration: https://btsh.org\n\n----------------------------------------\nHE
- AD-TO-HEAD vs Fuzz\n----------------------------------------\n    Jun 8th 
- @ Fuzz\n\n----------------------------------------\nFUZZ GAMES-TO-DATE\n--
- --------------------------------------\n    Apr 6th @ Cobra Kai\n    May 4
- th vs Corlears Hookers\n    Jun 8th vs Vertz\n    Jul 27th vs Denim Demons
- \n    Oct 12th vs What the Puck
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2025-10-26 15:45 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fuzz\n-----------------------------
+ -----------\n    Apr 13th vs Fuzz\n    Jun 8th @ Fuzz (Cancelled)\n    Jul
+  20th @ Fuzz\n\n----------------------------------------\nFUZZ GAMES-TO-DA
+ TE\n----------------------------------------\nRecord to date (completed ga
+ mes only): 0-0\n    Apr 6th @ Cobra Kai (Cancelled)\n    Apr 13th @ Vertz\
+ n    Apr 27th @ Butchers\n    May 4th vs Corlears Hookers (Cancelled)\n   
+  May 18th vs Dark Rainbows\n    Jun 1st @ Gremlins\n    Jun 8th vs Vertz (
+ Cancelled)\n    Jun 15th @ Cobra Kai\n    Jun 22nd @ Fresh Kills\n    Jun 
+ 29th @ Mega Touch\n    Jul 13th vs Cobra Kai\n    Jul 20th vs Vertz\n    J
+ ul 20th vs Gouging Anklebiters\n    Jul 27th vs Denim Demons (Cancelled)\n
+     Aug 3rd @ Lbs\n    Aug 10th vs Renaissance\n    Aug 17th vs Mega Touch
+ \n    Sep 7th @ Poutine Machine\n    Sep 14th vs Denim Demons\n    Sep 14t
+ h vs Lbs\n    Sep 21st @ Filthier\n    Sep 28th vs Corlears Hookers\n    O
+ ct 12th vs What the Puck (Cancelled)\n    Oct 19th vs What the Puck
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-team-vertz-game-955
-DTSTAMP:20260228T190805Z
-SUMMARY:[Division 1] Vertz vs Cobra Kai
+UID:f76ef8080a045cf3702f7947486f257721208094@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Vertz (1) vs Cobra Kai (1)
 DTSTART;TZID=America/New_York:20251102T141500
 DTEND;TZID=America/New_York:20251102T150500
-LOCATION:Tompkins Square Park
+LOCATION:Tompkins Square Park (west)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nStatus: scheduled\nStart (America/New_York
- ): 2025-11-02 14:15 EST\nLocation: Tompkins Square Park\n\nCheck-in / regi
- stration: https://btsh.org\n\n----------------------------------------\nHE
- AD-TO-HEAD vs Cobra Kai\n----------------------------------------\n    (no
-  prior matchups)\n\n----------------------------------------\nCOBRA KAI GA
- MES-TO-DATE\n----------------------------------------\n    Apr 6th vs Fuzz
- \n    May 4th vs Filthier\n    Jul 27th @ Butchers\n    Aug 17th @ Lbs\n  
-   Sep 7th @ Gouging Anklebiters\n    Oct 26th @ Gouging Anklebiters
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2025-11-02 14:15 EST\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
+ ----------------\n    May 18th vs Cobra Kai\n    Sep 21st @ Cobra Kai\n\n-
+ ---------------------------------------\nCOBRA KAI GAMES-TO-DATE\n--------
+ --------------------------------\nRecord to date (completed games only): 0
+ -0\n    Apr 6th vs Fuzz (Cancelled)\n    Apr 13th @ Mega Touch\n    Apr 27
+ th @ Riots\n    May 4th vs Filthier (Cancelled)\n    May 18th @ Vertz\n   
+  Jun 1st vs Renaissance\n    Jun 8th vs Mega Touch\n    Jun 15th vs Fuzz\n
+     Jun 22nd vs Corlears Hookers\n    Jun 29th vs Lbs\n    Jul 13th @ Fuzz
+ \n    Jul 20th vs Fresh Kills\n    Jul 27th @ Butchers (Cancelled)\n    Au
+ g 3rd @ Gremlins\n    Aug 10th vs Instant Karma\n    Aug 17th @ Lbs (Cance
+ lled)\n    Sep 7th @ Gouging Anklebiters (Cancelled)\n    Sep 14th @ Pouti
+ ne Machine\n    Sep 21st @ Butchers\n    Sep 21st vs Vertz\n    Sep 28th v
+ s Filthier\n    Oct 5th vs Gouging Anklebiters\n    Oct 5th @ Lbs\n    Oct
+  26th @ Gouging Anklebiters
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-team-vertz-game-965
-DTSTAMP:20260228T190805Z
-SUMMARY:[Division 1] Vertz @ PBR Cup
-DTSTART;TZID=America/New_York:20251109T150000
-DTEND;TZID=America/New_York:20251109T155000
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nStatus: scheduled\nStart (America/New_York
- ): 2025-11-09 15:00 EST\nLocation: Tompkins Square Park\nNote: TBD / Place
- holder\n\nCheck-in / registration: https://btsh.org
+UID:159d9ef19ae071ff286d080968f2a654da09039a@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Scrimmage
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCRIPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
+END:VEVENT
+BEGIN:VEVENT
+UID:e0fb7fc4ab45cad3fe1c849b947cc2cfac7aa376@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Scrimmage
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerseys
+END:VEVENT
+BEGIN:VEVENT
+UID:a8318fd7182a269fe4aee47186c808d829023174@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Make-Up
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:464a1316ca7d2264df4ba70d4d017667d5a9a405@btsh-ics
+DTSTAMP:20260228T220910Z
+SUMMARY:Make-Up
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DATE:20251124
+DESCRIPTION:Makeup
 END:VEVENT
 END:VCALENDAR
