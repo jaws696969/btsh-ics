@@ -5,450 +5,193 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:BTSH Instant Karma (2025)
 BEGIN:VEVENT
-UID:btsh-f07273c6a7ad61f4@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Fresh Kills
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FRESH KILLS\n---------------------
- -------------------\nRecord: 13-5-0 (Reg 12-3\, OT 1-0\, SO 0-2)\n\n------
- ----------------------------------\nGAME CHECK-IN / REGISTRATION\n--------
- --------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-d373ee4011f882a2@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] CANCELLED: Instant Karma vs Moby Dekes
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: MOBY DEKES\n----------
- ------------------------------\nRecord: 4-14-0 (Reg 3-13\, OT 1-1\, SO 0-0
- )\n\n----------------------------------------\nGAME CHECK-IN / REGISTRATIO
- N\n----------------------------------------\nCheck in here: https://btsh.o
- rg
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-2f82d7e36ff329d9@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ Renaissance
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: RENAISSANCE\n---------------------
- -------------------\nRecord: 13-5-0 (Reg 12-4\, OT 0-1\, SO 1-0)\n\n------
- ----------------------------------\nGAME CHECK-IN / REGISTRATION\n--------
- --------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-32a97904f6bd491f@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ Mega Touch
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: MEGA TOUCH\n----------------------
- ------------------\nRecord: 15-3-0 (Reg 15-3\, OT 0-0\, SO 0-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-ce208934a36e3291@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ Lbs
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: LBS\n-----------------------------
- -----------\nRecord: 10-8-0 (Reg 8-8\, OT 1-0\, SO 1-0)\n\n---------------
- -------------------------\nGAME CHECK-IN / REGISTRATION\n-----------------
- -----------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-8db4aba5f75af2e4@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ Gremlins
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: GREMLINS\n------------------------
- ----------------\nRecord: 6-12-0 (Reg 4-12\, OT 1-0\, SO 1-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-aab0d327a2bae2fe@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] CANCELLED: Instant Karma vs Gouging Anklebiters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: GOUGING ANKLEBITERS\n-
- ---------------------------------------\nRecord: 11-7-0 (Reg 9-5\, OT 0-1\
- , SO 2-1)\n\n----------------------------------------\nGAME CHECK-IN / REG
- ISTRATION\n----------------------------------------\nCheck in here: https:
- //btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-fa268ead61d54aa9@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ Cobra Kai
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: COBRA KAI\n-----------------------
- -----------------\nRecord: 11-7-0 (Reg 8-6\, OT 1-1\, SO 2-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-6f80303968ce2f6d@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Gremlins
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: GREMLINS\n------------------------
- ----------------\nRecord: 6-12-0 (Reg 4-12\, OT 1-0\, SO 1-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-26575ef15e3096a3@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] CANCELLED: Instant Karma vs Sky Fighters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: SKY FIGHTERS\n--------
- --------------------------------\nRecord: 9-9-0 (Reg 8-9\, OT 0-0\, SO 1-0
- )\n\n----------------------------------------\nGAME CHECK-IN / REGISTRATIO
- N\n----------------------------------------\nCheck in here: https://btsh.o
- rg
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-e55ffd9ca78578fc@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ What the Puck
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: WHAT THE PUCK\n-------------------
- ---------------------\nRecord: 5-13-0 (Reg 4-13\, OT 1-0\, SO 0-0)\n\n----
- ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
- ----------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-269e4ebd16ffa19e@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Riots
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: RIOTS\n---------------------------
- -------------\nRecord: 1-17-0 (Reg 1-15\, OT 0-1\, SO 0-1)\n\n------------
- ----------------------------\nGAME CHECK-IN / REGISTRATION\n--------------
- --------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-febd12bafe66353c@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ Sky Fighters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: SKY FIGHTERS\n--------------------
- --------------------\nRecord: 9-9-0 (Reg 8-9\, OT 0-0\, SO 1-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-734f702d66304619@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Butchers
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: BUTCHERS\n------------------------
- ----------------\nRecord: 4-14-0 (Reg 3-13\, OT 0-1\, SO 1-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-7f411747d185bf1f@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ Dark Rainbows
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: DARK RAINBOWS\n-------------------
- ---------------------\nRecord: 5-13-0 (Reg 5-11\, OT 0-0\, SO 0-2)\n\n----
- ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
- ----------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-430eada7b0b7dafd@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ Denim Demons
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: DENIM DEMONS\n--------------------
- --------------------\nRecord: 14-4-0 (Reg 13-3\, OT 1-1\, SO 0-0)\n\n-----
- -----------------------------------\nGAME CHECK-IN / REGISTRATION\n-------
- ---------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-3b0446b1d2244c08@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Dark Rainbows
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: DARK RAINBOWS\n-------------------
- ---------------------\nRecord: 5-13-0 (Reg 5-11\, OT 0-0\, SO 0-2)\n\n----
- ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
- ----------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-389b82d9a28c4659@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Renaissance
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: RENAISSANCE\n---------------------
- -------------------\nRecord: 13-5-0 (Reg 12-4\, OT 0-1\, SO 1-0)\n\n------
- ----------------------------------\nGAME CHECK-IN / REGISTRATION\n--------
- --------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-266690b3fac4e5f6@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Sky Fighters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: SKY FIGHTERS\n--------------------
- --------------------\nRecord: 9-9-0 (Reg 8-9\, OT 0-0\, SO 1-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-7ca75e6aa8126094@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Moby Dekes
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: MOBY DEKES\n----------------------
- ------------------\nRecord: 4-14-0 (Reg 3-13\, OT 1-1\, SO 0-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-924916df2d9a0e99@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Gouging Anklebiters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: GOUGING ANKLEBITERS\n-------------
- ---------------------------\nRecord: 11-7-0 (Reg 9-5\, OT 0-1\, SO 2-1)\n\
- n----------------------------------------\nGAME CHECK-IN / REGISTRATION\n-
- ---------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-b86a6c12fabf7c1c@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Filthier
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : scheduled\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FILTHIER\n------------------------
- ----------------\nRecord: 8-10-0 (Reg 6-10\, OT 2-0\, SO 0-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-0ad49962f0431eb3@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma vs Fresh Kills
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : scheduled\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FRESH KILLS\n---------------------
- -------------------\nRecord: 13-5-0 (Reg 12-3\, OT 1-0\, SO 0-2)\n\n------
- ----------------------------------\nGAME CHECK-IN / REGISTRATION\n--------
- --------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-4d128091646ff1ba@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D3] Instant Karma @ 
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 3\nStatus
- : scheduled\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nGAME CHECK-IN / REGISTRATION\n-----------------------------
- -----------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-day-fb9dedb57b4b3b12@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20250323
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] scrimmage
-DTSTART;VALUE=DATE:20250322
-DTEND;VALUE=DATE:20250323
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: scrimmage
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-1a2ea13ee97276e2@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20250330
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] scrimmage
-DTSTART;VALUE=DATE:20250329
-DTEND;VALUE=DATE:20250330
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: scrimmage
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-382873e3f2158a8b@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20250420
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] other
-DTSTART;VALUE=DATE:20250419
-DTEND;VALUE=DATE:20250420
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE:20250421
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: other
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-193f544e4acaa46a@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20250511
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250510
-DTEND;VALUE=DATE:20250511
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250511
+DTEND;VALUE=DATE:20250512
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-641e9762ffeeaa33@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20250525
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250524
-DTEND;VALUE=DATE:20250525
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250525
+DTEND;VALUE=DATE:20250526
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-2663b84aceb353d9@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20250706
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250705
-DTEND;VALUE=DATE:20250706
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250706
+DTEND;VALUE=DATE:20250707
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-6149d1d911fe1871@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20250824
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] other
-DTSTART;VALUE=DATE:20250823
-DTEND;VALUE=DATE:20250824
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250824
+DTEND;VALUE=DATE:20250825
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: other
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-ee1347edf33cd07b@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20250831
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250830
-DTEND;VALUE=DATE:20250831
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE=DATE:20250901
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-1da61c648f4beb38@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20251116
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20250927
-DTEND;VALUE=DATE:20250928
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025\nNote: Yom Kippur is 10
- /1-10/2
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: make_up
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-82022e991848fc53@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-instant-karma-20251123
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251005
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025\nNote: Sukkot is 10/6-1
- 0/13
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DATE:20251124
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: make_up
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-da130bc9323faf0e@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251115
-DTEND;VALUE=DATE:20251116
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+UID:btsh-team-instant-karma-game-814
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 3] Instant Karma vs Sky Fighters
+DTSTART;TZID=America/New_York:20250406T164500
+DTEND;TZID=America/New_York:20250406T164600
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-04-06 16:45 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Sky Fighters\n-----------------------------
+ -----------\n    (no prior matchups)\n\n----------------------------------
+ ------\nSKY FIGHTERS GAMES-TO-DATE\n--------------------------------------
+ --\n    (none)
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-0bbb8179237bf0db@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251122
-DTEND;VALUE=DATE:20251123
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+UID:btsh-team-instant-karma-game-738
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 3] Instant Karma vs Moby Dekes
+DTSTART;TZID=America/New_York:20250504T153000
+DTEND;TZID=America/New_York:20250504T153100
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-05-04 15:30 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Moby Dekes\n-------------------------------
+ ---------\n    (no prior matchups)\n\n------------------------------------
+ ----\nMOBY DEKES GAMES-TO-DATE\n----------------------------------------\n
+     Apr 6th @ Renaissance
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-instant-karma-game-779
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 3] Instant Karma vs Gouging Anklebiters
+DTSTART;TZID=America/New_York:20250727T164500
+DTEND;TZID=America/New_York:20250727T164600
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-07-27 16:45 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Gouging Anklebiters\n----------------------
+ ------------------\n    (no prior matchups)\n\n---------------------------
+ -------------\nGOUGING ANKLEBITERS GAMES-TO-DATE\n------------------------
+ ----------------\n    Apr 6th @ Mega Touch\n    May 4th vs Lbs\n    Jun 8t
+ h @ Poutine Machine\n    Jun 15th @ Mega Touch
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-instant-karma-game-949
+DTSTAMP:20260228T190805Z
+SUMMARY:[Division 3] Instant Karma vs Filthier
+DTSTART;TZID=America/New_York:20251026T143000
+DTEND;TZID=America/New_York:20251026T152000
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: scheduled\nStart (America/New_York
+ ): 2025-10-26 14:30 EDT\nLocation: Tompkins Square Park\n\nCheck-in / regi
+ stration: https://btsh.org\n\n----------------------------------------\nHE
+ AD-TO-HEAD vs Filthier\n----------------------------------------\n    (no 
+ prior matchups)\n\n----------------------------------------\nFILTHIER GAME
+ S-TO-DATE\n----------------------------------------\n    Apr 6th vs Poutin
+ e Machine\n    May 4th @ Cobra Kai\n    Jun 8th @ Corlears Hookers\n    Oc
+ t 12th vs Riots
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-instant-karma-game-958
+DTSTAMP:20260228T190805Z
+SUMMARY:[Division 3] Instant Karma vs Fresh Kills
+DTSTART;TZID=America/New_York:20251102T153000
+DTEND;TZID=America/New_York:20251102T162000
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: scheduled\nStart (America/New_York
+ ): 2025-11-02 15:30 EST\nLocation: Tompkins Square Park\n\nCheck-in / regi
+ stration: https://btsh.org\n\n----------------------------------------\nHE
+ AD-TO-HEAD vs Fresh Kills\n----------------------------------------\n    (
+ no prior matchups)\n\n----------------------------------------\nFRESH KILL
+ S GAMES-TO-DATE\n----------------------------------------\n    Apr 6th @ C
+ orlears Hookers\n    May 4th vs Vertz\n    Oct 26th vs Corlears Hookers
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-instant-karma-game-965
+DTSTAMP:20260228T190805Z
+SUMMARY:[Division 3] Instant Karma @ PBR Cup
+DTSTART;TZID=America/New_York:20251109T150000
+DTEND;TZID=America/New_York:20251109T155000
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: scheduled\nStart (America/New_York
+ ): 2025-11-09 15:00 EST\nLocation: Tompkins Square Park\nNote: TBD / Place
+ holder\n\nCheck-in / registration: https://btsh.org
 END:VEVENT
 END:VCALENDAR

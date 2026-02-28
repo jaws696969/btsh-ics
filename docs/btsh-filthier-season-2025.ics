@@ -5,463 +5,192 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:BTSH Filthier (2025)
 BEGIN:VEVENT
-UID:btsh-90acf779f9c0d17d@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Corlears Hookers
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: CORLEARS HOOKERS\n----------------
- ------------------------\nRecord: 7-11-0 (Reg 7-8\, OT 0-1\, SO 0-2)\n\n--
- --------------------------------------\nGAME CHECK-IN / REGISTRATION\n----
- ------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-ac6db44f72a1b41e@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Dark Rainbows
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: DARK RAINBOWS\n-------------------
- ---------------------\nRecord: 5-13-0 (Reg 5-11\, OT 0-0\, SO 0-2)\n\n----
- ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
- ----------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-51ec7a0e3063fe32@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] CANCELLED: Filthier vs Cobra Kai
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: COBRA KAI\n-----------
- -----------------------------\nRecord: 11-7-0 (Reg 8-6\, OT 1-1\, SO 2-0)\
- n\n----------------------------------------\nGAME CHECK-IN / REGISTRATION\
- n----------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-9fab17c60d12c840@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Butchers
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: BUTCHERS\n------------------------
- ----------------\nRecord: 4-14-0 (Reg 3-13\, OT 0-1\, SO 1-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-adfac8fcf4b4b3fe@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Riots
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: RIOTS\n---------------------------
- -------------\nRecord: 1-17-0 (Reg 1-15\, OT 0-1\, SO 0-1)\n\n------------
- ----------------------------\nGAME CHECK-IN / REGISTRATION\n--------------
- --------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-4a4e9000b475d55b@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Mega Touch
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: MEGA TOUCH\n----------------------
- ------------------\nRecord: 15-3-0 (Reg 15-3\, OT 0-0\, SO 0-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-163d1347b69832fa@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Poutine Machine
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: POUTINE MACHINE\n-----------------
- -----------------------\nRecord: 12-6-0 (Reg 11-4\, OT 0-0\, SO 1-2)\n\n--
- --------------------------------------\nGAME CHECK-IN / REGISTRATION\n----
- ------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-1cdc89d1f0cdca67@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Lbs
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: LBS\n-----------------------------
- -----------\nRecord: 10-8-0 (Reg 8-8\, OT 1-0\, SO 1-0)\n\n---------------
- -------------------------\nGAME CHECK-IN / REGISTRATION\n-----------------
- -----------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-517df73b895eb973@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Fuzz
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FUZZ\n----------------------------
- ------------\nRecord: 4-14-0 (Reg 4-11\, OT 0-2\, SO 0-1)\n\n-------------
- ---------------------------\nGAME CHECK-IN / REGISTRATION\n---------------
- -------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-60558f26c9a94ca4@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] CANCELLED: Filthier vs Poutine Machine
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: POUTINE MACHINE\n-----
- -----------------------------------\nRecord: 12-6-0 (Reg 11-4\, OT 0-0\, S
- O 1-2)\n\n----------------------------------------\nGAME CHECK-IN / REGIST
- RATION\n----------------------------------------\nCheck in here: https://b
- tsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-5448dce7da11e05b@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] CANCELLED: Filthier vs Corlears Hookers
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: CORLEARS HOOKERS\n----
- ------------------------------------\nRecord: 7-11-0 (Reg 7-8\, OT 0-1\, S
- O 0-2)\n\n----------------------------------------\nGAME CHECK-IN / REGIST
- RATION\n----------------------------------------\nCheck in here: https://b
- tsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-13d7c823dd6445c4@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Gouging Anklebiters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: GOUGING ANKLEBITERS\n-------------
- ---------------------------\nRecord: 11-7-0 (Reg 9-5\, OT 0-1\, SO 2-1)\n\
- n----------------------------------------\nGAME CHECK-IN / REGISTRATION\n-
- ---------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-80d475c080317dc8@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Sky Fighters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: SKY FIGHTERS\n--------------------
- --------------------\nRecord: 9-9-0 (Reg 8-9\, OT 0-0\, SO 1-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-d720576c2a53a6a8@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Fresh Kills
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FRESH KILLS\n---------------------
- -------------------\nRecord: 13-5-0 (Reg 12-3\, OT 1-0\, SO 0-2)\n\n------
- ----------------------------------\nGAME CHECK-IN / REGISTRATION\n--------
- --------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-0a4309bb54809a1e@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Moby Dekes
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: MOBY DEKES\n----------------------
- ------------------\nRecord: 4-14-0 (Reg 3-13\, OT 1-1\, SO 0-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-03bc667064dc15f5@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Gouging Anklebiters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: GOUGING ANKLEBITERS\n-------------
- ---------------------------\nRecord: 11-7-0 (Reg 9-5\, OT 0-1\, SO 2-1)\n\
- n----------------------------------------\nGAME CHECK-IN / REGISTRATION\n-
- ---------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-4cacfa3688525973@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Vertz
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: VERTZ\n---------------------------
- -------------\nRecord: 15-3-0 (Reg 12-2\, OT 1-1\, SO 2-0)\n\n------------
- ----------------------------\nGAME CHECK-IN / REGISTRATION\n--------------
- --------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-f846ef63ea43aaf7@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Fresh Kills
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FRESH KILLS\n---------------------
- -------------------\nRecord: 13-5-0 (Reg 12-3\, OT 1-0\, SO 0-2)\n\n------
- ----------------------------------\nGAME CHECK-IN / REGISTRATION\n--------
- --------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-2ee061de12021d05@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Poutine Machine
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: POUTINE MACHINE\n-----------------
- -----------------------\nRecord: 12-6-0 (Reg 11-4\, OT 0-0\, SO 1-2)\n\n--
- --------------------------------------\nGAME CHECK-IN / REGISTRATION\n----
- ------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-f5956345f1e8b700@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Cobra Kai
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: COBRA KAI\n-----------------------
- -----------------\nRecord: 11-7-0 (Reg 8-6\, OT 1-1\, SO 2-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-cd4f0f0c4c269491@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Corlears Hookers
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: CORLEARS HOOKERS\n----------------
- ------------------------\nRecord: 7-11-0 (Reg 7-8\, OT 0-1\, SO 0-2)\n\n--
- --------------------------------------\nGAME CHECK-IN / REGISTRATION\n----
- ------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-6108b29f9a221883@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] CANCELLED: Filthier vs Riots
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: RIOTS\n---------------
- -------------------------\nRecord: 1-17-0 (Reg 1-15\, OT 0-1\, SO 0-1)\n\n
- ----------------------------------------\nGAME CHECK-IN / REGISTRATION\n--
- --------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-da47f1ced03202af@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier vs Riots
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: RIOTS\n---------------------------
- -------------\nRecord: 1-17-0 (Reg 1-15\, OT 0-1\, SO 0-1)\n\n------------
- ----------------------------\nGAME CHECK-IN / REGISTRATION\n--------------
- --------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-bca5e3018326115a@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ Instant Karma
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : scheduled\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: INSTANT KARMA\n-------------------
- ---------------------\nRecord: 13-5-0 (Reg 11-3\, OT 1-0\, SO 1-2)\n\n----
- ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
- ----------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-e73ae39184bafe3a@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D2] Filthier @ 
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 2\nStatus
- : scheduled\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nGAME CHECK-IN / REGISTRATION\n-----------------------------
- -----------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-day-fb9dedb57b4b3b12@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20250323
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] scrimmage
-DTSTART;VALUE=DATE:20250322
-DTEND;VALUE=DATE:20250323
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: scrimmage
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-1a2ea13ee97276e2@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20250330
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] scrimmage
-DTSTART;VALUE=DATE:20250329
-DTEND;VALUE=DATE:20250330
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: scrimmage
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-382873e3f2158a8b@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20250420
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] other
-DTSTART;VALUE=DATE:20250419
-DTEND;VALUE=DATE:20250420
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE:20250421
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: other
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-193f544e4acaa46a@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20250511
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250510
-DTEND;VALUE=DATE:20250511
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250511
+DTEND;VALUE=DATE:20250512
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-641e9762ffeeaa33@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20250525
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250524
-DTEND;VALUE=DATE:20250525
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250525
+DTEND;VALUE=DATE:20250526
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-2663b84aceb353d9@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20250706
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250705
-DTEND;VALUE=DATE:20250706
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250706
+DTEND;VALUE=DATE:20250707
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-6149d1d911fe1871@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20250824
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] other
-DTSTART;VALUE=DATE:20250823
-DTEND;VALUE=DATE:20250824
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250824
+DTEND;VALUE=DATE:20250825
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: other
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-ee1347edf33cd07b@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20250831
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250830
-DTEND;VALUE=DATE:20250831
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE=DATE:20250901
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-1da61c648f4beb38@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20251116
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20250927
-DTEND;VALUE=DATE:20250928
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025\nNote: Yom Kippur is 10
- /1-10/2
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: make_up
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-82022e991848fc53@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-filthier-20251123
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251005
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025\nNote: Sukkot is 10/6-1
- 0/13
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DATE:20251124
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: make_up
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-da130bc9323faf0e@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251115
-DTEND;VALUE=DATE:20251116
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+UID:btsh-team-filthier-game-812
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 2] Filthier vs Poutine Machine
+DTSTART;TZID=America/New_York:20250406T141500
+DTEND;TZID=America/New_York:20250406T141600
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-04-06 14:15 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Poutine Machine\n--------------------------
+ --------------\n    (no prior matchups)\n\n-------------------------------
+ ---------\nPOUTINE MACHINE GAMES-TO-DATE\n--------------------------------
+ --------\n    (none)
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-0bbb8179237bf0db@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251122
-DTEND;VALUE=DATE:20251123
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+UID:btsh-team-filthier-game-740
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 2] Filthier @ Cobra Kai
+DTSTART;TZID=America/New_York:20250504T180000
+DTEND;TZID=America/New_York:20250504T180100
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-05-04 18:00 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Cobra Kai\n--------------------------------
+ --------\n    (no prior matchups)\n\n-------------------------------------
+ ---\nCOBRA KAI GAMES-TO-DATE\n----------------------------------------\n  
+   Apr 6th vs Fuzz
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-filthier-game-845
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 2] Filthier @ Corlears Hookers
+DTSTART;TZID=America/New_York:20250608T180000
+DTEND;TZID=America/New_York:20250608T180100
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-06-08 18:00 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Corlears Hookers\n-------------------------
+ ---------------\n    (no prior matchups)\n\n------------------------------
+ ----------\nCORLEARS HOOKERS GAMES-TO-DATE\n------------------------------
+ ----------\n    Apr 6th vs Fresh Kills\n    May 4th @ Fuzz
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-filthier-game-938
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 2] Filthier vs Riots
+DTSTART;TZID=America/New_York:20251012T134500
+DTEND;TZID=America/New_York:20251012T143500
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-10-12 13:45 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Riots\n------------------------------------
+ ----\n    (no prior matchups)\n\n----------------------------------------\
+ nRIOTS GAMES-TO-DATE\n----------------------------------------\n    Apr 6t
+ h @ Butchers\n    May 4th vs Renaissance\n    Jul 27th @ Mega Touch
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-filthier-game-949
+DTSTAMP:20260228T190805Z
+SUMMARY:[Division 2] Filthier @ Instant Karma
+DTSTART;TZID=America/New_York:20251026T143000
+DTEND;TZID=America/New_York:20251026T152000
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: scheduled\nStart (America/New_York
+ ): 2025-10-26 14:30 EDT\nLocation: Tompkins Square Park\n\nCheck-in / regi
+ stration: https://btsh.org\n\n----------------------------------------\nHE
+ AD-TO-HEAD vs Instant Karma\n----------------------------------------\n   
+  (no prior matchups)\n\n----------------------------------------\nINSTANT 
+ KARMA GAMES-TO-DATE\n----------------------------------------\n    Apr 6th
+  vs Sky Fighters\n    May 4th vs Moby Dekes\n    Jul 27th vs Gouging Ankle
+ biters
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-filthier-game-965
+DTSTAMP:20260228T190805Z
+SUMMARY:[Division 2] Filthier @ PBR Cup
+DTSTART;TZID=America/New_York:20251109T150000
+DTEND;TZID=America/New_York:20251109T155000
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: scheduled\nStart (America/New_York
+ ): 2025-11-09 15:00 EST\nLocation: Tompkins Square Park\nNote: TBD / Place
+ holder\n\nCheck-in / registration: https://btsh.org
 END:VEVENT
 END:VCALENDAR

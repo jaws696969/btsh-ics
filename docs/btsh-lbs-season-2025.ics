@@ -5,464 +5,209 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:BTSH Lbs (2025)
 BEGIN:VEVENT
-UID:btsh-86db8baf9ab1e4f9@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ Fresh Kills
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FRESH KILLS\n---------------------
- -------------------\nRecord: 13-5-0 (Reg 12-3\, OT 1-0\, SO 0-2)\n\n------
- ----------------------------------\nGAME CHECK-IN / REGISTRATION\n--------
- --------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-050e0bbc2b2a3f5d@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs What the Puck
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: WHAT THE PUCK\n-------------------
- ---------------------\nRecord: 5-13-0 (Reg 4-13\, OT 1-0\, SO 0-0)\n\n----
- ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
- ----------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-a7945651c8c5d5ba@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs Sky Fighters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: SKY FIGHTERS\n--------------------
- --------------------\nRecord: 9-9-0 (Reg 8-9\, OT 0-0\, SO 1-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-1ed28e97c6889e90@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs Instant Karma
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: INSTANT KARMA\n-------------------
- ---------------------\nRecord: 13-5-0 (Reg 11-3\, OT 1-0\, SO 1-2)\n\n----
- ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
- ----------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-a79ad0ab278b234b@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ Vertz
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: VERTZ\n---------------------------
- -------------\nRecord: 15-3-0 (Reg 12-2\, OT 1-1\, SO 2-0)\n\n------------
- ----------------------------\nGAME CHECK-IN / REGISTRATION\n--------------
- --------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-d77437e8d62c2a06@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs Filthier
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FILTHIER\n------------------------
- ----------------\nRecord: 8-10-0 (Reg 6-10\, OT 2-0\, SO 0-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-94d4bae31214b478@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ Dark Rainbows
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: DARK RAINBOWS\n-------------------
- ---------------------\nRecord: 5-13-0 (Reg 5-11\, OT 0-0\, SO 0-2)\n\n----
- ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
- ----------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-570c18a790ef9720@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] CANCELLED: Lbs vs Cobra Kai
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: COBRA KAI\n-----------
- -----------------------------\nRecord: 11-7-0 (Reg 8-6\, OT 1-1\, SO 2-0)\
- n\n----------------------------------------\nGAME CHECK-IN / REGISTRATION\
- n----------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-37d27d68d627d1d1@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ Fuzz
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FUZZ\n----------------------------
- ------------\nRecord: 4-14-0 (Reg 4-11\, OT 0-2\, SO 0-1)\n\n-------------
- ---------------------------\nGAME CHECK-IN / REGISTRATION\n---------------
- -------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-b61b1344dc000d5b@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] CANCELLED: Lbs vs Vertz
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: VERTZ\n---------------
- -------------------------\nRecord: 15-3-0 (Reg 12-2\, OT 1-1\, SO 2-0)\n\n
- ----------------------------------------\nGAME CHECK-IN / REGISTRATION\n--
- --------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-df0318a8d91477bd@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] CANCELLED: Lbs vs Gouging Anklebiters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: GOUGING ANKLEBITERS\n-
- ---------------------------------------\nRecord: 11-7-0 (Reg 9-5\, OT 0-1\
- , SO 2-1)\n\n----------------------------------------\nGAME CHECK-IN / REG
- ISTRATION\n----------------------------------------\nCheck in here: https:
- //btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-7061735ba807e599@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs Mega Touch
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: MEGA TOUCH\n----------------------
- ------------------\nRecord: 15-3-0 (Reg 15-3\, OT 0-0\, SO 0-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-5e6e8eef0731d3e6@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ Poutine Machine
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: POUTINE MACHINE\n-----------------
- -----------------------\nRecord: 12-6-0 (Reg 11-4\, OT 0-0\, SO 1-2)\n\n--
- --------------------------------------\nGAME CHECK-IN / REGISTRATION\n----
- ------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-d808afe1c2ad404d@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ Cobra Kai
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: COBRA KAI\n-----------------------
- -----------------\nRecord: 11-7-0 (Reg 8-6\, OT 1-1\, SO 2-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-85987584be5eb0af@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] CANCELLED: Lbs vs Moby Dekes
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: MOBY DEKES\n----------
- ------------------------------\nRecord: 4-14-0 (Reg 3-13\, OT 1-1\, SO 0-0
- )\n\n----------------------------------------\nGAME CHECK-IN / REGISTRATIO
- N\n----------------------------------------\nCheck in here: https://btsh.o
- rg
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-17d43553502d30d5@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs Fuzz
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: FUZZ\n----------------------------
- ------------\nRecord: 4-14-0 (Reg 4-11\, OT 0-2\, SO 0-1)\n\n-------------
- ---------------------------\nGAME CHECK-IN / REGISTRATION\n---------------
- -------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-eac9f7a3798bccc2@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] CANCELLED: Lbs vs Corlears Hookers
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
- -------------------------\nOPPONENT RECORD-TO-DATE: CORLEARS HOOKERS\n----
- ------------------------------------\nRecord: 7-11-0 (Reg 7-8\, OT 0-1\, S
- O 0-2)\n\n----------------------------------------\nGAME CHECK-IN / REGIST
- RATION\n----------------------------------------\nCheck in here: https://b
- tsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-165c2259be9d934c@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ Mega Touch
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: MEGA TOUCH\n----------------------
- ------------------\nRecord: 15-3-0 (Reg 15-3\, OT 0-0\, SO 0-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-a573e09c41241a62@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs Vertz
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: VERTZ\n---------------------------
- -------------\nRecord: 15-3-0 (Reg 12-2\, OT 1-1\, SO 2-0)\n\n------------
- ----------------------------\nGAME CHECK-IN / REGISTRATION\n--------------
- --------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-a2febd8dc3076b73@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ Gouging Anklebiters
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: GOUGING ANKLEBITERS\n-------------
- ---------------------------\nRecord: 11-7-0 (Reg 9-5\, OT 0-1\, SO 2-1)\n\
- n----------------------------------------\nGAME CHECK-IN / REGISTRATION\n-
- ---------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-5a58efee4ffe0dbe@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs Corlears Hookers
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: CORLEARS HOOKERS\n----------------
- ------------------------\nRecord: 7-11-0 (Reg 7-8\, OT 0-1\, SO 0-2)\n\n--
- --------------------------------------\nGAME CHECK-IN / REGISTRATION\n----
- ------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-969b04e039c5b082@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs Cobra Kai
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: COBRA KAI\n-----------------------
- -----------------\nRecord: 11-7-0 (Reg 8-6\, OT 1-1\, SO 2-0)\n\n---------
- -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
- -----------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-209e3492fc289603@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs vs Moby Dekes
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : completed\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: MOBY DEKES\n----------------------
- ------------------\nRecord: 4-14-0 (Reg 3-13\, OT 1-1\, SO 0-0)\n\n-------
- ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
- -------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-2b581c20706fb412@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ Poutine Machine
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : scheduled\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nOPPONENT RECORD-TO-DATE: POUTINE MACHINE\n-----------------
- -----------------------\nRecord: 12-6-0 (Reg 11-4\, OT 0-0\, SO 1-2)\n\n--
- --------------------------------------\nGAME CHECK-IN / REGISTRATION\n----
- ------------------------------------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-b95147c5e918fb9b@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[D1] Lbs @ 
-LOCATION:Tompkins Square Park
-URL:https://btsh.org
-DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2025\nDivision: Division 1\nStatus
- : scheduled\nLocation: Tompkins Square Park\n\n---------------------------
- -------------\nGAME CHECK-IN / REGISTRATION\n-----------------------------
- -----------\nCheck in here: https://btsh.org
-END:VEVENT
-BEGIN:VEVENT
-UID:btsh-day-fb9dedb57b4b3b12@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20250323
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] scrimmage
-DTSTART;VALUE=DATE:20250322
-DTEND;VALUE=DATE:20250323
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: scrimmage
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-1a2ea13ee97276e2@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20250330
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] scrimmage
-DTSTART;VALUE=DATE:20250329
-DTEND;VALUE=DATE:20250330
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: scrimmage
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-382873e3f2158a8b@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20250420
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] other
-DTSTART;VALUE=DATE:20250419
-DTEND;VALUE=DATE:20250420
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE:20250421
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: other
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-193f544e4acaa46a@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20250511
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250510
-DTEND;VALUE=DATE:20250511
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250511
+DTEND;VALUE=DATE:20250512
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-641e9762ffeeaa33@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20250525
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250524
-DTEND;VALUE=DATE:20250525
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250525
+DTEND;VALUE=DATE:20250526
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-2663b84aceb353d9@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20250706
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250705
-DTEND;VALUE=DATE:20250706
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250706
+DTEND;VALUE=DATE:20250707
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-6149d1d911fe1871@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20250824
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] other
-DTSTART;VALUE=DATE:20250823
-DTEND;VALUE=DATE:20250824
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250824
+DTEND;VALUE=DATE:20250825
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: other
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-ee1347edf33cd07b@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20250831
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] holiday
-DTSTART;VALUE=DATE:20250830
-DTEND;VALUE=DATE:20250831
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE=DATE:20250901
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-1da61c648f4beb38@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20251116
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20250927
-DTEND;VALUE=DATE:20250928
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025\nNote: Yom Kippur is 10
- /1-10/2
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: make_up
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-82022e991848fc53@btsh-ics
-DTSTAMP:20260228T180958Z
+UID:btsh-league-day-lbs-20251123
+DTSTAMP:20260228T190805Z
 SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251005
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025\nNote: Sukkot is 10/6-1
- 0/13
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DATE:20251124
+DESCRIPTION:----------------------------------------\nLEAGUE DAY\n---------
+ -------------------------------\nType: make_up
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-da130bc9323faf0e@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251115
-DTEND;VALUE=DATE:20251116
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+UID:btsh-team-lbs-game-811
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 1] Lbs vs Vertz
+DTSTART;TZID=America/New_York:20250406T130000
+DTEND;TZID=America/New_York:20250406T130100
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-04-06 13:00 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Vertz\n------------------------------------
+ ----\n    (no prior matchups)\n\n----------------------------------------\
+ nVERTZ GAMES-TO-DATE\n----------------------------------------\n    (none)
 END:VEVENT
 BEGIN:VEVENT
-UID:btsh-day-0bbb8179237bf0db@btsh-ics
-DTSTAMP:20260228T180958Z
-SUMMARY:[BTSH] make_up
-DTSTART;VALUE=DATE:20251122
-DTEND;VALUE=DATE:20251123
-DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
- ------------------------------------\nSeason: 2025
+UID:btsh-team-lbs-game-829
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 1] Lbs @ Gouging Anklebiters
+DTSTART;TZID=America/New_York:20250504T164500
+DTEND;TZID=America/New_York:20250504T164600
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-05-04 16:45 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Gouging Anklebiters\n----------------------
+ ------------------\n    (no prior matchups)\n\n---------------------------
+ -------------\nGOUGING ANKLEBITERS GAMES-TO-DATE\n------------------------
+ ----------------\n    Apr 6th @ Mega Touch
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-lbs-game-869
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 1] Lbs vs Moby Dekes
+DTSTART;TZID=America/New_York:20250727T164500
+DTEND;TZID=America/New_York:20250727T164600
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-07-27 16:45 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Moby Dekes\n-------------------------------
+ ---------\n    (no prior matchups)\n\n------------------------------------
+ ----\nMOBY DEKES GAMES-TO-DATE\n----------------------------------------\n
+     Apr 6th @ Renaissance\n    May 4th @ Instant Karma
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-lbs-game-795
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 1] Lbs vs Cobra Kai
+DTSTART;TZID=America/New_York:20250817T180000
+DTEND;TZID=America/New_York:20250817T180100
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-08-17 18:00 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Cobra Kai\n--------------------------------
+ --------\n    (no prior matchups)\n\n-------------------------------------
+ ---\nCOBRA KAI GAMES-TO-DATE\n----------------------------------------\n  
+   Apr 6th vs Fuzz\n    May 4th vs Filthier\n    Jul 27th @ Butchers
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-lbs-game-886
+DTSTAMP:20260228T190805Z
+SUMMARY:[CANCELLED] [Division 1] Lbs @ Corlears Hookers
+DTSTART;TZID=America/New_York:20250907T130000
+DTEND;TZID=America/New_York:20250907T130100
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: cancelled\nStart (America/New_York
+ ): 2025-09-07 13:00 EDT\nLocation: Tompkins Square Park\nNote: Cancelled\n
+ \nCheck-in / registration: https://btsh.org\n\n---------------------------
+ -------------\nHEAD-TO-HEAD vs Corlears Hookers\n-------------------------
+ ---------------\n    (no prior matchups)\n\n------------------------------
+ ----------\nCORLEARS HOOKERS GAMES-TO-DATE\n------------------------------
+ ----------\n    Apr 6th vs Fresh Kills\n    May 4th @ Fuzz\n    Jun 8th vs
+  Filthier
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-lbs-game-944
+DTSTAMP:20260228T190805Z
+SUMMARY:[Division 1] Lbs @ Poutine Machine
+DTSTART;TZID=America/New_York:20251026T120000
+DTEND;TZID=America/New_York:20251026T125000
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: scheduled\nStart (America/New_York
+ ): 2025-10-26 12:00 EDT\nLocation: Tompkins Square Park\n\nCheck-in / regi
+ stration: https://btsh.org\n\n----------------------------------------\nHE
+ AD-TO-HEAD vs Poutine Machine\n----------------------------------------\n 
+    (no prior matchups)\n\n----------------------------------------\nPOUTIN
+ E MACHINE GAMES-TO-DATE\n----------------------------------------\n    Apr
+  6th @ Filthier\n    May 4th @ Mega Touch\n    Jun 8th vs Gouging Anklebit
+ ers\n    Jul 27th @ Dark Rainbows
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-team-lbs-game-965
+DTSTAMP:20260228T190805Z
+SUMMARY:[Division 1] Lbs @ PBR Cup
+DTSTART;TZID=America/New_York:20251109T150000
+DTEND;TZID=America/New_York:20251109T155000
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nStatus: scheduled\nStart (America/New_York
+ ): 2025-11-09 15:00 EST\nLocation: Tompkins Square Park\nNote: TBD / Place
+ holder\n\nCheck-in / registration: https://btsh.org
 END:VEVENT
 END:VCALENDAR
