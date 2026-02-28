@@ -1,0 +1,481 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//btsh-ics//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BTSH Riots (2025)
+BEGIN:VEVENT
+UID:btsh-11734712facce299@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Moby Dekes
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: MOBY DEKES\n----------------------
+ ------------------\nRecord: 4-14-0 (Reg 3-13\, OT 1-1\, SO 0-0)\n\n-------
+ ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
+ -------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-18c1c679adb0e498@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] CANCELLED: Riots vs Renaissance
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
+ -------------------------\nOPPONENT RECORD-TO-DATE: RENAISSANCE\n---------
+ -------------------------------\nRecord: 13-5-0 (Reg 12-4\, OT 0-1\, SO 1-
+ 0)\n\n----------------------------------------\nGAME CHECK-IN / REGISTRATI
+ ON\n----------------------------------------\nCheck in here: https://btsh.
+ org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-be1bb10c0145d083@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Denim Demons
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: DENIM DEMONS\n--------------------
+ --------------------\nRecord: 14-4-0 (Reg 13-3\, OT 1-1\, SO 0-0)\n\n-----
+ -----------------------------------\nGAME CHECK-IN / REGISTRATION\n-------
+ ---------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-22013a36484e3c18@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots vs Filthier
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: FILTHIER\n------------------------
+ ----------------\nRecord: 8-10-0 (Reg 6-10\, OT 2-0\, SO 0-0)\n\n---------
+ -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
+ -----------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-7f8d4915900a0f77@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Moby Dekes
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: MOBY DEKES\n----------------------
+ ------------------\nRecord: 4-14-0 (Reg 3-13\, OT 1-1\, SO 0-0)\n\n-------
+ ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
+ -------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-7451992f9d04cd39@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots vs What the Puck
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: WHAT THE PUCK\n-------------------
+ ---------------------\nRecord: 5-13-0 (Reg 4-13\, OT 1-0\, SO 0-0)\n\n----
+ ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
+ ----------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-085af3612b336183@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots vs Poutine Machine
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: POUTINE MACHINE\n-----------------
+ -----------------------\nRecord: 12-6-0 (Reg 11-4\, OT 0-0\, SO 1-2)\n\n--
+ --------------------------------------\nGAME CHECK-IN / REGISTRATION\n----
+ ------------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-80bb76e91db06267@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Gremlins
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: GREMLINS\n------------------------
+ ----------------\nRecord: 6-12-0 (Reg 4-12\, OT 1-0\, SO 1-0)\n\n---------
+ -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
+ -----------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-d5bb26dfd2baf0c9@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Denim Demons
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: DENIM DEMONS\n--------------------
+ --------------------\nRecord: 14-4-0 (Reg 13-3\, OT 1-1\, SO 0-0)\n\n-----
+ -----------------------------------\nGAME CHECK-IN / REGISTRATION\n-------
+ ---------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-526235cabc070186@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] CANCELLED: Riots vs Butchers
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
+ -------------------------\nOPPONENT RECORD-TO-DATE: BUTCHERS\n------------
+ ----------------------------\nRecord: 4-14-0 (Reg 3-13\, OT 0-1\, SO 1-0)\
+ n\n----------------------------------------\nGAME CHECK-IN / REGISTRATION\
+ n----------------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-737f1cdb6f975b23@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots vs Cobra Kai
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: COBRA KAI\n-----------------------
+ -----------------\nRecord: 11-7-0 (Reg 8-6\, OT 1-1\, SO 2-0)\n\n---------
+ -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
+ -----------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-ba07103293ef3749@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Instant Karma
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: INSTANT KARMA\n-------------------
+ ---------------------\nRecord: 13-5-0 (Reg 11-3\, OT 1-0\, SO 1-2)\n\n----
+ ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
+ ----------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-40525b8dc5fbed52@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots vs Butchers
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: BUTCHERS\n------------------------
+ ----------------\nRecord: 4-14-0 (Reg 3-13\, OT 0-1\, SO 1-0)\n\n---------
+ -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
+ -----------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-bde163b679c1ea30@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots vs Sky Fighters
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: SKY FIGHTERS\n--------------------
+ --------------------\nRecord: 9-9-0 (Reg 8-9\, OT 0-0\, SO 1-0)\n\n-------
+ ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
+ -------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-6a03a07c8664ed01@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] CANCELLED: Riots vs Mega Touch
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
+ -------------------------\nOPPONENT RECORD-TO-DATE: MEGA TOUCH\n----------
+ ------------------------------\nRecord: 15-3-0 (Reg 15-3\, OT 0-0\, SO 0-0
+ )\n\n----------------------------------------\nGAME CHECK-IN / REGISTRATIO
+ N\n----------------------------------------\nCheck in here: https://btsh.o
+ rg
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-2282706753f61fca@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots vs Corlears Hookers
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: CORLEARS HOOKERS\n----------------
+ ------------------------\nRecord: 7-11-0 (Reg 7-8\, OT 0-1\, SO 0-2)\n\n--
+ --------------------------------------\nGAME CHECK-IN / REGISTRATION\n----
+ ------------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-04e00df5f187da99@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ What the Puck
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: WHAT THE PUCK\n-------------------
+ ---------------------\nRecord: 5-13-0 (Reg 4-13\, OT 1-0\, SO 0-0)\n\n----
+ ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
+ ----------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-ead564ba6d71c997@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots vs Dark Rainbows
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: DARK RAINBOWS\n-------------------
+ ---------------------\nRecord: 5-13-0 (Reg 5-11\, OT 0-0\, SO 0-2)\n\n----
+ ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
+ ----------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-2109d0819541a705@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Butchers
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: BUTCHERS\n------------------------
+ ----------------\nRecord: 4-14-0 (Reg 3-13\, OT 0-1\, SO 1-0)\n\n---------
+ -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
+ -----------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-fc2ab0b2f2d5ac20@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Mega Touch
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: MEGA TOUCH\n----------------------
+ ------------------\nRecord: 15-3-0 (Reg 15-3\, OT 0-0\, SO 0-0)\n\n-------
+ ---------------------------------\nGAME CHECK-IN / REGISTRATION\n---------
+ -------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-25afcd8160731acb@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots vs Renaissance
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: RENAISSANCE\n---------------------
+ -------------------\nRecord: 13-5-0 (Reg 12-4\, OT 0-1\, SO 1-0)\n\n------
+ ----------------------------------\nGAME CHECK-IN / REGISTRATION\n--------
+ --------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-3a6450d393c57c71@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] CANCELLED: Riots vs Filthier
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
+ -------------------------\nOPPONENT RECORD-TO-DATE: FILTHIER\n------------
+ ----------------------------\nRecord: 8-10-0 (Reg 6-10\, OT 2-0\, SO 0-0)\
+ n\n----------------------------------------\nGAME CHECK-IN / REGISTRATION\
+ n----------------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-8a25f78e4ab68179@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Filthier
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : completed\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: FILTHIER\n------------------------
+ ----------------\nRecord: 8-10-0 (Reg 6-10\, OT 2-0\, SO 0-0)\n\n---------
+ -------------------------------\nGAME CHECK-IN / REGISTRATION\n-----------
+ -----------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-3f57506548909d1e@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] CANCELLED: Riots vs Gremlins
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : cancelled (cancelled)\nLocation: Tompkins Square Park\n\n---------------
+ -------------------------\nOPPONENT RECORD-TO-DATE: GREMLINS\n------------
+ ----------------------------\nRecord: 6-12-0 (Reg 4-12\, OT 1-0\, SO 1-0)\
+ n\n----------------------------------------\nGAME CHECK-IN / REGISTRATION\
+ n----------------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-18453711fd9aba14@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ Dark Rainbows
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : scheduled\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nOPPONENT RECORD-TO-DATE: DARK RAINBOWS\n-------------------
+ ---------------------\nRecord: 5-13-0 (Reg 5-11\, OT 0-0\, SO 0-2)\n\n----
+ ------------------------------------\nGAME CHECK-IN / REGISTRATION\n------
+ ----------------------------------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-9a2cf4322b21381e@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[D4] Riots @ 
+LOCATION:Tompkins Square Park
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nDivision: Division 4\nStatus
+ : scheduled\nLocation: Tompkins Square Park\n\n---------------------------
+ -------------\nGAME CHECK-IN / REGISTRATION\n-----------------------------
+ -----------\nCheck in here: https://btsh.org
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-fb9dedb57b4b3b12@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] scrimmage
+DTSTART;VALUE=DATE:20250322
+DTEND;VALUE=DATE:20250323
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-1a2ea13ee97276e2@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] scrimmage
+DTSTART;VALUE=DATE:20250329
+DTEND;VALUE=DATE:20250330
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-382873e3f2158a8b@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] other
+DTSTART;VALUE=DATE:20250419
+DTEND;VALUE=DATE:20250420
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-193f544e4acaa46a@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] holiday
+DTSTART;VALUE=DATE:20250510
+DTEND;VALUE=DATE:20250511
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-641e9762ffeeaa33@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] holiday
+DTSTART;VALUE=DATE:20250524
+DTEND;VALUE=DATE:20250525
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-2663b84aceb353d9@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] holiday
+DTSTART;VALUE=DATE:20250705
+DTEND;VALUE=DATE:20250706
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-6149d1d911fe1871@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] other
+DTSTART;VALUE=DATE:20250823
+DTEND;VALUE=DATE:20250824
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-ee1347edf33cd07b@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] holiday
+DTSTART;VALUE=DATE:20250830
+DTEND;VALUE=DATE:20250831
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-1da61c648f4beb38@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] make_up
+DTSTART;VALUE=DATE:20250927
+DTEND;VALUE=DATE:20250928
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025\nNote: Yom Kippur is 10
+ /1-10/2
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-82022e991848fc53@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] make_up
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251005
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025\nNote: Sukkot is 10/6-1
+ 0/13
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-da130bc9323faf0e@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] make_up
+DTSTART;VALUE=DATE:20251115
+DTEND;VALUE=DATE:20251116
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:btsh-day-0bbb8179237bf0db@btsh-ics
+DTSTAMP:20260228T180958Z
+SUMMARY:[BTSH] make_up
+DTSTART;VALUE=DATE:20251122
+DTEND;VALUE=DATE:20251123
+DESCRIPTION:----------------------------------------\nLEAGUE-WIDE DAY\n----
+ ------------------------------------\nSeason: 2025
+END:VEVENT
+END:VCALENDAR
