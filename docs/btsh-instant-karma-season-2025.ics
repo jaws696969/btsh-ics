@@ -5,4 +5,557 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:BTSH Instant Karma (2025)
 X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9e1dc543da889ad789664cc48d0b69277d775b1c@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:CANCELLED: Instant Karma (3) vs Sky Fighters (3)
+DTSTART;TZID=America/New_York:20250406T164500
+DTEND;TZID=America/New_York:20250406T164600
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: cancell
+ ed\nStart (America/New_York): 2025-04-06 16:45 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Sky Fighters\n---------------------
+ -------------------\n    (no prior matchups listed)\n\n-------------------
+ ---------------------\nSKY FIGHTERS GAMES-TO-DATE\n-----------------------
+ -----------------\nRecord to date (completed games only): 0-0\n    (no pri
+ or games listed)
+END:VEVENT
+BEGIN:VEVENT
+UID:29d440e45fff756528be9ddcdab3dc500b3decb2@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) @ What the Puck (4)
+DTSTART;TZID=America/New_York:20250413T153000
+DTEND;TZID=America/New_York:20250413T153100
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-04-13 15:30 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs What the Puck\n--------------------
+ --------------------\n    (no prior matchups listed)\n\n------------------
+ ----------------------\nWHAT THE PUCK GAMES-TO-DATE\n---------------------
+ -------------------\nRecord to date (completed games only): 0-0\n    Apr 6
+ th @ Denim Demons (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:993492c0f9b778708b109b68fe7f380a65721935@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Fresh Kills (2)
+DTSTART;TZID=America/New_York:20250427T130000
+DTEND;TZID=America/New_York:20250427T130100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-04-27 13:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fresh Kills\n----------------------
+ ------------------\n    (no prior matchups listed)\n\n--------------------
+ --------------------\nFRESH KILLS GAMES-TO-DATE\n-------------------------
+ ---------------\nRecord to date (completed games only): 0-0\n    Apr 6th @
+  Corlears Hookers (Cancelled)\n    Apr 13th vs Lbs
+END:VEVENT
+BEGIN:VEVENT
+UID:525dac96f06b32ede3f65f8d898ff57616114cd7@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:CANCELLED: Instant Karma (3) vs Moby Dekes (4)
+DTSTART;TZID=America/New_York:20250504T153000
+DTEND;TZID=America/New_York:20250504T153100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: cancell
+ ed\nStart (America/New_York): 2025-05-04 15:30 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Moby Dekes\n-----------------------
+ -----------------\n    (no prior matchups listed)\n\n---------------------
+ -------------------\nMOBY DEKES GAMES-TO-DATE\n---------------------------
+ -------------\nRecord to date (completed games only): 0-0\n    Apr 6th @ R
+ enaissance (Cancelled)\n    Apr 13th vs Riots\n    Apr 27th vs Mega Touch
+END:VEVENT
+BEGIN:VEVENT
+UID:0f510566b1a5c47fc0bdb28de54c6bb0c1eecbf5@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:[Closing] Instant Karma (3) @ Renaissance (3)
+DTSTART;TZID=America/New_York:20250518T180000
+DTEND;TZID=America/New_York:20250518T180100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-05-18 18:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Renaissance\n----------------------
+ ------------------\n    (no prior matchups listed)\n\n--------------------
+ --------------------\nRENAISSANCE GAMES-TO-DATE\n-------------------------
+ ---------------\nRecord to date (completed games only): 0-0\n    Apr 6th v
+ s Moby Dekes (Cancelled)\n    Apr 13th @ Gremlins\n    Apr 27th vs Gouging
+  Anklebiters\n    May 4th @ Riots (Cancelled)
+END:VEVENT
+BEGIN:VEVENT
+UID:a627507c4ce2bd37c0bebe662735adde90b45131@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) @ Mega Touch (1)
+DTSTART;TZID=America/New_York:20250601T141500
+DTEND;TZID=America/New_York:20250601T141600
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-06-01 14:15 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Mega Touch\n-----------------------
+ -----------------\n    (no prior matchups listed)\n\n---------------------
+ -------------------\nMEGA TOUCH GAMES-TO-DATE\n---------------------------
+ -------------\nRecord to date (completed games only): 0-0\n    Apr 6th vs 
+ Gouging Anklebiters (Cancelled)\n    Apr 13th vs Cobra Kai\n    Apr 27th @
+  Moby Dekes\n    May 4th vs Poutine Machine (Cancelled)\n    May 18th @ Lb
+ s
+END:VEVENT
+BEGIN:VEVENT
+UID:471d3afb7c30630f6f97d370e87ca6dd2f707e5e@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) @ Lbs (1)
+DTSTART;TZID=America/New_York:20250608T141500
+DTEND;TZID=America/New_York:20250608T141600
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-06-08 14:15 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
+ ----------\n    (no prior matchups listed)\n\n----------------------------
+ ------------\nLBS GAMES-TO-DATE\n----------------------------------------\
+ nRecord to date (completed games only): 0-0\n    Apr 6th vs Vertz (Cancell
+ ed)\n    Apr 13th @ Fresh Kills\n    Apr 27th vs What the Puck\n    May 4t
+ h @ Gouging Anklebiters (Cancelled)\n    May 18th vs Mega Touch\n    Jun 1
+ st vs Sky Fighters
+END:VEVENT
+BEGIN:VEVENT
+UID:241d6a2f5a49fbef881318100e2c7afb14fbb946@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Sky Fighters (3)
+DTSTART;TZID=America/New_York:20250615T164500
+DTEND;TZID=America/New_York:20250615T173500
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-06-15 16:45 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Sky Fighters\n---------------------
+ -------------------\n    Apr 6th vs Sky Fighters (Cancelled)\n\n----------
+ ------------------------------\nSKY FIGHTERS GAMES-TO-DATE\n--------------
+ --------------------------\nRecord to date (completed games only): 0-0\n  
+   Apr 6th @ Instant Karma (Cancelled)\n    Apr 13th vs Dark Rainbows\n    
+ Apr 27th @ Corlears Hookers\n    May 4th @ What the Puck (Cancelled)\n    
+ May 18th vs Gremlins\n    Jun 1st @ Lbs\n    Jun 8th @ Dark Rainbows
+END:VEVENT
+BEGIN:VEVENT
+UID:02b13a2d19361d3b0b0f86b7cac5c3c3c2f91819@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Riots (4)
+DTSTART;TZID=America/New_York:20250622T180000
+DTEND;TZID=America/New_York:20250622T180100
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-06-22 18:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Riots\n----------------------------
+ ------------\n    (no prior matchups listed)\n\n--------------------------
+ --------------\nRIOTS GAMES-TO-DATE\n-------------------------------------
+ ---\nRecord to date (completed games only): 0-0\n    Apr 6th @ Butchers (C
+ ancelled)\n    Apr 13th @ Moby Dekes\n    Apr 27th vs Cobra Kai\n    May 4
+ th vs Renaissance (Cancelled)\n    May 18th @ Denim Demons\n    Jun 1st vs
+  Filthier\n    Jun 8th @ Moby Dekes\n    Jun 15th @ Butchers
+END:VEVENT
+BEGIN:VEVENT
+UID:7df0621052242240ec9bb4b21a96bce54835d33e@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) @ Gremlins (3)
+DTSTART;TZID=America/New_York:20250629T130000
+DTEND;TZID=America/New_York:20250629T130100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-06-29 13:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Gremlins\n-------------------------
+ ---------------\n    (no prior matchups listed)\n\n-----------------------
+ -----------------\nGREMLINS GAMES-TO-DATE\n-------------------------------
+ ---------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Dark
+  Rainbows (Cancelled)\n    Apr 13th vs Renaissance\n    Apr 27th @ Poutine
+  Machine\n    May 4th vs Butchers (Cancelled)\n    May 18th @ Sky Fighters
+ \n    Jun 1st vs Fuzz\n    Jun 8th @ Renaissance\n    Jun 15th vs Dark Rai
+ nbows\n    Jun 22nd @ Denim Demons
+END:VEVENT
+BEGIN:VEVENT
+UID:de13f5aad7aac825bbdb6d28823be834583c4477@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) @ Sky Fighters (3)
+DTSTART;TZID=America/New_York:20250713T180000
+DTEND;TZID=America/New_York:20250713T180100
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-07-13 18:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Sky Fighters\n---------------------
+ -------------------\n    Apr 6th vs Sky Fighters (Cancelled)\n    Jun 15th
+  vs Sky Fighters\n\n----------------------------------------\nSKY FIGHTERS
+  GAMES-TO-DATE\n----------------------------------------\nRecord to date (
+ completed games only): 0-0\n    Apr 6th @ Instant Karma (Cancelled)\n    A
+ pr 13th vs Dark Rainbows\n    Apr 27th @ Corlears Hookers\n    May 4th @ W
+ hat the Puck (Cancelled)\n    May 18th vs Gremlins\n    Jun 1st @ Lbs\n   
+  Jun 8th @ Dark Rainbows\n    Jun 15th @ Instant Karma\n    Jun 22nd vs Mo
+ by Dekes\n    Jun 29th vs Denim Demons
+END:VEVENT
+BEGIN:VEVENT
+UID:98845b94075e025f05ed442af181d55dfafde681@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Butchers (4)
+DTSTART;TZID=America/New_York:20250720T164500
+DTEND;TZID=America/New_York:20250720T164600
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-07-20 16:45 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Butchers\n-------------------------
+ ---------------\n    (no prior matchups listed)\n\n-----------------------
+ -----------------\nBUTCHERS GAMES-TO-DATE\n-------------------------------
+ ---------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Riot
+ s (Cancelled)\n    Apr 13th @ Denim Demons\n    Apr 27th vs Fuzz\n    May 
+ 4th @ Gremlins (Cancelled)\n    May 18th @ Filthier\n    Jun 1st vs Corlea
+ rs Hookers\n    Jun 8th vs Denim Demons\n    Jun 15th vs Riots\n    Jun 22
+ nd vs Renaissance\n    Jun 29th vs Moby Dekes\n    Jul 13th @ Riots
+END:VEVENT
+BEGIN:VEVENT
+UID:3285d05ee3b5c0f7ef1ba43a3e1c86d7c1cef340@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:CANCELLED: Instant Karma (3) vs Gouging Anklebiters (2)
+DTSTART;TZID=America/New_York:20250727T164500
+DTEND;TZID=America/New_York:20250727T164600
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: cancell
+ ed\nStart (America/New_York): 2025-07-27 16:45 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Gouging Anklebiters\n--------------
+ --------------------------\n    (no prior matchups listed)\n\n------------
+ ----------------------------\nGOUGING ANKLEBITERS GAMES-TO-DATE\n---------
+ -------------------------------\nRecord to date (completed games only): 0-
+ 0\n    Apr 6th @ Mega Touch (Cancelled)\n    Apr 13th vs Poutine Machine\n
+     Apr 27th @ Renaissance\n    May 4th vs Lbs (Cancelled)\n    May 18th v
+ s Fresh Kills\n    Jun 1st @ What the Puck\n    Jun 8th @ Poutine Machine 
+ (Cancelled)\n    Jun 15th @ Mega Touch (Cancelled)\n    Jun 22nd vs Vertz\
+ n    Jun 29th vs Filthier\n    Jul 13th @ Poutine Machine\n    Jul 13th vs
+  Moby Dekes\n    Jul 20th @ Mega Touch\n    Jul 20th @ Fuzz
+END:VEVENT
+BEGIN:VEVENT
+UID:4a48529c1e4ce1018a8b65e2a56c95791b5a7c93@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) @ Dark Rainbows (3)
+DTSTART;TZID=America/New_York:20250803T141500
+DTEND;TZID=America/New_York:20250803T141600
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-08-03 14:15 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Dark Rainbows\n--------------------
+ --------------------\n    (no prior matchups listed)\n\n------------------
+ ----------------------\nDARK RAINBOWS GAMES-TO-DATE\n---------------------
+ -------------------\nRecord to date (completed games only): 0-0\n    Apr 6
+ th @ Gremlins (Cancelled)\n    Apr 13th @ Sky Fighters\n    Apr 27th vs Fi
+ lthier\n    May 4th @ Denim Demons (Cancelled)\n    May 18th @ Fuzz\n    J
+ un 1st @ Vertz\n    Jun 8th vs Sky Fighters\n    Jun 15th @ Gremlins\n    
+ Jun 22nd vs What the Puck\n    Jun 29th @ Renaissance\n    Jul 13th vs Gre
+ mlins\n    Jul 20th @ Moby Dekes\n    Jul 27th vs Poutine Machine (Cancell
+ ed)\n    Aug 3rd @ Poutine Machine
+END:VEVENT
+BEGIN:VEVENT
+UID:bd4f54cf6966be021138bda0e7bcfbe5b3b39e4f@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) @ Cobra Kai (1)
+DTSTART;TZID=America/New_York:20250810T130000
+DTEND;TZID=America/New_York:20250810T130100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-08-10 13:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
+ ----------------\n    (no prior matchups listed)\n\n----------------------
+ ------------------\nCOBRA KAI GAMES-TO-DATE\n-----------------------------
+ -----------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Fu
+ zz (Cancelled)\n    Apr 13th @ Mega Touch\n    Apr 27th @ Riots\n    May 4
+ th vs Filthier (Cancelled)\n    May 18th @ Vertz\n    Jun 1st vs Renaissan
+ ce\n    Jun 8th vs Mega Touch\n    Jun 15th vs Fuzz\n    Jun 22nd vs Corle
+ ars Hookers\n    Jun 29th vs Lbs\n    Jul 13th @ Fuzz\n    Jul 20th vs Fre
+ sh Kills\n    Jul 27th @ Butchers (Cancelled)\n    Aug 3rd @ Gremlins
+END:VEVENT
+BEGIN:VEVENT
+UID:2cc56926b1fdb3e6643f50415fd1085b6af6cbae@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Gremlins (3)
+DTSTART;TZID=America/New_York:20250817T153000
+DTEND;TZID=America/New_York:20250817T153100
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-08-17 15:30 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Gremlins\n-------------------------
+ ---------------\n    Jun 29th @ Gremlins\n\n------------------------------
+ ----------\nGREMLINS GAMES-TO-DATE\n--------------------------------------
+ --\nRecord to date (completed games only): 0-0\n    Apr 6th vs Dark Rainbo
+ ws (Cancelled)\n    Apr 13th vs Renaissance\n    Apr 27th @ Poutine Machin
+ e\n    May 4th vs Butchers (Cancelled)\n    May 18th @ Sky Fighters\n    J
+ un 1st vs Fuzz\n    Jun 8th @ Renaissance\n    Jun 15th vs Dark Rainbows\n
+     Jun 22nd @ Denim Demons\n    Jun 29th vs Instant Karma\n    Jul 13th @
+  Dark Rainbows\n    Jul 20th @ What the Puck\n    Jul 27th @ Corlears Hook
+ ers\n    Aug 3rd vs Cobra Kai\n    Aug 10th @ Vertz
+END:VEVENT
+BEGIN:VEVENT
+UID:ec63681eb923ed662ef9625d84abc872039a1c38@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) @ Denim Demons (4)
+DTSTART;TZID=America/New_York:20250907T141500
+DTEND;TZID=America/New_York:20250907T141600
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-09-07 14:15 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Denim Demons\n---------------------
+ -------------------\n    (no prior matchups listed)\n\n-------------------
+ ---------------------\nDENIM DEMONS GAMES-TO-DATE\n-----------------------
+ -----------------\nRecord to date (completed games only): 0-0\n    Apr 6th
+  vs What the Puck (Cancelled)\n    Apr 13th vs Butchers\n    Apr 27th @ Ve
+ rtz\n    May 4th vs Dark Rainbows (Cancelled)\n    May 18th vs Riots\n    
+ Jun 1st @ Fresh Kills\n    Jun 8th @ Butchers\n    Jun 15th vs What the Pu
+ ck\n    Jun 22nd vs Gremlins\n    Jun 29th @ Sky Fighters\n    Jul 13th @ 
+ What the Puck\n    Jul 20th @ Renaissance\n    Jul 27th @ Fuzz (Cancelled)
+ \n    Aug 3rd vs Moby Dekes\n    Aug 10th @ Gouging Anklebiters\n    Aug 1
+ 7th vs Corlears Hookers
+END:VEVENT
+BEGIN:VEVENT
+UID:bb1efb4cc7ce7e24ef1230cdde2822aed3c849c3@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Dark Rainbows (3)
+DTSTART;TZID=America/New_York:20250914T170000
+DTEND;TZID=America/New_York:20250914T170100
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-09-14 17:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Dark Rainbows\n--------------------
+ --------------------\n    Aug 3rd @ Dark Rainbows\n\n---------------------
+ -------------------\nDARK RAINBOWS GAMES-TO-DATE\n------------------------
+ ----------------\nRecord to date (completed games only): 0-0\n    Apr 6th 
+ @ Gremlins (Cancelled)\n    Apr 13th @ Sky Fighters\n    Apr 27th vs Filth
+ ier\n    May 4th @ Denim Demons (Cancelled)\n    May 18th @ Fuzz\n    Jun 
+ 1st @ Vertz\n    Jun 8th vs Sky Fighters\n    Jun 15th @ Gremlins\n    Jun
+  22nd vs What the Puck\n    Jun 29th @ Renaissance\n    Jul 13th vs Gremli
+ ns\n    Jul 20th @ Moby Dekes\n    Jul 27th vs Poutine Machine (Cancelled)
+ \n    Aug 3rd @ Poutine Machine\n    Aug 3rd vs Instant Karma\n    Aug 10t
+ h vs Lbs\n    Aug 17th vs Renaissance\n    Sep 7th @ Riots
+END:VEVENT
+BEGIN:VEVENT
+UID:d204c416b14a55e508ec74a30d950909101357f0@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Renaissance (3)
+DTSTART;TZID=America/New_York:20250921T143000
+DTEND;TZID=America/New_York:20250921T143100
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: complet
+ ed\nStart (America/New_York): 2025-09-21 14:30 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Renaissance\n----------------------
+ ------------------\n    May 18th @ Renaissance\n\n------------------------
+ ----------------\nRENAISSANCE GAMES-TO-DATE\n-----------------------------
+ -----------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Mo
+ by Dekes (Cancelled)\n    Apr 13th @ Gremlins\n    Apr 27th vs Gouging Ank
+ lebiters\n    May 4th @ Riots (Cancelled)\n    May 18th vs Instant Karma\n
+     Jun 1st @ Cobra Kai\n    Jun 8th vs Gremlins\n    Jun 15th vs Moby Dek
+ es\n    Jun 22nd @ Butchers\n    Jun 29th vs Dark Rainbows\n    Jul 13th v
+ s Mega Touch\n    Jul 20th vs Denim Demons\n    Jul 27th @ Fresh Kills\n  
+   Aug 3rd vs Sky Fighters\n    Aug 10th @ Fuzz\n    Aug 17th @ Dark Rainbo
+ ws\n    Sep 7th vs What the Puck\n    Sep 14th @ Sky Fighters
+END:VEVENT
+BEGIN:VEVENT
+UID:d170f2ffc1a6db1e06bfffdb2427945107756012@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Moby Dekes (4)
+DTSTART;TZID=America/New_York:20250928T143000
+DTEND;TZID=America/New_York:20250928T152000
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Make-Up\nStatus: comp
+ leted\nStart (America/New_York): 2025-09-28 14:30 EDT\nRink: Tompkins Squa
+ re Park (east)\nCheck-in / Standings: https://btsh.org\n\n----------------
+ ------------------------\nHEAD-TO-HEAD vs Moby Dekes\n--------------------
+ --------------------\n    May 4th vs Moby Dekes (Cancelled)\n\n-----------
+ -----------------------------\nMOBY DEKES GAMES-TO-DATE\n-----------------
+ -----------------------\nRecord to date (completed games only): 0-0\n    A
+ pr 6th @ Renaissance (Cancelled)\n    Apr 13th vs Riots\n    Apr 27th vs M
+ ega Touch\n    May 4th @ Instant Karma (Cancelled)\n    May 18th @ What th
+ e Puck\n    Jun 1st vs Poutine Machine\n    Jun 8th vs Riots\n    Jun 15th
+  @ Renaissance\n    Jun 22nd @ Sky Fighters\n    Jun 29th @ Butchers\n    
+ Jul 13th @ Gouging Anklebiters\n    Jul 20th vs Dark Rainbows\n    Jul 27t
+ h @ Lbs (Cancelled)\n    Aug 3rd @ Denim Demons\n    Aug 10th vs Filthier\
+ n    Aug 17th vs Butchers (Cancelled)\n    Sep 7th @ Gremlins\n    Sep 14t
+ h vs Butchers\n    Sep 14th vs Denim Demons\n    Sep 21st vs What the Puck
+END:VEVENT
+BEGIN:VEVENT
+UID:f8e0ee73e6d2c40f327cb7113e1b05f564546686@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Gouging Anklebiters (2)
+DTSTART;TZID=America/New_York:20251005T154500
+DTEND;TZID=America/New_York:20251005T163500
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Make-Up\nStatus: comp
+ leted\nStart (America/New_York): 2025-10-05 15:45 EDT\nRink: Tompkins Squa
+ re Park (east)\nCheck-in / Standings: https://btsh.org\n\n----------------
+ ------------------------\nHEAD-TO-HEAD vs Gouging Anklebiters\n-----------
+ -----------------------------\n    Jul 27th vs Gouging Anklebiters (Cancel
+ led)\n\n----------------------------------------\nGOUGING ANKLEBITERS GAME
+ S-TO-DATE\n----------------------------------------\nRecord to date (compl
+ eted games only): 0-0\n    Apr 6th @ Mega Touch (Cancelled)\n    Apr 13th 
+ vs Poutine Machine\n    Apr 27th @ Renaissance\n    May 4th vs Lbs (Cancel
+ led)\n    May 18th vs Fresh Kills\n    Jun 1st @ What the Puck\n    Jun 8t
+ h @ Poutine Machine (Cancelled)\n    Jun 15th @ Mega Touch (Cancelled)\n  
+   Jun 22nd vs Vertz\n    Jun 29th vs Filthier\n    Jul 13th @ Poutine Mach
+ ine\n    Jul 13th vs Moby Dekes\n    Jul 20th @ Mega Touch\n    Jul 20th @
+  Fuzz\n    Jul 27th @ Instant Karma (Cancelled)\n    Aug 3rd @ Corlears Ho
+ okers\n    Aug 10th vs Denim Demons\n    Aug 17th @ Filthier\n    Sep 7th 
+ vs Cobra Kai (Cancelled)\n    Sep 14th vs Corlears Hookers\n    Sep 21st @
+  Fresh Kills\n    Sep 28th vs Lbs\n    Oct 5th @ Cobra Kai
+END:VEVENT
+BEGIN:VEVENT
+UID:632d368ba74ef8dfd0274561c511bdc077afed99@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Filthier (2)
+DTSTART;TZID=America/New_York:20251026T143000
+DTEND;TZID=America/New_York:20251026T152000
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2025-10-26 14:30 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Filthier\n-------------------------
+ ---------------\n    (no prior matchups listed)\n\n-----------------------
+ -----------------\nFILTHIER GAMES-TO-DATE\n-------------------------------
+ ---------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Pout
+ ine Machine (Cancelled)\n    Apr 13th vs Corlears Hookers\n    Apr 27th @ 
+ Dark Rainbows\n    May 4th @ Cobra Kai (Cancelled)\n    May 18th vs Butche
+ rs\n    Jun 1st @ Riots\n    Jun 8th @ Corlears Hookers (Cancelled)\n    J
+ un 15th vs Poutine Machine\n    Jun 22nd vs Mega Touch\n    Jun 29th @ Gou
+ ging Anklebiters\n    Jul 13th @ Poutine Machine\n    Jul 20th @ Lbs\n    
+ Jul 27th vs Sky Fighters\n    Aug 3rd @ Fresh Kills\n    Aug 10th @ Moby D
+ ekes\n    Aug 17th vs Gouging Anklebiters\n    Sep 7th vs Vertz\n    Sep 1
+ 4th vs Fresh Kills\n    Sep 21st vs Fuzz\n    Sep 28th @ Cobra Kai\n    Oc
+ t 5th @ Corlears Hookers\n    Oct 12th vs Riots (Cancelled)\n    Oct 19th 
+ vs Riots
+END:VEVENT
+BEGIN:VEVENT
+UID:e8a2aa0fe8d38f1346feacf7f505f3f93fd52510@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Instant Karma (3) vs Fresh Kills (2)
+DTSTART;TZID=America/New_York:20251102T153000
+DTEND;TZID=America/New_York:20251102T162000
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2025\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2025-11-02 15:30 EST\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fresh Kills\n----------------------
+ ------------------\n    Apr 27th vs Fresh Kills\n\n-----------------------
+ -----------------\nFRESH KILLS GAMES-TO-DATE\n----------------------------
+ ------------\nRecord to date (completed games only): 0-0\n    Apr 6th @ Co
+ rlears Hookers (Cancelled)\n    Apr 13th vs Lbs\n    Apr 27th @ Instant Ka
+ rma\n    May 4th vs Vertz (Cancelled)\n    May 18th @ Gouging Anklebiters\
+ n    Jun 1st vs Denim Demons\n    Jun 8th @ What the Puck\n    Jun 15th @ 
+ Corlears Hookers\n    Jun 22nd vs Fuzz\n    Jun 29th @ Poutine Machine\n  
+   Jul 13th vs Corlears Hookers\n    Jul 20th @ Cobra Kai\n    Jul 27th vs 
+ Renaissance\n    Aug 3rd vs Filthier\n    Aug 10th @ Butchers\n    Aug 17t
+ h vs Poutine Machine\n    Sep 7th @ Mega Touch\n    Sep 14th @ Filthier\n 
+    Sep 21st vs Gouging Anklebiters\n    Sep 28th vs Vertz\n    Oct 26th vs
+  Corlears Hookers
+END:VEVENT
+BEGIN:VEVENT
+UID:ae7f1ae8210b4d0082a746aeee606630b836f63a@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Scrimmage
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+DESCRIPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
+END:VEVENT
+BEGIN:VEVENT
+UID:26de62b34c7ab09bbf137f833348ee6757091237@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Scrimmage
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerseys
+END:VEVENT
+BEGIN:VEVENT
+UID:eecdd62d826716ec1256db65e2608da1b0fd09cc@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Make-Up
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+DESCRIPTION:Makeup
+END:VEVENT
+BEGIN:VEVENT
+UID:5f7735535dc4b7a11163200e59d8648ee5016f25@btsh-ics
+DTSTAMP:20260301T184429Z
+SUMMARY:Make-Up
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DATE:20251124
+DESCRIPTION:Makeup
+END:VEVENT
 END:VCALENDAR
