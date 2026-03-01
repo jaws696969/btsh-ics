@@ -78,7 +78,7 @@ class GameRef:
     away_score: Optional[int]
     result: Optional[str]  # final / final_ot / final_so / etc
 
-    # opening/closing responsibilities are on the DAY object in the API you uploaded
+    # opening/closing responsibilities are on the DAY object
     opening_team_id: Optional[int]
     closing_team_id: Optional[int]
 
@@ -499,8 +499,8 @@ def normalize_game_days(
             home_team_name = (home_team.get("name") if isinstance(home_team, dict) else None) or "-"
             away_team_name = (away_team.get("name") if isinstance(away_team, dict) else None) or "-"
 
-            home_score = g.get("home_score")
-            away_score = g.get("away_score")
+            home_score = g.get("home_team_num_goals")
+            away_score = g.get("away_team_num_goals")
             home_score = int(home_score) if home_score is not None else None
             away_score = int(away_score) if away_score is not None else None
 

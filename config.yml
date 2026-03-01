@@ -26,7 +26,7 @@ include_non_game_days_as_all_day_events: true
 opponent_games_limit: null
 
 # Event summary formatting options
-include_division_in_summary: true
+include_division_in_summary: false
 division_format: "short" # "short" -> Division short_name, "name" -> Division name
 cancelled_prefix: "CANCELLED:"
 
