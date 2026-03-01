@@ -142,8 +142,9 @@ def ics_event(
         folded.extend(fold_ics_line(ln))
     return folded
 
-
-def ics_allday_event(uid: str, summary: str, day_local: datetime, description_lines: List[str], url: str = "") -> List[str]:
+def ics_allday_event(uid: str, summary: str, day_local: date, description_lines: List[str]) -> List[str]:
+    # DTSTART;VALUE=DATE:YYYYMMDD
+    # DTEND;VALUE=DATE:YYYYMMDD (next day)
     start_date = day_local.strftime("%Y%m%d")
     end_date = (day_local + timedelta(days=1)).strftime("%Y%m%d")
     desc = "\n".join(description_lines).strip()
