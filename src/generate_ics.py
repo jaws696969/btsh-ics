@@ -365,6 +365,11 @@ def score_away_home(g: GameRef) -> Optional[str]:
         return None
     return f"{g.away_score}-{g.home_score}"
 
+def score_home_away(g: GameRef) -> Optional[str]:
+    if g.away_score is None or g.home_score is None:
+        return None
+    return f"{g.home_score}-{g.away_score}"
+
 def format_game_line_for_team(team_id: int, g: GameRef, opponent_name_override: Optional[str] = None) -> str:
     """
     For 'games-to-date' lists.
@@ -392,7 +397,10 @@ def format_game_line_for_team(team_id: int, g: GameRef, opponent_name_override: 
     # Completed with score => include W/L + score (+ OT/SO)
     if is_completed_game(g):
         wl = compare_scores_for_team(team_id, g) or ""
-        sc = score_away_home(g) or ""
+        if team_is_home(team_id, g):
+            sc = score_home_away(g) or ""
+        else:
+            sc = score_away_home(g) or ""
         suf = result_suffix(g)
         return f"    {md} {marker} {opp_name} ({wl} {sc}{suf})"
 
@@ -597,7 +605,7 @@ def build_summary_for_team_calendar(
                 suf = " (OT)"
             elif (g.result or "").lower() == "final_so":
                 suf = " (SO)"
-            summary = f"{summary} {sc}{suf}"
+            summary = f"{summary} [{sc}{suf}]"
 
     # If cancelled, prefix
     if is_cancelled_game(g):
@@ -619,7 +627,7 @@ def build_summary_for_master_calendar(g: GameRef, cfg: Dict[str, Any]) -> str:
                 suf = " (OT)"
             elif (g.result or "").lower() == "final_so":
                 suf = " (SO)"
-            summary = f"{summary} {sc}{suf}"
+            summary = f"{summary} [{sc}{suf}]"
 
     if is_cancelled_game(g):
         summary = f"{cancelled_prefix} {summary}"
