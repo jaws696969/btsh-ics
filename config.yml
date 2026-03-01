@@ -1,31 +1,22 @@
 output_dir: "docs"
 default_timezone: "America/New_York"
 
-# Use year, NOT season id
+# Use year; script will resolve season_id via /api/seasons/
 season_year: 2025
 
-# How many opponent games to show in the event description (most recent up to event date)
-opponent_recent_limit: 10
-
-# Placeholder games (TBD / '-') included by default, but can be turned off
-include_placeholder_games: true
-
-# Add [D1] etc into event name for team calendars
-include_division_in_event_name: true
-
-# Day-types to include (team calendars)
-include_day_types_team:
+# Team calendars include these day types by default
+team_day_types:
   - game
   - make_up
   - scrimmage
-  # - playoff   # keep included by default if you want (add/remove freely)
 
-# Day-types to include (master calendar)
-include_day_types_master:
+# Master calendar can be different
+master_day_types:
   - game
   - make_up
   - scrimmage
-  # - playoff
+  - holiday
+  - other
 
-# Default event length if API doesn't provide one
-default_game_duration_min: 60
+# Placeholder games (TBD / "-" teams). Default true but can be turned off.
+include_placeholders: true
