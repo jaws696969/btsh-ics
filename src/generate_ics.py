@@ -598,7 +598,10 @@ def build_summary_for_team_calendar(
 
     # If completed, append score (away-home) and OT/SO suffix; DO NOT add W/L to summary
     if is_completed_game(g):
-        sc = score_away_home(g)
+        if team_is_home(team.team_id, g):
+            sc = score_home_away(g)
+        else:
+            sc = score_away_home(g)
         if sc:
             suf = ""
             if (g.result or "").lower() == "final_ot":
