@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:f6cbaa7b85a28a8bf6ccaf55ad73c80e400a8d17@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Gouging Anklebiters @ Mega Touch
 DTSTART;TZID=America/New_York:20250406T141500
 DTEND;TZID=America/New_York:20250406T141600
@@ -43,8 +43,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1417807305075d6659b49219eede4845852efa8c@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters vs Poutine Machine [4-3 (SO)]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters vs Poutine Machine [W 4-3 (SO)]
 DTSTART;TZID=America/New_York:20250413T130000
 DTEND;TZID=America/New_York:20250413T130100
 LOCATION:Tompkins Square Park (east)
@@ -61,8 +61,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e3bfbbe9e8e8a4363c21cc256a20fd14b1ec1c67@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters @ Renaissance [5-2]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters @ Renaissance [W 5-2]
 DTSTART;TZID=America/New_York:20250427T153000
 DTEND;TZID=America/New_York:20250427T153100
 LOCATION:Tompkins Square Park (west)
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:5def31fa2fbbb72c29da5158419f9996e59902d3@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Gouging Anklebiters vs Lbs
 DTSTART;TZID=America/New_York:20250504T164500
 DTEND;TZID=America/New_York:20250504T164600
@@ -98,8 +98,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:662378e2c5e231e8c90631d945737ef59d5aca13@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters vs Fresh Kills [5-2]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters vs Fresh Kills [W 5-2]
 DTSTART;TZID=America/New_York:20250518T164500
 DTEND;TZID=America/New_York:20250518T164600
 LOCATION:Tompkins Square Park (west)
@@ -117,8 +117,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:35b711fed63919d7333789fbb22dba0d09d5e859@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters @ What the Puck [10-2]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters @ What the Puck [W 10-2]
 DTSTART;TZID=America/New_York:20250601T180000
 DTEND;TZID=America/New_York:20250601T180100
 LOCATION:Tompkins Square Park (east)
@@ -137,7 +137,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:bf62d2811b1db16565251bad42752c132177c790@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Gouging Anklebiters @ Poutine Machine
 DTSTART;TZID=America/New_York:20250608T164500
 DTEND;TZID=America/New_York:20250608T164600
@@ -158,7 +158,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:477a3518805fc845cfb76766467312bffebe2223@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Gouging Anklebiters @ Mega Touch
 DTSTART;TZID=America/New_York:20250615T141500
 DTEND;TZID=America/New_York:20250615T150500
@@ -179,8 +179,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:92378bd78091e1ff4f991926dc78b47137fe23d3@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters vs Vertz [4-5 (OT)]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters vs Vertz [L 4-5 (OT)]
 DTSTART;TZID=America/New_York:20250622T130000
 DTEND;TZID=America/New_York:20250622T130100
 LOCATION:Tompkins Square Park (east)
@@ -200,8 +200,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:ad33db99bae033eca7891a3336a71fe3c150ee84@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters vs Filthier [9-5]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters vs Filthier [W 9-5]
 DTSTART;TZID=America/New_York:20250629T153000
 DTEND;TZID=America/New_York:20250629T153100
 LOCATION:Tompkins Square Park (west)
@@ -222,8 +222,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:b3680a6fe650750671c538becfa3b7eacf55ede4@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:[Opening] Gouging Anklebiters @ Poutine Machine [6-9]
+DTSTAMP:20260301T223055Z
+SUMMARY:[Opening] Gouging Anklebiters @ Poutine Machine [L 6-9]
 DTSTART;TZID=America/New_York:20250713T123000
 DTEND;TZID=America/New_York:20250713T132000
 LOCATION:Tompkins Square Park (west)
@@ -245,8 +245,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:f808f7059119f543c79e19bca0e33db0ecacdff6@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:[Opening] Gouging Anklebiters vs Moby Dekes [6-0]
+DTSTAMP:20260301T223055Z
+SUMMARY:[Opening] Gouging Anklebiters vs Moby Dekes [W 6-0]
 DTSTART;TZID=America/New_York:20250713T130000
 DTEND;TZID=America/New_York:20250713T130100
 LOCATION:Tompkins Square Park (west)
@@ -267,8 +267,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:194937faa5090be71eb4293be47e26485f272dd9@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters @ Mega Touch [3-7]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters @ Mega Touch [L 3-7]
 DTSTART;TZID=America/New_York:20250720T120000
 DTEND;TZID=America/New_York:20250720T125000
 LOCATION:Tompkins Square Park (west)
@@ -290,8 +290,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:5ec31c5d8346c30e8c46e14585d36ab977ee8040@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters @ Fuzz [8-1]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters @ Fuzz [W 8-1]
 DTSTART;TZID=America/New_York:20250720T141500
 DTEND;TZID=America/New_York:20250720T141600
 LOCATION:Tompkins Square Park (west)
@@ -313,7 +313,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:8b247fb3db3495b5770fad19fedd3bc8b526991f@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Gouging Anklebiters @ Instant Karma
 DTSTART;TZID=America/New_York:20250727T164500
 DTEND;TZID=America/New_York:20250727T164600
@@ -336,8 +336,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d83f1f8b1e4635206596f8bfba24ca28a2c452e5@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters @ Corlears Hookers [5-4 (SO)]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters @ Corlears Hookers [W 5-4 (SO)]
 DTSTART;TZID=America/New_York:20250803T141500
 DTEND;TZID=America/New_York:20250803T141600
 LOCATION:Tompkins Square Park (east)
@@ -360,8 +360,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d784a229e28d5e7bbac3e3f78416046d00e2c3a4@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters vs Denim Demons [5-2]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters vs Denim Demons [W 5-2]
 DTSTART;TZID=America/New_York:20250810T180000
 DTEND;TZID=America/New_York:20250810T180100
 LOCATION:Tompkins Square Park (west)
@@ -384,8 +384,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:205a1bab0fec80b9cf3deebab9bd794e0026fa6d@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters @ Filthier [3-9]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters @ Filthier [L 3-9]
 DTSTART;TZID=America/New_York:20250817T153000
 DTEND;TZID=America/New_York:20250817T153100
 LOCATION:Tompkins Square Park (west)
@@ -409,7 +409,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0d9f6151d38f2881ee902f89b8006bf124cdb319@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Gouging Anklebiters vs Cobra Kai
 DTSTART;TZID=America/New_York:20250907T141500
 DTEND;TZID=America/New_York:20250907T141600
@@ -434,8 +434,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:36c5f086b7f56b7390d0e1f20965cff630c4fb8f@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters vs Corlears Hookers [1-0]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters vs Corlears Hookers [W 1-0]
 DTSTART;TZID=America/New_York:20250914T170000
 DTEND;TZID=America/New_York:20250914T170100
 LOCATION:Tompkins Square Park (east)
@@ -460,8 +460,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:13cfd54cc2af36c0257b0f5966cd4bc02c4c1934@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:[Closing] Gouging Anklebiters @ Fresh Kills [2-6]
+DTSTAMP:20260301T223055Z
+SUMMARY:[Closing] Gouging Anklebiters @ Fresh Kills [L 2-6]
 DTSTART;TZID=America/New_York:20250921T170000
 DTEND;TZID=America/New_York:20250921T170100
 LOCATION:Tompkins Square Park (east)
@@ -487,8 +487,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0dd80632462fe692dae58d93364b5b2724bbf843@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters vs Lbs [8-4]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters vs Lbs [W 8-4]
 DTSTART;TZID=America/New_York:20250928T154500
 DTEND;TZID=America/New_York:20250928T163500
 LOCATION:Tompkins Square Park (west)
@@ -514,8 +514,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:917207af1b866523a9c3bc23c209c1d283a11edf@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters @ Cobra Kai [1-2 (SO)]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters @ Cobra Kai [L 1-2 (SO)]
 DTSTART;TZID=America/New_York:20251005T131500
 DTEND;TZID=America/New_York:20251005T140500
 LOCATION:Tompkins Square Park (west)
@@ -542,8 +542,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1d7e59d59c0852b184f1555b4c55fca1c8276ff6@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Gouging Anklebiters @ Instant Karma [1-3]
+DTSTAMP:20260301T223055Z
+SUMMARY:Gouging Anklebiters @ Instant Karma [L 1-3]
 DTSTART;TZID=America/New_York:20251005T154500
 DTEND;TZID=America/New_York:20251005T163500
 LOCATION:Tompkins Square Park (east)
@@ -570,7 +570,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:22fb2653d0beff343464769769e93f142fd7e348@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Gouging Anklebiters vs Cobra Kai
 DTSTART;TZID=America/New_York:20251026T120000
 DTEND;TZID=America/New_York:20251026T125000
@@ -599,7 +599,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:914e4a4091328afc74163e7af73e3fd5194ff0c1@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20250323
 DTEND;VALUE=DATE:20250324
@@ -607,7 +607,7 @@ DESCRIPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:d419446596f081fe4c4936b6a0fa45c0e5a0f584@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20250330
 DTEND;VALUE=DATE:20250331
@@ -615,7 +615,7 @@ DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:dda982a696f6203778a5b6a7c206a13ec6525cec@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251117
@@ -623,7 +623,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:e4167001232ec30b352275d603ea0f62afbe2957@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20251123
 DTEND;VALUE=DATE:20251124

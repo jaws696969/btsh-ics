@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:e4b52f6feab305e5ee26fa35be2b441a65517294@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223056Z
 SUMMARY:CANCELLED: Renaissance vs Moby Dekes
 DTSTART;TZID=America/New_York:20250406T164500
 DTEND;TZID=America/New_York:20250406T164600
@@ -43,8 +43,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:84cf6abe9f42c772332d6a6f6944a0b636d5003c@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance @ Gremlins [5-2]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance @ Gremlins [W 5-2]
 DTSTART;TZID=America/New_York:20250413T141500
 DTEND;TZID=America/New_York:20250413T141600
 LOCATION:Tompkins Square Park (west)
@@ -61,8 +61,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:6ea7df64f339dbe6cf952cc1b99bc7c5f371fbc5@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance vs Gouging Anklebiters [2-5]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance vs Gouging Anklebiters [L 2-5]
 DTSTART;TZID=America/New_York:20250427T153000
 DTEND;TZID=America/New_York:20250427T153100
 LOCATION:Tompkins Square Park (west)
@@ -80,7 +80,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d434cca6d88f397aa26aef189acfab6b2bfb32a2@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223056Z
 SUMMARY:CANCELLED: Renaissance @ Riots
 DTSTART;TZID=America/New_York:20250504T141500
 DTEND;TZID=America/New_York:20250504T141600
@@ -99,8 +99,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:f1cf55d0cbef17474e973da3ae17991c14c353bd@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance vs Instant Karma [9-3]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance vs Instant Karma [W 9-3]
 DTSTART;TZID=America/New_York:20250518T180000
 DTEND;TZID=America/New_York:20250518T180100
 LOCATION:Tompkins Square Park (east)
@@ -119,8 +119,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d6d978a1048d3e852efaaa9be093f6806a0260d2@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance @ Cobra Kai [2-4]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance @ Cobra Kai [L 2-4]
 DTSTART;TZID=America/New_York:20250601T130000
 DTEND;TZID=America/New_York:20250601T130100
 LOCATION:Tompkins Square Park (west)
@@ -138,8 +138,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:fb3c1ca747981b4fd37c5a1b37f0da8381a361b0@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:[Opening] Renaissance vs Gremlins [10-1]
+DTSTAMP:20260301T223056Z
+SUMMARY:[Opening] Renaissance vs Gremlins [W 10-1]
 DTSTART;TZID=America/New_York:20250608T130000
 DTEND;TZID=America/New_York:20250608T130100
 LOCATION:Tompkins Square Park (west)
@@ -158,8 +158,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:a079e0c33c1c4cab8b68c7bca10022a0f7441a44@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance vs Moby Dekes [3-2]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance vs Moby Dekes [W 3-2]
 DTSTART;TZID=America/New_York:20250615T164500
 DTEND;TZID=America/New_York:20250615T173500
 LOCATION:Tompkins Square Park (east)
@@ -179,8 +179,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e229b5e29e1d6b55ca8e9ccef1ae241a632d83ed@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance @ Butchers [5-2]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance @ Butchers [W 5-2]
 DTSTART;TZID=America/New_York:20250622T153000
 DTEND;TZID=America/New_York:20250622T153100
 LOCATION:Tompkins Square Park (east)
@@ -200,8 +200,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:c654b432630b9841f17eeb5f9d6070b60a078af2@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:[Closing] Renaissance vs Dark Rainbows [7-6 (SO)]
+DTSTAMP:20260301T223056Z
+SUMMARY:[Closing] Renaissance vs Dark Rainbows [W 7-6 (SO)]
 DTSTART;TZID=America/New_York:20250629T180000
 DTEND;TZID=America/New_York:20250629T180100
 LOCATION:Tompkins Square Park (east)
@@ -222,8 +222,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:8c3c3e40dc7ad3d990342ca71f2b8f947842d77e@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance vs Mega Touch [2-4]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance vs Mega Touch [L 2-4]
 DTSTART;TZID=America/New_York:20250713T153000
 DTEND;TZID=America/New_York:20250713T153100
 LOCATION:Tompkins Square Park (west)
@@ -244,8 +244,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0d94f286850df125cbb37858d11f1c7a2597ce14@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance vs Denim Demons [2-6]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance vs Denim Demons [L 2-6]
 DTSTART;TZID=America/New_York:20250720T130000
 DTEND;TZID=America/New_York:20250720T130100
 LOCATION:Tompkins Square Park (west)
@@ -267,8 +267,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:3a0286e72cf528acb6f357369670ce08fca571a2@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance @ Fresh Kills [6-7 (OT)]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance @ Fresh Kills [L 6-7 (OT)]
 DTSTART;TZID=America/New_York:20250727T130000
 DTEND;TZID=America/New_York:20250727T130100
 LOCATION:Tompkins Square Park (east)
@@ -290,8 +290,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2c136bb9aeb7f2d0d0c1e35d1675055f1c5000d3@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance vs Sky Fighters [8-2]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance vs Sky Fighters [W 8-2]
 DTSTART;TZID=America/New_York:20250803T180000
 DTEND;TZID=America/New_York:20250803T180100
 LOCATION:Tompkins Square Park (east)
@@ -314,8 +314,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:199d24a373d7dfa7a1ebf7d204d2564d39b43835@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance @ Fuzz [8-4]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance @ Fuzz [W 8-4]
 DTSTART;TZID=America/New_York:20250810T164500
 DTEND;TZID=America/New_York:20250810T164600
 LOCATION:Tompkins Square Park (west)
@@ -338,8 +338,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1993e05b08ea99dc2228e1e459437ae4a2885faf@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance @ Dark Rainbows [10-3]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance @ Dark Rainbows [W 10-3]
 DTSTART;TZID=America/New_York:20250817T164500
 DTEND;TZID=America/New_York:20250817T164600
 LOCATION:Tompkins Square Park (west)
@@ -363,8 +363,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2063e112a6ab458252916134166d66839c3d6a03@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance vs What the Puck [9-0]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance vs What the Puck [W 9-0]
 DTSTART;TZID=America/New_York:20250907T180000
 DTEND;TZID=America/New_York:20250907T180100
 LOCATION:Tompkins Square Park (east)
@@ -388,8 +388,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:5a88d4be3066df937574d07ef6fef43dd4c3b248@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance @ Sky Fighters [5-3]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance @ Sky Fighters [W 5-3]
 DTSTART;TZID=America/New_York:20250914T131500
 DTEND;TZID=America/New_York:20250914T131600
 LOCATION:Tompkins Square Park (east)
@@ -414,8 +414,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:95e9edc6ad42976649ddb40a35c290d2ec1f459e@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance @ Instant Karma [8-2]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance @ Instant Karma [W 8-2]
 DTSTART;TZID=America/New_York:20250921T143000
 DTEND;TZID=America/New_York:20250921T143100
 LOCATION:Tompkins Square Park (west)
@@ -441,8 +441,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:82c4d4264cc35bad50773535c1a6708a2665c425@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Renaissance @ Riots [10-0]
+DTSTAMP:20260301T223056Z
+SUMMARY:Renaissance @ Riots [W 10-0]
 DTSTART;TZID=America/New_York:20250928T131500
 DTEND;TZID=America/New_York:20250928T140500
 LOCATION:Tompkins Square Park (east)
@@ -468,7 +468,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d97a30bf2740df2c193286fa4abb8e1f397d8c8e@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223056Z
 SUMMARY:Renaissance vs Sky Fighters
 DTSTART;TZID=America/New_York:20251026T131500
 DTEND;TZID=America/New_York:20251026T140500
@@ -496,7 +496,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:9ecc2fb260dcae2dfefbbd37aa831cdc14831a6b@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223056Z
 SUMMARY:Renaissance @ Denim Demons
 DTSTART;TZID=America/New_York:20251102T153000
 DTEND;TZID=America/New_York:20251102T162000
@@ -524,7 +524,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:441b0cce30d0cea0c57f9bcbab951ef65fe6c70f@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223056Z
 SUMMARY:Renaissance vs Poutine Machine
 DTSTART;TZID=America/New_York:20251109T131000
 DTEND;TZID=America/New_York:20251109T140000
@@ -553,7 +553,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0663e419984cf5555c8a4661cacd8cbed8d3531e@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223056Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20250323
 DTEND;VALUE=DATE:20250324
@@ -561,7 +561,7 @@ DESCRIPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:3c98ce61b164003627dc79cc2d42e78cc05b4af3@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223056Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20250330
 DTEND;VALUE=DATE:20250331
@@ -569,7 +569,7 @@ DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:58805007b66004e3c5bf65e5af3e0a3d62fa828f@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223056Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251117
@@ -577,7 +577,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:df13ba1ff7885f46088627ae9e08d61738bebd00@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223056Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20251123
 DTEND;VALUE=DATE:20251124

@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:87a1650f45237e7790ccc485119196e5fcd71add@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Corlears Hookers vs Fresh Kills
 DTSTART;TZID=America/New_York:20250406T180000
 DTEND;TZID=America/New_York:20250406T180100
@@ -43,8 +43,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:9ec5334df59c2668783682cb603ab0c2a598cd39@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers @ Filthier [4-5 (OT)]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers @ Filthier [L 4-5 (OT)]
 DTSTART;TZID=America/New_York:20250413T164500
 DTEND;TZID=America/New_York:20250413T164600
 LOCATION:Tompkins Square Park (east)
@@ -61,8 +61,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:89da4d671d655b3196a3331aa6900abfcb5772e9@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers vs Sky Fighters [2-1]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers vs Sky Fighters [W 2-1]
 DTSTART;TZID=America/New_York:20250427T164500
 DTEND;TZID=America/New_York:20250427T164600
 LOCATION:Tompkins Square Park (east)
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:3b188710474f5c3abff953fe24fc0a24e04f73f6@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Corlears Hookers @ Fuzz
 DTSTART;TZID=America/New_York:20250504T180000
 DTEND;TZID=America/New_York:20250504T180100
@@ -97,8 +97,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:df778ed5cd319cd45e6b3f5f4a6534f312003540@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers vs Poutine Machine [0-7]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers vs Poutine Machine [L 0-7]
 DTSTART;TZID=America/New_York:20250518T153000
 DTEND;TZID=America/New_York:20250518T153100
 LOCATION:Tompkins Square Park (west)
@@ -116,8 +116,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e1a12868374a9ae31ec3f7c0035e37f08b4d53c3@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers @ Butchers [10-0]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers @ Butchers [W 10-0]
 DTSTART;TZID=America/New_York:20250601T164500
 DTEND;TZID=America/New_York:20250601T164600
 LOCATION:Tompkins Square Park (west)
@@ -136,7 +136,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:7fe4ffded3c42e66b561f59c3a69458b2629101e@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Corlears Hookers vs Filthier
 DTSTART;TZID=America/New_York:20250608T180000
 DTEND;TZID=America/New_York:20250608T180100
@@ -156,8 +156,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:5421aa3ee3c5f97bc31bccb75b48a681a144eaa7@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers vs Fresh Kills [1-3]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers vs Fresh Kills [L 1-3]
 DTSTART;TZID=America/New_York:20250615T180000
 DTEND;TZID=America/New_York:20250615T185000
 LOCATION:Tompkins Square Park (east)
@@ -177,8 +177,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e46463249836dfbfe23c0bb130b1a009843aedfc@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers @ Cobra Kai [0-5]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers @ Cobra Kai [L 0-5]
 DTSTART;TZID=America/New_York:20250622T164500
 DTEND;TZID=America/New_York:20250622T164600
 LOCATION:Tompkins Square Park (west)
@@ -198,8 +198,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0f526c96ee6a693fb4faefdbed6c76e866b73d6d@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers vs Vertz [4-10]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers vs Vertz [L 4-10]
 DTSTART;TZID=America/New_York:20250629T141500
 DTEND;TZID=America/New_York:20250629T141600
 LOCATION:Tompkins Square Park (east)
@@ -220,8 +220,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1991c097570f778f9bc06dec71503c52cc822291@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers @ Fresh Kills [6-8]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers @ Fresh Kills [L 6-8]
 DTSTART;TZID=America/New_York:20250713T153000
 DTEND;TZID=America/New_York:20250713T153100
 LOCATION:Tompkins Square Park (east)
@@ -243,8 +243,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:82dc59cfd485725faa2c17249e765008cc0b9b3f@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers vs Mega Touch [3-5]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers vs Mega Touch [L 3-5]
 DTSTART;TZID=America/New_York:20250720T141500
 DTEND;TZID=America/New_York:20250720T141600
 LOCATION:Tompkins Square Park (east)
@@ -266,8 +266,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:5269f5d93c4b58e93efd7165aa2e5d01fe58bbbe@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers vs Gremlins [6-1]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers vs Gremlins [W 6-1]
 DTSTART;TZID=America/New_York:20250727T153000
 DTEND;TZID=America/New_York:20250727T153100
 LOCATION:Tompkins Square Park (west)
@@ -289,8 +289,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2e8c8534860802f1c47042dd3e6d9fb0ddbd0fc7@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers vs Gouging Anklebiters [4-5 (SO)]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers vs Gouging Anklebiters [L 4-5 (SO)]
 DTSTART;TZID=America/New_York:20250803T141500
 DTEND;TZID=America/New_York:20250803T141600
 LOCATION:Tompkins Square Park (east)
@@ -314,8 +314,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:98d6f4504d8f9d3e4f0c487524611d868404c61e@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers @ Riots [10-0]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers @ Riots [W 10-0]
 DTSTART;TZID=America/New_York:20250810T130000
 DTEND;TZID=America/New_York:20250810T130100
 LOCATION:Tompkins Square Park (west)
@@ -338,8 +338,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2b1805a3636f408d595709a38237a21240d66352@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers @ Denim Demons [5-2]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers @ Denim Demons [W 5-2]
 DTSTART;TZID=America/New_York:20250817T141500
 DTEND;TZID=America/New_York:20250817T141600
 LOCATION:Tompkins Square Park (east)
@@ -363,7 +363,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:3c0a702322e2a09dcb3057d0785c5419c464a71b@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:CANCELLED: Corlears Hookers vs Lbs
 DTSTART;TZID=America/New_York:20250907T130000
 DTEND;TZID=America/New_York:20250907T130100
@@ -388,8 +388,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:23a746ecd2c20e4942c82dbfe1ec465034fa4b4d@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:[Closing] Corlears Hookers @ Gouging Anklebiters [0-1]
+DTSTAMP:20260301T223055Z
+SUMMARY:[Closing] Corlears Hookers @ Gouging Anklebiters [L 0-1]
 DTSTART;TZID=America/New_York:20250914T170000
 DTEND;TZID=America/New_York:20250914T170100
 LOCATION:Tompkins Square Park (east)
@@ -415,8 +415,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:b8ced9c17e3741edd2f43144fa1c694c251f3cb1@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers @ Poutine Machine [2-3 (SO)]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers @ Poutine Machine [L 2-3 (SO)]
 DTSTART;TZID=America/New_York:20250921T120000
 DTEND;TZID=America/New_York:20250921T120100
 LOCATION:Tompkins Square Park (west)
@@ -443,8 +443,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:3ceaa91ae411764d1f4ccd6a661ebf6557ab2fd4@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers @ Fuzz [3-2]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers @ Fuzz [W 3-2]
 DTSTART;TZID=America/New_York:20250928T170000
 DTEND;TZID=America/New_York:20250928T175000
 LOCATION:Tompkins Square Park (west)
@@ -470,8 +470,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e9f64ff5a22505ed68a64cae59d6be1b98b788ac@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers vs Filthier [8-4]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers vs Filthier [W 8-4]
 DTSTART;TZID=America/New_York:20251005T110000
 DTEND;TZID=America/New_York:20251005T115000
 LOCATION:Tompkins Square Park (west)
@@ -498,8 +498,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:f100b407bd36611325ba1896c76ce45ec28b195d@btsh-ics
-DTSTAMP:20260301T222156Z
-SUMMARY:Corlears Hookers @ Lbs [1-4]
+DTSTAMP:20260301T223055Z
+SUMMARY:Corlears Hookers @ Lbs [L 1-4]
 DTSTART;TZID=America/New_York:20251005T143000
 DTEND;TZID=America/New_York:20251005T152000
 LOCATION:Tompkins Square Park (west)
@@ -525,7 +525,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:6a6fc15762e653f2b9b50092bf6351d927c59a6c@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Corlears Hookers @ Fresh Kills
 DTSTART;TZID=America/New_York:20251026T131500
 DTEND;TZID=America/New_York:20251026T140500
@@ -554,7 +554,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:a6a9aa8b681cd1a1f6c8dcd584003d4f1b0b2290@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20250323
 DTEND;VALUE=DATE:20250324
@@ -562,7 +562,7 @@ DESCRIPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:9c9195baed5c4486387a879c2ac3c8419c346f54@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20250330
 DTEND;VALUE=DATE:20250331
@@ -570,7 +570,7 @@ DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:59cbef0da588f063931873cc8b43b4cdb37b8650@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251117
@@ -578,7 +578,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:5bdf0bef036b2992e463a96b1e230fc4860a2b2d@btsh-ics
-DTSTAMP:20260301T222156Z
+DTSTAMP:20260301T223055Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20251123
 DTEND;VALUE=DATE:20251124
