@@ -1,22 +1,39 @@
 output_dir: "docs"
 default_timezone: "America/New_York"
 
-# Use year; script will resolve season_id via /api/seasons/
+# Season selection (YOU set this)
 season_year: 2025
 
-# Team calendars include these day types by default
-team_day_types:
-  - game
-  - make_up
-  - scrimmage
+# API endpoints
+seasons_api_url: "https://api.btsh.org/api/seasons/"
+team_registrations_api_url: "https://api.btsh.org/api/team-season-registrations/?season={season_id}"
+game_days_api_url: "https://api.btsh.org/api/game_days/?season={season_id}"
 
-# Master calendar can be different
-master_day_types:
-  - game
-  - make_up
-  - scrimmage
-  - holiday
-  - other
+# What to include
+include_placeholders: true   # games with '-' / TBD teams
+include_cancelled_games: true
 
-# Placeholder games (TBD / "-" teams). Default true but can be turned off.
-include_placeholders: true
+# Day types to include (separately configurable)
+team_calendar_day_types: ["game", "make_up", "scrimmage"]     # exclude holiday/other by default
+master_calendar_day_types: ["game", "make_up", "scrimmage"]   # set differently if you want
+
+# Include non-game “days” (holiday/other/etc.) as all-day events.
+# Only included if their day.type is in the calendar's day_types list above.
+include_non_game_days_as_all_day_events: true
+
+# Opponent sections
+# If null/omitted => include ALL prior games to the event date.
+opponent_games_limit: null
+
+# Event summary formatting options
+include_division_in_summary: true
+division_format: "short" # "short" -> Division short_name, "name" -> Division name
+cancelled_prefix: "CANCELLED:"
+
+# Links / constants
+checkin_url: "https://btsh.org"
+checkin_label: "Check-in / Standings"
+
+# File naming
+team_file_prefix: "btsh"
+master_file_name_template: "btsh-all-games-season-{year}.ics"
