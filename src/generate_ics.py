@@ -598,6 +598,7 @@ def build_summary_for_team_calendar(
 
     # If completed, append score (away-home) and OT/SO suffix; DO NOT add W/L to summary
     if is_completed_game(g):
+        wl = compare_scores_for_team(team_id, g) or ""
         if team_is_home(team.team_id, g):
             sc = score_home_away(g)
         else:
@@ -608,7 +609,7 @@ def build_summary_for_team_calendar(
                 suf = " (OT)"
             elif (g.result or "").lower() == "final_so":
                 suf = " (SO)"
-            summary = f"{summary} [{sc}{suf}]"
+            summary = f"{summary} [{wl} {sc}{suf}]"
 
     # If cancelled, prefix
     if is_cancelled_game(g):
