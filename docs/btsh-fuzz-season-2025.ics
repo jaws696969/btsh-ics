@@ -25,8 +25,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fd66b68839671d132e2ca84d2fed4e5449c0e9b3@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:CANCELLED: Fuzz (1) @ Cobra Kai (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:CANCELLED: Fuzz @ Cobra Kai
 DTSTART;TZID=America/New_York:20250406T130000
 DTEND;TZID=America/New_York:20250406T130100
 LOCATION:Tompkins Square Park (east)
@@ -43,8 +43,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0c0790f041913927a558a16a2e8a94a68a5ffbb0@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Vertz (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Vertz 4-5 (SO)
 DTSTART;TZID=America/New_York:20250413T180000
 DTEND;TZID=America/New_York:20250413T180100
 LOCATION:Tompkins Square Park (east)
@@ -61,8 +61,8 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e243ead21322ee60fd4751e9e023eec2db99992c@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Butchers (4)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Butchers 9-3
 DTSTART;TZID=America/New_York:20250427T141500
 DTEND;TZID=America/New_York:20250427T141600
 LOCATION:Tompkins Square Park (west)
@@ -74,13 +74,13 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Butchers\n-------------------------
  ---------------\n    (no prior matchups listed)\n\n-----------------------
  -----------------\nBUTCHERS GAMES-TO-DATE\n-------------------------------
- ---------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Riot
- s (Cancelled)\n    Apr 13th @ Denim Demons
+ ---------\nRecord to date (completed games only): 0-1\n    Apr 6th vs Riot
+ s (Cancelled)\n    Apr 13th @ Denim Demons (L 0-2)
 END:VEVENT
 BEGIN:VEVENT
 UID:c96a79e26c398cb50ac7a1ddd17dc8c6b83b7126@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:CANCELLED: Fuzz (1) vs Corlears Hookers (2)
+DTSTAMP:20260301T192835Z
+SUMMARY:CANCELLED: Fuzz vs Corlears Hookers
 DTSTART;TZID=America/New_York:20250504T180000
 DTEND;TZID=America/New_York:20250504T180100
 LOCATION:Tompkins Square Park (west)
@@ -92,14 +92,14 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Corlears Hookers\n-----------------
  -----------------------\n    (no prior matchups listed)\n\n---------------
  -------------------------\nCORLEARS HOOKERS GAMES-TO-DATE\n---------------
- -------------------------\nRecord to date (completed games only): 0-0\n   
-  Apr 6th vs Fresh Kills (Cancelled)\n    Apr 13th @ Filthier\n    Apr 27th
-  vs Sky Fighters
+ -------------------------\nRecord to date (completed games only): 1-1\n   
+  Apr 6th vs Fresh Kills (Cancelled)\n    Apr 13th @ Filthier (L 4-5 OT)\n 
+    Apr 27th vs Sky Fighters (W 1-2)
 END:VEVENT
 BEGIN:VEVENT
 UID:3e39d7b68452cd81920904059417dc7303142ae1@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:[Opening] Fuzz (1) vs Dark Rainbows (3)
+DTSTAMP:20260301T192835Z
+SUMMARY:[Opening] Fuzz vs Dark Rainbows 0-6
 DTSTART;TZID=America/New_York:20250518T130000
 DTEND;TZID=America/New_York:20250518T130100
 LOCATION:Tompkins Square Park (west)
@@ -111,14 +111,14 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Dark Rainbows\n--------------------
  --------------------\n    (no prior matchups listed)\n\n------------------
  ----------------------\nDARK RAINBOWS GAMES-TO-DATE\n---------------------
- -------------------\nRecord to date (completed games only): 0-0\n    Apr 6
- th @ Gremlins (Cancelled)\n    Apr 13th @ Sky Fighters\n    Apr 27th vs Fi
- lthier\n    May 4th @ Denim Demons (Cancelled)
+ -------------------\nRecord to date (completed games only): 1-1\n    Apr 6
+ th @ Gremlins (Cancelled)\n    Apr 13th @ Sky Fighters (W 3-2)\n    Apr 27
+ th vs Filthier (L 4-2)\n    May 4th @ Denim Demons (Cancelled)
 END:VEVENT
 BEGIN:VEVENT
 UID:ea1552d0ced1e28399bf5464d01cd65291e8de39@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Gremlins (3)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Gremlins 3-1
 DTSTART;TZID=America/New_York:20250601T141500
 DTEND;TZID=America/New_York:20250601T141600
 LOCATION:Tompkins Square Park (west)
@@ -130,14 +130,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Gremlins\n-------------------------
  ---------------\n    (no prior matchups listed)\n\n-----------------------
  -----------------\nGREMLINS GAMES-TO-DATE\n-------------------------------
- ---------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Dark
-  Rainbows (Cancelled)\n    Apr 13th vs Renaissance\n    Apr 27th @ Poutine
-  Machine\n    May 4th vs Butchers (Cancelled)\n    May 18th @ Sky Fighters
+ ---------\nRecord to date (completed games only): 0-3\n    Apr 6th vs Dark
+  Rainbows (Cancelled)\n    Apr 13th vs Renaissance (L 5-2)\n    Apr 27th @
+  Poutine Machine (L 1-8)\n    May 4th vs Butchers (Cancelled)\n    May 18t
+ h @ Sky Fighters (L 3-9)
 END:VEVENT
 BEGIN:VEVENT
 UID:c34ec7084c6cdcbb7ce4f5e2e26daffcf0a9f9e4@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:CANCELLED: Fuzz (1) vs Vertz (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:CANCELLED: Fuzz vs Vertz
 DTSTART;TZID=America/New_York:20250608T180000
 DTEND;TZID=America/New_York:20250608T180100
 LOCATION:Tompkins Square Park (east)
@@ -147,16 +148,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ed\nStart (America/New_York): 2025-06-08 18:00 EDT\nRink: Tompkins Square 
  Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Vertz\n----------------------------
- ------------\n    Apr 13th @ Vertz\n\n------------------------------------
- ----\nVERTZ GAMES-TO-DATE\n----------------------------------------\nRecor
- d to date (completed games only): 0-0\n    Apr 6th @ Lbs (Cancelled)\n    
- Apr 13th vs Fuzz\n    Apr 27th vs Denim Demons\n    May 4th @ Fresh Kills 
- (Cancelled)\n    May 18th vs Cobra Kai\n    Jun 1st vs Dark Rainbows
+ ------------\n    Apr 13th @ Vertz (L 4-5 SO)\n\n-------------------------
+ ---------------\nVERTZ GAMES-TO-DATE\n------------------------------------
+ ----\nRecord to date (completed games only): 4-0 (SO W: 1)\n    Apr 6th @ 
+ Lbs (Cancelled)\n    Apr 13th vs Fuzz (W 4-5 SO)\n    Apr 27th vs Denim De
+ mons (W 3-5)\n    May 4th @ Fresh Kills (Cancelled)\n    May 18th vs Cobra
+  Kai (W 3-4)\n    Jun 1st vs Dark Rainbows (W 0-7)
 END:VEVENT
 BEGIN:VEVENT
 UID:bd35f7ac39e443581c792305acd07512357ab523@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Cobra Kai (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Cobra Kai 1-4
 DTSTART;TZID=America/New_York:20250615T130000
 DTEND;TZID=America/New_York:20250615T135000
 LOCATION:Tompkins Square Park (east)
@@ -168,15 +170,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
  ----------------\n    Apr 6th @ Cobra Kai (Cancelled)\n\n-----------------
  -----------------------\nCOBRA KAI GAMES-TO-DATE\n------------------------
- ----------------\nRecord to date (completed games only): 0-0\n    Apr 6th 
- vs Fuzz (Cancelled)\n    Apr 13th @ Mega Touch\n    Apr 27th @ Riots\n    
- May 4th vs Filthier (Cancelled)\n    May 18th @ Vertz\n    Jun 1st vs Rena
- issance\n    Jun 8th vs Mega Touch
+ ----------------\nRecord to date (completed games only): 2-3\n    Apr 6th 
+ vs Fuzz (Cancelled)\n    Apr 13th @ Mega Touch (L 1-5)\n    Apr 27th @ Rio
+ ts (W 8-1)\n    May 4th vs Filthier (Cancelled)\n    May 18th @ Vertz (L 3
+ -4)\n    Jun 1st vs Renaissance (W 2-4)\n    Jun 8th vs Mega Touch (L 6-1)
 END:VEVENT
 BEGIN:VEVENT
 UID:637d7af711bda52a5b1f7d0e122b5d242ed3ea72@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Fresh Kills (2)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Fresh Kills 6-4
 DTSTART;TZID=America/New_York:20250622T141500
 DTEND;TZID=America/New_York:20250622T141600
 LOCATION:Tompkins Square Park (west)
@@ -188,16 +190,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Fresh Kills\n----------------------
  ------------------\n    (no prior matchups listed)\n\n--------------------
  --------------------\nFRESH KILLS GAMES-TO-DATE\n-------------------------
- ---------------\nRecord to date (completed games only): 0-0\n    Apr 6th @
-  Corlears Hookers (Cancelled)\n    Apr 13th vs Lbs\n    Apr 27th @ Instant
-  Karma\n    May 4th vs Vertz (Cancelled)\n    May 18th @ Gouging Anklebite
- rs\n    Jun 1st vs Denim Demons\n    Jun 8th @ What the Puck\n    Jun 15th
-  @ Corlears Hookers
+ ---------------\nRecord to date (completed games only): 3-3\n    Apr 6th @
+  Corlears Hookers (Cancelled)\n    Apr 13th vs Lbs (W 1-6)\n    Apr 27th @
+  Instant Karma (L 4-5 SO)\n    May 4th vs Vertz (Cancelled)\n    May 18th 
+ @ Gouging Anklebiters (L 2-5)\n    Jun 1st vs Denim Demons (L 6-5)\n    Ju
+ n 8th @ What the Puck (W 10-0)\n    Jun 15th @ Corlears Hookers (W 3-1)
 END:VEVENT
 BEGIN:VEVENT
 UID:bfa85153d02157070f58cf2771b42cd6b2406b3e@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Mega Touch (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Mega Touch 1-5
 DTSTART;TZID=America/New_York:20250629T130000
 DTEND;TZID=America/New_York:20250629T130100
 LOCATION:Tompkins Square Park (west)
@@ -209,16 +211,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Mega Touch\n-----------------------
  -----------------\n    (no prior matchups listed)\n\n---------------------
  -------------------\nMEGA TOUCH GAMES-TO-DATE\n---------------------------
- -------------\nRecord to date (completed games only): 0-0\n    Apr 6th vs 
- Gouging Anklebiters (Cancelled)\n    Apr 13th vs Cobra Kai\n    Apr 27th @
-  Moby Dekes\n    May 4th vs Poutine Machine (Cancelled)\n    May 18th @ Lb
- s\n    Jun 1st vs Instant Karma\n    Jun 8th @ Cobra Kai\n    Jun 15th vs 
- Gouging Anklebiters (Cancelled)\n    Jun 22nd @ Filthier
+ -------------\nRecord to date (completed games only): 6-0\n    Apr 6th vs 
+ Gouging Anklebiters (Cancelled)\n    Apr 13th vs Cobra Kai (W 1-5)\n    Ap
+ r 27th @ Moby Dekes (W 9-2)\n    May 4th vs Poutine Machine (Cancelled)\n 
+    May 18th @ Lbs (W 10-5)\n    Jun 1st vs Instant Karma (W 1-6)\n    Jun 
+ 8th @ Cobra Kai (W 6-1)\n    Jun 15th vs Gouging Anklebiters (Cancelled)\n
+     Jun 22nd @ Filthier (W 2-0)
 END:VEVENT
 BEGIN:VEVENT
 UID:3469caa32924e2ea57a6b5d3ed686f162085f22c@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) vs Cobra Kai (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz vs Cobra Kai 5-4 (OT)
 DTSTART;TZID=America/New_York:20250713T164500
 DTEND;TZID=America/New_York:20250713T164600
 LOCATION:Tompkins Square Park (east)
@@ -229,17 +232,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
  ----------------\n    Apr 6th @ Cobra Kai (Cancelled)\n    Jun 15th @ Cobr
- a Kai\n\n----------------------------------------\nCOBRA KAI GAMES-TO-DATE
- \n----------------------------------------\nRecord to date (completed game
- s only): 0-0\n    Apr 6th vs Fuzz (Cancelled)\n    Apr 13th @ Mega Touch\n
-     Apr 27th @ Riots\n    May 4th vs Filthier (Cancelled)\n    May 18th @ 
- Vertz\n    Jun 1st vs Renaissance\n    Jun 8th vs Mega Touch\n    Jun 15th
-  vs Fuzz\n    Jun 22nd vs Corlears Hookers\n    Jun 29th vs Lbs
+ a Kai (L 1-4)\n\n----------------------------------------\nCOBRA KAI GAMES
+ -TO-DATE\n----------------------------------------\nRecord to date (comple
+ ted games only): 4-4\n    Apr 6th vs Fuzz (Cancelled)\n    Apr 13th @ Mega
+  Touch (L 1-5)\n    Apr 27th @ Riots (W 8-1)\n    May 4th vs Filthier (Can
+ celled)\n    May 18th @ Vertz (L 3-4)\n    Jun 1st vs Renaissance (W 2-4)\
+ n    Jun 8th vs Mega Touch (L 6-1)\n    Jun 15th vs Fuzz (W 1-4)\n    Jun 
+ 22nd vs Corlears Hookers (W 0-5)\n    Jun 29th vs Lbs (L 4-3 OT)
 END:VEVENT
 BEGIN:VEVENT
 UID:29eeec7bbcf94b58f8ff6d74686d41cdba48a1af@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) vs Vertz (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz vs Vertz 6-2
 DTSTART;TZID=America/New_York:20250720T120000
 DTEND;TZID=America/New_York:20250720T125000
 LOCATION:Tompkins Square Park (east)
@@ -249,19 +253,20 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ed\nStart (America/New_York): 2025-07-20 12:00 EDT\nRink: Tompkins Square 
  Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Vertz\n----------------------------
- ------------\n    Apr 13th @ Vertz\n    Jun 8th vs Vertz (Cancelled)\n\n--
- --------------------------------------\nVERTZ GAMES-TO-DATE\n-------------
- ---------------------------\nRecord to date (completed games only): 0-0\n 
-    Apr 6th @ Lbs (Cancelled)\n    Apr 13th vs Fuzz\n    Apr 27th vs Denim 
- Demons\n    May 4th @ Fresh Kills (Cancelled)\n    May 18th vs Cobra Kai\n
-     Jun 1st vs Dark Rainbows\n    Jun 8th @ Fuzz (Cancelled)\n    Jun 15th
-  @ Lbs\n    Jun 22nd @ Gouging Anklebiters\n    Jun 29th @ Corlears Hooker
- s\n    Jul 13th vs Lbs
+ ------------\n    Apr 13th @ Vertz (L 4-5 SO)\n    Jun 8th vs Vertz (Cance
+ lled)\n\n----------------------------------------\nVERTZ GAMES-TO-DATE\n--
+ --------------------------------------\nRecord to date (completed games on
+ ly): 7-1 (OT W: 1\, SO W: 1)\n    Apr 6th @ Lbs (Cancelled)\n    Apr 13th 
+ vs Fuzz (W 4-5 SO)\n    Apr 27th vs Denim Demons (W 3-5)\n    May 4th @ Fr
+ esh Kills (Cancelled)\n    May 18th vs Cobra Kai (W 3-4)\n    Jun 1st vs D
+ ark Rainbows (W 0-7)\n    Jun 8th @ Fuzz (Cancelled)\n    Jun 15th @ Lbs (
+ W 7-3)\n    Jun 22nd @ Gouging Anklebiters (W 5-4 OT)\n    Jun 29th @ Corl
+ ears Hookers (W 10-4)\n    Jul 13th vs Lbs (L 9-7)
 END:VEVENT
 BEGIN:VEVENT
 UID:959e16bd9719fe1f5dc5c89b4377f9b5d52f7009@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) vs Gouging Anklebiters (2)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz vs Gouging Anklebiters 8-1
 DTSTART;TZID=America/New_York:20250720T141500
 DTEND;TZID=America/New_York:20250720T141600
 LOCATION:Tompkins Square Park (west)
@@ -273,18 +278,19 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Gouging Anklebiters\n--------------
  --------------------------\n    (no prior matchups listed)\n\n------------
  ----------------------------\nGOUGING ANKLEBITERS GAMES-TO-DATE\n---------
- -------------------------------\nRecord to date (completed games only): 0-
- 0\n    Apr 6th @ Mega Touch (Cancelled)\n    Apr 13th vs Poutine Machine\n
-     Apr 27th @ Renaissance\n    May 4th vs Lbs (Cancelled)\n    May 18th v
- s Fresh Kills\n    Jun 1st @ What the Puck\n    Jun 8th @ Poutine Machine 
- (Cancelled)\n    Jun 15th @ Mega Touch (Cancelled)\n    Jun 22nd vs Vertz\
- n    Jun 29th vs Filthier\n    Jul 13th @ Poutine Machine\n    Jul 13th vs
-  Moby Dekes\n    Jul 20th @ Mega Touch
+ -------------------------------\nRecord to date (completed games only): 6-
+ 3 (SO W: 1)\n    Apr 6th @ Mega Touch (Cancelled)\n    Apr 13th vs Poutine
+  Machine (W 3-4 SO)\n    Apr 27th @ Renaissance (W 5-2)\n    May 4th vs Lb
+ s (Cancelled)\n    May 18th vs Fresh Kills (W 2-5)\n    Jun 1st @ What the
+  Puck (W 10-2)\n    Jun 8th @ Poutine Machine (Cancelled)\n    Jun 15th @ 
+ Mega Touch (Cancelled)\n    Jun 22nd vs Vertz (L 5-4 OT)\n    Jun 29th vs 
+ Filthier (W 5-9)\n    Jul 13th @ Poutine Machine (L 6-9)\n    Jul 13th vs 
+ Moby Dekes (W 0-6)\n    Jul 20th @ Mega Touch (L 3-7)
 END:VEVENT
 BEGIN:VEVENT
 UID:62f29eb4b89d703e8fdec137aaff8e264ed82932@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:CANCELLED: Fuzz (1) vs Denim Demons (4)
+DTSTAMP:20260301T192835Z
+SUMMARY:CANCELLED: Fuzz vs Denim Demons
 DTSTART;TZID=America/New_York:20250727T153000
 DTEND;TZID=America/New_York:20250727T153100
 LOCATION:Tompkins Square Park (east)
@@ -296,17 +302,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Denim Demons\n---------------------
  -------------------\n    (no prior matchups listed)\n\n-------------------
  ---------------------\nDENIM DEMONS GAMES-TO-DATE\n-----------------------
- -----------------\nRecord to date (completed games only): 0-0\n    Apr 6th
-  vs What the Puck (Cancelled)\n    Apr 13th vs Butchers\n    Apr 27th @ Ve
- rtz\n    May 4th vs Dark Rainbows (Cancelled)\n    May 18th vs Riots\n    
- Jun 1st @ Fresh Kills\n    Jun 8th @ Butchers\n    Jun 15th vs What the Pu
- ck\n    Jun 22nd vs Gremlins\n    Jun 29th @ Sky Fighters\n    Jul 13th @ 
- What the Puck\n    Jul 20th @ Renaissance
+ -----------------\nRecord to date (completed games only): 9-1 (OT W: 1)\n 
+    Apr 6th vs What the Puck (Cancelled)\n    Apr 13th vs Butchers (W 0-2)\
+ n    Apr 27th @ Vertz (L 3-5)\n    May 4th vs Dark Rainbows (Cancelled)\n 
+    May 18th vs Riots (W 0-9)\n    Jun 1st @ Fresh Kills (W 6-5)\n    Jun 8
+ th @ Butchers (W 3-2 OT)\n    Jun 15th vs What the Puck (W 4-5)\n    Jun 2
+ 2nd vs Gremlins (W 0-10)\n    Jun 29th @ Sky Fighters (W 4-1)\n    Jul 13t
+ h @ What the Puck (W 6-2)\n    Jul 20th @ Renaissance (W 6-2)
 END:VEVENT
 BEGIN:VEVENT
 UID:937f7f0e151ed81acdb02eb04b09c6b5f0235272@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Lbs (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Lbs 2-4
 DTSTART;TZID=America/New_York:20250803T153000
 DTEND;TZID=America/New_York:20250803T153100
 LOCATION:Tompkins Square Park (west)
@@ -318,17 +325,19 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
  ----------\n    (no prior matchups listed)\n\n----------------------------
  ------------\nLBS GAMES-TO-DATE\n----------------------------------------\
- nRecord to date (completed games only): 0-0\n    Apr 6th vs Vertz (Cancell
- ed)\n    Apr 13th @ Fresh Kills\n    Apr 27th vs What the Puck\n    May 4t
- h @ Gouging Anklebiters (Cancelled)\n    May 18th vs Mega Touch\n    Jun 1
- st vs Sky Fighters\n    Jun 8th vs Instant Karma\n    Jun 15th vs Vertz\n 
-    Jun 22nd @ Poutine Machine\n    Jun 29th @ Cobra Kai\n    Jul 13th @ Ve
- rtz\n    Jul 20th vs Filthier\n    Jul 27th vs Moby Dekes (Cancelled)
+ nRecord to date (completed games only): 4-6 (OT W: 1\, SO W: 1)\n    Apr 6
+ th vs Vertz (Cancelled)\n    Apr 13th @ Fresh Kills (L 1-6)\n    Apr 27th 
+ vs What the Puck (W 2-4)\n    May 4th @ Gouging Anklebiters (Cancelled)\n 
+    May 18th vs Mega Touch (L 10-5)\n    Jun 1st vs Sky Fighters (L 7-5)\n 
+    Jun 8th vs Instant Karma (W 4-5 SO)\n    Jun 15th vs Vertz (L 7-3)\n   
+  Jun 22nd @ Poutine Machine (L 3-7)\n    Jun 29th @ Cobra Kai (W 4-3 OT)\n
+     Jul 13th @ Vertz (W 9-7)\n    Jul 20th vs Filthier (L 8-4)\n    Jul 27
+ th vs Moby Dekes (Cancelled)
 END:VEVENT
 BEGIN:VEVENT
 UID:cbacddd6bb9d788abcce4d87229eaac8e61239ae@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) vs Renaissance (3)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz vs Renaissance 8-4
 DTSTART;TZID=America/New_York:20250810T164500
 DTEND;TZID=America/New_York:20250810T164600
 LOCATION:Tompkins Square Park (west)
@@ -340,18 +349,19 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Renaissance\n----------------------
  ------------------\n    (no prior matchups listed)\n\n--------------------
  --------------------\nRENAISSANCE GAMES-TO-DATE\n-------------------------
- ---------------\nRecord to date (completed games only): 0-0\n    Apr 6th v
- s Moby Dekes (Cancelled)\n    Apr 13th @ Gremlins\n    Apr 27th vs Gouging
-  Anklebiters\n    May 4th @ Riots (Cancelled)\n    May 18th vs Instant Kar
- ma\n    Jun 1st @ Cobra Kai\n    Jun 8th vs Gremlins\n    Jun 15th vs Moby
-  Dekes\n    Jun 22nd @ Butchers\n    Jun 29th vs Dark Rainbows\n    Jul 13
- th vs Mega Touch\n    Jul 20th vs Denim Demons\n    Jul 27th @ Fresh Kills
- \n    Aug 3rd vs Sky Fighters
+ ---------------\nRecord to date (completed games only): 7-5 (SO W: 1)\n   
+  Apr 6th vs Moby Dekes (Cancelled)\n    Apr 13th @ Gremlins (W 5-2)\n    A
+ pr 27th vs Gouging Anklebiters (L 5-2)\n    May 4th @ Riots (Cancelled)\n 
+    May 18th vs Instant Karma (W 3-9)\n    Jun 1st @ Cobra Kai (L 2-4)\n   
+  Jun 8th vs Gremlins (W 1-10)\n    Jun 15th vs Moby Dekes (W 2-3)\n    Jun
+  22nd @ Butchers (W 5-2)\n    Jun 29th vs Dark Rainbows (W 6-7 SO)\n    Ju
+ l 13th vs Mega Touch (L 4-2)\n    Jul 20th vs Denim Demons (L 6-2)\n    Ju
+ l 27th @ Fresh Kills (L 6-7 OT)\n    Aug 3rd vs Sky Fighters (W 2-8)
 END:VEVENT
 BEGIN:VEVENT
 UID:d580699b67d3505821ab2746d86c6acea29adeca@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) vs Mega Touch (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz vs Mega Touch 4-3
 DTSTART;TZID=America/New_York:20250817T130000
 DTEND;TZID=America/New_York:20250817T130100
 LOCATION:Tompkins Square Park (east)
@@ -361,21 +371,23 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ed\nStart (America/New_York): 2025-08-17 13:00 EDT\nRink: Tompkins Square 
  Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Mega Touch\n-----------------------
- -----------------\n    Jun 29th @ Mega Touch\n\n--------------------------
- --------------\nMEGA TOUCH GAMES-TO-DATE\n--------------------------------
- --------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Gougi
- ng Anklebiters (Cancelled)\n    Apr 13th vs Cobra Kai\n    Apr 27th @ Moby
-  Dekes\n    May 4th vs Poutine Machine (Cancelled)\n    May 18th @ Lbs\n  
-   Jun 1st vs Instant Karma\n    Jun 8th @ Cobra Kai\n    Jun 15th vs Gougi
- ng Anklebiters (Cancelled)\n    Jun 22nd @ Filthier\n    Jun 29th vs Fuzz\
- n    Jul 13th @ Renaissance\n    Jul 20th vs Gouging Anklebiters\n    Jul 
- 20th @ Corlears Hookers\n    Jul 27th vs Riots (Cancelled)\n    Aug 3rd vs
-  Vertz\n    Aug 10th @ Sky Fighters\n    Aug 17th vs Riots
+ -----------------\n    Jun 29th @ Mega Touch (L 1-5)\n\n------------------
+ ----------------------\nMEGA TOUCH GAMES-TO-DATE\n------------------------
+ ----------------\nRecord to date (completed games only): 12-1\n    Apr 6th
+  vs Gouging Anklebiters (Cancelled)\n    Apr 13th vs Cobra Kai (W 1-5)\n  
+   Apr 27th @ Moby Dekes (W 9-2)\n    May 4th vs Poutine Machine (Cancelled
+ )\n    May 18th @ Lbs (W 10-5)\n    Jun 1st vs Instant Karma (W 1-6)\n    
+ Jun 8th @ Cobra Kai (W 6-1)\n    Jun 15th vs Gouging Anklebiters (Cancelle
+ d)\n    Jun 22nd @ Filthier (W 2-0)\n    Jun 29th vs Fuzz (W 1-5)\n    Jul
+  13th @ Renaissance (W 4-2)\n    Jul 20th vs Gouging Anklebiters (W 3-7)\n
+     Jul 20th @ Corlears Hookers (W 5-3)\n    Jul 27th vs Riots (Cancelled)
+ \n    Aug 3rd vs Vertz (L 7-1)\n    Aug 10th @ Sky Fighters (W 9-1)\n    A
+ ug 17th vs Riots (W 0-9)
 END:VEVENT
 BEGIN:VEVENT
 UID:92a22967481b1ff22df23b37f399110d632c3dc9@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Poutine Machine (2)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Poutine Machine 2-5
 DTSTART;TZID=America/New_York:20250907T153000
 DTEND;TZID=America/New_York:20250907T153100
 LOCATION:Tompkins Square Park (east)
@@ -387,20 +399,21 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Poutine Machine\n------------------
  ----------------------\n    (no prior matchups listed)\n\n----------------
  ------------------------\nPOUTINE MACHINE GAMES-TO-DATE\n-----------------
- -----------------------\nRecord to date (completed games only): 0-0\n    A
- pr 6th @ Filthier (Cancelled)\n    Apr 13th @ Gouging Anklebiters\n    Apr
-  27th vs Gremlins\n    May 4th @ Mega Touch (Cancelled)\n    May 18th @ Co
- rlears Hookers\n    Jun 1st @ Moby Dekes\n    Jun 8th vs Gouging Anklebite
- rs (Cancelled)\n    Jun 15th @ Filthier\n    Jun 22nd vs Lbs\n    Jun 29th
-  vs Fresh Kills\n    Jul 13th vs Gouging Anklebiters\n    Jul 13th vs Filt
- hier\n    Jul 20th @ Vertz\n    Jul 27th @ Dark Rainbows (Cancelled)\n    
- Aug 3rd vs Dark Rainbows\n    Aug 3rd @ Riots\n    Aug 10th vs What the Pu
- ck\n    Aug 17th @ Fresh Kills
+ -----------------------\nRecord to date (completed games only): 10-4\n    
+ Apr 6th @ Filthier (Cancelled)\n    Apr 13th @ Gouging Anklebiters (L 3-4 
+ SO)\n    Apr 27th vs Gremlins (W 1-8)\n    May 4th @ Mega Touch (Cancelled
+ )\n    May 18th @ Corlears Hookers (W 7-0)\n    Jun 1st @ Moby Dekes (W 10
+ -1)\n    Jun 8th vs Gouging Anklebiters (Cancelled)\n    Jun 15th @ Filthi
+ er (W 8-2)\n    Jun 22nd vs Lbs (W 3-7)\n    Jun 29th vs Fresh Kills (L 6-
+ 5)\n    Jul 13th vs Gouging Anklebiters (W 6-9)\n    Jul 13th vs Filthier 
+ (W 4-8)\n    Jul 20th @ Vertz (L 2-3)\n    Jul 27th @ Dark Rainbows (Cance
+ lled)\n    Aug 3rd vs Dark Rainbows (W 2-11)\n    Aug 3rd @ Riots (W 7-1)\
+ n    Aug 10th vs What the Puck (W 0-9)\n    Aug 17th @ Fresh Kills (L 3-6)
 END:VEVENT
 BEGIN:VEVENT
 UID:31f32b89db14f0df5098b34f53c76c9490534a67@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) vs Denim Demons (4)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz vs Denim Demons 5-4
 DTSTART;TZID=America/New_York:20250914T110000
 DTEND;TZID=America/New_York:20250914T115000
 LOCATION:Tompkins Square Park (east)
@@ -412,19 +425,21 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Denim Demons\n---------------------
  -------------------\n    Jul 27th vs Denim Demons (Cancelled)\n\n---------
  -------------------------------\nDENIM DEMONS GAMES-TO-DATE\n-------------
- ---------------------------\nRecord to date (completed games only): 0-0\n 
-    Apr 6th vs What the Puck (Cancelled)\n    Apr 13th vs Butchers\n    Apr
-  27th @ Vertz\n    May 4th vs Dark Rainbows (Cancelled)\n    May 18th vs R
- iots\n    Jun 1st @ Fresh Kills\n    Jun 8th @ Butchers\n    Jun 15th vs W
- hat the Puck\n    Jun 22nd vs Gremlins\n    Jun 29th @ Sky Fighters\n    J
- ul 13th @ What the Puck\n    Jul 20th @ Renaissance\n    Jul 27th @ Fuzz (
- Cancelled)\n    Aug 3rd vs Moby Dekes\n    Aug 10th @ Gouging Anklebiters\
- n    Aug 17th vs Corlears Hookers\n    Sep 7th vs Instant Karma
+ ---------------------------\nRecord to date (completed games only): 10-4 (
+ OT W: 1)\n    Apr 6th vs What the Puck (Cancelled)\n    Apr 13th vs Butche
+ rs (W 0-2)\n    Apr 27th @ Vertz (L 3-5)\n    May 4th vs Dark Rainbows (Ca
+ ncelled)\n    May 18th vs Riots (W 0-9)\n    Jun 1st @ Fresh Kills (W 6-5)
+ \n    Jun 8th @ Butchers (W 3-2 OT)\n    Jun 15th vs What the Puck (W 4-5)
+ \n    Jun 22nd vs Gremlins (W 0-10)\n    Jun 29th @ Sky Fighters (W 4-1)\n
+     Jul 13th @ What the Puck (W 6-2)\n    Jul 20th @ Renaissance (W 6-2)\n
+     Jul 27th @ Fuzz (Cancelled)\n    Aug 3rd vs Moby Dekes (W 1-7)\n    Au
+ g 10th @ Gouging Anklebiters (L 2-5)\n    Aug 17th vs Corlears Hookers (L 
+ 5-2)\n    Sep 7th vs Instant Karma (L 4-3 OT)
 END:VEVENT
 BEGIN:VEVENT
 UID:11e327b117760644bad104da8ac906fa9a5a3d94@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) vs Lbs (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz vs Lbs 11-6
 DTSTART;TZID=America/New_York:20250914T143000
 DTEND;TZID=America/New_York:20250914T143100
 LOCATION:Tompkins Square Park (east)
@@ -434,21 +449,23 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ed\nStart (America/New_York): 2025-09-14 14:30 EDT\nRink: Tompkins Square 
  Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
- ----------\n    Aug 3rd @ Lbs\n\n----------------------------------------\
- nLBS GAMES-TO-DATE\n----------------------------------------\nRecord to da
- te (completed games only): 0-0\n    Apr 6th vs Vertz (Cancelled)\n    Apr 
- 13th @ Fresh Kills\n    Apr 27th vs What the Puck\n    May 4th @ Gouging A
- nklebiters (Cancelled)\n    May 18th vs Mega Touch\n    Jun 1st vs Sky Fig
- hters\n    Jun 8th vs Instant Karma\n    Jun 15th vs Vertz\n    Jun 22nd @
-  Poutine Machine\n    Jun 29th @ Cobra Kai\n    Jul 13th @ Vertz\n    Jul 
- 20th vs Filthier\n    Jul 27th vs Moby Dekes (Cancelled)\n    Aug 3rd vs F
- uzz\n    Aug 10th @ Dark Rainbows\n    Aug 17th vs Cobra Kai (Cancelled)\n
-     Sep 7th @ Corlears Hookers (Cancelled)
+ ----------\n    Aug 3rd @ Lbs (L 2-4)\n\n---------------------------------
+ -------\nLBS GAMES-TO-DATE\n----------------------------------------\nReco
+ rd to date (completed games only): 6-6 (OT W: 1\, SO W: 1)\n    Apr 6th vs
+  Vertz (Cancelled)\n    Apr 13th @ Fresh Kills (L 1-6)\n    Apr 27th vs Wh
+ at the Puck (W 2-4)\n    May 4th @ Gouging Anklebiters (Cancelled)\n    Ma
+ y 18th vs Mega Touch (L 10-5)\n    Jun 1st vs Sky Fighters (L 7-5)\n    Ju
+ n 8th vs Instant Karma (W 4-5 SO)\n    Jun 15th vs Vertz (L 7-3)\n    Jun 
+ 22nd @ Poutine Machine (L 3-7)\n    Jun 29th @ Cobra Kai (W 4-3 OT)\n    J
+ ul 13th @ Vertz (W 9-7)\n    Jul 20th vs Filthier (L 8-4)\n    Jul 27th vs
+  Moby Dekes (Cancelled)\n    Aug 3rd vs Fuzz (W 2-4)\n    Aug 10th @ Dark 
+ Rainbows (W 9-4)\n    Aug 17th vs Cobra Kai (Cancelled)\n    Sep 7th @ Cor
+ lears Hookers (Cancelled)
 END:VEVENT
 BEGIN:VEVENT
 UID:17ec2ef22e6eed713af278fcc57d74654ed4036a@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Filthier (2)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Filthier 5-6 (OT)
 DTSTART;TZID=America/New_York:20250921T154500
 DTEND;TZID=America/New_York:20250921T154600
 LOCATION:Tompkins Square Park (east)
@@ -460,20 +477,22 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Filthier\n-------------------------
  ---------------\n    (no prior matchups listed)\n\n-----------------------
  -----------------\nFILTHIER GAMES-TO-DATE\n-------------------------------
- ---------\nRecord to date (completed games only): 0-0\n    Apr 6th vs Pout
- ine Machine (Cancelled)\n    Apr 13th vs Corlears Hookers\n    Apr 27th @ 
- Dark Rainbows\n    May 4th @ Cobra Kai (Cancelled)\n    May 18th vs Butche
- rs\n    Jun 1st @ Riots\n    Jun 8th @ Corlears Hookers (Cancelled)\n    J
- un 15th vs Poutine Machine\n    Jun 22nd vs Mega Touch\n    Jun 29th @ Gou
- ging Anklebiters\n    Jul 13th @ Poutine Machine\n    Jul 20th @ Lbs\n    
- Jul 27th vs Sky Fighters\n    Aug 3rd @ Fresh Kills\n    Aug 10th @ Moby D
- ekes\n    Aug 17th vs Gouging Anklebiters\n    Sep 7th vs Vertz\n    Sep 1
- 4th vs Fresh Kills
+ ---------\nRecord to date (completed games only): 7-8 (OT W: 1)\n    Apr 6
+ th vs Poutine Machine (Cancelled)\n    Apr 13th vs Corlears Hookers (W 4-5
+  OT)\n    Apr 27th @ Dark Rainbows (W 4-2)\n    May 4th @ Cobra Kai (Cance
+ lled)\n    May 18th vs Butchers (W 0-9)\n    Jun 1st @ Riots (W 2-1)\n    
+ Jun 8th @ Corlears Hookers (Cancelled)\n    Jun 15th vs Poutine Machine (L
+  8-2)\n    Jun 22nd vs Mega Touch (L 2-0)\n    Jun 29th @ Gouging Anklebit
+ ers (L 5-9)\n    Jul 13th @ Poutine Machine (L 4-8)\n    Jul 20th @ Lbs (W
+  8-4)\n    Jul 27th vs Sky Fighters (L 5-4)\n    Aug 3rd @ Fresh Kills (L 
+ 3-6)\n    Aug 10th @ Moby Dekes (W 6-4)\n    Aug 17th vs Gouging Anklebite
+ rs (W 3-9)\n    Sep 7th vs Vertz (L 10-1)\n    Sep 14th vs Fresh Kills (L 
+ 6-4)
 END:VEVENT
 BEGIN:VEVENT
 UID:fc79e44d467913df363563f0761d632181e82d7d@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) vs Corlears Hookers (2)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz vs Corlears Hookers 3-2
 DTSTART;TZID=America/New_York:20250928T170000
 DTEND;TZID=America/New_York:20250928T175000
 LOCATION:Tompkins Square Park (west)
@@ -486,19 +505,21 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  --------------------------\n    May 4th vs Corlears Hookers (Cancelled)\n\
  n----------------------------------------\nCORLEARS HOOKERS GAMES-TO-DATE\
  n----------------------------------------\nRecord to date (completed games
-  only): 0-0\n    Apr 6th vs Fresh Kills (Cancelled)\n    Apr 13th @ Filthi
- er\n    Apr 27th vs Sky Fighters\n    May 4th @ Fuzz (Cancelled)\n    May 
- 18th vs Poutine Machine\n    Jun 1st @ Butchers\n    Jun 8th vs Filthier (
- Cancelled)\n    Jun 15th vs Fresh Kills\n    Jun 22nd @ Cobra Kai\n    Jun
-  29th vs Vertz\n    Jul 13th @ Fresh Kills\n    Jul 20th vs Mega Touch\n  
-   Jul 27th vs Gremlins\n    Aug 3rd vs Gouging Anklebiters\n    Aug 10th @
-  Riots\n    Aug 17th @ Denim Demons\n    Sep 7th vs Lbs (Cancelled)\n    S
- ep 14th @ Gouging Anklebiters\n    Sep 21st @ Poutine Machine
+  only): 5-10\n    Apr 6th vs Fresh Kills (Cancelled)\n    Apr 13th @ Filth
+ ier (L 4-5 OT)\n    Apr 27th vs Sky Fighters (W 1-2)\n    May 4th @ Fuzz (
+ Cancelled)\n    May 18th vs Poutine Machine (L 7-0)\n    Jun 1st @ Butcher
+ s (W 10-0)\n    Jun 8th vs Filthier (Cancelled)\n    Jun 15th vs Fresh Kil
+ ls (L 3-1)\n    Jun 22nd @ Cobra Kai (L 0-5)\n    Jun 29th vs Vertz (L 10-
+ 4)\n    Jul 13th @ Fresh Kills (L 6-8)\n    Jul 20th vs Mega Touch (L 5-3)
+ \n    Jul 27th vs Gremlins (W 1-6)\n    Aug 3rd vs Gouging Anklebiters (L 
+ 5-4 SO)\n    Aug 10th @ Riots (W 10-0)\n    Aug 17th @ Denim Demons (W 5-2
+ )\n    Sep 7th vs Lbs (Cancelled)\n    Sep 14th @ Gouging Anklebiters (L 0
+ -1)\n    Sep 21st @ Poutine Machine (L 2-3 SO)
 END:VEVENT
 BEGIN:VEVENT
 UID:bc2ddec69bd9a4450b441b7023c16235c2f1696c@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:CANCELLED: Fuzz (1) vs What the Puck (4)
+DTSTAMP:20260301T192835Z
+SUMMARY:CANCELLED: Fuzz vs What the Puck
 DTSTART;TZID=America/New_York:20251012T123000
 DTEND;TZID=America/New_York:20251012T132000
 LOCATION:Tompkins Square Park (east)
@@ -510,21 +531,23 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs What the Puck\n--------------------
  --------------------\n    (no prior matchups listed)\n\n------------------
  ----------------------\nWHAT THE PUCK GAMES-TO-DATE\n---------------------
- -------------------\nRecord to date (completed games only): 0-0\n    Apr 6
- th @ Denim Demons (Cancelled)\n    Apr 13th vs Instant Karma\n    Apr 27th
-  @ Lbs\n    May 4th vs Sky Fighters (Cancelled)\n    May 18th vs Moby Deke
- s\n    Jun 1st vs Gouging Anklebiters\n    Jun 8th vs Fresh Kills\n    Jun
-  15th @ Denim Demons\n    Jun 22nd @ Dark Rainbows\n    Jun 29th @ Riots\n
-     Jul 13th vs Denim Demons\n    Jul 20th vs Gremlins\n    Jul 27th @ Ver
- tz (Cancelled)\n    Aug 3rd vs Butchers\n    Aug 10th @ Poutine Machine\n 
-    Aug 17th vs Riots\n    Sep 7th @ Renaissance\n    Sep 14th @ Butchers\n
-     Sep 21st @ Moby Dekes\n    Sep 28th @ Vertz\n    Sep 28th vs Sky Fight
- ers
+ -------------------\nRecord to date (completed games only): 5-13 (OT W: 1)
+ \n    Apr 6th @ Denim Demons (Cancelled)\n    Apr 13th vs Instant Karma (L
+  3-2)\n    Apr 27th @ Lbs (L 2-4)\n    May 4th vs Sky Fighters (Cancelled)
+ \n    May 18th vs Moby Dekes (W 4-5 OT)\n    Jun 1st vs Gouging Anklebiter
+ s (L 10-2)\n    Jun 8th vs Fresh Kills (L 10-0)\n    Jun 15th @ Denim Demo
+ ns (L 4-5)\n    Jun 22nd @ Dark Rainbows (L 4-10)\n    Jun 29th @ Riots (W
+  5-2)\n    Jul 13th vs Denim Demons (L 6-2)\n    Jul 20th vs Gremlins (L 6
+ -3)\n    Jul 27th @ Vertz (Cancelled)\n    Aug 3rd vs Butchers (W 2-4)\n  
+   Aug 10th @ Poutine Machine (L 0-9)\n    Aug 17th vs Riots (W 1-6)\n    S
+ ep 7th @ Renaissance (L 0-9)\n    Sep 14th @ Butchers (L 3-5)\n    Sep 21s
+ t @ Moby Dekes (W 8-4)\n    Sep 28th @ Vertz (L 3-13)\n    Sep 28th vs Sky
+  Fighters (L 8-2)
 END:VEVENT
 BEGIN:VEVENT
 UID:5d77ccd128e6c7b63cf36cc6318d8a6668ce4787@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) vs What the Puck (4)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz vs What the Puck 0-6
 DTSTART;TZID=America/New_York:20251019T123000
 DTEND;TZID=America/New_York:20251019T132000
 LOCATION:Tompkins Square Park (east)
@@ -536,21 +559,23 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs What the Puck\n--------------------
  --------------------\n    Oct 12th vs What the Puck (Cancelled)\n\n-------
  ---------------------------------\nWHAT THE PUCK GAMES-TO-DATE\n----------
- ------------------------------\nRecord to date (completed games only): 0-0
- \n    Apr 6th @ Denim Demons (Cancelled)\n    Apr 13th vs Instant Karma\n 
-    Apr 27th @ Lbs\n    May 4th vs Sky Fighters (Cancelled)\n    May 18th v
- s Moby Dekes\n    Jun 1st vs Gouging Anklebiters\n    Jun 8th vs Fresh Kil
- ls\n    Jun 15th @ Denim Demons\n    Jun 22nd @ Dark Rainbows\n    Jun 29t
- h @ Riots\n    Jul 13th vs Denim Demons\n    Jul 20th vs Gremlins\n    Jul
-  27th @ Vertz (Cancelled)\n    Aug 3rd vs Butchers\n    Aug 10th @ Poutine
-  Machine\n    Aug 17th vs Riots\n    Sep 7th @ Renaissance\n    Sep 14th @
-  Butchers\n    Sep 21st @ Moby Dekes\n    Sep 28th @ Vertz\n    Sep 28th v
- s Sky Fighters\n    Oct 12th @ Fuzz (Cancelled)
+ ------------------------------\nRecord to date (completed games only): 5-1
+ 3 (OT W: 1)\n    Apr 6th @ Denim Demons (Cancelled)\n    Apr 13th vs Insta
+ nt Karma (L 3-2)\n    Apr 27th @ Lbs (L 2-4)\n    May 4th vs Sky Fighters 
+ (Cancelled)\n    May 18th vs Moby Dekes (W 4-5 OT)\n    Jun 1st vs Gouging
+  Anklebiters (L 10-2)\n    Jun 8th vs Fresh Kills (L 10-0)\n    Jun 15th @
+  Denim Demons (L 4-5)\n    Jun 22nd @ Dark Rainbows (L 4-10)\n    Jun 29th
+  @ Riots (W 5-2)\n    Jul 13th vs Denim Demons (L 6-2)\n    Jul 20th vs Gr
+ emlins (L 6-3)\n    Jul 27th @ Vertz (Cancelled)\n    Aug 3rd vs Butchers 
+ (W 2-4)\n    Aug 10th @ Poutine Machine (L 0-9)\n    Aug 17th vs Riots (W 
+ 1-6)\n    Sep 7th @ Renaissance (L 0-9)\n    Sep 14th @ Butchers (L 3-5)\n
+     Sep 21st @ Moby Dekes (W 8-4)\n    Sep 28th @ Vertz (L 3-13)\n    Sep 
+ 28th vs Sky Fighters (L 8-2)\n    Oct 12th @ Fuzz (Cancelled)
 END:VEVENT
 BEGIN:VEVENT
 UID:0081225ec72ef72a426e6af1db7af9a5bf83b2b6@btsh-ics
-DTSTAMP:20260301T184429Z
-SUMMARY:Fuzz (1) @ Vertz (1)
+DTSTAMP:20260301T192835Z
+SUMMARY:Fuzz @ Vertz
 DTSTART;TZID=America/New_York:20251026T154500
 DTEND;TZID=America/New_York:20251026T163500
 LOCATION:Tompkins Square Park (west)
@@ -560,22 +585,25 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ed\nStart (America/New_York): 2025-10-26 15:45 EDT\nRink: Tompkins Square 
  Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Vertz\n----------------------------
- ------------\n    Apr 13th @ Vertz\n    Jun 8th vs Vertz (Cancelled)\n    
- Jul 20th vs Vertz\n\n----------------------------------------\nVERTZ GAMES
- -TO-DATE\n----------------------------------------\nRecord to date (comple
- ted games only): 0-0\n    Apr 6th @ Lbs (Cancelled)\n    Apr 13th vs Fuzz\
- n    Apr 27th vs Denim Demons\n    May 4th @ Fresh Kills (Cancelled)\n    
- May 18th vs Cobra Kai\n    Jun 1st vs Dark Rainbows\n    Jun 8th @ Fuzz (C
- ancelled)\n    Jun 15th @ Lbs\n    Jun 22nd @ Gouging Anklebiters\n    Jun
-  29th @ Corlears Hookers\n    Jul 13th vs Lbs\n    Jul 20th @ Fuzz\n    Ju
- l 20th vs Poutine Machine\n    Jul 27th vs What the Puck (Cancelled)\n    
- Aug 3rd @ Mega Touch\n    Aug 10th vs Gremlins\n    Aug 17th @ Sky Fighter
- s\n    Sep 7th @ Filthier\n    Sep 14th vs Mega Touch\n    Sep 21st @ Cobr
- a Kai\n    Sep 28th vs What the Puck\n    Sep 28th @ Fresh Kills
+ ------------\n    Apr 13th @ Vertz (L 4-5 SO)\n    Jun 8th vs Vertz (Cance
+ lled)\n    Jul 20th vs Vertz (L 6-2)\n\n----------------------------------
+ ------\nVERTZ GAMES-TO-DATE\n----------------------------------------\nRec
+ ord to date (completed games only): 15-3 (OT W: 1\, SO W: 2)\n    Apr 6th 
+ @ Lbs (Cancelled)\n    Apr 13th vs Fuzz (W 4-5 SO)\n    Apr 27th vs Denim 
+ Demons (W 3-5)\n    May 4th @ Fresh Kills (Cancelled)\n    May 18th vs Cob
+ ra Kai (W 3-4)\n    Jun 1st vs Dark Rainbows (W 0-7)\n    Jun 8th @ Fuzz (
+ Cancelled)\n    Jun 15th @ Lbs (W 7-3)\n    Jun 22nd @ Gouging Anklebiters
+  (W 5-4 OT)\n    Jun 29th @ Corlears Hookers (W 10-4)\n    Jul 13th vs Lbs
+  (L 9-7)\n    Jul 20th @ Fuzz (W 6-2)\n    Jul 20th vs Poutine Machine (W 
+ 2-3)\n    Jul 27th vs What the Puck (Cancelled)\n    Aug 3rd @ Mega Touch 
+ (W 7-1)\n    Aug 10th vs Gremlins (L 4-3 OT)\n    Aug 17th @ Sky Fighters 
+ (W 7-1)\n    Sep 7th @ Filthier (W 10-1)\n    Sep 14th vs Mega Touch (W 1-
+ 7)\n    Sep 21st @ Cobra Kai (L 3-5)\n    Sep 28th vs What the Puck (W 3-1
+ 3)\n    Sep 28th @ Fresh Kills (W 6-5 SO)
 END:VEVENT
 BEGIN:VEVENT
 UID:aa4eb045cdeda88e8fc25c5f580e3f8fde430914@btsh-ics
-DTSTAMP:20260301T184429Z
+DTSTAMP:20260301T192835Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20250323
 DTEND;VALUE=DATE:20250324
@@ -583,7 +611,7 @@ DESCRIPTION:Free Agent Scrimmage\n1pm-3pm\nbring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:dc41d17b4465b8ba98957c1102abf33c74cc88e1@btsh-ics
-DTSTAMP:20260301T184429Z
+DTSTAMP:20260301T192835Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20250330
 DTEND;VALUE=DATE:20250331
@@ -591,7 +619,7 @@ DESCRIPTION:Free Agent Scrimmage\n1:30pm-3:30pm\nbring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:39f2517f43816fed015f3a48d103e0a107f704f2@btsh-ics
-DTSTAMP:20260301T184429Z
+DTSTAMP:20260301T192835Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251117
@@ -599,7 +627,7 @@ DESCRIPTION:Makeup
 END:VEVENT
 BEGIN:VEVENT
 UID:f49c2dfd6dc318131d8aea663ef2786577db45d8@btsh-ics
-DTSTAMP:20260301T184429Z
+DTSTAMP:20260301T192835Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20251123
 DTEND;VALUE=DATE:20251124
