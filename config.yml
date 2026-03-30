@@ -2,7 +2,7 @@ output_dir: "docs"
 default_timezone: "America/New_York"
 
 # Season selection (YOU set this)
-season_year: 2025
+season_year: 2026
 
 # API endpoints
 seasons_api_url: "https://api.btsh.org/api/seasons/"
