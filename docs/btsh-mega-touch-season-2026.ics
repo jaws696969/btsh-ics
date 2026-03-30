@@ -1,0 +1,426 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//btsh-ics//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BTSH Mega Touch (2026)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:97154c417a22cb0744ab5201a5bb0870d5e8f0c9@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch vs Vertz
+DTSTART;TZID=America/New_York:20260412T130000
+DTEND;TZID=America/New_York:20260412T135000
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-04-12 13:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Vertz\n----------------------------
+ ------------\n    (no prior matchups listed)\n\n--------------------------
+ --------------\nVERTZ GAMES-TO-DATE\n-------------------------------------
+ ---\nRecord to date (completed games only): 0-0\n    (no prior games liste
+ d)
+END:VEVENT
+BEGIN:VEVENT
+UID:1daa21c1bb064db30410106b3e409b666d003599@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch @ Gremlins
+DTSTART;TZID=America/New_York:20260419T153000
+DTEND;TZID=America/New_York:20260419T162000
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-04-19 15:30 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Gremlins\n-------------------------
+ ---------------\n    (no prior matchups listed)\n\n-----------------------
+ -----------------\nGREMLINS GAMES-TO-DATE\n-------------------------------
+ ---------\nRecord to date (completed games only): 0-0\n    Apr 12th vs But
+ chers
+END:VEVENT
+BEGIN:VEVENT
+UID:5f672db3bddd46de6c4543b4b13386de125bd733@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch @ Corlears Hookers
+DTSTART;TZID=America/New_York:20260426T180000
+DTEND;TZID=America/New_York:20260426T185000
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-04-26 18:00 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Corlears Hookers\n-----------------
+ -----------------------\n    (no prior matchups listed)\n\n---------------
+ -------------------------\nCORLEARS HOOKERS GAMES-TO-DATE\n---------------
+ -------------------------\nRecord to date (completed games only): 0-0\n   
+  Apr 12th @ Lbs\n    Apr 19th @ What the Puck
+END:VEVENT
+BEGIN:VEVENT
+UID:95d239713e0727b049fec28b71a78cad1575d81c@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch vs Fresh Kills
+DTSTART;TZID=America/New_York:20260503T164500
+DTEND;TZID=America/New_York:20260503T173500
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-05-03 16:45 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fresh Kills\n----------------------
+ ------------------\n    (no prior matchups listed)\n\n--------------------
+ --------------------\nFRESH KILLS GAMES-TO-DATE\n-------------------------
+ ---------------\nRecord to date (completed games only): 0-0\n    Apr 12th 
+ @ Cobra Kai\n    Apr 19th vs Filthier\n    Apr 26th vs Gouging Anklebiters
+END:VEVENT
+BEGIN:VEVENT
+UID:d3fa8065f67165ada6251315c0b44946c9e15ede@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch vs Poutine Machine
+DTSTART;TZID=America/New_York:20260517T164500
+DTEND;TZID=America/New_York:20260517T173500
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-05-17 16:45 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Poutine Machine\n------------------
+ ----------------------\n    (no prior matchups listed)\n\n----------------
+ ------------------------\nPOUTINE MACHINE GAMES-TO-DATE\n-----------------
+ -----------------------\nRecord to date (completed games only): 0-0\n    A
+ pr 12th vs Gouging Anklebiters\n    Apr 19th @ Butchers\n    Apr 26th @ Lb
+ s\n    May 3rd vs Instant Karma
+END:VEVENT
+BEGIN:VEVENT
+UID:595e0fa8e7501931dedc4cfe2b3fd7f65e984bc8@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch @ Lbs
+DTSTART;TZID=America/New_York:20260531T180000
+DTEND;TZID=America/New_York:20260531T185000
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-05-31 18:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
+ ----------\n    (no prior matchups listed)\n\n----------------------------
+ ------------\nLBS GAMES-TO-DATE\n----------------------------------------\
+ nRecord to date (completed games only): 0-0\n    Apr 12th vs Corlears Hook
+ ers\n    Apr 19th @ Sky Fighters\n    Apr 26th vs Poutine Machine\n    May
+  3rd @ Vertz\n    May 17th @ Fresh Kills
+END:VEVENT
+BEGIN:VEVENT
+UID:c5f3e5251589b625e0bc3a564d16360c3a66dcf0@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch vs Fuzz
+DTSTART;TZID=America/New_York:20260607T164500
+DTEND;TZID=America/New_York:20260607T173500
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-06-07 16:45 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fuzz\n-----------------------------
+ -----------\n    (no prior matchups listed)\n\n---------------------------
+ -------------\nFUZZ GAMES-TO-DATE\n---------------------------------------
+ -\nRecord to date (completed games only): 0-0\n    Apr 12th @ Denim Demons
+ \n    Apr 19th vs Riots\n    Apr 26th vs Cobra Kai\n    May 3rd vs Corlear
+ s Hookers\n    May 17th vs Instant Karma\n    May 31st vs Vertz
+END:VEVENT
+BEGIN:VEVENT
+UID:f9c1186a72c183a706f33e01ccb04a4c1272571f@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch vs Fresh Kills
+DTSTART;TZID=America/New_York:20260614T130000
+DTEND;TZID=America/New_York:20260614T135000
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-06-14 13:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Fresh Kills\n----------------------
+ ------------------\n    May 3rd vs Fresh Kills\n\n------------------------
+ ----------------\nFRESH KILLS GAMES-TO-DATE\n-----------------------------
+ -----------\nRecord to date (completed games only): 0-0\n    Apr 12th @ Co
+ bra Kai\n    Apr 19th vs Filthier\n    Apr 26th vs Gouging Anklebiters\n  
+   May 3rd @ Mega Touch\n    May 17th vs Lbs\n    May 31st vs Cobra Kai\n  
+   Jun 7th @ Poutine Machine
+END:VEVENT
+BEGIN:VEVENT
+UID:f3d8989f90e0af1f7963f439a5a9080ffa7275dc@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch vs Denim Demons
+DTSTART;TZID=America/New_York:20260628T141500
+DTEND;TZID=America/New_York:20260628T150500
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-06-28 14:15 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Denim Demons\n---------------------
+ -------------------\n    (no prior matchups listed)\n\n-------------------
+ ---------------------\nDENIM DEMONS GAMES-TO-DATE\n-----------------------
+ -----------------\nRecord to date (completed games only): 0-0\n    Apr 12t
+ h vs Fuzz\n    Apr 19th vs Vertz\n    Apr 26th vs Butchers\n    May 3rd vs
+  Renaissance\n    May 17th @ Filthier\n    May 31st @ Sky Fighters\n    Ju
+ n 7th vs Moby Dekes\n    Jun 14th vs Renaissance
+END:VEVENT
+BEGIN:VEVENT
+UID:3ec978baf915e748f82d6b08c846efa2781cfaae@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch @ Cobra Kai
+DTSTART;TZID=America/New_York:20260712T153000
+DTEND;TZID=America/New_York:20260712T162000
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-07-12 15:30 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
+ ----------------\n    (no prior matchups listed)\n\n----------------------
+ ------------------\nCOBRA KAI GAMES-TO-DATE\n-----------------------------
+ -----------\nRecord to date (completed games only): 0-0\n    Apr 12th vs F
+ resh Kills\n    Apr 19th vs Renaissance\n    Apr 26th @ Fuzz\n    May 3rd 
+ @ Gouging Anklebiters\n    May 17th vs Vertz\n    May 31st @ Fresh Kills\n
+     Jun 7th @ Instant Karma\n    Jun 14th @ Vertz\n    Jun 28th @ Sky Figh
+ ters
+END:VEVENT
+BEGIN:VEVENT
+UID:5d123af5c21ee0d2f333176448d778df6848fd78@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch vs Gouging Anklebiters
+DTSTART;TZID=America/New_York:20260719T141500
+DTEND;TZID=America/New_York:20260719T150500
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-07-19 14:15 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Gouging Anklebiters\n--------------
+ --------------------------\n    (no prior matchups listed)\n\n------------
+ ----------------------------\nGOUGING ANKLEBITERS GAMES-TO-DATE\n---------
+ -------------------------------\nRecord to date (completed games only): 0-
+ 0\n    Apr 12th @ Poutine Machine\n    Apr 19th @ Moby Dekes\n    Apr 26th
+  @ Fresh Kills\n    May 3rd vs Cobra Kai\n    May 17th vs Gremlins\n    Ma
+ y 31st @ Poutine Machine\n    Jun 7th @ Lbs\n    Jun 14th vs Fuzz\n    Jun
+  28th vs Butchers\n    Jul 12th @ Renaissance
+END:VEVENT
+BEGIN:VEVENT
+UID:341075be13abd3dfb8d790045e6ba92d7843984b@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch @ Vertz
+DTSTART;TZID=America/New_York:20260726T153000
+DTEND;TZID=America/New_York:20260726T162000
+LOCATION:Tompkins Square Park (east)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-07-26 15:30 EDT\nRink: Tompkins Square 
+ Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Vertz\n----------------------------
+ ------------\n    Apr 12th vs Vertz\n\n-----------------------------------
+ -----\nVERTZ GAMES-TO-DATE\n----------------------------------------\nReco
+ rd to date (completed games only): 0-0\n    Apr 12th @ Mega Touch\n    Apr
+  19th @ Denim Demons\n    Apr 26th vs Instant Karma\n    May 3rd vs Lbs\n 
+    May 17th @ Cobra Kai\n    May 31st @ Fuzz\n    Jun 7th @ Corlears Hooke
+ rs\n    Jun 14th vs Cobra Kai\n    Jun 28th vs Gremlins\n    Jul 12th @ Lb
+ s\n    Jul 19th @ Corlears Hookers
+END:VEVENT
+BEGIN:VEVENT
+UID:fd98cdf2cd6117b3da99de8bb7af46bf24aca354@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch @ Instant Karma
+DTSTART;TZID=America/New_York:20260802T141500
+DTEND;TZID=America/New_York:20260802T150500
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-08-02 14:15 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Instant Karma\n--------------------
+ --------------------\n    (no prior matchups listed)\n\n------------------
+ ----------------------\nINSTANT KARMA GAMES-TO-DATE\n---------------------
+ -------------------\nRecord to date (completed games only): 0-0\n    Apr 1
+ 2th @ Filthier\n    Apr 19th @ Dark Rainbows\n    Apr 26th @ Vertz\n    Ma
+ y 3rd @ Poutine Machine\n    May 17th @ Fuzz\n    May 31st @ Corlears Hook
+ ers\n    Jun 7th vs Cobra Kai\n    Jun 14th vs Poutine Machine\n    Jun 28
+ th vs What the Puck\n    Jul 12th @ Fresh Kills\n    Jul 19th vs Riots\n  
+   Jul 26th vs Fresh Kills
+END:VEVENT
+BEGIN:VEVENT
+UID:28d4ef5759ee3af947457e3fe428e64868fcbc0f@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch @ Cobra Kai
+DTSTART;TZID=America/New_York:20260809T164500
+DTEND;TZID=America/New_York:20260809T173500
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-08-09 16:45 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
+ ----------------\n    Jul 12th @ Cobra Kai\n\n----------------------------
+ ------------\nCOBRA KAI GAMES-TO-DATE\n-----------------------------------
+ -----\nRecord to date (completed games only): 0-0\n    Apr 12th vs Fresh K
+ ills\n    Apr 19th vs Renaissance\n    Apr 26th @ Fuzz\n    May 3rd @ Goug
+ ing Anklebiters\n    May 17th vs Vertz\n    May 31st @ Fresh Kills\n    Ju
+ n 7th @ Instant Karma\n    Jun 14th @ Vertz\n    Jun 28th @ Sky Fighters\n
+     Jul 12th vs Mega Touch\n    Jul 19th vs Poutine Machine\n    Jul 26th 
+ vs Lbs\n    Aug 2nd @ Corlears Hookers
+END:VEVENT
+BEGIN:VEVENT
+UID:54394a92a053a02be8320ce9ea323326fc296384@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:[Closing] Mega Touch vs Lbs
+DTSTART;TZID=America/New_York:20260816T180000
+DTEND;TZID=America/New_York:20260816T185000
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-08-16 18:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
+ ----------\n    May 31st @ Lbs\n\n----------------------------------------
+ \nLBS GAMES-TO-DATE\n----------------------------------------\nRecord to d
+ ate (completed games only): 0-0\n    Apr 12th vs Corlears Hookers\n    Apr
+  19th @ Sky Fighters\n    Apr 26th vs Poutine Machine\n    May 3rd @ Vertz
+ \n    May 17th @ Fresh Kills\n    May 31st vs Mega Touch\n    Jun 7th vs G
+ ouging Anklebiters\n    Jun 14th vs Corlears Hookers\n    Jun 28th @ Filth
+ ier\n    Jul 12th vs Vertz\n    Jul 19th vs Fuzz\n    Jul 26th @ Cobra Kai
+ \n    Aug 2nd @ Poutine Machine\n    Aug 9th @ Fresh Kills
+END:VEVENT
+BEGIN:VEVENT
+UID:9873781a214ab8a0d1c4aefe37117f3cbe6a8eb0@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch @ Gouging Anklebiters
+DTSTART;TZID=America/New_York:20260823T153000
+DTEND;TZID=America/New_York:20260823T162000
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-08-23 15:30 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Gouging Anklebiters\n--------------
+ --------------------------\n    Jul 19th vs Gouging Anklebiters\n\n-------
+ ---------------------------------\nGOUGING ANKLEBITERS GAMES-TO-DATE\n----
+ ------------------------------------\nRecord to date (completed games only
+ ): 0-0\n    Apr 12th @ Poutine Machine\n    Apr 19th @ Moby Dekes\n    Apr
+  26th @ Fresh Kills\n    May 3rd vs Cobra Kai\n    May 17th vs Gremlins\n 
+    May 31st @ Poutine Machine\n    Jun 7th @ Lbs\n    Jun 14th vs Fuzz\n  
+   Jun 28th vs Butchers\n    Jul 12th @ Renaissance\n    Jul 19th @ Mega To
+ uch\n    Jul 26th @ Corlears Hookers\n    Aug 2nd @ Vertz\n    Aug 9th vs 
+ Instant Karma\n    Aug 16th vs Cobra Kai
+END:VEVENT
+BEGIN:VEVENT
+UID:933157c87566dce0b014cb56eba9c86b8ff3ac9b@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch @ Renaissance
+DTSTART;TZID=America/New_York:20260913T130000
+DTEND;TZID=America/New_York:20260913T135000
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-09-13 13:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Renaissance\n----------------------
+ ------------------\n    (no prior matchups listed)\n\n--------------------
+ --------------------\nRENAISSANCE GAMES-TO-DATE\n-------------------------
+ ---------------\nRecord to date (completed games only): 0-0\n    Apr 12th 
+ vs Sky Fighters\n    Apr 19th @ Cobra Kai\n    Apr 26th @ Moby Dekes\n    
+ May 3rd @ Denim Demons\n    May 17th vs What the Puck\n    May 31st @ Grem
+ lins\n    Jun 7th vs Riots\n    Jun 14th @ Denim Demons\n    Jun 28th vs F
+ resh Kills\n    Jul 12th vs Gouging Anklebiters\n    Jul 19th @ Gremlins\n
+     Jul 26th @ Filthier\n    Aug 2nd vs Butchers\n    Aug 9th @ Sky Fighte
+ rs\n    Aug 16th @ Instant Karma\n    Aug 23rd vs Filthier
+END:VEVENT
+BEGIN:VEVENT
+UID:e8aa773e8774cf3750977c0ce8f0199d86819f5f@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Mega Touch vs Poutine Machine
+DTSTART;TZID=America/New_York:20260920T130000
+DTEND;TZID=America/New_York:20260920T135000
+LOCATION:Tompkins Square Park (west)
+URL:https://btsh.org
+DESCRIPTION:----------------------------------------\nGAME INFO\n----------
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ed\nStart (America/New_York): 2026-09-20 13:00 EDT\nRink: Tompkins Square 
+ Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
+ ---------------------\nHEAD-TO-HEAD vs Poutine Machine\n------------------
+ ----------------------\n    May 17th vs Poutine Machine\n\n---------------
+ -------------------------\nPOUTINE MACHINE GAMES-TO-DATE\n----------------
+ ------------------------\nRecord to date (completed games only): 0-0\n    
+ Apr 12th vs Gouging Anklebiters\n    Apr 19th @ Butchers\n    Apr 26th @ L
+ bs\n    May 3rd vs Instant Karma\n    May 17th @ Mega Touch\n    May 31st 
+ vs Gouging Anklebiters\n    Jun 7th vs Fresh Kills\n    Jun 14th @ Instant
+  Karma\n    Jun 28th @ Riots\n    Jul 12th vs Sky Fighters\n    Jul 19th @
+  Cobra Kai\n    Jul 26th @ Fuzz\n    Aug 2nd vs Lbs\n    Aug 9th vs Corlea
+ rs Hookers\n    Aug 16th vs Denim Demons\n    Aug 23rd @ Cobra Kai\n    Se
+ p 13th vs Moby Dekes
+END:VEVENT
+BEGIN:VEVENT
+UID:4497597b49fb76e3190500e9be08b3f35827e9a5@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Scrimmage
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
+END:VEVENT
+BEGIN:VEVENT
+UID:fec79233f77996cab0cc1dcbd484860d161463ef@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Scrimmage
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
+END:VEVENT
+BEGIN:VEVENT
+UID:ef4a0965469d5d7c03eab4b48304905709cda569@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Make-Up
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:Father's Day
+END:VEVENT
+BEGIN:VEVENT
+UID:2fbf74da3976a440cc2613b62ace1bfdae95169d@btsh-ics
+DTSTAMP:20260330T215649Z
+SUMMARY:Make-Up
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+DESCRIPTION:Weather Make-Up
+END:VEVENT
+END:VCALENDAR
