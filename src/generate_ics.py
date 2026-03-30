@@ -1,732 +1,953 @@
 #!/usr/bin/env python3
 """
-BTSH Team Calendar Generator (one .ics per team)
+BTSH ICS generator
 
-Features (v1):
-- Builds schedule for every team in a given season
-- Updates results on subsequent runs (stable UIDs)
-- Includes cancelled games (labeled [CANCELLED] + STATUS:CANCELLED)
-- Includes league-wide placeholder days (game_days with no games) on every team calendar
-- Includes opponent games-to-date in each game event description
-  - includes all opponent games with start < this event start
-  - includes results when posted; omits when missing
-- Includes head-to-head prior matchups only
-- Includes opponent record-to-date (completed games with posted scores only)
-- Includes BTSH check-in link in each event
-
-Config:
-- Looks for config.yml in repo root
-- Required: season, api_url (or uses default)
-- Optional: output_dir, default_timezone, opponent_recent_limit, league_name, checkin_url, include_league_wide_days, include_tbd_games_on_all_calendars
-
-Dependencies:
-  pip install requests pyyaml
+Flow:
+- Read config.yml (season_year)
+- Fetch seasons -> find season_id for that year
+- Fetch team-season-registrations for that season_id (source of team list + divisions)
+- Fetch game_days for that season_id (SOURCE OF TRUTH for schedule/results)
+- Produce:
+  - One ICS per registered team (plus placeholders optionally)
+  - One master ICS (all games)
+- Each event description includes:
+  - GAME INFO
+  - HEAD-TO-HEAD vs opponent (prior matchups only)
+  - OPPONENT GAMES-TO-DATE (prior games only; record computed from completed games w/ scores)
+- All times converted/treated as America/New_York
 """
 
 from __future__ import annotations
 
+import hashlib
+import json
 import os
 import re
-import hashlib
 from dataclasses import dataclass
-from datetime import datetime, date, time, timedelta
+from datetime import datetime, date, time, timedelta, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests
 import yaml
-from zoneinfo import ZoneInfo
 
-ASCII_RULE = "----------------------------------------"
-
-
-# ----------------------------
-# Config / HTTP
-# ----------------------------
-def load_config(path: str = "config.yml") -> dict:
-    if not os.path.exists(path):
-        return {}
-    with open(path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:  # pragma: no cover
+    from backports.zoneinfo import ZoneInfo  # type: ignore
 
 
-def http_get_json(url: str) -> Any:
-    resp = requests.get(url, timeout=30)
-    resp.raise_for_status()
-    return resp.json()
+# -----------------------------
+# Config / Models
+# -----------------------------
+
+@dataclass(frozen=True)
+class TeamInfo:
+    team_id: int
+    name: str
+    division_name: str
+    division_short: str
 
 
-# ----------------------------
-# ICS helpers
-# ----------------------------
+@dataclass(frozen=True)
+class GameRef:
+    """Normalized per-game record derived from a game_days 'game' object + its parent day record."""
+    game_id: int
+    season_year: int
+    season_id: int
+
+    day_id: int
+    day_type: str
+    day_type_display: str
+    day_date: date
+    day_description: str
+
+    location: str
+    court: str
+
+    # game fields
+    status: str  # scheduled / completed / cancelled (per your note)
+    start_local: Optional[datetime]
+    end_local: Optional[datetime]
+
+    home_team_id: Optional[int]
+    home_team_name: str
+    away_team_id: Optional[int]
+    away_team_name: str
+
+    home_score: Optional[int]
+    away_score: Optional[int]
+    result: Optional[str]  # final / final_ot / final_so / etc
+
+    # opening/closing responsibilities are on the DAY object
+    opening_team_id: Optional[int]
+    closing_team_id: Optional[int]
+
+    # placeholder?
+    is_placeholder: bool
+
+
+# -----------------------------
+# HTTP helpers
+# -----------------------------
+
+def fetch_json(url: str, timeout: int = 30) -> Any:
+    r = requests.get(url, timeout=timeout)
+    r.raise_for_status()
+    return r.json()
+
+
+# -----------------------------
+# Time helpers
+# -----------------------------
+
+def parse_day_yyyy_mm_dd(s: str) -> date:
+    return datetime.strptime(s, "%Y-%m-%d").date()
+
+def parse_hh_mm_ss(s: Optional[str]) -> Optional[time]:
+    if not s:
+        return None
+    # game_days uses "15:45:00" strings
+    return datetime.strptime(s, "%H:%M:%S").time()
+
+def local_dt(day: date, t: Optional[time], tz: ZoneInfo) -> Optional[datetime]:
+    if t is None:
+        return None
+    return datetime(day.year, day.month, day.day, t.hour, t.minute, t.second, tzinfo=tz)
+
+def ensure_end_after_start(start: Optional[datetime], end: Optional[datetime]) -> Optional[datetime]:
+    if start and end and end <= start:
+        return end + timedelta(days=1)
+    return end
+
+def format_local_dt(dt: Optional[datetime], tz_name: str) -> str:
+    if not dt:
+        return ""
+    # Example: 2025-10-26 15:45 EDT
+    return dt.strftime("%Y-%m-%d %H:%M ") + dt.tzname()
+
+def month_day_ordinal(d: date) -> str:
+    # Example: Aug 3rd
+    suffix = "th"
+    if 11 <= d.day <= 13:
+        suffix = "th"
+    else:
+        suffix = {1: "st", 2: "nd", 3: "rd"}.get(d.day % 10, "th")
+    return d.strftime("%b ") + f"{d.day}{suffix}"
+
+
+# -----------------------------
+# ICS helpers (RFC 5545-ish)
+# -----------------------------
+
 def ics_escape(text: str) -> str:
-    # RFC5545 escaping: backslash, semicolon, comma, newline
+    # Escape \, ; , , and newlines.
     text = text.replace("\\", "\\\\")
-    text = text.replace(";", r"\;")
-    text = text.replace(",", r"\,")
+    text = text.replace(";", r"\;").replace(",", r"\,")
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     text = text.replace("\n", r"\n")
     return text
 
+def fold_ics_line(line: str, limit: int = 75) -> List[str]:
+    """
+    Fold to 75 octets; we approximate with UTF-8 bytes slicing.
+    Continuation lines start with a single space.
+    """
+    b = line.encode("utf-8")
+    if len(b) <= limit:
+        return [line]
 
-def fold_ics_line(line: str, limit: int = 75) -> str:
-    # Spec is 75 octets; we do 75 chars which is fine for typical ASCII text.
-    if len(line) <= limit:
-        return line
-    out = []
-    while len(line) > limit:
-        out.append(line[:limit])
-        line = " " + line[limit:]
-    out.append(line)
-    return "\r\n".join(out)
+    out: List[str] = []
+    start = 0
+    first = True
+    while start < len(b):
+        chunk = b[start : start + limit]
+        # decode chunk safely by backing off if we split a multibyte char
+        while True:
+            try:
+                s = chunk.decode("utf-8")
+                break
+            except UnicodeDecodeError:
+                chunk = chunk[:-1]
+        if first:
+            out.append(s)
+            first = False
+        else:
+            out.append(" " + s)
+        start += len(chunk)
+        limit = 74  # continuation lines include leading space, so 74 bytes payload
+    return out
 
+def vtimezone_america_new_york() -> List[str]:
+    """
+    Minimal VTIMEZONE for America/New_York (works for most clients).
+    """
+    return [
+        "BEGIN:VTIMEZONE",
+        "TZID:America/New_York",
+        "X-LIC-LOCATION:America/New_York",
+        "BEGIN:DAYLIGHT",
+        "TZOFFSETFROM:-0500",
+        "TZOFFSETTO:-0400",
+        "TZNAME:EDT",
+        "DTSTART:19700308T020000",
+        "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+        "END:DAYLIGHT",
+        "BEGIN:STANDARD",
+        "TZOFFSETFROM:-0400",
+        "TZOFFSETTO:-0500",
+        "TZNAME:EST",
+        "DTSTART:19701101T020000",
+        "RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+        "END:STANDARD",
+        "END:VTIMEZONE",
+    ]
 
-def fmt_dt_local(dt: datetime) -> str:
-    # DTSTART;TZID=... expects local-time value without Z
+def dt_local_ics(dt: datetime) -> str:
+    # Floating local with TZID: YYYYMMDDTHHMMSS
     return dt.strftime("%Y%m%dT%H%M%S")
 
+def ics_event(
+    uid: str,
+    summary: str,
+    dtstart_local: Optional[datetime],
+    dtend_local: Optional[datetime],
+    tz_name: str,
+    description_lines: List[str],
+    location: str = "",
+    url: str = "",
+) -> List[str]:
+    lines: List[str] = ["BEGIN:VEVENT"]
+    lines.append(f"UID:{uid}")
+    lines.append(f"DTSTAMP:{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}")
+    lines.append(f"SUMMARY:{ics_escape(summary)}")
 
-def vtimezone_america_new_york() -> str:
-    # Minimal VTIMEZONE that works well in Google/Apple clients.
-    return "\r\n".join(
-        [
-            "BEGIN:VTIMEZONE",
-            "TZID:America/New_York",
-            "X-LIC-LOCATION:America/New_York",
-            "BEGIN:DAYLIGHT",
-            "TZOFFSETFROM:-0500",
-            "TZOFFSETTO:-0400",
-            "TZNAME:EDT",
-            "DTSTART:19700308T020000",
-            "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
-            "END:DAYLIGHT",
-            "BEGIN:STANDARD",
-            "TZOFFSETFROM:-0400",
-            "TZOFFSETTO:-0500",
-            "TZNAME:EST",
-            "DTSTART:19701101T020000",
-            "RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
-            "END:STANDARD",
-            "END:VTIMEZONE",
-        ]
-    )
+    if dtstart_local and dtend_local:
+        lines.append(f"DTSTART;TZID={tz_name}:{dt_local_ics(dtstart_local)}")
+        lines.append(f"DTEND;TZID={tz_name}:{dt_local_ics(dtend_local)}")
 
+    if location:
+        lines.append(f"LOCATION:{ics_escape(location)}")
 
-def ics_calendar(tzid: str, cal_name: str, events: List[str]) -> str:
+    if url:
+        lines.append(f"URL:{ics_escape(url)}")
+
+    desc = "\n".join(description_lines).strip()
+    lines.append(f"DESCRIPTION:{ics_escape(desc)}")
+
+    lines.append("END:VEVENT")
+
+    folded: List[str] = []
+    for ln in lines:
+        folded.extend(fold_ics_line(ln))
+    return folded
+
+def ics_allday_event(uid: str, summary: str, day_local: date, description_lines: List[str]) -> List[str]:
+    start_date = day_local.strftime("%Y%m%d")
+    end_date = (day_local + timedelta(days=1)).strftime("%Y%m%d")
+
+    desc_text = "\n".join(description_lines).strip()
+
+    lines = [
+        "BEGIN:VEVENT",
+        f"UID:{uid}",
+        f"DTSTAMP:{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}",
+        f"SUMMARY:{ics_escape(summary)}",
+        f"DTSTART;VALUE=DATE:{start_date}",
+        f"DTEND;VALUE=DATE:{end_date}",
+        f"DESCRIPTION:{ics_escape(desc_text)}",
+        "END:VEVENT",
+    ]
+    folded: List[str] = []
+    for ln in lines:
+        folded.extend(fold_ics_line(ln))
+    return folded
+
+def ics_calendar(calname: str, events_lines: List[str], tz_name: str) -> str:
     lines: List[str] = []
     lines.append("BEGIN:VCALENDAR")
     lines.append("VERSION:2.0")
-    lines.append("PRODID:-//BTSH ICS//EN")
+    lines.append("PRODID:-//btsh-ics//EN")
     lines.append("CALSCALE:GREGORIAN")
-    lines.append(f"X-WR-CALNAME:{ics_escape(cal_name)}")
-    lines.append(f"X-WR-TIMEZONE:{tzid}")
-    if tzid == "America/New_York":
-        lines.append(vtimezone_america_new_york())
-    lines.extend(events)
+    lines.append("METHOD:PUBLISH")
+    lines.append(f"X-WR-CALNAME:{ics_escape(calname)}")
+    lines.append(f"X-WR-TIMEZONE:{tz_name}")
+    lines.extend(vtimezone_america_new_york())
+
+    lines.extend(events_lines)
     lines.append("END:VCALENDAR")
-    return "\r\n".join(fold_ics_line(l) for l in lines) + "\r\n"
+
+    # Use CRLF per spec
+    return "\r\n".join(lines) + "\r\n"
 
 
-def ics_event_block(
-    uid: str,
-    dtstamp_utc: datetime,
-    summary: str,
-    dtstart: datetime,
-    dtend: datetime,
-    tzid: str,
-    description: str,
-    location: str = "",
-    status: Optional[str] = None,
-) -> str:
-    lines: List[str] = []
-    lines.append("BEGIN:VEVENT")
-    lines.append(f"UID:{uid}")
-    lines.append(f"DTSTAMP:{dtstamp_utc.strftime('%Y%m%dT%H%M%SZ')}")
-    lines.append(f"SUMMARY:{ics_escape(summary)}")
-    lines.append(f"DTSTART;TZID={tzid}:{fmt_dt_local(dtstart)}")
-    lines.append(f"DTEND;TZID={tzid}:{fmt_dt_local(dtend)}")
-    if location:
-        lines.append(f"LOCATION:{ics_escape(location)}")
-    if description:
-        lines.append(f"DESCRIPTION:{ics_escape(description)}")
-    if status:
-        lines.append(f"STATUS:{status}")
-    lines.append("END:VEVENT")
-    return "\r\n".join(fold_ics_line(l) for l in lines)
+# -----------------------------
+# Formatting helpers for description blocks
+# -----------------------------
+
+def ascii_rule(title: str) -> List[str]:
+    bar = "-" * 40
+    return [bar, title, bar]
+
+def title_case(s: str) -> str:
+    # Used only for headings like "TEAM GAMES-TO-DATE"
+    return s.upper()
+
+def slugify(s: str) -> str:
+    s = s.strip().lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    s = re.sub(r"-+", "-", s).strip("-")
+    return s or "team"
+
+def stable_uid(*parts: str) -> str:
+    raw = "|".join(parts).encode("utf-8")
+    h = hashlib.sha1(raw).hexdigest()
+    return f"{h}@btsh-ics"
+
+def pick_division(team: TeamInfo, fmt: str) -> str:
+    return team.division_short if fmt == "short" else team.division_name
 
 
-def ics_all_day_event_block(
-    uid: str,
-    dtstamp_utc: datetime,
-    summary: str,
-    day_date: date,
-    description: str,
-) -> str:
-    # All-day uses VALUE=DATE; DTEND is next day per ICS
-    d0 = day_date.strftime("%Y%m%d")
-    d1 = (day_date + timedelta(days=1)).strftime("%Y%m%d")
+# -----------------------------
+# Game logic
+# -----------------------------
 
-    lines: List[str] = []
-    lines.append("BEGIN:VEVENT")
-    lines.append(f"UID:{uid}")
-    lines.append(f"DTSTAMP:{dtstamp_utc.strftime('%Y%m%dT%H%M%SZ')}")
-    lines.append(f"SUMMARY:{ics_escape(summary)}")
-    lines.append(f"DTSTART;VALUE=DATE:{d0}")
-    lines.append(f"DTEND;VALUE=DATE:{d1}")
-    if description:
-        lines.append(f"DESCRIPTION:{ics_escape(description)}")
-    lines.append("END:VEVENT")
-    return "\r\n".join(fold_ics_line(l) for l in lines)
+def is_completed_game(g: GameRef) -> bool:
+    return (g.status or "").lower() == "completed" and g.away_score is not None and g.home_score is not None
 
+def is_cancelled_game(g: GameRef) -> bool:
+    return (g.status or "").lower() == "cancelled"
 
-# ----------------------------
-# Domain model
-# ----------------------------
-@dataclass(frozen=True)
-class Team:
-    id: int
-    name: str
-    short_name: str
+def game_has_known_teams(g: GameRef) -> bool:
+    return g.away_team_name not in ("-", "TBD", "") and g.home_team_name not in ("-", "TBD", "")
 
+def opponent_of(team_id: int, g: GameRef) -> Optional[Tuple[int, str]]:
+    if g.home_team_id == team_id and g.away_team_id is not None:
+        return (g.away_team_id, g.away_team_name)
+    if g.away_team_id == team_id and g.home_team_id is not None:
+        return (g.home_team_id, g.home_team_name)
+    return None
 
-@dataclass(frozen=True)
-class Game:
-    id: int
-    day: date
-    start_local: datetime
-    end_local: datetime
-    home: Team
-    away: Team
-    location: str
-    court: str
-    type_display: str
-    status: str
-    status_display: str
-    home_goals: Optional[int]
-    away_goals: Optional[int]
+def team_is_home(team_id: int, g: GameRef) -> bool:
+    return g.home_team_id == team_id
 
+def team_is_away(team_id: int, g: GameRef) -> bool:
+    return g.away_team_id == team_id
 
-@dataclass(frozen=True)
-class LeagueDay:
-    id: int
-    day: date
-    type_key: str
-    type_display: str
-    description: str
-    note: str
-    games: List[Game]
+def is_team_in_game(team_id: int, g: GameRef) -> bool:
+    return g.home_team_id == team_id or g.away_team_id == team_id
 
+def compare_scores_for_team(team_id: int, g: GameRef) -> Optional[str]:
+    """
+    Returns 'W'/'L' for a completed game from the perspective of team_id.
+    """
+    if not is_completed_game(g):
+        return None
+    assert g.away_score is not None and g.home_score is not None
+    if g.home_team_id == team_id:
+        return "W" if g.home_score > g.away_score else "L"
+    if g.away_team_id == team_id:
+        return "W" if g.away_score > g.home_score else "L"
+    return None
 
-# ----------------------------
-# Parsing
-# ----------------------------
-def parse_time_hms(s: str) -> time:
-    hh, mm, ss = s.split(":")
-    return time(int(hh), int(mm), int(ss))
+def result_suffix(g: GameRef) -> str:
+    # For description lines: add OT/SO markers when completed
+    if not g.result:
+        return ""
+    r = g.result.lower()
+    if "final_ot" in r:
+        return " OT"
+    if "final_so" in r:
+        return " SO"
+    return ""
 
+def score_away_home(g: GameRef) -> Optional[str]:
+    if g.away_score is None or g.home_score is None:
+        return None
+    return f"{g.away_score}-{g.home_score}"
 
-def parse_duration_hms(s: str) -> int:
-    hh, mm, ss = s.split(":")
-    return int(hh) * 3600 + int(mm) * 60 + int(ss)
+def score_home_away(g: GameRef) -> Optional[str]:
+    if g.away_score is None or g.home_score is None:
+        return None
+    return f"{g.home_score}-{g.away_score}"
 
+def format_game_line_for_team(team_id: int, g: GameRef, opponent_name_override: Optional[str] = None) -> str:
+    """
+    For 'games-to-date' lists.
+    Examples:
+      Aug 3rd @ Poutine Machine (L 2-11)
+      Feb 6th @ Blizzard
+      Oct 12th vs Moby Dekes (Cancelled)
+    """
+    d = g.day_date
+    md = month_day_ordinal(d)
 
-def parse_game_day(obj: Dict[str, Any], tz: ZoneInfo) -> LeagueDay:
-    d = datetime.strptime(obj["day"], "%Y-%m-%d").date()
+    # Determine opponent / home-away marker from team perspective
+    is_home = team_is_home(team_id, g)
+    opp_name = opponent_name_override
+    if opp_name is None:
+        opp = opponent_of(team_id, g)
+        opp_name = opp[1] if opp else ("-" if not game_has_known_teams(g) else "?")
 
-    type_key = (obj.get("type") or "").strip()
-    type_display = (obj.get("get_type_display") or type_key or "Day").strip()
-    description = (obj.get("description") or "").strip()
-    note = (obj.get("note") or "").strip()
-    day_id = int(obj["id"])
+    marker = "vs" if is_home else "@"
 
-    games: List[Game] = []
-    for g in (obj.get("games") or []):
-        home_raw = g["home_team"]
-        away_raw = g["away_team"]
+    # Cancelled
+    if is_cancelled_game(g):
+        return f"    {md} {marker} {opp_name} (Cancelled)"
 
-        home = Team(
-            id=int(home_raw["id"]),
-            name=str(home_raw.get("name") or "").strip(),
-            short_name=str(home_raw.get("short_name") or home_raw.get("name") or "").strip(),
-        )
-        away = Team(
-            id=int(away_raw["id"]),
-            name=str(away_raw.get("name") or "").strip(),
-            short_name=str(away_raw.get("short_name") or away_raw.get("name") or "").strip(),
-        )
-
-        start_t = parse_time_hms(g["start"])
-        dur_sec = parse_duration_hms(g.get("duration") or "00:50:00")
-
-        start_local = datetime.combine(d, start_t).replace(tzinfo=tz)
-
-        if g.get("end"):
-            end_t = parse_time_hms(g["end"])
-            end_local = datetime.combine(d, end_t).replace(tzinfo=tz)
+    # Completed with score => include W/L + score (+ OT/SO)
+    if is_completed_game(g):
+        wl = compare_scores_for_team(team_id, g) or ""
+        if team_is_home(team_id, g):
+            sc = score_home_away(g) or ""
         else:
-            end_local = start_local + timedelta(seconds=dur_sec)
+            sc = score_away_home(g) or ""
+        suf = result_suffix(g)
+        return f"    {md} {marker} {opp_name} ({wl} {sc}{suf})"
 
-        games.append(
-            Game(
-                id=int(g["id"]),
-                day=d,
-                start_local=start_local,
-                end_local=end_local,
-                home=home,
-                away=away,
-                location=str(g.get("location") or "").strip(),
-                court=str(g.get("get_court_display") or g.get("court") or "").strip(),
-                type_display=str(g.get("get_type_display") or g.get("type") or "").strip(),
-                status=str(g.get("status") or "").strip(),
-                status_display=str(g.get("get_status_display") or g.get("status") or "").strip(),
-                home_goals=g.get("home_team_num_goals"),
-                away_goals=g.get("away_team_num_goals"),
-            )
+    # Scheduled / unknown result
+    return f"    {md} {marker} {opp_name}"
+
+def compute_record_to_date(team_id: int, games: List[GameRef], before_dt: datetime) -> Tuple[int, int, int, int]:
+    """
+    Returns (wins, losses, ot_wins, so_wins) for completed games before before_dt.
+    Also returns losses total; OT/SO breakdown is on WINS only here for display.
+    """
+    w = l = otw = sow = 0
+    for g in games:
+        if not is_team_in_game(team_id, g):
+            continue
+        if not g.start_local or g.start_local >= before_dt:
+            continue
+        if not is_completed_game(g):
+            continue
+        wl = compare_scores_for_team(team_id, g)
+        if wl == "W":
+            w += 1
+            if (g.result or "").lower() == "final_ot":
+                otw += 1
+            elif (g.result or "").lower() == "final_so":
+                sow += 1
+        elif wl == "L":
+            l += 1
+    return w, l, otw, sow
+
+
+# -----------------------------
+# Parsing BTSH payloads
+# -----------------------------
+
+def season_id_for_year(seasons_payload: Dict[str, Any], year: int) -> int:
+    for s in seasons_payload.get("results", []):
+        if int(s.get("year")) == int(year):
+            return int(s["id"])
+    raise RuntimeError(f"Could not find season with year={year} in seasons API response.")
+
+def parse_team_infos(team_regs_payload: Dict[str, Any]) -> Dict[int, TeamInfo]:
+    teams: Dict[int, TeamInfo] = {}
+    for r in team_regs_payload.get("results", []):
+        t = r.get("team") or {}
+        d = r.get("division") or {}
+        tid = int(t["id"])
+        teams[tid] = TeamInfo(
+            team_id=tid,
+            name=str(t.get("name") or "").strip(),
+            division_name=str(d.get("name") or "").strip(),
+            division_short=str(d.get("short_name") or "").strip(),
         )
-
-    return LeagueDay(
-        id=day_id,
-        day=d,
-        type_key=type_key,
-        type_display=type_display,
-        description=description,
-        note=note,
-        games=games,
-    )
-
-
-def build_team_index(days: List[LeagueDay]) -> Dict[int, Team]:
-    teams: Dict[int, Team] = {}
-    for d in days:
-        for g in d.games:
-            teams[g.home.id] = g.home
-            teams[g.away.id] = g.away
     return teams
 
-
-def all_games(days: List[LeagueDay]) -> List[Game]:
-    out: List[Game] = []
-    for d in days:
-        out.extend(d.games)
-    out.sort(key=lambda x: (x.start_local, x.id))
-    return out
-
-
-# ----------------------------
-# Formatting helpers
-# ----------------------------
-def ordinal_day(n: int) -> str:
-    if 10 <= (n % 100) <= 20:
-        suf = "th"
-    else:
-        suf = {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
-    return f"{n}{suf}"
-
-
-def pretty_short_date(d: date) -> str:
-    return f"{d.strftime('%b')} {ordinal_day(d.day)}"
-
-
-def format_local_dt_line(dt: datetime) -> str:
-    # Example: 2026-03-26 20:30 EDT
-    return dt.strftime("%Y-%m-%d %H:%M %Z")
-
-
-def is_tbd_team(team: Team) -> bool:
-    return team.name.strip() == "-" or team.short_name.strip() == "-"
-
-
-def uid_for_event(kind: str, season: int, obj_id: int) -> str:
-    # Stable UID ensures updates overwrite rather than duplicate in clients
-    return f"btsh-{kind}-s{season}-{obj_id}@btsh"
-
-
-def safe_slug(name: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-
-
-# ----------------------------
-# Game result / records
-# ----------------------------
-def game_result_string(g: Game, team_id_for_perspective: Optional[int] = None) -> str:
+def normalize_game_days(
+    game_days_payload: Dict[str, Any],
+    season_year: int,
+    season_id: int,
+    tz: ZoneInfo,
+) -> Tuple[List[GameRef], List[Dict[str, Any]]]:
     """
-    Returns a compact result without parentheses:
-      - "W 10-5" / "L 5-10" from perspective if scores exist
-      - "Cancelled" if cancelled
-      - "" if no posted scores yet
+    Returns (games, non_game_days) where:
+      - games: list of GameRef for all games
+      - non_game_days: raw day objects for non-game day types (scrimmage/holiday/other/etc.)
     """
-    if g.status.lower() == "cancelled":
-        return "Cancelled"
+    games: List[GameRef] = []
+    non_game_days: List[Dict[str, Any]] = []
 
-    if g.home_goals is None or g.away_goals is None:
-        return ""
+    for day_obj in game_days_payload.get("results", []):
+        day_id = int(day_obj["id"])
+        day_type = str(day_obj.get("type") or "").strip()
+        day_type_display = str(day_obj.get("get_type_display") or day_type).strip()
+        day_date = parse_day_yyyy_mm_dd(str(day_obj.get("day")))
+        day_desc = (day_obj.get("description") or "").strip()
 
-    if team_id_for_perspective is not None:
-        if team_id_for_perspective == g.home.id:
-            w = g.home_goals > g.away_goals
-            return f"{'W' if w else 'L'} {g.home_goals}-{g.away_goals}"
-        if team_id_for_perspective == g.away.id:
-            w = g.away_goals > g.home_goals
-            return f"{'W' if w else 'L'} {g.away_goals}-{g.home_goals}"
+        location = (day_obj.get("location") or "").strip()
+        court = (day_obj.get("court") or "").strip()
 
-    return f"{g.home_goals}-{g.away_goals}"
+        opening_team = day_obj.get("opening_team")
+        closing_team = day_obj.get("closing_team")
+        opening_team_id = int(opening_team["id"]) if isinstance(opening_team, dict) and opening_team.get("id") else None
+        closing_team_id = int(closing_team["id"]) if isinstance(closing_team, dict) and closing_team.get("id") else None
 
-
-def team_record_to_date(team: Team, games_all: List[Game], cutoff: datetime) -> str:
-    """
-    Record based only on games:
-    - with posted scores
-    - status == completed
-    - start < cutoff
-    """
-    w = l = t = 0
-    for g in games_all:
-        if not (g.start_local < cutoff and (g.home.id == team.id or g.away.id == team.id)):
-            continue
-        if g.home_goals is None or g.away_goals is None:
-            continue
-        if g.status.lower() != "completed":
+        # Non-game day records (no games list, or day_type != "game")
+        if day_type != "game" and not day_obj.get("games"):
+            non_game_days.append(day_obj)
             continue
 
-        team_goals = g.home_goals if g.home.id == team.id else g.away_goals
-        opp_goals = g.away_goals if g.home.id == team.id else g.home_goals
+        for g in day_obj.get("games", []) or []:
+            game_id = int(g["id"])
+            status = str(g.get("status") or "").strip()
 
-        if team_goals > opp_goals:
-            w += 1
-        elif team_goals < opp_goals:
-            l += 1
-        else:
-            t += 1
+            # times are "HH:MM:SS"
+            start_t = parse_hh_mm_ss(g.get("start"))
+            end_t = parse_hh_mm_ss(g.get("end"))
+            start_local = local_dt(day_date, start_t, tz)
+            end_local = ensure_end_after_start(start_local, local_dt(day_date, end_t, tz))
 
-    return f"{w}-{l}-{t}" if t > 0 else f"{w}-{l}"
+            home_team = g.get("home_team")
+            away_team = g.get("away_team")
+            home_team_id = int(home_team["id"]) if isinstance(home_team, dict) and home_team.get("id") else None
+            away_team_id = int(away_team["id"]) if isinstance(away_team, dict) and away_team.get("id") else None
+            home_team_name = (home_team.get("name") if isinstance(home_team, dict) else None) or "-"
+            away_team_name = (away_team.get("name") if isinstance(away_team, dict) else None) or "-"
 
+            home_score = g.get("home_team_num_goals")
+            away_score = g.get("away_team_num_goals")
+            home_score = int(home_score) if home_score is not None else None
+            away_score = int(away_score) if away_score is not None else None
 
-# ----------------------------
-# Lines for description
-# ----------------------------
-def opponent_games_to_date_lines(
-    opponent: Team,
-    games_all: List[Game],
-    event_start: datetime,
-    limit: int,
-) -> List[str]:
-    # All opponent games with start < event_start
-    opp_games = [
-        g
-        for g in games_all
-        if g.start_local < event_start and (g.home.id == opponent.id or g.away.id == opponent.id)
-    ]
-    opp_games.sort(key=lambda g: (g.start_local, g.id), reverse=True)
-    opp_games = opp_games[:limit]
-    opp_games.reverse()
+            result = g.get("result")
 
-    lines: List[str] = []
-    for g in opp_games:
-        if g.home.id == opponent.id:
-            other = g.away
-            side = "vs"
-            res = game_result_string(g, team_id_for_perspective=opponent.id)
-        else:
-            other = g.home
-            side = "@"
-            res = game_result_string(g, team_id_for_perspective=opponent.id)
+            # Some payloads might include location/court at game level; fall back to day
+            gloc = (g.get("location") or location).strip()
+            gcourt = (g.get("court") or court).strip()
 
-        d = g.start_local.date()
-        date_str = pretty_short_date(d)
+            is_placeholder = (home_team_name in ("-", "TBD", "")) or (away_team_name in ("-", "TBD", ""))
 
-        if res:
-            lines.append(f"    {date_str} {side} {other.name} ({res})")
-        else:
-            lines.append(f"    {date_str} {side} {other.name}")
+            games.append(
+                GameRef(
+                    game_id=game_id,
+                    season_year=season_year,
+                    season_id=season_id,
+                    day_id=day_id,
+                    day_type=day_type,
+                    day_type_display=day_type_display,
+                    day_date=day_date,
+                    day_description=day_desc,
+                    location=gloc,
+                    court=gcourt,
+                    status=status,
+                    start_local=start_local,
+                    end_local=end_local,
+                    home_team_id=home_team_id,
+                    home_team_name=str(home_team_name).strip(),
+                    away_team_id=away_team_id,
+                    away_team_name=str(away_team_name).strip(),
+                    home_score=home_score,
+                    away_score=away_score,
+                    result=str(result).strip() if result is not None else None,
+                    opening_team_id=opening_team_id,
+                    closing_team_id=closing_team_id,
+                    is_placeholder=is_placeholder,
+                )
+            )
 
-    return lines
-
-
-def head_to_head_lines(
-    my_team: Team,
-    opp_team: Team,
-    games_all: List[Game],
-    event_start: datetime,
-    limit: int,
-) -> List[str]:
-    # Prior matchups only
-    matchups = [
-        g
-        for g in games_all
-        if g.start_local < event_start
-        and (
-            (g.home.id == my_team.id and g.away.id == opp_team.id)
-            or (g.home.id == opp_team.id and g.away.id == my_team.id)
-        )
-    ]
-    matchups.sort(key=lambda g: (g.start_local, g.id), reverse=True)
-    matchups = matchups[:limit]
-    matchups.reverse()
-
-    lines: List[str] = []
-    for g in matchups:
-        date_str = pretty_short_date(g.start_local.date())
-
-        # show @/vs from my team's perspective
-        side = "vs" if g.home.id == my_team.id else "@"
-
-        res = game_result_string(g, team_id_for_perspective=my_team.id)
-        if res:
-            lines.append(f"    {date_str} {side} {opp_team.name} ({res})")
-        else:
-            lines.append(f"    {date_str} {side} {opp_team.name}")
-    return lines
+    # Sort by start time if available, else by date
+    games.sort(key=lambda x: (x.start_local or datetime(x.day_date.year, x.day_date.month, x.day_date.day, tzinfo=tz), x.game_id))
+    return games, non_game_days
 
 
-def build_event_description(
-    g: Game,
-    my_team: Team,
-    games_all: List[Game],
-    league_label: str,
-    checkin_url: str,
-    tzid: str,
-    opponent_recent_limit: int,
+# -----------------------------
+# Event building
+# -----------------------------
+
+def build_summary_for_team_calendar(
+    team: TeamInfo,
+    g: GameRef,
+    cfg: Dict[str, Any],
+    team_map: Dict[int, TeamInfo],
 ) -> str:
-    opp = g.away if g.home.id == my_team.id else g.home
+    tz_name = cfg["default_timezone"]
+    cancelled_prefix = cfg.get("cancelled_prefix", "CANCELLED:")
+    include_div = bool(cfg.get("include_division_in_summary", False))
+    div_fmt = str(cfg.get("division_format", "short"))
 
-    # Build rink/location line
-    rink_line = ""
-    if g.location:
-        rink_line = f"Rink: {g.location}"
-        if g.court:
-            rink_line += f" ({g.court})"
-    elif g.court:
-        rink_line = f"Court: {g.court}"
+    # Determine opponent + vs/@ from the calendar team's perspective
+    if g.home_team_id == team.team_id:
+        opp_name = g.away_team_name
+        marker = "vs"
+    else:
+        opp_name = g.home_team_name
+        marker = "@"
 
-    parts: List[str] = []
+    # Base: "[Opening] [Closing] TEAM vs/@ OPP"
+    tags: List[str] = []
+    if g.opening_team_id == team.team_id:
+        tags.append("[Opening]")
+    if g.closing_team_id == team.team_id:
+        tags.append("[Closing]")
+
+    team_label = team.name
+    if include_div:
+        team_label = f"{team_label} ({pick_division(team, div_fmt)})"
+
+    # If opponent is registered, optionally annotate division too
+    opp_label = opp_name
+    if include_div:
+        opp_info = team_map.get(g.away_team_id if g.home_team_id == team.team_id else g.home_team_id)
+        if opp_info:
+            opp_label = f"{opp_label} ({pick_division(opp_info, div_fmt)})"
+
+    summary = " ".join(tags + [f"{team_label} {marker} {opp_label}"]).strip()
+
+    # If completed, append score (away-home) and OT/SO suffix; DO NOT add W/L to summary
+    if is_completed_game(g):
+        wl = compare_scores_for_team(team.team_id, g) or ""
+        if team_is_home(team.team_id, g):
+            sc = score_home_away(g)
+        else:
+            sc = score_away_home(g)
+        if sc:
+            suf = ""
+            if (g.result or "").lower() == "final_ot":
+                suf = " (OT)"
+            elif (g.result or "").lower() == "final_so":
+                suf = " (SO)"
+            summary = f"{summary} [{wl} {sc}{suf}]"
+
+    # If cancelled, prefix
+    if is_cancelled_game(g):
+        summary = f"{cancelled_prefix} {summary}"
+
+    return summary
+
+def build_summary_for_master_calendar(g: GameRef, cfg: Dict[str, Any]) -> str:
+    cancelled_prefix = cfg.get("cancelled_prefix", "CANCELLED:")
+
+    # Master summary: Away @ Home
+    summary = f"{g.away_team_name} @ {g.home_team_name}".strip()
+
+    if is_completed_game(g):
+        sc = score_away_home(g)
+        if sc:
+            suf = ""
+            if (g.result or "").lower() == "final_ot":
+                suf = " (OT)"
+            elif (g.result or "").lower() == "final_so":
+                suf = " (SO)"
+            summary = f"{summary} [{sc}{suf}]"
+
+    if is_cancelled_game(g):
+        summary = f"{cancelled_prefix} {summary}"
+
+    return summary
+
+def build_description_for_team_event(
+    calendar_team: TeamInfo,
+    opponent_name: str,
+    g: GameRef,
+    all_games: List[GameRef],
+    cfg: Dict[str, Any],
+    tz_name: str,
+) -> List[str]:
+    checkin_label = cfg.get("checkin_label", "Check-in / Standings")
+    checkin_url = cfg.get("checkin_url", "https://btsh.org")
+    opponent_games_limit = cfg.get("opponent_games_limit", None)
+    if isinstance(opponent_games_limit, str) and opponent_games_limit.lower() == "null":
+        opponent_games_limit = None
+
+    desc: List[str] = []
 
     # GAME INFO
-    parts.append(ASCII_RULE)
-    parts.append("GAME INFO")
-    parts.append(ASCII_RULE)
-    parts.append(f"League: {league_label}")
-    if g.type_display:
-        parts.append(f"Stage: {g.type_display}")
-    parts.append(f"Status: {g.status}")
-    parts.append(f"Start ({tzid}): {format_local_dt_line(g.start_local)}")
-    if rink_line:
-        parts.append(rink_line)
-    parts.append(f"Check-in / game registration: {checkin_url}")
-
-    # If completed with score, add final line
-    if g.status.lower() == "completed" and g.home_goals is not None and g.away_goals is not None:
-        parts.append("")
-        parts.append(f"Final: {g.home.name} {g.home_goals}-{g.away_goals} {g.away.name}")
+    desc.extend(ascii_rule("GAME INFO"))
+    desc.append(f"Season: {calendar_team and g.season_year}")
+    desc.append(f"Stage: {g.day_type_display}")
+    desc.append(f"Status: {g.status}")
+    desc.append(f"Start ({tz_name}): {format_local_dt(g.start_local, tz_name)}")
+    # Location: "Tompkins Square Park (West)" (from your example)
+    loc_parts = [p for p in [g.location, g.court] if p]
+    rink = " - ".join(loc_parts) if loc_parts else ""
+    if g.location and g.court:
+        rink = f"{g.location} ({g.court})"
+    elif g.location:
+        rink = g.location
+    elif g.court:
+        rink = g.court
+    if rink:
+        desc.append(f"Rink: {rink}")
+    desc.append(f"{checkin_label}: {checkin_url}")
+    desc.append("")
 
     # HEAD-TO-HEAD
-    parts.append("")
-    parts.append(ASCII_RULE)
-    parts.append(f"HEAD-TO-HEAD vs {opp.name}")
-    parts.append(ASCII_RULE)
+    desc.extend(ascii_rule(f"HEAD-TO-HEAD vs {opponent_name}"))
+    prior_h2h = []
+    if g.start_local:
+        for gg in all_games:
+            if not gg.start_local or gg.start_local >= g.start_local:
+                continue
+            # both teams involved
+            if is_team_in_game(calendar_team.team_id, gg) and (
+                (gg.home_team_name == opponent_name) or (gg.away_team_name == opponent_name)
+            ):
+                prior_h2h.append(gg)
 
-    h2h = head_to_head_lines(my_team, opp, games_all, g.start_local, limit=opponent_recent_limit)
-    if h2h:
-        parts.extend(h2h)
+    if not prior_h2h:
+        desc.append("    (no prior matchups listed)")
     else:
-        parts.append("    (no prior matchups listed)")
+        for gg in prior_h2h:
+            # format from calendar_team perspective, but opponent name already known
+            desc.append(format_game_line_for_team(calendar_team.team_id, gg, opponent_name_override=opponent_name).rstrip())
+
+    desc.append("")
 
     # OPPONENT GAMES-TO-DATE
-    parts.append("")
-    parts.append(ASCII_RULE)
-    parts.append(f"{opp.name.upper()} GAMES-TO-DATE")
-    parts.append(ASCII_RULE)
+    desc.extend(ascii_rule(f"{title_case(opponent_name)} GAMES-TO-DATE"))
 
-    record = team_record_to_date(opp, games_all, cutoff=g.start_local)
-    parts.append(f"Record to date (completed games only): {record}")
+    # Determine opponent team id from the actual event game (if available)
+    opp_id = None
+    if g.home_team_id == calendar_team.team_id:
+        opp_id = g.away_team_id
+    elif g.away_team_id == calendar_team.team_id:
+        opp_id = g.home_team_id
 
-    opp_lines = opponent_games_to_date_lines(opp, games_all, g.start_local, limit=opponent_recent_limit)
-    if opp_lines:
-        parts.extend(opp_lines)
+    # Build list of opponent prior games (prior to event start; within season)
+    opp_prior: List[GameRef] = []
+    if g.start_local and opp_id is not None:
+        for gg in all_games:
+            if not gg.start_local or gg.start_local >= g.start_local:
+                continue
+            if is_team_in_game(opp_id, gg):
+                opp_prior.append(gg)
+
+    # Record to date (completed games only) BEFORE event
+    if g.start_local and opp_id is not None:
+        w, l, otw, sow = compute_record_to_date(opp_id, all_games, g.start_local)
+        record_str = f"{w}-{l}"
+        # Include OT/SO win breakdown since you asked to distinguish these
+        extra = []
+        if otw:
+            extra.append(f"OT W: {otw}")
+        if sow:
+            extra.append(f"SO W: {sow}")
+        extra_str = f" ({', '.join(extra)})" if extra else ""
+        desc.append(f"Record to date (completed games only): {record_str}{extra_str}")
+
+    if opponent_games_limit is not None:
+        try:
+            opponent_games_limit = int(opponent_games_limit)
+        except Exception:
+            opponent_games_limit = None
+
+    # If limit set, keep most recent prior games (still before event start)
+    if opponent_games_limit is not None and opponent_games_limit > 0:
+        opp_prior = opp_prior[-opponent_games_limit:]
+
+    if not opp_prior:
+        desc.append("    (no prior games listed)")
     else:
-        parts.append("    (no prior games listed)")
+        for gg in opp_prior:
+            # Format from opponent perspective so W/L makes sense for them
+            desc.append(format_game_line_for_team(opp_id, gg).rstrip())
 
-    return "\n".join(parts)
-
-
-def build_league_wide_day_event(day: LeagueDay) -> Tuple[str, str]:
-    title_bits: List[str] = []
-    if day.type_display:
-        title_bits.append(day.type_display)
-    if day.description:
-        title_bits.append(day.description)
-    title = " - ".join(title_bits) if title_bits else "League Day"
-
-    desc_bits: List[str] = []
-    if day.description:
-        desc_bits.append(day.description)
-    if day.note:
-        desc_bits.append(day.note)
-    if not desc_bits:
-        desc_bits.append("League-wide placeholder / non-game day.")
-    return title, "\n".join(desc_bits)
+    return desc
 
 
-def summary_for_team_game(g: Game, my_team: Team) -> str:
-    if g.home.id == my_team.id:
-        opp = g.away
-        side = "vs"
-    else:
-        opp = g.home
-        side = "@"
+# -----------------------------
+# Main generation
+# -----------------------------
 
-    prefix = "[CANCELLED] " if g.status.lower() == "cancelled" else ""
-    return f"{prefix}{my_team.name} {side} {opp.name}"
+def load_config(path: str = "config.yml") -> Dict[str, Any]:
+    with open(path, "r", encoding="utf-8") as f:
+        cfg = yaml.safe_load(f) or {}
+    # Basic required keys
+    if "season_year" not in cfg:
+        raise RuntimeError("config.yml missing required key: season_year")
+    if "output_dir" not in cfg:
+        cfg["output_dir"] = "docs"
+    if "default_timezone" not in cfg:
+        cfg["default_timezone"] = "America/New_York"
+    return cfg
 
+def write_text(path: str, content: str) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(content)
 
-def summary_for_neutral_game(g: Game) -> str:
-    prefix = "[CANCELLED] " if g.status.lower() == "cancelled" else ""
-    return f"{prefix}{g.home.name} vs {g.away.name}"
-
-
-# ----------------------------
-# Main
-# ----------------------------
 def main() -> None:
     cfg = load_config("config.yml")
 
-    output_dir = str(cfg.get("output_dir", "docs"))
-    tzid = str(cfg.get("default_timezone", "America/New_York"))
-    tz = ZoneInfo(tzid)
+    tz_name = str(cfg["default_timezone"])
+    tz = ZoneInfo(tz_name)
 
-    season = int(cfg.get("season", 2))
-    api_url_tpl = str(cfg.get("api_url", "https://api.btsh.org/api/game_days/?season={season}"))
-    api_url = api_url_tpl.format(season=season)
+    season_year = int(cfg["season_year"])
+    seasons_api_url = str(cfg["seasons_api_url"])
+    team_regs_url_tmpl = str(cfg["team_registrations_api_url"])
+    game_days_url_tmpl = str(cfg["game_days_api_url"])
 
-    opponent_recent_limit = int(cfg.get("opponent_recent_limit", 10))
-    include_league_wide_days = bool(cfg.get("include_league_wide_days", True))
-    include_tbd_games_on_all_calendars = bool(cfg.get("include_tbd_games_on_all_calendars", True))
+    include_placeholders = bool(cfg.get("include_placeholders", True))
+    include_cancelled_games = bool(cfg.get("include_cancelled_games", True))
 
-    league_label = str(cfg.get("league_name", f"BTSH Season {season}"))
-    checkin_url = str(cfg.get("checkin_url", "https://btsh.org/attendance"))
+    team_day_types = set([str(x).strip() for x in (cfg.get("team_calendar_day_types") or [])])
+    master_day_types = set([str(x).strip() for x in (cfg.get("master_calendar_day_types") or [])])
 
-    raw = http_get_json(api_url)
-    day_objs = raw["results"] if isinstance(raw, dict) and "results" in raw else raw
+    include_non_game_days = bool(cfg.get("include_non_game_days_as_all_day_events", True))
 
-    days: List[LeagueDay] = [parse_game_day(obj, tz) for obj in day_objs]
-    days.sort(key=lambda d: (d.day, d.id))
+    out_dir = str(cfg["output_dir"])
+    team_file_prefix = str(cfg.get("team_file_prefix", "btsh"))
+    master_name_tmpl = str(cfg.get("master_file_name_template", "btsh-all-games-season-{year}.ics"))
 
-    teams_by_id = build_team_index(days)
-    games_all_list = all_games(days)
+    # 1) Seasons: find season id by year
+    seasons_payload = fetch_json(seasons_api_url)
+    season_id = season_id_for_year(seasons_payload, season_year)
 
-    os.makedirs(output_dir, exist_ok=True)
-    now_utc = datetime.utcnow()
+    # 2) Team registrations (registered teams + divisions)
+    team_regs_payload = fetch_json(team_regs_url_tmpl.format(season_id=season_id))
+    team_map = parse_team_infos(team_regs_payload)
 
-    # Build league-wide placeholder blocks once
-    league_wide_event_blocks: List[str] = []
-    if include_league_wide_days:
-        for d in days:
-            if d.games:
-                continue
-            title, desc = build_league_wide_day_event(d)
-            league_wide_event_blocks.append(
-                ics_all_day_event_block(
-                    uid=uid_for_event("day", season, d.id),
-                    dtstamp_utc=now_utc,
-                    summary=f"[PLACEHOLDER] {title}",
-                    day_date=d.day,
-                    description=desc,
-                )
-            )
+    # 3) Game days (source of truth)
+    game_days_payload = fetch_json(game_days_url_tmpl.format(season_id=season_id))
+    games, non_game_days = normalize_game_days(game_days_payload, season_year, season_id, tz)
 
-    # Prepare per-team event lists
-    team_events: Dict[int, List[str]] = {tid: [] for tid in teams_by_id.keys()}
+    # Helper: filter games for a given calendar's allowed day types
+    def calendar_game_filter(g: GameRef, allowed_day_types: set) -> bool:
+        if g.day_type not in allowed_day_types:
+            return False
+        if g.is_placeholder and not include_placeholders:
+            return False
+        if is_cancelled_game(g) and not include_cancelled_games:
+            return False
+        return True
 
-    for g in games_all_list:
-        home_tbd = is_tbd_team(g.home)
-        away_tbd = is_tbd_team(g.away)
-        is_tbd = home_tbd or away_tbd
-
-        # Determine which team calendars get this game
-        target_team_ids: List[int] = []
-        if not home_tbd:
-            target_team_ids.append(g.home.id)
-        if not away_tbd and g.away.id not in target_team_ids:
-            target_team_ids.append(g.away.id)
-
-        if is_tbd and include_tbd_games_on_all_calendars:
-            target_team_ids = list(teams_by_id.keys())
-
-        if not target_team_ids:
+    # Build master calendar events
+    master_events: List[str] = []
+    for g in games:
+        if not calendar_game_filter(g, master_day_types):
+            continue
+        if not g.start_local or not g.end_local:
+            # If missing times, skip (shouldn't happen for games)
             continue
 
-        # location string
-        loc = g.location
-        if g.court:
-            loc = f"{loc} ({g.court})" if loc else g.court
+        summary = build_summary_for_master_calendar(g, cfg)
 
-        for tid in target_team_ids:
-            my_team = teams_by_id.get(tid)
-            if my_team is None:
+        location = ""
+        if g.location and g.court:
+            location = f"{g.location} ({g.court})"
+        elif g.location:
+            location = g.location
+
+        desc_lines: List[str] = []
+        desc_lines.extend(ascii_rule("GAME INFO"))
+        desc_lines.append(f"Season: {season_year}")
+        desc_lines.append(f"Stage: {g.day_type_display}")
+        desc_lines.append(f"Status: {g.status}")
+        desc_lines.append(f"Start ({tz_name}): {format_local_dt(g.start_local, tz_name)}")
+        if location:
+            desc_lines.append(f"Rink: {location}")
+        desc_lines.append(f"{cfg.get('checkin_label','Check-in / Standings')}: {cfg.get('checkin_url','https://btsh.org')}")
+
+        uid = stable_uid("master", str(season_id), str(g.game_id))
+        ev_lines = ics_event(
+            uid=uid,
+            summary=summary,
+            dtstart_local=g.start_local,
+            dtend_local=g.end_local,
+            tz_name=tz_name,
+            description_lines=desc_lines,
+            location=location,
+            url=str(cfg.get("checkin_url", "")),
+        )
+        master_events.extend(ev_lines)
+
+    # Include non-game days as all-day events (master)
+    if include_non_game_days:
+        for d in non_game_days:
+            day_type = str(d.get("type") or "").strip()
+            if day_type not in master_day_types:
                 continue
-
-            uid = uid_for_event("game", season, g.id)
-
-            if is_tbd:
-                summary = summary_for_neutral_game(g)
-                desc = "\n".join(
-                    [
-                        ASCII_RULE,
-                        "GAME INFO",
-                        ASCII_RULE,
-                        "Playoff / placeholder game (teams TBD).",
-                        f"Status: {g.status_display}",
-                        (f"Location: {loc}" if loc else ""),
-                        f"Check-in / game registration: {checkin_url}",
-                    ]
-                ).strip()
-            else:
-                summary = summary_for_team_game(g, my_team)
-                desc = build_event_description(
-                    g=g,
-                    my_team=my_team,
-                    games_all=games_all_list,
-                    league_label=league_label,
-                    checkin_url=checkin_url,
-                    tzid=tzid,
-                    opponent_recent_limit=opponent_recent_limit,
-                )
-
-            status_field = "CANCELLED" if g.status.lower() == "cancelled" else None
-
-            team_events[tid].append(
-                ics_event_block(
-                    uid=uid,
-                    dtstamp_utc=now_utc,
-                    summary=summary,
-                    dtstart=g.start_local,
-                    dtend=g.end_local,
-                    tzid=tzid,
-                    description=desc,
-                    location=loc,
-                    status=status_field,
-                )
+            day_date = parse_day_yyyy_mm_dd(str(d.get("day")))
+            title = str(d.get("get_type_display") or day_type).strip()
+            desc = (d.get("description") or "").strip()
+            summary = f"{title}"
+            uid = stable_uid("master-day", str(season_id), str(d.get("id")))
+            master_events.extend(
+                ics_allday_event(uid=uid, summary=summary, day_local=day_date, description_lines=[desc] if desc else [])
             )
 
-    # Write one calendar per team
-    for tid, team in sorted(teams_by_id.items(), key=lambda kv: kv[1].name.lower()):
-        events: List[str] = []
-        events.extend(league_wide_event_blocks)
-        events.extend(team_events.get(tid, []))
+    master_calname = f"BTSH All Games ({season_year})"
+    master_content = ics_calendar(master_calname, master_events, tz_name)
+    master_path = os.path.join(out_dir, master_name_tmpl.format(year=season_year))
+    write_text(master_path, master_content)
 
-        cal_name = f"BTSH — {team.name} (Season {season})"
-        ics = ics_calendar(tzid=tzid, cal_name=cal_name, events=events)
+    # Build each team calendar
+    for team_id, team in sorted(team_map.items(), key=lambda kv: kv[1].name.lower()):
+        team_events: List[str] = []
 
-        filename = f"{safe_slug(team.name)}-season-{season}.ics"
-        out_path = os.path.join(output_dir, filename)
-        with open(out_path, "w", encoding="utf-8", newline="") as f:
-            f.write(ics)
+        # Team games
+        for g in games:
+            # include games where team is participating OR (placeholder inclusion logic)
+            if not is_team_in_game(team_id, g):
+                continue
+            if not calendar_game_filter(g, team_day_types):
+                continue
+            if not g.start_local or not g.end_local:
+                continue
 
-    # Simple index
-    with open(os.path.join(output_dir, "index.txt"), "w", encoding="utf-8") as f:
-        for tid, team in sorted(teams_by_id.items(), key=lambda kv: kv[1].name.lower()):
-            filename = f"{safe_slug(team.name)}-season-{season}.ics"
-            f.write(f"{team.name}\t{filename}\n")
+            # Determine opponent name (even if placeholder)
+            if g.home_team_id == team_id:
+                opp_name = g.away_team_name
+            else:
+                opp_name = g.home_team_name
 
-    print(f"Wrote {len(teams_by_id)} team calendars to: {output_dir}/")
+            summary = build_summary_for_team_calendar(team, g, cfg, team_map)
+
+            location = ""
+            if g.location and g.court:
+                location = f"{g.location} ({g.court})"
+            elif g.location:
+                location = g.location
+
+            desc_lines = build_description_for_team_event(
+                calendar_team=team,
+                opponent_name=opp_name,
+                g=g,
+                all_games=games,
+                cfg=cfg,
+                tz_name=tz_name,
+            )
+
+            uid = stable_uid("team", str(team_id), str(season_id), str(g.game_id))
+            ev_lines = ics_event(
+                uid=uid,
+                summary=summary,
+                dtstart_local=g.start_local,
+                dtend_local=g.end_local,
+                tz_name=tz_name,
+                description_lines=desc_lines,
+                location=location,
+                url=str(cfg.get("checkin_url", "")),
+            )
+            team_events.extend(ev_lines)
+
+        # Team non-game days (all-day), only if configured day types include them
+        if include_non_game_days:
+            for d in non_game_days:
+                day_type = str(d.get("type") or "").strip()
+                if day_type not in team_day_types:
+                    continue
+                day_date = parse_day_yyyy_mm_dd(str(d.get("day")))
+                title = str(d.get("get_type_display") or day_type).strip()
+                desc = (d.get("description") or "").strip()
+                summary = f"{title}"
+                uid = stable_uid("team-day", str(team_id), str(season_id), str(d.get("id")))
+                team_events.extend(
+                    ics_allday_event(uid=uid, summary=summary, day_local=day_date, description_lines=[desc] if desc else [])
+                )
+
+        calname = f"BTSH {team.name} ({season_year})"
+        content = ics_calendar(calname, team_events, tz_name)
+
+        filename = f"{team_file_prefix}-{slugify(team.name)}-season-{season_year}.ics"
+        path = os.path.join(out_dir, filename)
+        write_text(path, content)
+
+    print(f"Generated {len(team_map)} team calendars + master calendar for season {season_year} (id={season_id})")
+    print(f"Output directory: {out_dir}")
 
 
 if __name__ == "__main__":
