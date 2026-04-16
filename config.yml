@@ -10,8 +10,8 @@ team_registrations_api_url: "https://api.btsh.org/api/team-season-registrations/
 game_days_api_url: "https://api.btsh.org/api/game_days/?season={season_id}"
 
 # What to include
-include_placeholders: true   # games with '-' / TBD teams
-include_cancelled_games: true
+include_placeholders: True   # games with '-' / TBD teams
+include_cancelled_games: True
 
 # Day types to include (separately configurable)
 team_calendar_day_types: ["game", "make_up", "scrimmage"]     # exclude holiday/other by default
@@ -19,14 +19,14 @@ master_calendar_day_types: ["game", "make_up", "scrimmage"]   # set differently 
 
 # Include non-game “days” (holiday/other/etc.) as all-day events.
 # Only included if their day.type is in the calendar's day_types list above.
-include_non_game_days_as_all_day_events: true
+include_non_game_days_as_all_day_events: True
 
 # Opponent sections
 # If null/omitted => include ALL prior games to the event date.
 opponent_games_limit: null
 
 # Event summary formatting options
-include_division_in_summary: False
+include_division_in_summary: True
 division_format: "short" # "short" -> Division short_name, "name" -> Division name
 cancelled_prefix: "CANCELLED:"
 

@@ -584,15 +584,17 @@ def build_summary_for_team_calendar(
         tags.append("[Closing]")
 
     team_label = team.name
-    if include_div:
-        team_label = f"{team_label} ({pick_division(team, div_fmt)})"
 
     # If opponent is registered, optionally annotate division too
     opp_label = opp_name
     if include_div:
         opp_info = team_map.get(g.away_team_id if g.home_team_id == team.team_id else g.home_team_id)
         if opp_info:
-            opp_label = f"{opp_label} ({pick_division(opp_info, div_fmt)})"
+            if div_fmt == "short":
+                div_label = f"Div {pick_division(opp_info, div_fmt)}"
+            else:
+                div_label = pick_division(opp_info, div_fmt)
+            opp_label = f"{opp_label} ({div_label})"
 
     summary = " ".join(tags + [f"{team_label} {marker} {opp_label}"]).strip()
 
@@ -617,11 +619,31 @@ def build_summary_for_team_calendar(
 
     return summary
 
-def build_summary_for_master_calendar(g: GameRef, cfg: Dict[str, Any]) -> str:
+def build_summary_for_master_calendar(g: GameRef, cfg: Dict[str, Any], team_map: Dict[int, TeamInfo]) -> str:
     cancelled_prefix = cfg.get("cancelled_prefix", "CANCELLED:")
 
+    include_div = bool(cfg.get("include_division_in_summary", False))
+    div_fmt = str(cfg.get("division_format", "short"))
+
+    away_team_label = g.away_team_name
+    home_team_label = g.home_team_name
+
+    if include_div:
+        away_info = team_map.get(g.away_team_id)
+        home_info = team_map.get(g.home_team_id)
+        if away_info:
+            if div_fmt == "short":
+                away_team_label = f"{away_team_label} (Div {pick_division(away_info, div_fmt)})"
+            else:
+                away_team_label = f"{away_team_label} ({pick_division(away_info, div_fmt)})"
+        if home_info:
+            if div_fmt == "short":
+                home_team_label = f"{home_team_label} (Div {pick_division(home_info, div_fmt)})"
+            else:
+                home_team_label = f"{home_team_label} ({pick_division(home_info, div_fmt)})"
+
     # Master summary: Away @ Home
-    summary = f"{g.away_team_name} @ {g.home_team_name}".strip()
+    summary = f"{away_team_label} @ {home_team_label}".strip()
 
     if is_completed_game(g):
         sc = score_away_home(g)
@@ -823,7 +845,7 @@ def main() -> None:
             # If missing times, skip (shouldn't happen for games)
             continue
 
-        summary = build_summary_for_master_calendar(g, cfg)
+        summary = build_summary_for_master_calendar(g, cfg, team_map)
 
         location = ""
         if g.location and g.court:
