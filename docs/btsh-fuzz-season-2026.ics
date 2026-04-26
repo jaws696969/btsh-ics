@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:f7194447e87824827d9944777bb5993cf2343da9@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz @ Denim Demons (Div 3) [W 6-3]
 DTSTART;TZID=America/New_York:20260412T153000
 DTEND;TZID=America/New_York:20260412T162000
@@ -43,7 +43,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:59ad02735cdcd060ad5d593edef3b39fabbc309e@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:CANCELLED: [Opening] Fuzz vs Riots (Div 4)
 DTSTART;TZID=America/New_York:20260419T130000
 DTEND;TZID=America/New_York:20260419T135000
@@ -61,7 +61,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:60522e805a6d4613202c8bbc8bc5ade92918eba6@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz vs Cobra Kai (Div 1)
 DTSTART;TZID=America/New_York:20260426T141500
 DTEND;TZID=America/New_York:20260426T150500
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:b23315abaef21fe977fef8d7aa4efea20d930c80@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz vs Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260503T164500
 DTEND;TZID=America/New_York:20260503T173500
@@ -98,7 +98,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2e9f1307a0e481073e4b1f2f64e9f695de915db2@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:[Closing] Fuzz vs Instant Karma (Div 2)
 DTSTART;TZID=America/New_York:20260517T180000
 DTEND;TZID=America/New_York:20260517T185000
@@ -117,7 +117,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d34b07b8a59bb84a19123f6438b8569a8d388d7f@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz vs Vertz (Div 1)
 DTSTART;TZID=America/New_York:20260531T141500
 DTEND;TZID=America/New_York:20260531T150500
@@ -136,7 +136,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d52b8fd277e99f5e2ebe6bcc443b155e3f3ebae6@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz @ Mega Touch (Div 1)
 DTSTART;TZID=America/New_York:20260607T164500
 DTEND;TZID=America/New_York:20260607T173500
@@ -156,7 +156,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:f15b2510c9e00bac40589c9aa60fec32300fa1cf@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz @ Gouging Anklebiters (Div 2)
 DTSTART;TZID=America/New_York:20260614T180000
 DTEND;TZID=America/New_York:20260614T185000
@@ -176,7 +176,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:38f6929810bc1d0bcefbe66a901697b7f9b9f61d@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz @ Moby Dekes (Div 4)
 DTSTART;TZID=America/New_York:20260628T153000
 DTEND;TZID=America/New_York:20260628T162000
@@ -197,7 +197,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:c387c4b5a3713ae3f4348338c2fbbc4f191f99b7@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz @ Gremlins (Div 3)
 DTSTART;TZID=America/New_York:20260712T130000
 DTEND;TZID=America/New_York:20260712T135000
@@ -218,7 +218,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:6a4ce1b28c374cd4f56263b355159db7c98c5200@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz @ Lbs (Div 1)
 DTSTART;TZID=America/New_York:20260719T130000
 DTEND;TZID=America/New_York:20260719T135000
@@ -231,15 +231,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
  ----------\n    (no prior matchups listed)\n\n----------------------------
  ------------\nLBS GAMES-TO-DATE\n----------------------------------------\
- nRecord to date (completed games only): 0-1\n    Apr 12th vs Corlears Hook
- ers (L 3-5)\n    Apr 19th @ Sky Fighters (Cancelled)\n    Apr 26th vs Pout
- ine Machine\n    May 3rd @ Vertz\n    May 17th @ Fresh Kills\n    May 31st
-  vs Mega Touch\n    Jun 7th vs Gouging Anklebiters\n    Jun 14th vs Corlea
- rs Hookers\n    Jun 28th @ Filthier\n    Jul 12th vs Vertz
+ nRecord to date (completed games only): 1-1 (OT W: 1)\n    Apr 12th vs Cor
+ lears Hookers (L 3-5)\n    Apr 19th @ Sky Fighters (Cancelled)\n    Apr 26
+ th vs Poutine Machine (W 5-4 OT)\n    May 3rd @ Vertz\n    May 17th @ Fres
+ h Kills\n    May 31st vs Mega Touch\n    Jun 7th vs Gouging Anklebiters\n 
+    Jun 14th vs Corlears Hookers\n    Jun 28th @ Filthier\n    Jul 12th vs 
+ Vertz
 END:VEVENT
 BEGIN:VEVENT
 UID:6d1ddbb7c2ecaf16b05c00dfdc311781180864c4@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz vs Poutine Machine (Div 2)
 DTSTART;TZID=America/New_York:20260726T164500
 DTEND;TZID=America/New_York:20260726T173500
@@ -252,16 +253,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Poutine Machine\n------------------
  ----------------------\n    (no prior matchups listed)\n\n----------------
  ------------------------\nPOUTINE MACHINE GAMES-TO-DATE\n-----------------
- -----------------------\nRecord to date (completed games only): 1-0 (OT W:
+ -----------------------\nRecord to date (completed games only): 1-1 (OT W:
   1)\n    Apr 12th vs Gouging Anklebiters (W 3-2 OT)\n    Apr 19th @ Butche
- rs (Cancelled)\n    Apr 26th @ Lbs\n    May 3rd vs Instant Karma\n    May 
- 17th @ Mega Touch\n    May 31st vs Gouging Anklebiters\n    Jun 7th vs Fre
- sh Kills\n    Jun 14th @ Instant Karma\n    Jun 28th @ Riots\n    Jul 12th
-  vs Sky Fighters\n    Jul 19th @ Cobra Kai
+ rs (Cancelled)\n    Apr 26th @ Lbs (L 4-5 OT)\n    May 3rd vs Instant Karm
+ a\n    May 17th @ Mega Touch\n    May 31st vs Gouging Anklebiters\n    Jun
+  7th vs Fresh Kills\n    Jun 14th @ Instant Karma\n    Jun 28th @ Riots\n 
+    Jul 12th vs Sky Fighters\n    Jul 19th @ Cobra Kai
 END:VEVENT
 BEGIN:VEVENT
 UID:1924a2cbd83d6d1b840561af0a590867e6e11ecd@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz vs Fresh Kills (Div 1)
 DTSTART;TZID=America/New_York:20260802T180000
 DTEND;TZID=America/New_York:20260802T185000
@@ -283,7 +284,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:efca76d02f816008f10ba2dbc65365e72987313e@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz vs Vertz (Div 1)
 DTSTART;TZID=America/New_York:20260809T180000
 DTEND;TZID=America/New_York:20260809T185000
@@ -305,7 +306,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:9d4cf7429ca819cc711c12cc729896f3f6e291c1@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz @ Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260816T141500
 DTEND;TZID=America/New_York:20260816T150500
@@ -328,7 +329,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:c084aed3390509ffca86e9cc350272fa14314743@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz @ Fresh Kills (Div 1)
 DTSTART;TZID=America/New_York:20260823T130000
 DTEND;TZID=America/New_York:20260823T135000
@@ -351,7 +352,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2cbf6bd4ae36b964cd265f14306339df27c82685@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz vs What the Puck (Div 4)
 DTSTART;TZID=America/New_York:20260913T141500
 DTEND;TZID=America/New_York:20260913T150500
@@ -364,17 +365,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs What the Puck\n--------------------
  --------------------\n    (no prior matchups listed)\n\n------------------
  ----------------------\nWHAT THE PUCK GAMES-TO-DATE\n---------------------
- -------------------\nRecord to date (completed games only): 1-0\n    Apr 1
+ -------------------\nRecord to date (completed games only): 1-1\n    Apr 1
  2th @ Moby Dekes (W 4-1)\n    Apr 19th vs Corlears Hookers (Cancelled)\n  
-   Apr 26th vs Filthier\n    May 3rd vs Riots\n    May 17th @ Renaissance\n
-     May 31st vs Butchers\n    Jun 7th vs Gremlins\n    Jun 14th @ Riots\n 
-    Jun 28th @ Instant Karma\n    Jul 12th vs Dark Rainbows\n    Jul 19th v
- s Moby Dekes\n    Jul 26th @ Dark Rainbows\n    Aug 2nd vs Sky Fighters\n 
-    Aug 9th @ Butchers\n    Aug 16th vs Riots\n    Aug 23rd @ Moby Dekes
+   Apr 26th vs Filthier (L 1-9)\n    May 3rd vs Riots\n    May 17th @ Renai
+ ssance\n    May 31st vs Butchers\n    Jun 7th vs Gremlins\n    Jun 14th @ 
+ Riots\n    Jun 28th @ Instant Karma\n    Jul 12th vs Dark Rainbows\n    Ju
+ l 19th vs Moby Dekes\n    Jul 26th @ Dark Rainbows\n    Aug 2nd vs Sky Fig
+ hters\n    Aug 9th @ Butchers\n    Aug 16th vs Riots\n    Aug 23rd @ Moby 
+ Dekes
 END:VEVENT
 BEGIN:VEVENT
 UID:97e68bf1bfca508863a6513666e20bac7e58f1ff@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Fuzz @ Instant Karma (Div 2)
 DTSTART;TZID=America/New_York:20260920T153000
 DTEND;TZID=America/New_York:20260920T162000
@@ -398,7 +400,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:10a8c7234a4a86168c8930b030599a91db74426c@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
@@ -406,7 +408,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:0e846dae9e19239fa49eb4767890fa918e849da4@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
@@ -414,7 +416,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:c2d04bebfc80e95fdec69d7a162d561d60079b63@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
@@ -422,7 +424,7 @@ DESCRIPTION:Father's Day
 END:VEVENT
 BEGIN:VEVENT
 UID:a2322bc744b75a6016fa957d688e1f55769415a3@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928

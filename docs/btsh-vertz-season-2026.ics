@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:cd5a0710baaa51eb96b9d954c735a0fe637f4bea@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:[Opening] Vertz @ Mega Touch (Div 1) [L 2-5]
 DTSTART;TZID=America/New_York:20260412T130000
 DTEND;TZID=America/New_York:20260412T135000
@@ -43,7 +43,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:386630f599c2d7974da913496d46f1ce17b9be02@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:CANCELLED: Vertz @ Denim Demons (Div 3)
 DTSTART;TZID=America/New_York:20260419T180000
 DTEND;TZID=America/New_York:20260419T185000
@@ -61,7 +61,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e0b908ffd981fb45a23f23855b4fb5eb7038b6b8@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz vs Instant Karma (Div 2)
 DTSTART;TZID=America/New_York:20260426T164500
 DTEND;TZID=America/New_York:20260426T173500
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:56af6c90374b3537994ed6324bf140b636109203@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz vs Lbs (Div 1)
 DTSTART;TZID=America/New_York:20260503T153000
 DTEND;TZID=America/New_York:20260503T162000
@@ -92,13 +92,13 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
  ----------\n    (no prior matchups listed)\n\n----------------------------
  ------------\nLBS GAMES-TO-DATE\n----------------------------------------\
- nRecord to date (completed games only): 0-1\n    Apr 12th vs Corlears Hook
- ers (L 3-5)\n    Apr 19th @ Sky Fighters (Cancelled)\n    Apr 26th vs Pout
- ine Machine
+ nRecord to date (completed games only): 1-1 (OT W: 1)\n    Apr 12th vs Cor
+ lears Hookers (L 3-5)\n    Apr 19th @ Sky Fighters (Cancelled)\n    Apr 26
+ th vs Poutine Machine (W 5-4 OT)
 END:VEVENT
 BEGIN:VEVENT
 UID:41c0e5fe13185fcb56955570955253e6f3c72dbc@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz @ Cobra Kai (Div 1)
 DTSTART;TZID=America/New_York:20260517T141500
 DTEND;TZID=America/New_York:20260517T150500
@@ -117,7 +117,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d07059905e60489209f473438326dfa149a183b6@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz @ Fuzz (Div 2)
 DTSTART;TZID=America/New_York:20260531T141500
 DTEND;TZID=America/New_York:20260531T150500
@@ -136,7 +136,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:76d984c28f790c47491a7e6a34ee7312c8544c4c@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz @ Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260607T180000
 DTEND;TZID=America/New_York:20260607T185000
@@ -156,7 +156,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:b59acc78775a4bafcbaba130ec4accf5ce60652c@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz vs Cobra Kai (Div 1)
 DTSTART;TZID=America/New_York:20260614T153000
 DTEND;TZID=America/New_York:20260614T162000
@@ -176,7 +176,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:bb7916fbda174f24a7d0cf8ea13a3991c30a5a1a@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz vs Gremlins (Div 3)
 DTSTART;TZID=America/New_York:20260628T130000
 DTEND;TZID=America/New_York:20260628T135000
@@ -197,7 +197,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2c01a219d619b1e0e2b1a8488c26b9bbfb643f08@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz @ Lbs (Div 1)
 DTSTART;TZID=America/New_York:20260712T164500
 DTEND;TZID=America/New_York:20260712T173500
@@ -210,15 +210,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
  ----------\n    May 3rd vs Lbs\n\n----------------------------------------
  \nLBS GAMES-TO-DATE\n----------------------------------------\nRecord to d
- ate (completed games only): 0-1\n    Apr 12th vs Corlears Hookers (L 3-5)\
- n    Apr 19th @ Sky Fighters (Cancelled)\n    Apr 26th vs Poutine Machine\
- n    May 3rd @ Vertz\n    May 17th @ Fresh Kills\n    May 31st vs Mega Tou
- ch\n    Jun 7th vs Gouging Anklebiters\n    Jun 14th vs Corlears Hookers\n
-     Jun 28th @ Filthier
+ ate (completed games only): 1-1 (OT W: 1)\n    Apr 12th vs Corlears Hooker
+ s (L 3-5)\n    Apr 19th @ Sky Fighters (Cancelled)\n    Apr 26th vs Poutin
+ e Machine (W 5-4 OT)\n    May 3rd @ Vertz\n    May 17th @ Fresh Kills\n   
+  May 31st vs Mega Touch\n    Jun 7th vs Gouging Anklebiters\n    Jun 14th 
+ vs Corlears Hookers\n    Jun 28th @ Filthier
 END:VEVENT
 BEGIN:VEVENT
 UID:88330a0c94b754c88f90172d93cc1730d5a5267a@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz @ Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260719T153000
 DTEND;TZID=America/New_York:20260719T162000
@@ -239,7 +239,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:294d30a9aa65da4d8f5ed5f3d78ea7ad55b90109@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz vs Mega Touch (Div 1)
 DTSTART;TZID=America/New_York:20260726T153000
 DTEND;TZID=America/New_York:20260726T162000
@@ -261,7 +261,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:39817874e871a31a5dee52589b92e5c418aa2fb3@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz vs Gouging Anklebiters (Div 2)
 DTSTART;TZID=America/New_York:20260802T164500
 DTEND;TZID=America/New_York:20260802T173500
@@ -283,7 +283,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1f22fd4e0baff3d46f4932a3891105db7a9b752b@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz @ Fuzz (Div 2)
 DTSTART;TZID=America/New_York:20260809T180000
 DTEND;TZID=America/New_York:20260809T185000
@@ -305,7 +305,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:024c950502414df6940a52c4e21dc82d5fb468ee@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz vs Fresh Kills (Div 1)
 DTSTART;TZID=America/New_York:20260816T141500
 DTEND;TZID=America/New_York:20260816T150500
@@ -328,7 +328,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:a45d138aec55d7864f7884bdd92798415e2ba11d@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz vs Instant Karma (Div 2)
 DTSTART;TZID=America/New_York:20260823T130000
 DTEND;TZID=America/New_York:20260823T135000
@@ -351,7 +351,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:7872461afe82cb83dd0c735b0fc745324a95b795@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:[Closing] Vertz vs Sky Fighters (Div 3)
 DTSTART;TZID=America/New_York:20260913T180000
 DTEND;TZID=America/New_York:20260913T185000
@@ -375,7 +375,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e2a6ed3d42e976ed2681570de0754be887896340@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Vertz @ Fresh Kills (Div 1)
 DTSTART;TZID=America/New_York:20260920T141500
 DTEND;TZID=America/New_York:20260920T150500
@@ -399,7 +399,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:86240c9fa32dfeea2d16fb02e68a38d61aef3ebe@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
@@ -407,7 +407,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:cac2c7297a859faf9c10b72b88c434685517b8b6@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
@@ -415,7 +415,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:239ef0fe1135a905cdb536d8bce98b0f5f1f43f7@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
@@ -423,7 +423,7 @@ DESCRIPTION:Father's Day
 END:VEVENT
 BEGIN:VEVENT
 UID:764df3fb04b963d6429f3300ee173410d22ff868@btsh-ics
-DTSTAMP:20260426T134150Z
+DTSTAMP:20260426T191435Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
