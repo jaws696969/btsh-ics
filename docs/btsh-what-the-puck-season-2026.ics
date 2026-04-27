@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:9bf37ea5c860a29975f0d942d37338fc9b2258e1@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck @ Moby Dekes (Div 4) [W 4-1]
 DTSTART;TZID=America/New_York:20260412T141500
 DTEND;TZID=America/New_York:20260412T150500
@@ -43,7 +43,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0f71481999364238a24bed559834e84e1f126f98@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:CANCELLED: What the Puck vs Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260419T153000
 DTEND;TZID=America/New_York:20260419T162000
@@ -61,7 +61,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e4cb2d3794dffcdad8abc9b3e3927d86dccdb4fa@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck vs Filthier (Div 3) [L 1-9]
 DTSTART;TZID=America/New_York:20260426T130000
 DTEND;TZID=America/New_York:20260426T135000
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:5fc89a7354649fe416d6b7d2ab226a3d3c611f93@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck vs Riots (Div 4)
 DTSTART;TZID=America/New_York:20260503T180000
 DTEND;TZID=America/New_York:20260503T185000
@@ -98,7 +98,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e6eab0168beb32570f9bae50c3716a46c4c946ef@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck @ Renaissance (Div 3)
 DTSTART;TZID=America/New_York:20260517T153000
 DTEND;TZID=America/New_York:20260517T162000
@@ -117,7 +117,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:16bbd3ffbb0cce688e4d62b87b63a07f196d2bd3@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck vs Butchers (Div 4)
 DTSTART;TZID=America/New_York:20260531T130000
 DTEND;TZID=America/New_York:20260531T135000
@@ -137,7 +137,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:70ee7e5d4ca09fc16165ba83c49437df2518c9d0@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck vs Gremlins (Div 3)
 DTSTART;TZID=America/New_York:20260607T153000
 DTEND;TZID=America/New_York:20260607T162000
@@ -150,14 +150,14 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Gremlins\n-------------------------
  ---------------\n    (no prior matchups listed)\n\n-----------------------
  -----------------\nGREMLINS GAMES-TO-DATE\n-------------------------------
- ---------\nRecord to date (completed games only): 0-1\n    Apr 12th vs But
+ ---------\nRecord to date (completed games only): 0-2\n    Apr 12th vs But
  chers (L 2-3 SO)\n    Apr 19th vs Mega Touch (Cancelled)\n    Apr 26th @ D
- ark Rainbows\n    May 3rd vs Filthier\n    May 17th @ Gouging Anklebiters\
- n    May 31st vs Renaissance
+ ark Rainbows (L 1-9)\n    May 3rd vs Filthier\n    May 17th @ Gouging Ankl
+ ebiters\n    May 31st vs Renaissance
 END:VEVENT
 BEGIN:VEVENT
 UID:c298b722001c25c387989083312c76fddfa4b119@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck @ Riots (Div 4)
 DTSTART;TZID=America/New_York:20260614T180000
 DTEND;TZID=America/New_York:20260614T185000
@@ -177,7 +177,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1e1ccac1ea05d770be90487b625d5118df1255f4@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck @ Instant Karma (Div 2)
 DTSTART;TZID=America/New_York:20260628T164500
 DTEND;TZID=America/New_York:20260628T173500
@@ -198,7 +198,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e4882d7d10c2442f088435dc6af21f2e63295e52@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:[Closing] What the Puck vs Dark Rainbows (Div 4)
 DTSTART;TZID=America/New_York:20260712T180000
 DTEND;TZID=America/New_York:20260712T185000
@@ -211,15 +211,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Dark Rainbows\n--------------------
  --------------------\n    (no prior matchups listed)\n\n------------------
  ----------------------\nDARK RAINBOWS GAMES-TO-DATE\n---------------------
- -------------------\nRecord to date (completed games only): 1-0\n    Apr 1
+ -------------------\nRecord to date (completed games only): 2-0\n    Apr 1
  2th vs Riots (W 5-2)\n    Apr 19th vs Instant Karma (Cancelled)\n    Apr 2
- 6th vs Gremlins\n    May 3rd @ Butchers\n    May 17th @ Moby Dekes\n    Ma
- y 31st @ Filthier\n    Jun 7th @ Sky Fighters\n    Jun 14th vs Moby Dekes\
- n    Jun 28th vs Corlears Hookers
+ 6th vs Gremlins (W 9-1)\n    May 3rd @ Butchers\n    May 17th @ Moby Dekes
+ \n    May 31st @ Filthier\n    Jun 7th @ Sky Fighters\n    Jun 14th vs Mob
+ y Dekes\n    Jun 28th vs Corlears Hookers
 END:VEVENT
 BEGIN:VEVENT
 UID:b3188ba31bc806f2fb415a46ed8e059d03db5f1c@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck vs Moby Dekes (Div 4)
 DTSTART;TZID=America/New_York:20260719T164500
 DTEND;TZID=America/New_York:20260719T173500
@@ -241,7 +241,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:59c3212417bd42bc79f2ccdd560be90988692f3c@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck @ Dark Rainbows (Div 4)
 DTSTART;TZID=America/New_York:20260726T141500
 DTEND;TZID=America/New_York:20260726T150500
@@ -254,16 +254,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Dark Rainbows\n--------------------
  --------------------\n    Jul 12th vs Dark Rainbows\n\n-------------------
  ---------------------\nDARK RAINBOWS GAMES-TO-DATE\n----------------------
- ------------------\nRecord to date (completed games only): 1-0\n    Apr 12
+ ------------------\nRecord to date (completed games only): 2-0\n    Apr 12
  th vs Riots (W 5-2)\n    Apr 19th vs Instant Karma (Cancelled)\n    Apr 26
- th vs Gremlins\n    May 3rd @ Butchers\n    May 17th @ Moby Dekes\n    May
-  31st @ Filthier\n    Jun 7th @ Sky Fighters\n    Jun 14th vs Moby Dekes\n
-     Jun 28th vs Corlears Hookers\n    Jul 12th @ What the Puck\n    Jul 19
- th @ Butchers
+ th vs Gremlins (W 9-1)\n    May 3rd @ Butchers\n    May 17th @ Moby Dekes\
+ n    May 31st @ Filthier\n    Jun 7th @ Sky Fighters\n    Jun 14th vs Moby
+  Dekes\n    Jun 28th vs Corlears Hookers\n    Jul 12th @ What the Puck\n  
+   Jul 19th @ Butchers
 END:VEVENT
 BEGIN:VEVENT
 UID:5bda89753d69ce843f0427da84106fe4b772e67a@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck vs Sky Fighters (Div 3)
 DTSTART;TZID=America/New_York:20260802T130000
 DTEND;TZID=America/New_York:20260802T135000
@@ -285,7 +285,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0292b176173483f261de2efd36477e1c85299a41@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck @ Butchers (Div 4)
 DTSTART;TZID=America/New_York:20260809T141500
 DTEND;TZID=America/New_York:20260809T150500
@@ -308,7 +308,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:3814798e3de971815a53825987e4a969e8c11a36@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck vs Riots (Div 4)
 DTSTART;TZID=America/New_York:20260816T180000
 DTEND;TZID=America/New_York:20260816T185000
@@ -331,7 +331,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1d78744c710ccc3b49a093b9e439b128eb8110f9@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck @ Moby Dekes (Div 4)
 DTSTART;TZID=America/New_York:20260823T164500
 DTEND;TZID=America/New_York:20260823T173500
@@ -355,7 +355,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:a2733932177852d328279714ba0c6859a1576c85@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:What the Puck @ Fuzz (Div 2)
 DTSTART;TZID=America/New_York:20260913T141500
 DTEND;TZID=America/New_York:20260913T150500
@@ -379,7 +379,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:dbf44048a60aa52185cdcdc2ad6f0b15701c6374@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:[Opening] What the Puck @ Renaissance (Div 3)
 DTSTART;TZID=America/New_York:20260920T130000
 DTEND;TZID=America/New_York:20260920T135000
@@ -403,7 +403,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:226295801f0f4ae84e10c22c85a006975ad7a1fe@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
@@ -411,7 +411,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:9cfc35aad1b9103d3089e559414fd3e94da23fc7@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
@@ -419,7 +419,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:67983167f637ebc85c8f737544a7aa7a7b49dd20@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
@@ -427,7 +427,7 @@ DESCRIPTION:Father's Day
 END:VEVENT
 BEGIN:VEVENT
 UID:1bc38ea78b0ef3bb69d8dfabc612b91a497895a2@btsh-ics
-DTSTAMP:20260427T084131Z
+DTSTAMP:20260427T142816Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
