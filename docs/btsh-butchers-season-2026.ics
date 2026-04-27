@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d083da4bffbf744fc558e3307dbd878a9aa5b611@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers @ Gremlins (Div 3) [W 3-2 (SO)]
 DTSTART;TZID=America/New_York:20260412T164500
 DTEND;TZID=America/New_York:20260412T173500
@@ -43,7 +43,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:7e3d9da64d431aaa726cce730f11993eb7157e61@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:CANCELLED: Butchers vs Poutine Machine (Div 2)
 DTSTART;TZID=America/New_York:20260419T180000
 DTEND;TZID=America/New_York:20260419T185000
@@ -61,14 +61,14 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d14c24d0cf580642c5042673e5e610c146ea66a6@btsh-ics
-DTSTAMP:20260426T191435Z
-SUMMARY:Butchers @ Denim Demons (Div 3)
+DTSTAMP:20260427T040128Z
+SUMMARY:Butchers @ Denim Demons (Div 3) [L 1-3]
 DTSTART;TZID=America/New_York:20260426T153000
 DTEND;TZID=America/New_York:20260426T162000
 LOCATION:Tompkins Square Park (east)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: complet
  ed\nStart (America/New_York): 2026-04-26 15:30 EDT\nRink: Tompkins Square 
  Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Denim Demons\n---------------------
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1070b353f3bf7521c2e9dfb0e88cc4ac91cf992b@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers vs Dark Rainbows (Div 4)
 DTSTART;TZID=America/New_York:20260503T141500
 DTEND;TZID=America/New_York:20260503T150500
@@ -98,7 +98,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:69083abb29ac37262102d356eb3406c87fad2ff6@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers @ Riots (Div 4)
 DTSTART;TZID=America/New_York:20260517T141500
 DTEND;TZID=America/New_York:20260517T150500
@@ -111,13 +111,13 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Riots\n----------------------------
  ------------\n    (no prior matchups listed)\n\n--------------------------
  --------------\nRIOTS GAMES-TO-DATE\n-------------------------------------
- ---\nRecord to date (completed games only): 0-1\n    Apr 12th @ Dark Rainb
- ows (L 2-5)\n    Apr 19th @ Fuzz (Cancelled)\n    Apr 26th @ Sky Fighters\
- n    May 3rd @ What the Puck
+ ---\nRecord to date (completed games only): 0-2\n    Apr 12th @ Dark Rainb
+ ows (L 2-5)\n    Apr 19th @ Fuzz (Cancelled)\n    Apr 26th @ Sky Fighters 
+ (L 1-3)\n    May 3rd @ What the Puck
 END:VEVENT
 BEGIN:VEVENT
 UID:7927ffd47a3e5ca4a254a351ca8b5011b351119c@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:[Opening] Butchers @ What the Puck (Div 4)
 DTSTART;TZID=America/New_York:20260531T130000
 DTEND;TZID=America/New_York:20260531T135000
@@ -137,7 +137,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:237c64207bbb3284772c34996f0d9d91b5673ce4@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers @ Filthier (Div 3)
 DTSTART;TZID=America/New_York:20260607T180000
 DTEND;TZID=America/New_York:20260607T185000
@@ -157,7 +157,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:61d9a96f30d1579de673295bf6cea4b04f227804@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers vs Gremlins (Div 3)
 DTSTART;TZID=America/New_York:20260614T164500
 DTEND;TZID=America/New_York:20260614T173500
@@ -177,7 +177,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:896ad495f466d91297e3417367735063e8c198d7@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers @ Gouging Anklebiters (Div 2)
 DTSTART;TZID=America/New_York:20260628T130000
 DTEND;TZID=America/New_York:20260628T135000
@@ -190,15 +190,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Gouging Anklebiters\n--------------
  --------------------------\n    (no prior matchups listed)\n\n------------
  ----------------------------\nGOUGING ANKLEBITERS GAMES-TO-DATE\n---------
- -------------------------------\nRecord to date (completed games only): 0-
+ -------------------------------\nRecord to date (completed games only): 1-
  1\n    Apr 12th @ Poutine Machine (L 2-3 OT)\n    Apr 19th @ Moby Dekes (C
- ancelled)\n    Apr 26th @ Fresh Kills\n    May 3rd vs Cobra Kai\n    May 1
- 7th vs Gremlins\n    May 31st @ Poutine Machine\n    Jun 7th @ Lbs\n    Ju
- n 14th vs Fuzz
+ ancelled)\n    Apr 26th @ Fresh Kills (W 2-0)\n    May 3rd vs Cobra Kai\n 
+    May 17th vs Gremlins\n    May 31st @ Poutine Machine\n    Jun 7th @ Lbs
+ \n    Jun 14th vs Fuzz
 END:VEVENT
 BEGIN:VEVENT
 UID:bceb60b06b4a6332b825efa0820c5fbb0e8c78d5@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers vs Moby Dekes (Div 4)
 DTSTART;TZID=America/New_York:20260712T130000
 DTEND;TZID=America/New_York:20260712T135000
@@ -211,15 +211,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Moby Dekes\n-----------------------
  -----------------\n    (no prior matchups listed)\n\n---------------------
  -------------------\nMOBY DEKES GAMES-TO-DATE\n---------------------------
- -------------\nRecord to date (completed games only): 0-1\n    Apr 12th vs
+ -------------\nRecord to date (completed games only): 0-2\n    Apr 12th vs
   What the Puck (L 1-4)\n    Apr 19th vs Gouging Anklebiters (Cancelled)\n 
-    Apr 26th vs Renaissance\n    May 3rd vs Sky Fighters\n    May 17th vs D
- ark Rainbows\n    May 31st @ Riots\n    Jun 7th @ Denim Demons\n    Jun 14
- th @ Dark Rainbows\n    Jun 28th vs Fuzz
+    Apr 26th vs Renaissance (L 0-7)\n    May 3rd vs Sky Fighters\n    May 1
+ 7th vs Dark Rainbows\n    May 31st @ Riots\n    Jun 7th @ Denim Demons\n  
+   Jun 14th @ Dark Rainbows\n    Jun 28th vs Fuzz
 END:VEVENT
 BEGIN:VEVENT
 UID:43852ec8dd29bee8f2c27af4a3ab11a6f5f675e2@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers vs Dark Rainbows (Div 4)
 DTSTART;TZID=America/New_York:20260719T153000
 DTEND;TZID=America/New_York:20260719T162000
@@ -240,7 +240,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:29e9a008e9ba57aa7adaa66759180fa9816ff989@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers vs Moby Dekes (Div 4)
 DTSTART;TZID=America/New_York:20260726T164500
 DTEND;TZID=America/New_York:20260726T173500
@@ -253,16 +253,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Moby Dekes\n-----------------------
  -----------------\n    Jul 12th vs Moby Dekes\n\n-------------------------
  ---------------\nMOBY DEKES GAMES-TO-DATE\n-------------------------------
- ---------\nRecord to date (completed games only): 0-1\n    Apr 12th vs Wha
+ ---------\nRecord to date (completed games only): 0-2\n    Apr 12th vs Wha
  t the Puck (L 1-4)\n    Apr 19th vs Gouging Anklebiters (Cancelled)\n    A
- pr 26th vs Renaissance\n    May 3rd vs Sky Fighters\n    May 17th vs Dark 
- Rainbows\n    May 31st @ Riots\n    Jun 7th @ Denim Demons\n    Jun 14th @
-  Dark Rainbows\n    Jun 28th vs Fuzz\n    Jul 12th @ Butchers\n    Jul 19t
- h @ What the Puck
+ pr 26th vs Renaissance (L 0-7)\n    May 3rd vs Sky Fighters\n    May 17th 
+ vs Dark Rainbows\n    May 31st @ Riots\n    Jun 7th @ Denim Demons\n    Ju
+ n 14th @ Dark Rainbows\n    Jun 28th vs Fuzz\n    Jul 12th @ Butchers\n   
+  Jul 19th @ What the Puck
 END:VEVENT
 BEGIN:VEVENT
 UID:0cd5c6f7fd24968ba316e04734447f13db42440d@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers @ Renaissance (Div 3)
 DTSTART;TZID=America/New_York:20260802T180000
 DTEND;TZID=America/New_York:20260802T185000
@@ -275,16 +275,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Renaissance\n----------------------
  ------------------\n    (no prior matchups listed)\n\n--------------------
  --------------------\nRENAISSANCE GAMES-TO-DATE\n-------------------------
- ---------------\nRecord to date (completed games only): 1-0\n    Apr 12th 
+ ---------------\nRecord to date (completed games only): 2-0\n    Apr 12th 
  vs Sky Fighters (W 7-1)\n    Apr 19th @ Cobra Kai (Cancelled)\n    Apr 26t
- h @ Moby Dekes\n    May 3rd @ Denim Demons\n    May 17th vs What the Puck\
- n    May 31st @ Gremlins\n    Jun 7th vs Riots\n    Jun 14th @ Denim Demon
- s\n    Jun 28th vs Fresh Kills\n    Jul 12th vs Gouging Anklebiters\n    J
- ul 19th @ Gremlins\n    Jul 26th @ Filthier
+ h @ Moby Dekes (W 7-0)\n    May 3rd @ Denim Demons\n    May 17th vs What t
+ he Puck\n    May 31st @ Gremlins\n    Jun 7th vs Riots\n    Jun 14th @ Den
+ im Demons\n    Jun 28th vs Fresh Kills\n    Jul 12th vs Gouging Anklebiter
+ s\n    Jul 19th @ Gremlins\n    Jul 26th @ Filthier
 END:VEVENT
 BEGIN:VEVENT
 UID:7b82f30c0e8e2c851b6dd7574544050c0eff36ea@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers vs What the Puck (Div 4)
 DTSTART;TZID=America/New_York:20260809T141500
 DTEND;TZID=America/New_York:20260809T150500
@@ -307,7 +307,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0cb2c95ac5800d3b38a1614bc6a629b63942af4e@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers @ Dark Rainbows (Div 4)
 DTSTART;TZID=America/New_York:20260816T130000
 DTEND;TZID=America/New_York:20260816T135000
@@ -330,7 +330,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:6f85e0dcaae0935b63ce611f046bf7168ef628e0@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers vs Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260823T141500
 DTEND;TZID=America/New_York:20260823T150500
@@ -343,17 +343,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Corlears Hookers\n-----------------
  -----------------------\n    (no prior matchups listed)\n\n---------------
  -------------------------\nCORLEARS HOOKERS GAMES-TO-DATE\n---------------
- -------------------------\nRecord to date (completed games only): 1-0\n   
+ -------------------------\nRecord to date (completed games only): 2-0\n   
   Apr 12th @ Lbs (W 5-3)\n    Apr 19th @ What the Puck (Cancelled)\n    Apr
-  26th vs Mega Touch\n    May 3rd @ Fuzz\n    May 17th vs Sky Fighters\n   
-  May 31st vs Instant Karma\n    Jun 7th vs Vertz\n    Jun 14th @ Lbs\n    
- Jun 28th @ Dark Rainbows\n    Jul 12th @ Filthier\n    Jul 19th vs Vertz\n
-     Jul 26th vs Gouging Anklebiters\n    Aug 2nd vs Cobra Kai\n    Aug 9th
-  @ Poutine Machine\n    Aug 16th vs Fuzz
+  26th vs Mega Touch (W 3-1)\n    May 3rd @ Fuzz\n    May 17th vs Sky Fight
+ ers\n    May 31st vs Instant Karma\n    Jun 7th vs Vertz\n    Jun 14th @ L
+ bs\n    Jun 28th @ Dark Rainbows\n    Jul 12th @ Filthier\n    Jul 19th vs
+  Vertz\n    Jul 26th vs Gouging Anklebiters\n    Aug 2nd vs Cobra Kai\n   
+  Aug 9th @ Poutine Machine\n    Aug 16th vs Fuzz
 END:VEVENT
 BEGIN:VEVENT
 UID:25c2f6ca892d9244fd947a25cd065ae981ebe6ce@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers @ Riots (Div 4)
 DTSTART;TZID=America/New_York:20260913T153000
 DTEND;TZID=America/New_York:20260913T162000
@@ -366,17 +366,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Riots\n----------------------------
  ------------\n    May 17th @ Riots\n\n------------------------------------
  ----\nRIOTS GAMES-TO-DATE\n----------------------------------------\nRecor
- d to date (completed games only): 0-1\n    Apr 12th @ Dark Rainbows (L 2-5
- )\n    Apr 19th @ Fuzz (Cancelled)\n    Apr 26th @ Sky Fighters\n    May 3
- rd @ What the Puck\n    May 17th vs Butchers\n    May 31st vs Moby Dekes\n
-     Jun 7th @ Renaissance\n    Jun 14th vs What the Puck\n    Jun 28th vs 
- Poutine Machine\n    Jul 12th @ Denim Demons\n    Jul 19th @ Instant Karma
- \n    Jul 26th vs Denim Demons\n    Aug 2nd @ Filthier\n    Aug 9th vs Mob
- y Dekes\n    Aug 16th @ What the Puck\n    Aug 23rd vs Dark Rainbows
+ d to date (completed games only): 0-2\n    Apr 12th @ Dark Rainbows (L 2-5
+ )\n    Apr 19th @ Fuzz (Cancelled)\n    Apr 26th @ Sky Fighters (L 1-3)\n 
+    May 3rd @ What the Puck\n    May 17th vs Butchers\n    May 31st vs Moby
+  Dekes\n    Jun 7th @ Renaissance\n    Jun 14th vs What the Puck\n    Jun 
+ 28th vs Poutine Machine\n    Jul 12th @ Denim Demons\n    Jul 19th @ Insta
+ nt Karma\n    Jul 26th vs Denim Demons\n    Aug 2nd @ Filthier\n    Aug 9t
+ h vs Moby Dekes\n    Aug 16th @ What the Puck\n    Aug 23rd vs Dark Rainbo
+ ws
 END:VEVENT
 BEGIN:VEVENT
 UID:c342b99196b0bb6bfbc54e279c40d28b3f4ada44@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Butchers vs Moby Dekes (Div 4)
 DTSTART;TZID=America/New_York:20260920T180000
 DTEND;TZID=America/New_York:20260920T185000
@@ -390,17 +391,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  -----------------\n    Jul 12th vs Moby Dekes\n    Jul 26th vs Moby Dekes\
  n\n----------------------------------------\nMOBY DEKES GAMES-TO-DATE\n---
  -------------------------------------\nRecord to date (completed games onl
- y): 0-1\n    Apr 12th vs What the Puck (L 1-4)\n    Apr 19th vs Gouging An
- klebiters (Cancelled)\n    Apr 26th vs Renaissance\n    May 3rd vs Sky Fig
- hters\n    May 17th vs Dark Rainbows\n    May 31st @ Riots\n    Jun 7th @ 
- Denim Demons\n    Jun 14th @ Dark Rainbows\n    Jun 28th vs Fuzz\n    Jul 
- 12th @ Butchers\n    Jul 19th @ What the Puck\n    Jul 26th @ Butchers\n  
-   Aug 2nd vs Gremlins\n    Aug 9th @ Riots\n    Aug 16th vs Sky Fighters\n
-     Aug 23rd vs What the Puck\n    Sep 13th @ Poutine Machine
+ y): 0-2\n    Apr 12th vs What the Puck (L 1-4)\n    Apr 19th vs Gouging An
+ klebiters (Cancelled)\n    Apr 26th vs Renaissance (L 0-7)\n    May 3rd vs
+  Sky Fighters\n    May 17th vs Dark Rainbows\n    May 31st @ Riots\n    Ju
+ n 7th @ Denim Demons\n    Jun 14th @ Dark Rainbows\n    Jun 28th vs Fuzz\n
+     Jul 12th @ Butchers\n    Jul 19th @ What the Puck\n    Jul 26th @ Butc
+ hers\n    Aug 2nd vs Gremlins\n    Aug 9th @ Riots\n    Aug 16th vs Sky Fi
+ ghters\n    Aug 23rd vs What the Puck\n    Sep 13th @ Poutine Machine
 END:VEVENT
 BEGIN:VEVENT
 UID:f44ce3080d077b7fd659dbc193c3abbeba6adca1@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
@@ -408,7 +409,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:6b6b9e211e7fc006cf61c070e51d3bf2b444131b@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
@@ -416,7 +417,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:6adf9400a795645141458c703f70d75256ffa526@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
@@ -424,7 +425,7 @@ DESCRIPTION:Father's Day
 END:VEVENT
 BEGIN:VEVENT
 UID:9b7389db40b88b0021985f0af4ca6c05b1ee344b@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928

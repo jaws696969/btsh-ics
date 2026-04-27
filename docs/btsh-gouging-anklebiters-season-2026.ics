@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:76f296dc1425cba83c312d3145369566c2d8c936@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters @ Poutine Machine (Div 2) [L 2-3 (OT)]
 DTSTART;TZID=America/New_York:20260412T153000
 DTEND;TZID=America/New_York:20260412T162000
@@ -43,7 +43,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e6b870fb4898f98518075da1d894f4e89f4ec996@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:CANCELLED: Gouging Anklebiters @ Moby Dekes (Div 4)
 DTSTART;TZID=America/New_York:20260419T130000
 DTEND;TZID=America/New_York:20260419T135000
@@ -61,14 +61,14 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:41fe59b2e9637b443db7788c90e7c55f62d7395a@btsh-ics
-DTSTAMP:20260426T191435Z
-SUMMARY:Gouging Anklebiters @ Fresh Kills (Div 1)
+DTSTAMP:20260427T040128Z
+SUMMARY:Gouging Anklebiters @ Fresh Kills (Div 1) [W 2-0]
 DTSTART;TZID=America/New_York:20260426T153000
 DTEND;TZID=America/New_York:20260426T162000
 LOCATION:Tompkins Square Park (west)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: complet
  ed\nStart (America/New_York): 2026-04-26 15:30 EDT\nRink: Tompkins Square 
  Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Fresh Kills\n----------------------
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0d1ed49b52f6575fe42716c182fc26815f1e9d3a@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters vs Cobra Kai (Div 1)
 DTSTART;TZID=America/New_York:20260503T130000
 DTEND;TZID=America/New_York:20260503T135000
@@ -92,13 +92,13 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
  ----------------\n    (no prior matchups listed)\n\n----------------------
  ------------------\nCOBRA KAI GAMES-TO-DATE\n-----------------------------
- -----------\nRecord to date (completed games only): 1-0\n    Apr 12th vs F
- resh Kills (W 10-0)\n    Apr 19th vs Renaissance (Cancelled)\n    Apr 26th
-  @ Fuzz
+ -----------\nRecord to date (completed games only): 2-0 (OT W: 1)\n    Apr
+  12th vs Fresh Kills (W 10-0)\n    Apr 19th vs Renaissance (Cancelled)\n  
+   Apr 26th @ Fuzz (W 5-4 OT)
 END:VEVENT
 BEGIN:VEVENT
 UID:7307b0486ee3daac5772a3797ed60c89fa7efa36@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters vs Gremlins (Div 3)
 DTSTART;TZID=America/New_York:20260517T164500
 DTEND;TZID=America/New_York:20260517T173500
@@ -117,7 +117,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:67a87c497fe6e393bf1b90776d9b886136a885f2@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters @ Poutine Machine (Div 2)
 DTSTART;TZID=America/New_York:20260531T164500
 DTEND;TZID=America/New_York:20260531T173500
@@ -137,7 +137,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:ebdf585e7916e0e101fda6162bc0737596ecb4ca@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters @ Lbs (Div 1)
 DTSTART;TZID=America/New_York:20260607T141500
 DTEND;TZID=America/New_York:20260607T150500
@@ -157,7 +157,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2080ac54fc65e551806151a9323dcb423e12b873@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters vs Fuzz (Div 2)
 DTSTART;TZID=America/New_York:20260614T180000
 DTEND;TZID=America/New_York:20260614T185000
@@ -170,14 +170,14 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Fuzz\n-----------------------------
  -----------\n    (no prior matchups listed)\n\n---------------------------
  -------------\nFUZZ GAMES-TO-DATE\n---------------------------------------
- -\nRecord to date (completed games only): 1-0\n    Apr 12th @ Denim Demons
-  (W 6-3)\n    Apr 19th vs Riots (Cancelled)\n    Apr 26th vs Cobra Kai\n  
-   May 3rd vs Corlears Hookers\n    May 17th vs Instant Karma\n    May 31st
-  vs Vertz\n    Jun 7th @ Mega Touch
+ -\nRecord to date (completed games only): 1-1\n    Apr 12th @ Denim Demons
+  (W 6-3)\n    Apr 19th vs Riots (Cancelled)\n    Apr 26th vs Cobra Kai (L 
+ 4-5 OT)\n    May 3rd vs Corlears Hookers\n    May 17th vs Instant Karma\n 
+    May 31st vs Vertz\n    Jun 7th @ Mega Touch
 END:VEVENT
 BEGIN:VEVENT
 UID:213a754a5b0e6c14e7f35e2356fd93f2e1757e2d@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:[Opening] Gouging Anklebiters vs Butchers (Div 4)
 DTSTART;TZID=America/New_York:20260628T130000
 DTEND;TZID=America/New_York:20260628T135000
@@ -190,15 +190,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Butchers\n-------------------------
  ---------------\n    (no prior matchups listed)\n\n-----------------------
  -----------------\nBUTCHERS GAMES-TO-DATE\n-------------------------------
- ---------\nRecord to date (completed games only): 1-0 (SO W: 1)\n    Apr 1
+ ---------\nRecord to date (completed games only): 1-1 (SO W: 1)\n    Apr 1
  2th @ Gremlins (W 3-2 SO)\n    Apr 19th vs Poutine Machine (Cancelled)\n  
-   Apr 26th @ Denim Demons\n    May 3rd vs Dark Rainbows\n    May 17th @ Ri
- ots\n    May 31st @ What the Puck\n    Jun 7th @ Filthier\n    Jun 14th vs
-  Gremlins
+   Apr 26th @ Denim Demons (L 1-3)\n    May 3rd vs Dark Rainbows\n    May 1
+ 7th @ Riots\n    May 31st @ What the Puck\n    Jun 7th @ Filthier\n    Jun
+  14th vs Gremlins
 END:VEVENT
 BEGIN:VEVENT
 UID:573d6ce03f674db0b00b41511054d55d18c40717@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters @ Renaissance (Div 3)
 DTSTART;TZID=America/New_York:20260712T141500
 DTEND;TZID=America/New_York:20260712T150500
@@ -211,15 +211,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Renaissance\n----------------------
  ------------------\n    (no prior matchups listed)\n\n--------------------
  --------------------\nRENAISSANCE GAMES-TO-DATE\n-------------------------
- ---------------\nRecord to date (completed games only): 1-0\n    Apr 12th 
+ ---------------\nRecord to date (completed games only): 2-0\n    Apr 12th 
  vs Sky Fighters (W 7-1)\n    Apr 19th @ Cobra Kai (Cancelled)\n    Apr 26t
- h @ Moby Dekes\n    May 3rd @ Denim Demons\n    May 17th vs What the Puck\
- n    May 31st @ Gremlins\n    Jun 7th vs Riots\n    Jun 14th @ Denim Demon
- s\n    Jun 28th vs Fresh Kills
+ h @ Moby Dekes (W 7-0)\n    May 3rd @ Denim Demons\n    May 17th vs What t
+ he Puck\n    May 31st @ Gremlins\n    Jun 7th vs Riots\n    Jun 14th @ Den
+ im Demons\n    Jun 28th vs Fresh Kills
 END:VEVENT
 BEGIN:VEVENT
 UID:52b95a9cd039c17ef5fcbb4aada27fec107bdab5@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters @ Mega Touch (Div 1)
 DTSTART;TZID=America/New_York:20260719T141500
 DTEND;TZID=America/New_York:20260719T150500
@@ -232,15 +232,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Mega Touch\n-----------------------
  -----------------\n    (no prior matchups listed)\n\n---------------------
  -------------------\nMEGA TOUCH GAMES-TO-DATE\n---------------------------
- -------------\nRecord to date (completed games only): 1-0\n    Apr 12th vs
+ -------------\nRecord to date (completed games only): 1-1\n    Apr 12th vs
   Vertz (W 5-2)\n    Apr 19th @ Gremlins (Cancelled)\n    Apr 26th @ Corlea
- rs Hookers\n    May 3rd vs Fresh Kills\n    May 17th vs Poutine Machine\n 
-    May 31st @ Lbs\n    Jun 7th vs Fuzz\n    Jun 14th vs Fresh Kills\n    J
- un 28th vs Denim Demons\n    Jul 12th @ Cobra Kai
+ rs Hookers (L 1-3)\n    May 3rd vs Fresh Kills\n    May 17th vs Poutine Ma
+ chine\n    May 31st @ Lbs\n    Jun 7th vs Fuzz\n    Jun 14th vs Fresh Kill
+ s\n    Jun 28th vs Denim Demons\n    Jul 12th @ Cobra Kai
 END:VEVENT
 BEGIN:VEVENT
 UID:4db1bd71d9c2d2280098be476428f7cf346528e5@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:[Closing] Gouging Anklebiters @ Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260726T180000
 DTEND;TZID=America/New_York:20260726T185000
@@ -253,15 +253,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Corlears Hookers\n-----------------
  -----------------------\n    (no prior matchups listed)\n\n---------------
  -------------------------\nCORLEARS HOOKERS GAMES-TO-DATE\n---------------
- -------------------------\nRecord to date (completed games only): 1-0\n   
+ -------------------------\nRecord to date (completed games only): 2-0\n   
   Apr 12th @ Lbs (W 5-3)\n    Apr 19th @ What the Puck (Cancelled)\n    Apr
-  26th vs Mega Touch\n    May 3rd @ Fuzz\n    May 17th vs Sky Fighters\n   
-  May 31st vs Instant Karma\n    Jun 7th vs Vertz\n    Jun 14th @ Lbs\n    
- Jun 28th @ Dark Rainbows\n    Jul 12th @ Filthier\n    Jul 19th vs Vertz
+  26th vs Mega Touch (W 3-1)\n    May 3rd @ Fuzz\n    May 17th vs Sky Fight
+ ers\n    May 31st vs Instant Karma\n    Jun 7th vs Vertz\n    Jun 14th @ L
+ bs\n    Jun 28th @ Dark Rainbows\n    Jul 12th @ Filthier\n    Jul 19th vs
+  Vertz
 END:VEVENT
 BEGIN:VEVENT
 UID:5f5c2fb2098a8e7e62bf62df0f68ed4c455c338b@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters @ Vertz (Div 1)
 DTSTART;TZID=America/New_York:20260802T164500
 DTEND;TZID=America/New_York:20260802T173500
@@ -274,16 +275,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Vertz\n----------------------------
  ------------\n    (no prior matchups listed)\n\n--------------------------
  --------------\nVERTZ GAMES-TO-DATE\n-------------------------------------
- ---\nRecord to date (completed games only): 0-1\n    Apr 12th @ Mega Touch
+ ---\nRecord to date (completed games only): 1-1\n    Apr 12th @ Mega Touch
   (L 2-5)\n    Apr 19th @ Denim Demons (Cancelled)\n    Apr 26th vs Instant
-  Karma\n    May 3rd vs Lbs\n    May 17th @ Cobra Kai\n    May 31st @ Fuzz\
- n    Jun 7th @ Corlears Hookers\n    Jun 14th vs Cobra Kai\n    Jun 28th v
- s Gremlins\n    Jul 12th @ Lbs\n    Jul 19th @ Corlears Hookers\n    Jul 2
- 6th vs Mega Touch
+  Karma (W 6-1)\n    May 3rd vs Lbs\n    May 17th @ Cobra Kai\n    May 31st
+  @ Fuzz\n    Jun 7th @ Corlears Hookers\n    Jun 14th vs Cobra Kai\n    Ju
+ n 28th vs Gremlins\n    Jul 12th @ Lbs\n    Jul 19th @ Corlears Hookers\n 
+    Jul 26th vs Mega Touch
 END:VEVENT
 BEGIN:VEVENT
 UID:138ff3331eb67597ce8b1c8117999feb9aad2525@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters vs Instant Karma (Div 2)
 DTSTART;TZID=America/New_York:20260809T180000
 DTEND;TZID=America/New_York:20260809T185000
@@ -296,16 +297,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Instant Karma\n--------------------
  --------------------\n    (no prior matchups listed)\n\n------------------
  ----------------------\nINSTANT KARMA GAMES-TO-DATE\n---------------------
- -------------------\nRecord to date (completed games only): 0-1\n    Apr 1
+ -------------------\nRecord to date (completed games only): 0-2\n    Apr 1
  2th @ Filthier (L 3-4)\n    Apr 19th @ Dark Rainbows (Cancelled)\n    Apr 
- 26th @ Vertz\n    May 3rd @ Poutine Machine\n    May 17th @ Fuzz\n    May 
- 31st @ Corlears Hookers\n    Jun 7th vs Cobra Kai\n    Jun 14th vs Poutine
-  Machine\n    Jun 28th vs What the Puck\n    Jul 12th @ Fresh Kills\n    J
- ul 19th vs Riots\n    Jul 26th vs Fresh Kills\n    Aug 2nd vs Mega Touch
+ 26th @ Vertz (L 1-6)\n    May 3rd @ Poutine Machine\n    May 17th @ Fuzz\n
+     May 31st @ Corlears Hookers\n    Jun 7th vs Cobra Kai\n    Jun 14th vs
+  Poutine Machine\n    Jun 28th vs What the Puck\n    Jul 12th @ Fresh Kill
+ s\n    Jul 19th vs Riots\n    Jul 26th vs Fresh Kills\n    Aug 2nd vs Mega
+  Touch
 END:VEVENT
 BEGIN:VEVENT
 UID:98941140435a6efba5fb03ea8d616bdc29326799@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters vs Cobra Kai (Div 1)
 DTSTART;TZID=America/New_York:20260816T153000
 DTEND;TZID=America/New_York:20260816T162000
@@ -318,17 +320,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
  ----------------\n    May 3rd vs Cobra Kai\n\n----------------------------
  ------------\nCOBRA KAI GAMES-TO-DATE\n-----------------------------------
- -----\nRecord to date (completed games only): 1-0\n    Apr 12th vs Fresh K
- ills (W 10-0)\n    Apr 19th vs Renaissance (Cancelled)\n    Apr 26th @ Fuz
- z\n    May 3rd @ Gouging Anklebiters\n    May 17th vs Vertz\n    May 31st 
- @ Fresh Kills\n    Jun 7th @ Instant Karma\n    Jun 14th @ Vertz\n    Jun 
- 28th @ Sky Fighters\n    Jul 12th vs Mega Touch\n    Jul 19th vs Poutine M
- achine\n    Jul 26th vs Lbs\n    Aug 2nd @ Corlears Hookers\n    Aug 9th v
- s Mega Touch
+ -----\nRecord to date (completed games only): 2-0 (OT W: 1)\n    Apr 12th 
+ vs Fresh Kills (W 10-0)\n    Apr 19th vs Renaissance (Cancelled)\n    Apr 
+ 26th @ Fuzz (W 5-4 OT)\n    May 3rd @ Gouging Anklebiters\n    May 17th vs
+  Vertz\n    May 31st @ Fresh Kills\n    Jun 7th @ Instant Karma\n    Jun 1
+ 4th @ Vertz\n    Jun 28th @ Sky Fighters\n    Jul 12th vs Mega Touch\n    
+ Jul 19th vs Poutine Machine\n    Jul 26th vs Lbs\n    Aug 2nd @ Corlears H
+ ookers\n    Aug 9th vs Mega Touch
 END:VEVENT
 BEGIN:VEVENT
 UID:22e6031417039802819ddbcb22b4e741d4a805e1@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters vs Mega Touch (Div 1)
 DTSTART;TZID=America/New_York:20260823T153000
 DTEND;TZID=America/New_York:20260823T162000
@@ -341,17 +343,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Mega Touch\n-----------------------
  -----------------\n    Jul 19th @ Mega Touch\n\n--------------------------
  --------------\nMEGA TOUCH GAMES-TO-DATE\n--------------------------------
- --------\nRecord to date (completed games only): 1-0\n    Apr 12th vs Vert
+ --------\nRecord to date (completed games only): 1-1\n    Apr 12th vs Vert
  z (W 5-2)\n    Apr 19th @ Gremlins (Cancelled)\n    Apr 26th @ Corlears Ho
- okers\n    May 3rd vs Fresh Kills\n    May 17th vs Poutine Machine\n    Ma
- y 31st @ Lbs\n    Jun 7th vs Fuzz\n    Jun 14th vs Fresh Kills\n    Jun 28
- th vs Denim Demons\n    Jul 12th @ Cobra Kai\n    Jul 19th vs Gouging Ankl
- ebiters\n    Jul 26th @ Vertz\n    Aug 2nd @ Instant Karma\n    Aug 9th @ 
- Cobra Kai\n    Aug 16th vs Lbs
+ okers (L 1-3)\n    May 3rd vs Fresh Kills\n    May 17th vs Poutine Machine
+ \n    May 31st @ Lbs\n    Jun 7th vs Fuzz\n    Jun 14th vs Fresh Kills\n  
+   Jun 28th vs Denim Demons\n    Jul 12th @ Cobra Kai\n    Jul 19th vs Goug
+ ing Anklebiters\n    Jul 26th @ Vertz\n    Aug 2nd @ Instant Karma\n    Au
+ g 9th @ Cobra Kai\n    Aug 16th vs Lbs
 END:VEVENT
 BEGIN:VEVENT
 UID:dc049760b1d4d70ce464da69bedae9f1d8928b9e@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters vs Dark Rainbows (Div 4)
 DTSTART;TZID=America/New_York:20260913T164500
 DTEND;TZID=America/New_York:20260913T173500
@@ -374,7 +376,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:84ecfa11167812cfdb3607ebc1d6840174530d7c@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Gouging Anklebiters vs Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260920T141500
 DTEND;TZID=America/New_York:20260920T150500
@@ -387,18 +389,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Corlears Hookers\n-----------------
  -----------------------\n    Jul 26th @ Corlears Hookers\n\n--------------
  --------------------------\nCORLEARS HOOKERS GAMES-TO-DATE\n--------------
- --------------------------\nRecord to date (completed games only): 1-0\n  
+ --------------------------\nRecord to date (completed games only): 2-0\n  
    Apr 12th @ Lbs (W 5-3)\n    Apr 19th @ What the Puck (Cancelled)\n    Ap
- r 26th vs Mega Touch\n    May 3rd @ Fuzz\n    May 17th vs Sky Fighters\n  
-   May 31st vs Instant Karma\n    Jun 7th vs Vertz\n    Jun 14th @ Lbs\n   
-  Jun 28th @ Dark Rainbows\n    Jul 12th @ Filthier\n    Jul 19th vs Vertz\
- n    Jul 26th vs Gouging Anklebiters\n    Aug 2nd vs Cobra Kai\n    Aug 9t
- h @ Poutine Machine\n    Aug 16th vs Fuzz\n    Aug 23rd @ Butchers\n    Se
- p 13th vs Fresh Kills
+ r 26th vs Mega Touch (W 3-1)\n    May 3rd @ Fuzz\n    May 17th vs Sky Figh
+ ters\n    May 31st vs Instant Karma\n    Jun 7th vs Vertz\n    Jun 14th @ 
+ Lbs\n    Jun 28th @ Dark Rainbows\n    Jul 12th @ Filthier\n    Jul 19th v
+ s Vertz\n    Jul 26th vs Gouging Anklebiters\n    Aug 2nd vs Cobra Kai\n  
+   Aug 9th @ Poutine Machine\n    Aug 16th vs Fuzz\n    Aug 23rd @ Butchers
+ \n    Sep 13th vs Fresh Kills
 END:VEVENT
 BEGIN:VEVENT
 UID:599d781a5bb183497ad39dce7a8ca5d090eedbe5@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
@@ -406,7 +408,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:129646bf72eb4cc2c7eb6e93a43330ab0b9c5270@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
@@ -414,7 +416,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:0d048fa69ced97437cdbfbfeb9b9f9c17db6082f@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
@@ -422,7 +424,7 @@ DESCRIPTION:Father's Day
 END:VEVENT
 BEGIN:VEVENT
 UID:30d032e17c546f1c129c95005adc952487d87d68@btsh-ics
-DTSTAMP:20260426T191435Z
+DTSTAMP:20260427T040128Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
