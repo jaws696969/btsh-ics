@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:97154c417a22cb0744ab5201a5bb0870d5e8f0c9@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch vs Vertz (Div 1) [W 5-2]
 DTSTART;TZID=America/New_York:20260412T130000
 DTEND;TZID=America/New_York:20260412T135000
@@ -43,7 +43,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1daa21c1bb064db30410106b3e409b666d003599@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:CANCELLED: Mega Touch @ Gremlins (Div 3)
 DTSTART;TZID=America/New_York:20260419T153000
 DTEND;TZID=America/New_York:20260419T162000
@@ -61,7 +61,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:5f672db3bddd46de6c4543b4b13386de125bd733@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch @ Corlears Hookers (Div 2) [L 1-3]
 DTSTART;TZID=America/New_York:20260426T180000
 DTEND;TZID=America/New_York:20260426T185000
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:95d239713e0727b049fec28b71a78cad1575d81c@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch vs Fresh Kills (Div 1)
 DTSTART;TZID=America/New_York:20260503T164500
 DTEND;TZID=America/New_York:20260503T173500
@@ -98,7 +98,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d3fa8065f67165ada6251315c0b44946c9e15ede@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch vs Poutine Machine (Div 2)
 DTSTART;TZID=America/New_York:20260517T164500
 DTEND;TZID=America/New_York:20260517T173500
@@ -111,14 +111,14 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Poutine Machine\n------------------
  ----------------------\n    (no prior matchups listed)\n\n----------------
  ------------------------\nPOUTINE MACHINE GAMES-TO-DATE\n-----------------
- -----------------------\nRecord to date (completed games only): 1-1 (OT W:
+ -----------------------\nRecord to date (completed games only): 2-1 (OT W:
   1)\n    Apr 12th vs Gouging Anklebiters (W 3-2 OT)\n    Apr 19th @ Butche
  rs (Cancelled)\n    Apr 26th @ Lbs (L 4-5 OT)\n    May 3rd vs Instant Karm
- a
+ a (W 5-4)
 END:VEVENT
 BEGIN:VEVENT
 UID:595e0fa8e7501931dedc4cfe2b3fd7f65e984bc8@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch @ Lbs (Div 1)
 DTSTART;TZID=America/New_York:20260531T180000
 DTEND;TZID=America/New_York:20260531T185000
@@ -138,7 +138,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:c5f3e5251589b625e0bc3a564d16360c3a66dcf0@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch vs Fuzz (Div 2)
 DTSTART;TZID=America/New_York:20260607T164500
 DTEND;TZID=America/New_York:20260607T173500
@@ -158,7 +158,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:f9c1186a72c183a706f33e01ccb04a4c1272571f@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch vs Fresh Kills (Div 1)
 DTSTART;TZID=America/New_York:20260614T130000
 DTEND;TZID=America/New_York:20260614T135000
@@ -178,7 +178,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:f3d8989f90e0af1f7963f439a5a9080ffa7275dc@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch vs Denim Demons (Div 3)
 DTSTART;TZID=America/New_York:20260628T141500
 DTEND;TZID=America/New_York:20260628T150500
@@ -191,15 +191,15 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Denim Demons\n---------------------
  -------------------\n    (no prior matchups listed)\n\n-------------------
  ---------------------\nDENIM DEMONS GAMES-TO-DATE\n-----------------------
- -----------------\nRecord to date (completed games only): 1-1\n    Apr 12t
+ -----------------\nRecord to date (completed games only): 1-2\n    Apr 12t
  h vs Fuzz (L 3-6)\n    Apr 19th vs Vertz (Cancelled)\n    Apr 26th vs Butc
- hers (W 3-1)\n    May 3rd vs Renaissance\n    May 17th @ Filthier\n    May
-  31st @ Sky Fighters\n    Jun 7th vs Moby Dekes\n    Jun 14th vs Renaissan
- ce
+ hers (W 3-1)\n    May 3rd vs Renaissance (L 2-5)\n    May 17th @ Filthier\
+ n    May 31st @ Sky Fighters\n    Jun 7th vs Moby Dekes\n    Jun 14th vs R
+ enaissance
 END:VEVENT
 BEGIN:VEVENT
 UID:3ec978baf915e748f82d6b08c846efa2781cfaae@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch @ Cobra Kai (Div 1)
 DTSTART;TZID=America/New_York:20260712T153000
 DTEND;TZID=America/New_York:20260712T162000
@@ -220,7 +220,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:5d123af5c21ee0d2f333176448d778df6848fd78@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch vs Gouging Anklebiters (Div 2)
 DTSTART;TZID=America/New_York:20260719T141500
 DTEND;TZID=America/New_York:20260719T150500
@@ -242,7 +242,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:341075be13abd3dfb8d790045e6ba92d7843984b@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch @ Vertz (Div 1)
 DTSTART;TZID=America/New_York:20260726T153000
 DTEND;TZID=America/New_York:20260726T162000
@@ -263,7 +263,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:fd98cdf2cd6117b3da99de8bb7af46bf24aca354@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch @ Instant Karma (Div 2)
 DTSTART;TZID=America/New_York:20260802T141500
 DTEND;TZID=America/New_York:20260802T150500
@@ -276,16 +276,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Instant Karma\n--------------------
  --------------------\n    (no prior matchups listed)\n\n------------------
  ----------------------\nINSTANT KARMA GAMES-TO-DATE\n---------------------
- -------------------\nRecord to date (completed games only): 0-2\n    Apr 1
+ -------------------\nRecord to date (completed games only): 0-3\n    Apr 1
  2th @ Filthier (L 3-4)\n    Apr 19th @ Dark Rainbows (Cancelled)\n    Apr 
- 26th @ Vertz (L 1-6)\n    May 3rd @ Poutine Machine\n    May 17th @ Fuzz\n
-     May 31st @ Corlears Hookers\n    Jun 7th vs Cobra Kai\n    Jun 14th vs
-  Poutine Machine\n    Jun 28th vs What the Puck\n    Jul 12th @ Fresh Kill
- s\n    Jul 19th vs Riots\n    Jul 26th vs Fresh Kills
+ 26th @ Vertz (L 1-6)\n    May 3rd @ Poutine Machine (L 4-5)\n    May 17th 
+ @ Fuzz\n    May 31st @ Corlears Hookers\n    Jun 7th vs Cobra Kai\n    Jun
+  14th vs Poutine Machine\n    Jun 28th vs What the Puck\n    Jul 12th @ Fr
+ esh Kills\n    Jul 19th vs Riots\n    Jul 26th vs Fresh Kills
 END:VEVENT
 BEGIN:VEVENT
 UID:28d4ef5759ee3af947457e3fe428e64868fcbc0f@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch @ Cobra Kai (Div 1)
 DTSTART;TZID=America/New_York:20260809T164500
 DTEND;TZID=America/New_York:20260809T173500
@@ -308,7 +308,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:54394a92a053a02be8320ce9ea323326fc296384@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:[Closing] Mega Touch vs Lbs (Div 1)
 DTSTART;TZID=America/New_York:20260816T180000
 DTEND;TZID=America/New_York:20260816T185000
@@ -331,7 +331,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:9873781a214ab8a0d1c4aefe37117f3cbe6a8eb0@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch @ Gouging Anklebiters (Div 2)
 DTSTART;TZID=America/New_York:20260823T153000
 DTEND;TZID=America/New_York:20260823T162000
@@ -354,7 +354,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:933157c87566dce0b014cb56eba9c86b8ff3ac9b@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch @ Renaissance (Div 3)
 DTSTART;TZID=America/New_York:20260913T130000
 DTEND;TZID=America/New_York:20260913T135000
@@ -367,18 +367,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Renaissance\n----------------------
  ------------------\n    (no prior matchups listed)\n\n--------------------
  --------------------\nRENAISSANCE GAMES-TO-DATE\n-------------------------
- ---------------\nRecord to date (completed games only): 2-0\n    Apr 12th 
+ ---------------\nRecord to date (completed games only): 3-0\n    Apr 12th 
  vs Sky Fighters (W 7-1)\n    Apr 19th @ Cobra Kai (Cancelled)\n    Apr 26t
- h @ Moby Dekes (W 7-0)\n    May 3rd @ Denim Demons\n    May 17th vs What t
- he Puck\n    May 31st @ Gremlins\n    Jun 7th vs Riots\n    Jun 14th @ Den
- im Demons\n    Jun 28th vs Fresh Kills\n    Jul 12th vs Gouging Anklebiter
- s\n    Jul 19th @ Gremlins\n    Jul 26th @ Filthier\n    Aug 2nd vs Butche
- rs\n    Aug 9th @ Sky Fighters\n    Aug 16th @ Instant Karma\n    Aug 23rd
-  vs Filthier
+ h @ Moby Dekes (W 7-0)\n    May 3rd @ Denim Demons (W 5-2)\n    May 17th v
+ s What the Puck\n    May 31st @ Gremlins\n    Jun 7th vs Riots\n    Jun 14
+ th @ Denim Demons\n    Jun 28th vs Fresh Kills\n    Jul 12th vs Gouging An
+ klebiters\n    Jul 19th @ Gremlins\n    Jul 26th @ Filthier\n    Aug 2nd v
+ s Butchers\n    Aug 9th @ Sky Fighters\n    Aug 16th @ Instant Karma\n    
+ Aug 23rd vs Filthier
 END:VEVENT
 BEGIN:VEVENT
 UID:e8aa773e8774cf3750977c0ce8f0199d86819f5f@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Mega Touch vs Poutine Machine (Div 2)
 DTSTART;TZID=America/New_York:20260920T130000
 DTEND;TZID=America/New_York:20260920T135000
@@ -391,18 +391,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Poutine Machine\n------------------
  ----------------------\n    May 17th vs Poutine Machine\n\n---------------
  -------------------------\nPOUTINE MACHINE GAMES-TO-DATE\n----------------
- ------------------------\nRecord to date (completed games only): 1-1 (OT W
+ ------------------------\nRecord to date (completed games only): 2-1 (OT W
  : 1)\n    Apr 12th vs Gouging Anklebiters (W 3-2 OT)\n    Apr 19th @ Butch
  ers (Cancelled)\n    Apr 26th @ Lbs (L 4-5 OT)\n    May 3rd vs Instant Kar
- ma\n    May 17th @ Mega Touch\n    May 31st vs Gouging Anklebiters\n    Ju
- n 7th vs Fresh Kills\n    Jun 14th @ Instant Karma\n    Jun 28th @ Riots\n
-     Jul 12th vs Sky Fighters\n    Jul 19th @ Cobra Kai\n    Jul 26th @ Fuz
- z\n    Aug 2nd vs Lbs\n    Aug 9th vs Corlears Hookers\n    Aug 16th vs De
- nim Demons\n    Aug 23rd @ Cobra Kai\n    Sep 13th vs Moby Dekes
+ ma (W 5-4)\n    May 17th @ Mega Touch\n    May 31st vs Gouging Anklebiters
+ \n    Jun 7th vs Fresh Kills\n    Jun 14th @ Instant Karma\n    Jun 28th @
+  Riots\n    Jul 12th vs Sky Fighters\n    Jul 19th @ Cobra Kai\n    Jul 26
+ th @ Fuzz\n    Aug 2nd vs Lbs\n    Aug 9th vs Corlears Hookers\n    Aug 16
+ th vs Denim Demons\n    Aug 23rd @ Cobra Kai\n    Sep 13th vs Moby Dekes
 END:VEVENT
 BEGIN:VEVENT
 UID:4497597b49fb76e3190500e9be08b3f35827e9a5@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
@@ -410,7 +410,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:fec79233f77996cab0cc1dcbd484860d161463ef@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
@@ -418,7 +418,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:ef4a0965469d5d7c03eab4b48304905709cda569@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
@@ -426,7 +426,7 @@ DESCRIPTION:Father's Day
 END:VEVENT
 BEGIN:VEVENT
 UID:2fbf74da3976a440cc2613b62ace1bfdae95169d@btsh-ics
-DTSTAMP:20260503T135022Z
+DTSTAMP:20260503T192907Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
