@@ -33,6 +33,9 @@ Common options:
 - `team_file_prefix`: team calendar file prefix
 
 ## Run locally
+
+<!-- last heartbeat: 2026-05-21 -->
+
 ```bash
 pip install -r requirements.txt
 python src/generate_ics.py
