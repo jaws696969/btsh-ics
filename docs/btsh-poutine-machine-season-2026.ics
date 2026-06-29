@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:e0c8a61411e654b81e287df3719922eea2d37527@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine vs Gouging Anklebiters (Div 2) [W 3-2 (OT)]
 DTSTART;TZID=America/New_York:20260412T153000
 DTEND;TZID=America/New_York:20260412T162000
@@ -43,7 +43,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:8e7cb0d35dd0698d18d23ab0656f59983469e42b@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:CANCELLED: Poutine Machine @ Butchers (Div 4)
 DTSTART;TZID=America/New_York:20260419T180000
 DTEND;TZID=America/New_York:20260419T185000
@@ -61,7 +61,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:25f4c369d301bf4693d40908ce9bdf99becc3066@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine @ Lbs (Div 1) [L 4-5 (OT)]
 DTSTART;TZID=America/New_York:20260426T130000
 DTEND;TZID=America/New_York:20260426T135000
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:a61de0fbbf99826542362bbbd0c580a76a26ddb3@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine vs Instant Karma (Div 2) [W 5-4]
 DTSTART;TZID=America/New_York:20260503T141500
 DTEND;TZID=America/New_York:20260503T150500
@@ -98,7 +98,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:09c5858b67695b93c82edaa42ca0258d06671bb6@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine @ Mega Touch (Div 1) [W 4-1]
 DTSTART;TZID=America/New_York:20260517T164500
 DTEND;TZID=America/New_York:20260517T173500
@@ -117,7 +117,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:a1f35c4cb732978737ba98b05a38f2f49becfb60@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine vs Gouging Anklebiters (Div 2) [W 2-0]
 DTSTART;TZID=America/New_York:20260531T164500
 DTEND;TZID=America/New_York:20260531T173500
@@ -137,7 +137,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:776dd95757c891b607465c6d6c9519aefa56ee4d@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine vs Fresh Kills (Div 1) [W 4-3 (SO)]
 DTSTART;TZID=America/New_York:20260607T153000
 DTEND;TZID=America/New_York:20260607T162000
@@ -157,7 +157,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2a24d08cb29e646afed84c79e70bc1eb1e921aa6@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine @ Instant Karma (Div 2) [W 4-3]
 DTSTART;TZID=America/New_York:20260614T141500
 DTEND;TZID=America/New_York:20260614T150500
@@ -178,7 +178,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:78686a028cae73f433accaebfa0d54f106746ba1@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine @ Butchers (Div 4) [W 7-1]
 DTSTART;TZID=America/New_York:20260621T180000
 DTEND;TZID=America/New_York:20260621T185000
@@ -199,7 +199,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:24f1988d7d0a2aedf6ae51585aecd7f4c6337124@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine @ Riots (Div 4) [W 9-1]
 DTSTART;TZID=America/New_York:20260628T141500
 DTEND;TZID=America/New_York:20260628T150500
@@ -221,7 +221,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e1d44633dd70c88c80ab4584e17ce621475fc385@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine vs Sky Fighters (Div 3)
 DTSTART;TZID=America/New_York:20260712T141500
 DTEND;TZID=America/New_York:20260712T150500
@@ -234,16 +234,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Sky Fighters\n---------------------
  -------------------\n    (no prior matchups listed)\n\n-------------------
  ---------------------\nSKY FIGHTERS GAMES-TO-DATE\n-----------------------
- -----------------\nRecord to date (completed games only): 4-3\n    Apr 12t
+ -----------------\nRecord to date (completed games only): 4-4\n    Apr 12t
  h @ Renaissance (L 1-7)\n    Apr 19th vs Lbs (Cancelled)\n    Apr 26th vs 
  Riots (W 3-1)\n    May 3rd @ Moby Dekes (W 8-0)\n    May 17th @ Corlears H
  ookers (L 1-5)\n    May 31st vs Denim Demons (W 5-2)\n    Jun 7th vs Dark 
  Rainbows (W 5-4)\n    Jun 14th vs Filthier (L 3-4 OT)\n    Jun 21st vs Lbs
-  (Cancelled)\n    Jun 28th vs Cobra Kai
+  (Cancelled)\n    Jun 28th vs Cobra Kai (L 1-4)
 END:VEVENT
 BEGIN:VEVENT
 UID:6ad8b37c85c23793f35b57ea85a5b29fef80d271@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine @ Cobra Kai (Div 1)
 DTSTART;TZID=America/New_York:20260719T130000
 DTEND;TZID=America/New_York:20260719T135000
@@ -256,17 +256,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
  ----------------\n    (no prior matchups listed)\n\n----------------------
  ------------------\nCOBRA KAI GAMES-TO-DATE\n-----------------------------
- -----------\nRecord to date (completed games only): 5-3 (OT W: 1)\n    Apr
+ -----------\nRecord to date (completed games only): 6-3 (OT W: 1)\n    Apr
   12th vs Fresh Kills (W 10-0)\n    Apr 19th vs Renaissance (Cancelled)\n  
    Apr 26th @ Fuzz (W 5-4 OT)\n    May 3rd @ Gouging Anklebiters (L 3-5)\n 
     May 17th vs Vertz (L 6-7 SO)\n    May 31st @ Fresh Kills (L 2-3 SO)\n  
    Jun 7th @ Instant Karma (W 5-2)\n    Jun 14th @ Vertz (W 6-3)\n    Jun 2
- 1st vs Renaissance (W 9-3)\n    Jun 28th @ Sky Fighters\n    Jul 12th vs M
- ega Touch
+ 1st vs Renaissance (W 9-3)\n    Jun 28th @ Sky Fighters (W 4-1)\n    Jul 1
+ 2th vs Mega Touch
 END:VEVENT
 BEGIN:VEVENT
 UID:3dc574bfe332128bea73672314af878c37cd98d9@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine @ Fuzz (Div 2)
 DTSTART;TZID=America/New_York:20260726T164500
 DTEND;TZID=America/New_York:20260726T173500
@@ -279,17 +279,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Fuzz\n-----------------------------
  -----------\n    (no prior matchups listed)\n\n---------------------------
  -------------\nFUZZ GAMES-TO-DATE\n---------------------------------------
- -\nRecord to date (completed games only): 2-5 (OT W: 1)\n    Apr 12th @ De
+ -\nRecord to date (completed games only): 3-5 (OT W: 1)\n    Apr 12th @ De
  nim Demons (W 6-3)\n    Apr 19th vs Riots (Cancelled)\n    Apr 26th vs Cob
  ra Kai (L 4-5 OT)\n    May 3rd vs Corlears Hookers (L 1-2)\n    May 17th v
  s Instant Karma (W 7-6 OT)\n    May 31st vs Vertz (L 4-7)\n    Jun 7th @ M
  ega Touch (L 1-10)\n    Jun 14th @ Gouging Anklebiters (L 3-6)\n    Jun 21
- st vs Riots (Cancelled)\n    Jun 28th @ Moby Dekes\n    Jul 12th @ Gremlin
- s\n    Jul 19th @ Lbs
+ st vs Riots (Cancelled)\n    Jun 28th @ Moby Dekes (W 7-2)\n    Jul 12th @
+  Gremlins\n    Jul 19th @ Lbs
 END:VEVENT
 BEGIN:VEVENT
 UID:e6b8f67df7f758882140fbe799b9815429df9c7b@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine vs Lbs (Div 1)
 DTSTART;TZID=America/New_York:20260802T153000
 DTEND;TZID=America/New_York:20260802T162000
@@ -312,7 +312,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:389415b93a32f40ac84b1dfdc98afdaf20126542@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:[Opening] Poutine Machine vs Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260809T130000
 DTEND;TZID=America/New_York:20260809T135000
@@ -325,18 +325,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Corlears Hookers\n-----------------
  -----------------------\n    (no prior matchups listed)\n\n---------------
  -------------------------\nCORLEARS HOOKERS GAMES-TO-DATE\n---------------
- -------------------------\nRecord to date (completed games only): 7-1 (SO 
+ -------------------------\nRecord to date (completed games only): 7-2 (SO 
  W: 1)\n    Apr 12th @ Lbs (W 5-3)\n    Apr 19th @ What the Puck (Cancelled
  )\n    Apr 26th vs Mega Touch (W 3-1)\n    May 3rd @ Fuzz (W 2-1)\n    May
   17th vs Sky Fighters (W 5-1)\n    May 31st vs Instant Karma (W 5-4 SO)\n 
     Jun 7th vs Vertz (W 5-2)\n    Jun 14th @ Lbs (L 2-3)\n    Jun 21st @ Wh
- at the Puck (W 5-1)\n    Jun 28th @ Dark Rainbows\n    Jul 12th @ Filthier
- \n    Jul 19th vs Vertz\n    Jul 26th vs Gouging Anklebiters\n    Aug 2nd 
- vs Cobra Kai
+ at the Puck (W 5-1)\n    Jun 28th @ Dark Rainbows (L 1-4)\n    Jul 12th @ 
+ Filthier\n    Jul 19th vs Vertz\n    Jul 26th vs Gouging Anklebiters\n    
+ Aug 2nd vs Cobra Kai
 END:VEVENT
 BEGIN:VEVENT
 UID:0e974daad30ad0f059a4d03a530e97e71a50d6bc@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine vs Denim Demons (Div 3)
 DTSTART;TZID=America/New_York:20260816T164500
 DTEND;TZID=America/New_York:20260816T173500
@@ -360,7 +360,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:68209566af7b44b3b27f2430c195e8bbf80576ef@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine @ Cobra Kai (Div 1)
 DTSTART;TZID=America/New_York:20260830T180000
 DTEND;TZID=America/New_York:20260830T185000
@@ -373,19 +373,19 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Cobra Kai\n------------------------
  ----------------\n    Jul 19th @ Cobra Kai\n\n----------------------------
  ------------\nCOBRA KAI GAMES-TO-DATE\n-----------------------------------
- -----\nRecord to date (completed games only): 5-3 (OT W: 1)\n    Apr 12th 
+ -----\nRecord to date (completed games only): 6-3 (OT W: 1)\n    Apr 12th 
  vs Fresh Kills (W 10-0)\n    Apr 19th vs Renaissance (Cancelled)\n    Apr 
  26th @ Fuzz (W 5-4 OT)\n    May 3rd @ Gouging Anklebiters (L 3-5)\n    May
   17th vs Vertz (L 6-7 SO)\n    May 31st @ Fresh Kills (L 2-3 SO)\n    Jun 
  7th @ Instant Karma (W 5-2)\n    Jun 14th @ Vertz (W 6-3)\n    Jun 21st vs
-  Renaissance (W 9-3)\n    Jun 28th @ Sky Fighters\n    Jul 12th vs Mega To
- uch\n    Jul 19th vs Poutine Machine\n    Jul 26th vs Lbs\n    Aug 2nd @ C
- orlears Hookers\n    Aug 9th vs Mega Touch\n    Aug 16th @ Gouging Anklebi
- ters
+  Renaissance (W 9-3)\n    Jun 28th @ Sky Fighters (W 4-1)\n    Jul 12th vs
+  Mega Touch\n    Jul 19th vs Poutine Machine\n    Jul 26th vs Lbs\n    Aug
+  2nd @ Corlears Hookers\n    Aug 9th vs Mega Touch\n    Aug 16th @ Gouging
+  Anklebiters
 END:VEVENT
 BEGIN:VEVENT
 UID:d1d5f2e659c640c06c07c268b5a908397a5f2404@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine vs Moby Dekes (Div 4)
 DTSTART;TZID=America/New_York:20260913T180000
 DTEND;TZID=America/New_York:20260913T185000
@@ -398,19 +398,19 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Moby Dekes\n-----------------------
  -----------------\n    (no prior matchups listed)\n\n---------------------
  -------------------\nMOBY DEKES GAMES-TO-DATE\n---------------------------
- -------------\nRecord to date (completed games only): 0-7\n    Apr 12th vs
+ -------------\nRecord to date (completed games only): 0-8\n    Apr 12th vs
   What the Puck (L 1-4)\n    Apr 19th vs Gouging Anklebiters (Cancelled)\n 
     Apr 26th vs Renaissance (L 0-7)\n    May 3rd vs Sky Fighters (L 0-8)\n 
     May 17th vs Dark Rainbows (L 3-6)\n    May 31st @ Riots (L 1-3)\n    Ju
  n 7th @ Denim Demons (L 1-11)\n    Jun 14th @ Dark Rainbows (L 3-7)\n    J
- un 21st vs Gouging Anklebiters (Cancelled)\n    Jun 28th vs Fuzz\n    Jul 
- 12th @ Butchers\n    Jul 19th @ What the Puck\n    Jul 26th @ Butchers\n  
-   Aug 2nd vs Gremlins\n    Aug 9th @ Riots\n    Aug 16th vs Sky Fighters\n
-     Aug 30th vs What the Puck
+ un 21st vs Gouging Anklebiters (Cancelled)\n    Jun 28th vs Fuzz (L 2-7)\n
+     Jul 12th @ Butchers\n    Jul 19th @ What the Puck\n    Jul 26th @ Butc
+ hers\n    Aug 2nd vs Gremlins\n    Aug 9th @ Riots\n    Aug 16th vs Sky Fi
+ ghters\n    Aug 30th vs What the Puck
 END:VEVENT
 BEGIN:VEVENT
 UID:ad947c92eb18ba3222b2b7e9730afdaf356fb850@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Poutine Machine @ Mega Touch (Div 1)
 DTSTART;TZID=America/New_York:20260920T130000
 DTEND;TZID=America/New_York:20260920T135000
@@ -435,7 +435,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:60eb24a090ed9a3983a8ce3f91269ca26bfc12d9@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
@@ -443,7 +443,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:1446626615e55fe6bf21d4cddd6dc954b80dd97b@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
@@ -451,7 +451,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:f343dcccf161df8a1f2d16b2da48da2d454a9463@btsh-ics
-DTSTAMP:20260628T194730Z
+DTSTAMP:20260629T050107Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
