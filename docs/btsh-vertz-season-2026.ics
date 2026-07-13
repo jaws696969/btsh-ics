@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:cd5a0710baaa51eb96b9d954c735a0fe637f4bea@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:[Opening] Vertz @ Mega Touch (Div 1) [L 2-5]
 DTSTART;TZID=America/New_York:20260412T130000
 DTEND;TZID=America/New_York:20260412T135000
@@ -43,7 +43,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:386630f599c2d7974da913496d46f1ce17b9be02@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:CANCELLED: Vertz @ Denim Demons (Div 3)
 DTSTART;TZID=America/New_York:20260419T180000
 DTEND;TZID=America/New_York:20260419T185000
@@ -61,7 +61,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e0b908ffd981fb45a23f23855b4fb5eb7038b6b8@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz vs Instant Karma (Div 2) [W 6-1]
 DTSTART;TZID=America/New_York:20260426T164500
 DTEND;TZID=America/New_York:20260426T173500
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:56af6c90374b3537994ed6324bf140b636109203@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz vs Lbs (Div 1) [W 5-3]
 DTSTART;TZID=America/New_York:20260503T153000
 DTEND;TZID=America/New_York:20260503T162000
@@ -98,7 +98,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:41c0e5fe13185fcb56955570955253e6f3c72dbc@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz @ Cobra Kai (Div 1) [W 7-6 (SO)]
 DTSTART;TZID=America/New_York:20260517T141500
 DTEND;TZID=America/New_York:20260517T150500
@@ -117,7 +117,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:d07059905e60489209f473438326dfa149a183b6@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz @ Fuzz (Div 2) [W 7-4]
 DTSTART;TZID=America/New_York:20260531T141500
 DTEND;TZID=America/New_York:20260531T150500
@@ -137,7 +137,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:76d984c28f790c47491a7e6a34ee7312c8544c4c@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz @ Corlears Hookers (Div 2) [L 2-5]
 DTSTART;TZID=America/New_York:20260607T180000
 DTEND;TZID=America/New_York:20260607T185000
@@ -157,7 +157,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:b59acc78775a4bafcbaba130ec4accf5ce60652c@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz vs Cobra Kai (Div 1) [L 3-6]
 DTSTART;TZID=America/New_York:20260614T153000
 DTEND;TZID=America/New_York:20260614T162000
@@ -178,7 +178,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:3ad5a50d26178c2cfd78f44fd1562946fe41ba00@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz @ Denim Demons (Div 3) [W 6-3]
 DTSTART;TZID=America/New_York:20260621T180000
 DTEND;TZID=America/New_York:20260621T185000
@@ -199,7 +199,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:bb7916fbda174f24a7d0cf8ea13a3991c30a5a1a@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz vs Gremlins (Div 3) [W 13-3]
 DTSTART;TZID=America/New_York:20260628T130000
 DTEND;TZID=America/New_York:20260628T135000
@@ -221,14 +221,14 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:2c01a219d619b1e0e2b1a8488c26b9bbfb643f08@btsh-ics
-DTSTAMP:20260712T193245Z
-SUMMARY:Vertz @ Lbs (Div 1)
+DTSTAMP:20260713T040214Z
+SUMMARY:Vertz @ Lbs (Div 1) [W 6-4]
 DTSTART;TZID=America/New_York:20260712T164500
 DTEND;TZID=America/New_York:20260712T173500
 LOCATION:Tompkins Square Park (east)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: complet
  ed\nStart (America/New_York): 2026-07-12 16:45 EDT\nRink: Tompkins Square 
  Park (east)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Lbs\n------------------------------
@@ -243,7 +243,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:88330a0c94b754c88f90172d93cc1730d5a5267a@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz @ Corlears Hookers (Div 2)
 DTSTART;TZID=America/New_York:20260719T153000
 DTEND;TZID=America/New_York:20260719T162000
@@ -257,16 +257,16 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  -----------------------\n    Jun 7th @ Corlears Hookers (L 2-5)\n\n-------
  ---------------------------------\nCORLEARS HOOKERS GAMES-TO-DATE\n-------
  ---------------------------------\nRecord to date (completed games only): 
- 7-2 (SO W: 1)\n    Apr 12th @ Lbs (W 5-3)\n    Apr 19th @ What the Puck (C
+ 8-2 (SO W: 1)\n    Apr 12th @ Lbs (W 5-3)\n    Apr 19th @ What the Puck (C
  ancelled)\n    Apr 26th vs Mega Touch (W 3-1)\n    May 3rd @ Fuzz (W 2-1)\
  n    May 17th vs Sky Fighters (W 5-1)\n    May 31st vs Instant Karma (W 5-
  4 SO)\n    Jun 7th vs Vertz (W 5-2)\n    Jun 14th @ Lbs (L 2-3)\n    Jun 2
  1st @ What the Puck (W 5-1)\n    Jun 28th @ Dark Rainbows (L 1-4)\n    Jul
-  12th @ Filthier
+  12th @ Filthier (W 6-1)
 END:VEVENT
 BEGIN:VEVENT
 UID:294d30a9aa65da4d8f5ed5f3d78ea7ad55b90109@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz vs Mega Touch (Div 1)
 DTSTART;TZID=America/New_York:20260726T153000
 DTEND;TZID=America/New_York:20260726T162000
@@ -279,17 +279,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Mega Touch\n-----------------------
  -----------------\n    Apr 12th @ Mega Touch (L 2-5)\n\n------------------
  ----------------------\nMEGA TOUCH GAMES-TO-DATE\n------------------------
- ----------------\nRecord to date (completed games only): 7-2\n    Apr 12th
+ ----------------\nRecord to date (completed games only): 7-3\n    Apr 12th
   vs Vertz (W 5-2)\n    Apr 19th @ Gremlins (Cancelled)\n    Apr 26th @ Cor
  lears Hookers (L 1-3)\n    May 3rd vs Fresh Kills (W 6-4)\n    May 17th vs
   Poutine Machine (L 1-4)\n    May 31st @ Lbs (W 11-1)\n    Jun 7th vs Fuzz
   (W 10-1)\n    Jun 14th vs Fresh Kills (W 12-4)\n    Jun 21st @ Gremlins (
- W 5-2)\n    Jun 28th vs Denim Demons (W 10-2)\n    Jul 12th @ Cobra Kai\n 
-    Jul 19th vs Gouging Anklebiters
+ W 5-2)\n    Jun 28th vs Denim Demons (W 10-2)\n    Jul 12th @ Cobra Kai (L
+  3-5)\n    Jul 19th vs Gouging Anklebiters
 END:VEVENT
 BEGIN:VEVENT
 UID:39817874e871a31a5dee52589b92e5c418aa2fb3@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz vs Gouging Anklebiters (Div 2)
 DTSTART;TZID=America/New_York:20260802T164500
 DTEND;TZID=America/New_York:20260802T173500
@@ -313,7 +313,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:1f22fd4e0baff3d46f4932a3891105db7a9b752b@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz @ Fuzz (Div 2)
 DTSTART;TZID=America/New_York:20260809T180000
 DTEND;TZID=America/New_York:20260809T185000
@@ -337,7 +337,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:024c950502414df6940a52c4e21dc82d5fb468ee@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz vs Fresh Kills (Div 1)
 DTSTART;TZID=America/New_York:20260816T141500
 DTEND;TZID=America/New_York:20260816T150500
@@ -350,18 +350,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Fresh Kills\n----------------------
  ------------------\n    (no prior matchups listed)\n\n--------------------
  --------------------\nFRESH KILLS GAMES-TO-DATE\n-------------------------
- ---------------\nRecord to date (completed games only): 3-6 (SO W: 1)\n   
+ ---------------\nRecord to date (completed games only): 3-7 (SO W: 1)\n   
   Apr 12th @ Cobra Kai (L 0-10)\n    Apr 19th vs Filthier (Cancelled)\n    
  Apr 26th vs Gouging Anklebiters (L 0-2)\n    May 3rd @ Mega Touch (L 4-6)\
  n    May 17th vs Lbs (W 6-2)\n    May 31st vs Cobra Kai (W 3-2 SO)\n    Ju
  n 7th @ Poutine Machine (L 3-4 SO)\n    Jun 14th @ Mega Touch (L 4-12)\n  
    Jun 21st vs Filthier (L 4-10)\n    Jun 28th @ Renaissance (W 5-2)\n    J
- ul 12th vs Instant Karma\n    Jul 19th vs Denim Demons\n    Jul 26th @ Ins
- tant Karma\n    Aug 2nd @ Fuzz\n    Aug 9th vs Lbs
+ ul 12th vs Instant Karma (L 5-10)\n    Jul 19th vs Denim Demons\n    Jul 2
+ 6th @ Instant Karma\n    Aug 2nd @ Fuzz\n    Aug 9th vs Lbs
 END:VEVENT
 BEGIN:VEVENT
 UID:a45d138aec55d7864f7884bdd92798415e2ba11d@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz vs Instant Karma (Div 2)
 DTSTART;TZID=America/New_York:20260830T130000
 DTEND;TZID=America/New_York:20260830T135000
@@ -374,19 +374,19 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Instant Karma\n--------------------
  --------------------\n    Apr 26th vs Instant Karma (W 6-1)\n\n-----------
  -----------------------------\nINSTANT KARMA GAMES-TO-DATE\n--------------
- --------------------------\nRecord to date (completed games only): 2-7\n  
+ --------------------------\nRecord to date (completed games only): 3-7\n  
    Apr 12th @ Filthier (L 3-4)\n    Apr 19th @ Dark Rainbows (Cancelled)\n 
     Apr 26th @ Vertz (L 1-6)\n    May 3rd @ Poutine Machine (L 4-5)\n    Ma
  y 17th @ Fuzz (L 6-7 OT)\n    May 31st @ Corlears Hookers (L 4-5 SO)\n    
  Jun 7th vs Cobra Kai (L 2-5)\n    Jun 14th vs Poutine Machine (L 3-4)\n   
   Jun 21st @ Dark Rainbows (W 7-3)\n    Jun 28th vs What the Puck (W 13-3)\
- n    Jul 12th @ Fresh Kills\n    Jul 19th vs Riots\n    Jul 26th vs Fresh 
- Kills\n    Aug 2nd vs Mega Touch\n    Aug 9th @ Gouging Anklebiters\n    A
- ug 16th vs Renaissance
+ n    Jul 12th @ Fresh Kills (W 10-5)\n    Jul 19th vs Riots\n    Jul 26th 
+ vs Fresh Kills\n    Aug 2nd vs Mega Touch\n    Aug 9th @ Gouging Anklebite
+ rs\n    Aug 16th vs Renaissance
 END:VEVENT
 BEGIN:VEVENT
 UID:7872461afe82cb83dd0c735b0fc745324a95b795@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:[Closing] Vertz vs Sky Fighters (Div 3)
 DTSTART;TZID=America/New_York:20260913T180000
 DTEND;TZID=America/New_York:20260913T185000
@@ -411,7 +411,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:e2a6ed3d42e976ed2681570de0754be887896340@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Vertz @ Fresh Kills (Div 1)
 DTSTART;TZID=America/New_York:20260920T141500
 DTEND;TZID=America/New_York:20260920T150500
@@ -424,19 +424,19 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Fresh Kills\n----------------------
  ------------------\n    Aug 16th vs Fresh Kills\n\n-----------------------
  -----------------\nFRESH KILLS GAMES-TO-DATE\n----------------------------
- ------------\nRecord to date (completed games only): 3-6 (SO W: 1)\n    Ap
+ ------------\nRecord to date (completed games only): 3-7 (SO W: 1)\n    Ap
  r 12th @ Cobra Kai (L 0-10)\n    Apr 19th vs Filthier (Cancelled)\n    Apr
   26th vs Gouging Anklebiters (L 0-2)\n    May 3rd @ Mega Touch (L 4-6)\n  
    May 17th vs Lbs (W 6-2)\n    May 31st vs Cobra Kai (W 3-2 SO)\n    Jun 7
  th @ Poutine Machine (L 3-4 SO)\n    Jun 14th @ Mega Touch (L 4-12)\n    J
  un 21st vs Filthier (L 4-10)\n    Jun 28th @ Renaissance (W 5-2)\n    Jul 
- 12th vs Instant Karma\n    Jul 19th vs Denim Demons\n    Jul 26th @ Instan
- t Karma\n    Aug 2nd @ Fuzz\n    Aug 9th vs Lbs\n    Aug 16th @ Vertz\n   
-  Aug 30th vs Fuzz\n    Sep 13th @ Corlears Hookers
+ 12th vs Instant Karma (L 5-10)\n    Jul 19th vs Denim Demons\n    Jul 26th
+  @ Instant Karma\n    Aug 2nd @ Fuzz\n    Aug 9th vs Lbs\n    Aug 16th @ V
+ ertz\n    Aug 30th vs Fuzz\n    Sep 13th @ Corlears Hookers
 END:VEVENT
 BEGIN:VEVENT
 UID:86240c9fa32dfeea2d16fb02e68a38d61aef3ebe@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
@@ -444,7 +444,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:cac2c7297a859faf9c10b72b88c434685517b8b6@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
@@ -452,7 +452,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:764df3fb04b963d6429f3300ee173410d22ff868@btsh-ics
-DTSTAMP:20260712T193245Z
+DTSTAMP:20260713T040214Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
