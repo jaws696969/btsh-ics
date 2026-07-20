@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:22357a6438b9a56909953e7ea6f43e2a250a50b8@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:[Closing] Sky Fighters @ Renaissance (Div 3) [L 1-7]
 DTSTART;TZID=America/New_York:20260412T180000
 DTEND;TZID=America/New_York:20260412T185000
@@ -43,7 +43,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:62568edb185c01e09844577af0f749687d8e9637@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:CANCELLED: Sky Fighters vs Lbs (Div 1)
 DTSTART;TZID=America/New_York:20260419T141500
 DTEND;TZID=America/New_York:20260419T150500
@@ -61,7 +61,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:380db81b682f7b0a93e391520ff298cb27d36d2b@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters vs Riots (Div 4) [W 3-1]
 DTSTART;TZID=America/New_York:20260426T164500
 DTEND;TZID=America/New_York:20260426T173500
@@ -79,7 +79,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:51c844dca02b55ed630045c30a66724b1d855286@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters @ Moby Dekes (Div 4) [W 8-0]
 DTSTART;TZID=America/New_York:20260503T180000
 DTEND;TZID=America/New_York:20260503T185000
@@ -98,7 +98,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:fdafedbcb6096177a9c4f2e9273ceff632660a88@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters @ Corlears Hookers (Div 2) [L 1-5]
 DTSTART;TZID=America/New_York:20260517T130000
 DTEND;TZID=America/New_York:20260517T135000
@@ -117,7 +117,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:9ae86bc67a76646e2b9fa8790213866d1f0a1624@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters vs Denim Demons (Div 3) [W 5-2]
 DTSTART;TZID=America/New_York:20260531T130000
 DTEND;TZID=America/New_York:20260531T135000
@@ -137,7 +137,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:293f195074001bc661b68626970e971170f0f404@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters vs Dark Rainbows (Div 4) [W 5-4]
 DTSTART;TZID=America/New_York:20260607T164500
 DTEND;TZID=America/New_York:20260607T173500
@@ -157,7 +157,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:19d7e8208a4528e06608ae40a57c92cf8a6598a9@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters vs Filthier (Div 3) [L 3-4 (OT)]
 DTSTART;TZID=America/New_York:20260614T141500
 DTEND;TZID=America/New_York:20260614T150500
@@ -178,7 +178,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:537e13ffc41be3840ba70e0bb335c5134fae66a7@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:CANCELLED: Sky Fighters vs Lbs (Div 1)
 DTSTART;TZID=America/New_York:20260621T141500
 DTEND;TZID=America/New_York:20260621T150500
@@ -200,7 +200,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:092a636175fb19f2574d0a75b30cb59a59dc7899@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters vs Cobra Kai (Div 1) [L 1-4]
 DTSTART;TZID=America/New_York:20260628T180000
 DTEND;TZID=America/New_York:20260628T185000
@@ -222,7 +222,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:0e9dd0683041e66d4108b4072dcdedd7b0780dda@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters @ Poutine Machine (Div 2) [L 2-12]
 DTSTART;TZID=America/New_York:20260712T141500
 DTEND;TZID=America/New_York:20260712T150500
@@ -245,14 +245,14 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:b8cea740783f8dd105978aecf4de5cf25803ade5@btsh-ics
-DTSTAMP:20260719T193405Z
-SUMMARY:Sky Fighters @ Filthier (Div 3)
+DTSTAMP:20260720T040645Z
+SUMMARY:Sky Fighters @ Filthier (Div 3) [L 2-10]
 DTSTART;TZID=America/New_York:20260719T141500
 DTEND;TZID=America/New_York:20260719T150500
 LOCATION:Tompkins Square Park (west)
 URL:https://btsh.org
 DESCRIPTION:----------------------------------------\nGAME INFO\n----------
- ------------------------------\nSeason: 2026\nStage: Game\nStatus: schedul
+ ------------------------------\nSeason: 2026\nStage: Game\nStatus: complet
  ed\nStart (America/New_York): 2026-07-19 14:15 EDT\nRink: Tompkins Square 
  Park (west)\nCheck-in / Standings: https://btsh.org\n\n-------------------
  ---------------------\nHEAD-TO-HEAD vs Filthier\n-------------------------
@@ -268,7 +268,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:354a61a194ee49298b4262ec2c7ff23d0e6296af@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters @ Gremlins (Div 3)
 DTSTART;TZID=America/New_York:20260726T130000
 DTEND;TZID=America/New_York:20260726T135000
@@ -281,17 +281,17 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Gremlins\n-------------------------
  ---------------\n    (no prior matchups listed)\n\n-----------------------
  -----------------\nGREMLINS GAMES-TO-DATE\n-------------------------------
- ---------\nRecord to date (completed games only): 2-8\n    Apr 12th vs But
+ ---------\nRecord to date (completed games only): 2-9\n    Apr 12th vs But
  chers (L 2-3 SO)\n    Apr 19th vs Mega Touch (Cancelled)\n    Apr 26th @ D
  ark Rainbows (L 1-9)\n    May 3rd vs Filthier (L 2-7)\n    May 17th @ Goug
  ing Anklebiters (L 3-4)\n    May 31st vs Renaissance (L 2-9)\n    Jun 7th 
  @ What the Puck (W 6-0)\n    Jun 14th @ Butchers (W 4-3)\n    Jun 21st vs 
  Mega Touch (L 2-5)\n    Jun 28th @ Vertz (L 3-13)\n    Jul 12th vs Fuzz (L
-  1-4)\n    Jul 19th vs Renaissance
+  1-4)\n    Jul 19th vs Renaissance (L 4-7)
 END:VEVENT
 BEGIN:VEVENT
 UID:93b5c184d4dc51b374ccd5a27263686fc8fa2251@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters @ What the Puck (Div 4)
 DTSTART;TZID=America/New_York:20260802T130000
 DTEND;TZID=America/New_York:20260802T135000
@@ -304,18 +304,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs What the Puck\n--------------------
  --------------------\n    (no prior matchups listed)\n\n------------------
  ----------------------\nWHAT THE PUCK GAMES-TO-DATE\n---------------------
- -------------------\nRecord to date (completed games only): 2-8\n    Apr 1
+ -------------------\nRecord to date (completed games only): 3-8\n    Apr 1
  2th @ Moby Dekes (W 4-1)\n    Apr 19th vs Corlears Hookers (Cancelled)\n  
    Apr 26th vs Filthier (L 1-9)\n    May 3rd vs Riots (L 3-7)\n    May 17th
   @ Renaissance (L 2-4)\n    May 31st vs Butchers (L 4-6)\n    Jun 7th vs G
  remlins (L 0-6)\n    Jun 14th @ Riots (W 4-3)\n    Jun 21st vs Corlears Ho
  okers (L 1-5)\n    Jun 28th @ Instant Karma (L 3-13)\n    Jul 12th vs Dark
-  Rainbows (L 1-4)\n    Jul 19th vs Moby Dekes\n    Jul 26th @ Dark Rainbow
- s
+  Rainbows (L 1-4)\n    Jul 19th vs Moby Dekes (W 6-2)\n    Jul 26th @ Dark
+  Rainbows
 END:VEVENT
 BEGIN:VEVENT
 UID:5eebb41122de76d1ac13ef3688faf29790f1fa08@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters vs Renaissance (Div 3)
 DTSTART;TZID=America/New_York:20260809T153000
 DTEND;TZID=America/New_York:20260809T162000
@@ -328,18 +328,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Renaissance\n----------------------
  ------------------\n    Apr 12th @ Renaissance (L 1-7)\n\n----------------
  ------------------------\nRENAISSANCE GAMES-TO-DATE\n---------------------
- -------------------\nRecord to date (completed games only): 8-2\n    Apr 1
+ -------------------\nRecord to date (completed games only): 9-2\n    Apr 1
  2th vs Sky Fighters (W 7-1)\n    Apr 19th @ Cobra Kai (Cancelled)\n    Apr
   26th @ Moby Dekes (W 7-0)\n    May 3rd @ Denim Demons (W 5-2)\n    May 17
  th vs What the Puck (W 4-2)\n    May 31st @ Gremlins (W 9-2)\n    Jun 7th 
  vs Riots (W 13-3)\n    Jun 14th @ Denim Demons (W 10-3)\n    Jun 21st @ Co
  bra Kai (L 3-9)\n    Jun 28th vs Fresh Kills (L 2-5)\n    Jul 12th vs Goug
- ing Anklebiters (W 3-0)\n    Jul 19th @ Gremlins\n    Jul 26th @ Filthier\
- n    Aug 2nd vs Butchers
+ ing Anklebiters (W 3-0)\n    Jul 19th @ Gremlins (W 7-4)\n    Jul 26th @ F
+ ilthier\n    Aug 2nd vs Butchers
 END:VEVENT
 BEGIN:VEVENT
 UID:0a22c6b2d8619720cc230762dee5b902a27c0b95@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters @ Moby Dekes (Div 4)
 DTSTART;TZID=America/New_York:20260816T164500
 DTEND;TZID=America/New_York:20260816T173500
@@ -352,18 +352,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Moby Dekes\n-----------------------
  -----------------\n    May 3rd @ Moby Dekes (W 8-0)\n\n-------------------
  ---------------------\nMOBY DEKES GAMES-TO-DATE\n-------------------------
- ---------------\nRecord to date (completed games only): 0-9\n    Apr 12th 
- vs What the Puck (L 1-4)\n    Apr 19th vs Gouging Anklebiters (Cancelled)\
- n    Apr 26th vs Renaissance (L 0-7)\n    May 3rd vs Sky Fighters (L 0-8)\
- n    May 17th vs Dark Rainbows (L 3-6)\n    May 31st @ Riots (L 1-3)\n    
- Jun 7th @ Denim Demons (L 1-11)\n    Jun 14th @ Dark Rainbows (L 3-7)\n   
-  Jun 21st vs Gouging Anklebiters (Cancelled)\n    Jun 28th vs Fuzz (L 2-7)
- \n    Jul 12th @ Butchers (L 2-10)\n    Jul 19th @ What the Puck\n    Jul 
- 26th @ Butchers\n    Aug 2nd vs Gremlins\n    Aug 9th @ Riots
+ ---------------\nRecord to date (completed games only): 0-10\n    Apr 12th
+  vs What the Puck (L 1-4)\n    Apr 19th vs Gouging Anklebiters (Cancelled)
+ \n    Apr 26th vs Renaissance (L 0-7)\n    May 3rd vs Sky Fighters (L 0-8)
+ \n    May 17th vs Dark Rainbows (L 3-6)\n    May 31st @ Riots (L 1-3)\n   
+  Jun 7th @ Denim Demons (L 1-11)\n    Jun 14th @ Dark Rainbows (L 3-7)\n  
+   Jun 21st vs Gouging Anklebiters (Cancelled)\n    Jun 28th vs Fuzz (L 2-7
+ )\n    Jul 12th @ Butchers (L 2-10)\n    Jul 19th @ What the Puck (L 2-6)\
+ n    Jul 26th @ Butchers\n    Aug 2nd vs Gremlins\n    Aug 9th @ Riots
 END:VEVENT
 BEGIN:VEVENT
 UID:5ce49366b9fc6c1022ac7babbc241808a71be77a@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters vs Denim Demons (Div 3)
 DTSTART;TZID=America/New_York:20260830T153000
 DTEND;TZID=America/New_York:20260830T162000
@@ -376,18 +376,18 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Denim Demons\n---------------------
  -------------------\n    May 31st vs Denim Demons (W 5-2)\n\n-------------
  ---------------------------\nDENIM DEMONS GAMES-TO-DATE\n-----------------
- -----------------------\nRecord to date (completed games only): 4-6\n    A
+ -----------------------\nRecord to date (completed games only): 4-7\n    A
  pr 12th vs Fuzz (L 3-6)\n    Apr 19th vs Vertz (Cancelled)\n    Apr 26th v
  s Butchers (W 3-1)\n    May 3rd vs Renaissance (L 2-5)\n    May 17th @ Fil
  thier (W 4-3)\n    May 31st @ Sky Fighters (L 2-5)\n    Jun 7th vs Moby De
  kes (W 11-1)\n    Jun 14th vs Renaissance (L 3-10)\n    Jun 21st vs Vertz 
  (L 3-6)\n    Jun 28th @ Mega Touch (L 2-10)\n    Jul 12th vs Riots (W 8-1)
- \n    Jul 19th @ Fresh Kills\n    Jul 26th @ Riots\n    Aug 2nd @ Dark Rai
- nbows\n    Aug 9th vs Gremlins\n    Aug 16th @ Poutine Machine
+ \n    Jul 19th @ Fresh Kills (L 5-11)\n    Jul 26th @ Riots\n    Aug 2nd @
+  Dark Rainbows\n    Aug 9th vs Gremlins\n    Aug 16th @ Poutine Machine
 END:VEVENT
 BEGIN:VEVENT
 UID:539137a4ed0e255ec864b2b170804402d2a9b74d@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters @ Vertz (Div 1)
 DTSTART;TZID=America/New_York:20260913T180000
 DTEND;TZID=America/New_York:20260913T185000
@@ -412,7 +412,7 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
 END:VEVENT
 BEGIN:VEVENT
 UID:571271e9c0ccb1b018e15a942264ad5fdaedf2aa@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Sky Fighters vs Gremlins (Div 3)
 DTSTART;TZID=America/New_York:20260920T153000
 DTEND;TZID=America/New_York:20260920T162000
@@ -425,19 +425,19 @@ DESCRIPTION:----------------------------------------\nGAME INFO\n----------
  ---------------------\nHEAD-TO-HEAD vs Gremlins\n-------------------------
  ---------------\n    Jul 26th @ Gremlins\n\n------------------------------
  ----------\nGREMLINS GAMES-TO-DATE\n--------------------------------------
- --\nRecord to date (completed games only): 2-8\n    Apr 12th vs Butchers (
+ --\nRecord to date (completed games only): 2-9\n    Apr 12th vs Butchers (
  L 2-3 SO)\n    Apr 19th vs Mega Touch (Cancelled)\n    Apr 26th @ Dark Rai
  nbows (L 1-9)\n    May 3rd vs Filthier (L 2-7)\n    May 17th @ Gouging Ank
  lebiters (L 3-4)\n    May 31st vs Renaissance (L 2-9)\n    Jun 7th @ What 
  the Puck (W 6-0)\n    Jun 14th @ Butchers (W 4-3)\n    Jun 21st vs Mega To
  uch (L 2-5)\n    Jun 28th @ Vertz (L 3-13)\n    Jul 12th vs Fuzz (L 1-4)\n
-     Jul 19th vs Renaissance\n    Jul 26th vs Sky Fighters\n    Aug 2nd @ M
- oby Dekes\n    Aug 9th @ Denim Demons\n    Aug 16th vs Filthier\n    Aug 3
- 0th @ Lbs\n    Sep 13th vs Denim Demons
+     Jul 19th vs Renaissance (L 4-7)\n    Jul 26th vs Sky Fighters\n    Aug
+  2nd @ Moby Dekes\n    Aug 9th @ Denim Demons\n    Aug 16th vs Filthier\n 
+    Aug 30th @ Lbs\n    Sep 13th vs Denim Demons
 END:VEVENT
 BEGIN:VEVENT
 UID:50cc76d733042eb5bbad651e89000b9ad8b90029@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
@@ -445,7 +445,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:09fb46eb61edf7fe2419f14ad476f795d4a3dfbc@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Scrimmage
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
@@ -453,7 +453,7 @@ DESCRIPTION:Free Agent Scrimmage: 1pm - bring light & dark jerseys
 END:VEVENT
 BEGIN:VEVENT
 UID:05c5a46718d40ed2947faac28c751d9163a76363@btsh-ics
-DTSTAMP:20260719T193405Z
+DTSTAMP:20260720T040645Z
 SUMMARY:Make-Up
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
