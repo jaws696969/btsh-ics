@@ -34,7 +34,7 @@ Common options:
 
 ## Run locally
 
-<!-- last heartbeat: 2026-08-16 -->
+<!-- last heartbeat: 2026-11-27 -->
 
 ```bash
 pip install -r requirements.txt
